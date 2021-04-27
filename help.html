@@ -1,0 +1,164 @@
+---
+title: 'Help'
+---
+{% include head.html %}
+
+<body class="body-purple">
+    <div class="page-wrapper">
+
+        {% include breadcrumbs.html current=page.title %}
+
+        <div class="content-wrapper">
+            <div class="container">
+                <div id="content-header" class="content-header text-center">
+                    <h1 class="content-title">
+                        <span aria-hidden="true" class="icon icon_lifesaver"></span>
+                        Help
+                    </h1>
+                    <div class="meta">
+                        <i class="far fa-clock"></i>
+                        Last updated: {{ site.time | date: '%d.%m.%Y' }}
+                    </div>
+                </div>
+                <div class="content-body row">
+                    <div class="col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="general" class="content-section">
+                                <h2 class="section-title">General</h2>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        What is Koseven?
+                                    </h3>
+                                    <div class="answer">
+                                        Koseven is an elegant, open source, and object oriented HMVC framework built
+                                        using PHP7+, by a team of volunteers. It aims to be swift, secure, and small.
+                                        It is the successor of defunct Kohana Framework.
+                                    </div>
+                                </div><!--//section-block-->
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Will it work as dropin of Kohana?
+                                    </h3>
+                                    <div class="answer">
+                                        If you were using 3.3.x version of Kohana you may need to make some small changes.
+                                        Please refer to upgrading from Kohana section of the documentation.
+                                    </div>
+                                </div><!--//section-block-->
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Why a Kohana alternative?
+                                    </h3>
+                                    <div class="answer">
+                                        Kohana 3.3.x was used by us in many live projects, and the original team stopped the development.
+                                        A while ago, on Feb 4 2017 "Shadowhand" announced the final retirement - "Kohana is DEAD".
+
+                                        Before the final announcement everyone started to check if it was possible to
+                                        migrate existing projects to other alternative PHP frameworks.
+                                        As it turned out switching would be a complex and lengthy job.
+                                        So it became clear that keeping the project alive and updated is a priority.
+
+                                        And so the Koseven repository was born and will keep this repository updated
+                                        for future releases of PHP, giving the framework a clear perspective for the future.
+                                    </div>
+                                </div>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Are modules of the original Kohana compatible?
+                                    </h3>
+                                    <div class="answer">
+                                        Yes they are, just be sure that they are compatible with Kohana 3.3.X.
+                                        An overview of Koseven's team own modules can be found <a href="https://github.com/koseven/koseven/tree/master/modules" target="_blank">here.</a>
+
+                                        There's also a list online with a nice overview of koseven modules, maintained
+                                        by our community. You can consult this list <a href="/modules" target="_blank">here.</a>
+                                    </div>
+                                </div>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        What are the future plans for the project?
+                                    </h3>
+                                    <div class="answer">
+                                        Our focus is not only to keep the framework compatible with new releases of PHP, fix bugs
+                                        and improve the speed, but also adding exciting new features to it. Make sure to
+                                        follow us on <a href="https://twitter.com/KO7_PHP" target="_blank">Twitter</a> to get the latest news.
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="security" class="content-section">
+                                <h2 class="section-title">Security</h2>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Is Koseven secure?
+                                    </h3>
+                                    <div class="answer">
+                                        Koseven aims to be a very secure framework with integrated Security mechanisms
+                                        for CSRF, SQL Injections, XSS and many more. Detailed Information about this can be found
+                                        in our <a href="/documentation/system/security">Documentation</a>.
+                                    </div>
+                                </div><!--//section-block-->
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        I found a Security Issue, what now?
+                                    </h3>
+                                    <div class="answer">
+                                        We try to archive maximum Security by detailed review of code changes and pull
+                                        requests. If you still find an Security vulnerability, please contact the core developers
+                                        via our <a href="https://telegram.me/koseven">Telegram Group</a> and we will
+                                        try to fix it asap.
+                                    </div>
+                                </div>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i> Found a Bug?
+                                    </h3>
+                                    <div class="answer">
+                                        If you've stumbled across a bug, please help us out by reporting what you have found.
+                                        Simply visit <a href="https://github.com/koseven/koseven/issues/new?template=bug_report.md">our GitHub Issue page</a>
+                                        and submit your issue. Thanks a lot!
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="support" class="content-section">
+                                <h2 class="section-title">Support</h2>
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Where can i get Support for Koseven?
+                                    </h3>
+                                    <div class="answer">
+                                        You need Help, How-To's, Guides,...? Please consider to use our <a href="https://koseven.discourse.group/" target="_blank">Forum</a>
+                                        maybe your answer is already there. If not feel free to open a topic and ask for it.
+
+                                        If you need more detailed help or support you can also <a href="https://telegram.me/koseven">Join our Telegram Group</a>.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="content-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="content-nav" class="content-nav">
+                            <nav id="content-menu" class="nav content-menu flex-column sticky">
+                                <a class="nav-link scrollto" href="#general">General</a>
+                                <a class="nav-link scrollto" href="#security">Security</a>
+                                <a class="nav-link scrollto" href="#support">Support</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include promo.html %}
+
+    </div>
+
+    {% include footer.html %}
+</body>
+</html>

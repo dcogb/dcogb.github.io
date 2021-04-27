@@ -1,0 +1,87 @@
+# Modules for Koseven.
+#
+# Full Example:
+# - name: Name of Module
+#   url: URL to module's download / github page
+#   description: Short description of module
+#   category: database, frontend, misc [ONLY use ONE of them]
+
+- name: Blacksmith
+  url: https://github.com/themusicman/Blacksmith
+  description: A MySQL database manipulation module for Kohana 3
+  category: database
+
+- name: Breadcrumbs
+  url: https://github.com/kierangraham/breadcrumbs
+  description: Simple Breadcrumb navigation module
+  category: frontend
+
+- name: Cron
+  url: https://github.com/neo22s/kohana-cron
+  description: A Kohana module for scheduling tasks in DB
+  category: misc
+
+- name: Email
+  url: https://github.com/svenbw/kohana-email
+  description: Sending emails trough PHPMailer or SwiftMailer
+  category: misc
+
+- name: FormManager
+  url: https://github.com/colinbm/kohana-formmanager
+  description: Create reusable forms that are self contained. You can tie it to a ORM model, or roll your own.
+  category: frontend
+
+- name: Imagefly
+  url: https://github.com/Bodom78/kohana-imagefly
+  description: A Kohana module to quickly create resized / cropped images directly through url parameters.
+  category: frontend
+
+- name: Memcached
+  url: https://github.com/gimpe/kohana-memcached
+  description: Memcached cache integration
+  category: misc
+
+- name: Twig
+  url: https://github.com/errotan/koseven-twig
+  description: Allows using twig templates for views
+  category: frontend
+
+- name: Controller-Namespace
+  url: https://github.com/errotan/koseven-controller-namespace
+  description: Changes behaviour of koseven to support namespaces in controller class finding and loading
+  category: misc
+
+- name: REST
+  url: https://github.com/toitzi/koseven-rest
+  description: A feature-packed Koseven module that adds REST-API support to your Koseven applications.
+  category: misc
+
+- name: Subdomain
+  url: https://github.com/toitzi/koseven-subdomain
+  description: Koseven module to define different routes by your custom subdomains.
+  category: misc
+
+- name: Koseven Debug Toolbar
+  url: https://github.com/toitzi/koseven-debug-toolbar
+  description: This a Debbuing Toolbar for Koseven PHP7+ Framework, based on biakaveron's Kohana Toolbar
+  category: misc
+  
+- name: Koseven Multilang (experimental)
+  url: https://github.com/gagarine/koseven-multilang
+  description: Multilingual module for Koseven based on shockiii's Kohana Multilang
+  category: misc
+
+- name: Modseven Framework
+  url: https://github.com/toitzi/modseven
+  description: Koseven Framework with PSR-4 and Namespaces support, also slightly more modern.
+  category: misc
+
+- name: AWSMail
+  url: https://github.com/softmediadev/koseven-awsmail
+  description: Sending emails trough Amazon Simple Email Service (AWS-SES)
+  category: misc
+  
+- name: IP-Api
+  url: https://github.com/softmediadev/koseven-ip-api
+  description: Koseven module that provides free usage of its Geo IP API through multiple response formats using IP Gelocation API
+  category: misc
