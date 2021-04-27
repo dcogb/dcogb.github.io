@@ -28,7 +28,7 @@ IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.</p>
 <dd>gimpe <gimpehub@intljaywalkers.com></dd>
 <dt>copyright</dt>
 <dd>2011 International Jaywalkers</dd>
-<dd>(c) 2018 Koseven Team</dd>
+<dd>(c) 2018 Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>http://creativecommons.org/licenses/by/3.0/ CC BY 3.0</dd>
 <dt>link</dt>

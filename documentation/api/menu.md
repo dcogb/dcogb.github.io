@@ -229,5 +229,5 @@
     - [Controller_Userguide](/documentation/api/Controller_Userguide)
   - Undocumented
     - [Kodoc_Missing](/documentation/api/Kodoc_Missing)
-- Koseven/Pagination
+- Mountain Valley Church of God/Pagination
   - [Pagination](/documentation/api/Pagination)

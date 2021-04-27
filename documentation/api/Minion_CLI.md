@@ -16,7 +16,7 @@ extends <a href='/documentation/api/Kohana_Minion_CLI'>Kohana_Minion_CLI</a>
 <dd>Kohana Team</dd>
 <dt>copyright</dt>
 <dd>(c) 2015 Kohana Team</dd>
-<dd>(c) 2016-2018 Koseven Team</dd>
+<dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>

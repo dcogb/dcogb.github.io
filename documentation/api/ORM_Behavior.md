@@ -13,9 +13,9 @@ extends <a href='/documentation/api/Kohana_ORM_Behavior'>Kohana_ORM_Behavior</a>
 <dt>package</dt>
 <dd>Kohana/ORM</dd>
 <dt>author</dt>
-<dd>Koseven Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) 2016-2018 Koseven Team</dd>
+<dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>

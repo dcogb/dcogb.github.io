@@ -8,7 +8,7 @@ cd mvcog.github.io
 git checkout devel
 ```
 
-This will clone the koseven website
+This will clone the Mountain Valley Church of God website
 
 Ready ;)
 

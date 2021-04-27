@@ -9,11 +9,11 @@ class: Kohana_Pagination
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Koseven/Pagination</dd>
+<dd>Mountain Valley Church of God/Pagination</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Koseven Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>

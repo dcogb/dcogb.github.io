@@ -400,8 +400,8 @@ class: Kohana_Core
 </dd>
 <dd>
  <pre class="debug"><small>array</small><span>(2)</span> <span>(
-    0 => <small>string</small><span>(40)</span> "C:\xampp\tmp\koseven-master\application\"
-    1 => <small>string</small><span>(35)</span> "C:\xampp\tmp\koseven-master\system\"
+    0 => <small>string</small><span>(40)</span> "C:\xampp\tmp\Mountain Valley Church of God-master\application\"
+    1 => <small>string</small><span>(35)</span> "C:\xampp\tmp\Mountain Valley Church of God-master\system\"
 )</span></pre></dd>
 </dl>
 </div>
@@ -1568,7 +1568,7 @@ or absolute, but must point to a directory:</p>
 <pre>
 <code class="language-php">public static function version()
 {
-	return &#039;Koseven &#039;.Kohana::VERSION.&#039; (&#039;.Kohana::CODENAME.&#039;)&#039;;
+	return &#039;Mountain Valley Church of God &#039;.Kohana::VERSION.&#039; (&#039;.Kohana::CODENAME.&#039;)&#039;;
 }</code>
 </pre>
 </div>
