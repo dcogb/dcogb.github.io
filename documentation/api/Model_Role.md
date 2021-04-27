@@ -7,11 +7,11 @@ extends <a href='/documentation/api/Model_Auth_Role'>Model_Auth_Role</a>
 <br />
 extends <a href='/documentation/api/ORM'>ORM</a>
 <br />
-extends <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>
 <br />
 extends <a href='/documentation/api/Model'>Model</a>
 <br />
-extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Model'>Mountain Valley Church of God_Model</a>
 <br />
 <p class='interfaces'>
 <small>Implements: <a href='/documentation/api/Serializable'>Serializable</a></small>
@@ -22,11 +22,11 @@ extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Auth</dd>
+<dd>Mountain Valley Church of God/Auth</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -953,7 +953,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Parameter for find or object to load">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Parameter for find or object to load">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Constructs a new model and loads a record if given</p>
 </div>
 <h4>Parameters</h4>
@@ -1006,7 +1006,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Handles retrieval of all model values, relationships, and metadata.
 [!!] This should not be overridden.</p>
 </div>
@@ -1032,7 +1032,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__isset"><small>public</small>  __isset(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__isset"><small>public</small>  __isset(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Checks if object data is set.</p>
 </div>
 <h4>Parameters</h4>
@@ -1061,7 +1061,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Column name">$column</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Column name">$column</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Base set method.
 [!!] This should not be overridden.</p>
 </div>
@@ -1089,7 +1089,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Displays the primary key of a model when it is converted to a string.</p>
 </div>
 <h4>Return Values</h4>
@@ -1109,7 +1109,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="__unset"><small>public</small>  __unset(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="__unset"><small>public</small>  __unset(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Unsets object data.</p>
 </div>
 <h4>Parameters</h4>
@@ -1134,7 +1134,7 @@ Defaults to ORM::$_object_name</p>
 </div>
 
 <div class='method'>
-<h3 id="add"><small>public</small>  add(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> , <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="add"><small>public</small>  add(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> , <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Adds a new relationship to between this model and another.</p>
 
 <pre><code>// Add the login role using a model instance
@@ -1183,7 +1183,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_having"><small>public</small>  and_having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_having"><small>public</small>  and_having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates a new "AND HAVING" condition for the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -1218,7 +1218,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_having_close"><small>public</small>  and_having_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_having_close"><small>public</small>  and_having_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "AND HAVING (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -1244,7 +1244,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_having_open"><small>public</small>  and_having_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_having_open"><small>public</small>  and_having_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Opens a new "AND HAVING (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -1270,7 +1270,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_where"><small>public</small>  and_where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_where"><small>public</small>  and_where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates a new "AND WHERE" condition for the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -1305,7 +1305,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_where_close"><small>public</small>  and_where_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_where_close"><small>public</small>  and_where_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "AND WHERE (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -1331,7 +1331,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="and_where_open"><small>public</small>  and_where_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="and_where_open"><small>public</small>  and_where_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Opens a new "AND WHERE (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -1357,7 +1357,7 @@ $model-&gt;add('roles', array(1, 2, 3, 4));
 </div>
 
 <div class='method'>
-<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns the values of this object as an array, including any related one-one
 models that have already been loaded using with()</p>
 </div>
@@ -1404,7 +1404,7 @@ models that have already been loaded using with()</p>
 </div>
 
 <div class='method'>
-<h3 id="as_object"><small>public</small>  as_object()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="as_object"><small>public</small>  as_object()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns the values of this object as an new object, including any related 
 one-one models that have already been loaded using with(). Removes private
 columns.</p>
@@ -1452,7 +1452,7 @@ columns.</p>
 </div>
 
 <div class='method'>
-<h3 id="behaviors"><small>public</small>  behaviors()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="behaviors"><small>public</small>  behaviors()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Behavior definitions</p>
 </div>
 <h4>Return Values</h4>
@@ -1472,7 +1472,7 @@ columns.</p>
 </div>
 
 <div class='method'>
-<h3 id="belongs_to"><small>public</small>  belongs_to()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="belongs_to"><small>public</small>  belongs_to()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1491,7 +1491,7 @@ columns.</p>
 </div>
 
 <div class='method'>
-<h3 id="cached"><small>public</small>  cached([ <small>integer</small> <span class="param" title="Number of seconds to cache">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="cached"><small>public</small>  cached([ <small>integer</small> <span class="param" title="Number of seconds to cache">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Enables the query to be cached for a specified amount of time.</p>
 </div>
 <h4>Parameters</h4>
@@ -1501,7 +1501,7 @@ columns.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:cache_life">Kohana::$cache_life</a></li>
+<li>Uses - <a href="#property:cache_life">Mountain Valley Church of God::$cache_life</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1526,7 +1526,7 @@ columns.</p>
 </div>
 
 <div class='method'>
-<h3 id="changed"><small>public</small>  changed([ <small>string</small> <span class="param" title="Field to check for changes">$field</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="changed"><small>public</small>  changed([ <small>string</small> <span class="param" title="Field to check for changes">$field</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Check whether the model data has been modified.
 If $field is specified, checks whether that field was modified.</p>
 </div>
@@ -1554,7 +1554,7 @@ If $field is specified, checks whether that field was modified.</p>
 </div>
 
 <div class='method'>
-<h3 id="check"><small>public</small>  check([ <small>Validation</small> <span class="param" title="Validation object">$extra_validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="check"><small>public</small>  check([ <small>Validation</small> <span class="param" title="Validation object">$extra_validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Validates the current model's data</p>
 </div>
 <h4>Parameters</h4>
@@ -1603,7 +1603,7 @@ If $field is specified, checks whether that field was modified.</p>
 </div>
 
 <div class='method'>
-<h3 id="clear"><small>public</small>  clear()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="clear"><small>public</small>  clear()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Unloads the current object and clears the status.</p>
 </div>
 <h4>Tags</h4>
@@ -1644,7 +1644,7 @@ If $field is specified, checks whether that field was modified.</p>
 </div>
 
 <div class='method'>
-<h3 id="count_all"><small>public</small>  count_all()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="count_all"><small>public</small>  count_all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Count the number of records in the table.</p>
 </div>
 <h4>Return Values</h4>
@@ -1698,7 +1698,7 @@ If $field is specified, checks whether that field was modified.</p>
 </div>
 
 <div class='method'>
-<h3 id="count_relations"><small>public</small>  count_relations(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="count_relations"><small>public</small>  count_relations(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns the number of relationships</p>
 
 <pre><code>// Counts the number of times the login role is attached to $model
@@ -1760,7 +1760,7 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="create"><small>public</small>  create([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="create"><small>public</small>  create([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Insert a new object to the database</p>
 </div>
 <h4>Parameters</h4>
@@ -1770,7 +1770,7 @@ $model-&gt;count_relations('roles')
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1783,7 +1783,7 @@ $model-&gt;count_relations('roles')
 <code class="language-php">public function create(Validation $validation = NULL)
 {
 	if ($this-&gt;_loaded)
-		throw new Kohana_Exception(&#039;Cannot create :model model because it is already loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
+		throw new Mountain Valley Church of God_Exception(&#039;Cannot create :model model because it is already loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
 
 	// Invoke all behaviors
 	foreach ($this-&gt;_behaviors as $behavior)
@@ -1842,7 +1842,7 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="created_column"><small>public</small>  created_column()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="created_column"><small>public</small>  created_column()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1861,13 +1861,13 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="delete"><small>public</small>  delete()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="delete"><small>public</small>  delete()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Deletes a single record while ignoring relationships.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
 <li>Chainable - </li>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1880,7 +1880,7 @@ $model-&gt;count_relations('roles')
 <code class="language-php">public function delete()
 {
 	if ( ! $this-&gt;_loaded)
-		throw new Kohana_Exception(&#039;Cannot delete :model model because it is not loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
+		throw new Mountain Valley Church of God_Exception(&#039;Cannot delete :model model because it is not loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
 
 	// Use primary key value
 	$id = $this-&gt;pk();
@@ -1897,7 +1897,7 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="distinct"><small>public</small>  distinct(<small>boolean</small> <span class="param" title="Enable or disable distinct columns">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="distinct"><small>public</small>  distinct(<small>boolean</small> <span class="param" title="Enable or disable distinct columns">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Enables or disables selecting only unique columns using "SELECT DISTINCT"</p>
 </div>
 <h4>Parameters</h4>
@@ -1928,7 +1928,7 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="errors_filename"><small>public</small>  errors_filename()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="errors_filename"><small>public</small>  errors_filename()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1947,7 +1947,7 @@ $model-&gt;count_relations('roles')
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Model name">$model</span> [, <small>mixed</small> <span class="param" title="Parameter for find()">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Model name">$model</span> [, <small>mixed</small> <span class="param" title="Parameter for find()">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates and returns a new model. 
 Model name must be passed with its' original casing, e.g.</p>
 
@@ -1984,7 +1984,7 @@ Model name must be passed with its' original casing, e.g.</p>
 </div>
 
 <div class='method'>
-<h3 id="filters"><small>public</small>  filters()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="filters"><small>public</small>  filters()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Filter definitions for validation</p>
 </div>
 <h4>Return Values</h4>
@@ -2004,13 +2004,13 @@ Model name must be passed with its' original casing, e.g.</p>
 </div>
 
 <div class='method'>
-<h3 id="find"><small>public</small>  find()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="find"><small>public</small>  find()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Finds and loads a single database row into the object.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
 <li>Chainable - </li>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2023,7 +2023,7 @@ Model name must be passed with its' original casing, e.g.</p>
 <code class="language-php">public function find()
 {
 	if ($this-&gt;_loaded)
-		throw new Kohana_Exception(&#039;Method find() cannot be called on loaded objects&#039;);
+		throw new Mountain Valley Church of God_Exception(&#039;Method find() cannot be called on loaded objects&#039;);
 
 	if ( ! empty($this-&gt;_load_with))
 	{
@@ -2043,12 +2043,12 @@ Model name must be passed with its' original casing, e.g.</p>
 </div>
 
 <div class='method'>
-<h3 id="find_all"><small>public</small>  find_all()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="find_all"><small>public</small>  find_all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Finds multiple database rows and returns an iterator of the rows found.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2061,7 +2061,7 @@ Model name must be passed with its' original casing, e.g.</p>
 <code class="language-php">public function find_all()
 {
 	if ($this-&gt;_loaded)
-		throw new Kohana_Exception(&#039;Method find_all() cannot be called on loaded objects&#039;);
+		throw new Mountain Valley Church of God_Exception(&#039;Method find_all() cannot be called on loaded objects&#039;);
 
 	if ( ! empty($this-&gt;_load_with))
 	{
@@ -2081,7 +2081,7 @@ Model name must be passed with its' original casing, e.g.</p>
 </div>
 
 <div class='method'>
-<h3 id="from"><small>public</small>  from(<small>mixed</small> <span class="param" title="Table name or array($table, $alias) or object">$tables</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="from"><small>public</small>  from(<small>mixed</small> <span class="param" title="Table name or array($table, $alias) or object">$tables</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Choose the tables to select "FROM ..."</p>
 </div>
 <h4>Parameters</h4>
@@ -2112,7 +2112,7 @@ Model name must be passed with its' original casing, e.g.</p>
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Column name">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Handles getting of column
 Override this method to add custom get behavior</p>
 </div>
@@ -2123,7 +2123,7 @@ Override this method to add custom get behavior</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2206,7 +2206,7 @@ Override this method to add custom get behavior</p>
 	}
 	else
 	{
-		throw new Kohana_Exception(&#039;The :property property does not exist in the :class class&#039;,
+		throw new Mountain Valley Church of God_Exception(&#039;The :property property does not exist in the :class class&#039;,
 			[&#039;:property&#039; =&gt; $column, &#039;:class&#039; =&gt; get_class($this)]);
 	}
 }</code>
@@ -2215,7 +2215,7 @@ Override this method to add custom get behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="group_by"><small>public</small>  group_by(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="group_by"><small>public</small>  group_by(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates a "GROUP BY ..." filter.</p>
 </div>
 <h4>Parameters</h4>
@@ -2246,7 +2246,7 @@ Override this method to add custom get behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="has"><small>public</small>  has(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="has"><small>public</small>  has(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Tests if this object has a relationship to a different model,
 or an array of different models. When providing far keys, the number
 of relations must equal the number of keys.</p>
@@ -2303,7 +2303,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="has_any"><small>public</small>  has_any(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="has_any"><small>public</small>  has_any(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Tests if this object has a relationship to a different model,
 or an array of different models. When providing far keys, this function
 only checks that at least one of the relationships is satisfied.</p>
@@ -2342,7 +2342,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="has_many"><small>public</small>  has_many()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="has_many"><small>public</small>  has_many()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2361,7 +2361,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="has_one"><small>public</small>  has_one()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="has_one"><small>public</small>  has_one()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2380,7 +2380,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="having"><small>public</small>  having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="having"><small>public</small>  having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Alias of and_having()</p>
 </div>
 <h4>Parameters</h4>
@@ -2409,7 +2409,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="having_close"><small>public</small>  having_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="having_close"><small>public</small>  having_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "AND HAVING (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -2429,7 +2429,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="having_open"><small>public</small>  having_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="having_open"><small>public</small>  having_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Alias of and_having_open()</p>
 </div>
 <h4>Return Values</h4>
@@ -2449,7 +2449,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="join"><small>public</small>  join(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$table</span> [, <small>string</small> <span class="param" title="Join type (LEFT, RIGHT, INNER, etc)">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="join"><small>public</small>  join(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$table</span> [, <small>string</small> <span class="param" title="Join type (LEFT, RIGHT, INNER, etc)">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Adds addition tables to "JOIN ...".</p>
 </div>
 <h4>Parameters</h4>
@@ -2482,7 +2482,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="labels"><small>public</small>  labels()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="labels"><small>public</small>  labels()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Label definitions for validation</p>
 </div>
 <h4>Return Values</h4>
@@ -2502,7 +2502,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="last_query"><small>public</small>  last_query()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="last_query"><small>public</small>  last_query()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns last executed query</p>
 </div>
 <h4>Return Values</h4>
@@ -2522,7 +2522,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="limit"><small>public</small>  limit(<small>integer</small> <span class="param" title="Maximum results to return">$number</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="limit"><small>public</small>  limit(<small>integer</small> <span class="param" title="Maximum results to return">$number</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Return up to "LIMIT ..." results</p>
 </div>
 <h4>Parameters</h4>
@@ -2553,7 +2553,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="list_columns"><small>public</small>  list_columns()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="list_columns"><small>public</small>  list_columns()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Proxy method to Database list_columns.</p>
 </div>
 <h4>Return Values</h4>
@@ -2574,7 +2574,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="load_with"><small>public</small>  load_with()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="load_with"><small>public</small>  load_with()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2593,7 +2593,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="loaded"><small>public</small>  loaded()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="loaded"><small>public</small>  loaded()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2612,7 +2612,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="object"><small>public</small>  object()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="object"><small>public</small>  object()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2631,7 +2631,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="object_name"><small>public</small>  object_name()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="object_name"><small>public</small>  object_name()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2650,7 +2650,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="object_plural"><small>public</small>  object_plural()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="object_plural"><small>public</small>  object_plural()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2669,7 +2669,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="offset"><small>public</small>  offset(<small>integer</small> <span class="param" title="Starting result number">$number</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="offset"><small>public</small>  offset(<small>integer</small> <span class="param" title="Starting result number">$number</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Start returning results after "OFFSET ..."</p>
 </div>
 <h4>Parameters</h4>
@@ -2700,7 +2700,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="on"><small>public</small>  on(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$c1</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$c2</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="on"><small>public</small>  on(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$c1</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$c2</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Adds "ON ..." conditions for the last created JOIN statement.</p>
 </div>
 <h4>Parameters</h4>
@@ -2735,7 +2735,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_having"><small>public</small>  or_having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_having"><small>public</small>  or_having(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> [, <small>mixed</small> <span class="param" title="Column value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates a new "OR HAVING" condition for the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -2770,7 +2770,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_having_close"><small>public</small>  or_having_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_having_close"><small>public</small>  or_having_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "OR HAVING (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -2796,7 +2796,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_having_open"><small>public</small>  or_having_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_having_open"><small>public</small>  or_having_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Opens a new "OR HAVING (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -2822,7 +2822,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_where"><small>public</small>  or_where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_where"><small>public</small>  or_where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Creates a new "OR WHERE" condition for the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -2857,7 +2857,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_where_close"><small>public</small>  or_where_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_where_close"><small>public</small>  or_where_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "OR WHERE (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -2883,7 +2883,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="or_where_open"><small>public</small>  or_where_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="or_where_open"><small>public</small>  or_where_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Opens a new "OR WHERE (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -2909,7 +2909,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="order_by"><small>public</small>  order_by(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> [, <small>string</small> <span class="param" title="Direction of sorting">$direction</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="order_by"><small>public</small>  order_by(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> [, <small>string</small> <span class="param" title="Direction of sorting">$direction</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Applies sorting with "ORDER BY ..."</p>
 </div>
 <h4>Parameters</h4>
@@ -2942,7 +2942,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="original_values"><small>public</small>  original_values()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="original_values"><small>public</small>  original_values()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -2961,7 +2961,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Set the value of a parameter in the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -2994,7 +2994,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="pk"><small>public</small>  pk()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="pk"><small>public</small>  pk()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns the value of the primary key</p>
 </div>
 <h4>Return Values</h4>
@@ -3014,7 +3014,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="primary_key"><small>public</small>  primary_key()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="primary_key"><small>public</small>  primary_key()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3033,7 +3033,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="quote_table"><small>public static</small>  quote_table(<small>string</small> <span class="param" title="Model name">$orm_model</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="quote_table"><small>public static</small>  quote_table(<small>string</small> <span class="param" title="Model name">$orm_model</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Get the quoted table name from the model name</p>
 </div>
 <h4>Parameters</h4>
@@ -3058,7 +3058,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="reload"><small>public</small>  reload()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="reload"><small>public</small>  reload()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Reloads the current object from the database.</p>
 </div>
 <h4>Tags</h4>
@@ -3093,7 +3093,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="reload_columns"><small>public</small>  reload_columns([ <small>boolean</small> <span class="param" title="Force reloading">$force</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="reload_columns"><small>public</small>  reload_columns([ <small>boolean</small> <span class="param" title="Force reloading">$force</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Reload column definitions.</p>
 </div>
 <h4>Parameters</h4>
@@ -3139,7 +3139,7 @@ $model-&gt;has('roles')
 </div>
 
 <div class='method'>
-<h3 id="remove"><small>public</small>  remove(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="remove"><small>public</small>  remove(<small>string</small> <span class="param" title="Alias of the has_many "through" relationship">$alias</span> [, <small>mixed</small> <span class="param" title="Related model, primary key, or an array of primary keys">$far_keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Removes a relationship between this model and another.</p>
 
 <pre><code>// Remove a role using a model instance
@@ -3189,7 +3189,7 @@ $model-&gt;remove('roles');
 </div>
 
 <div class='method'>
-<h3 id="reset"><small>public</small>  reset([ <small>bool</small> <span class="param" title="Pass FALSE to avoid resetting on the next call">$next</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="reset"><small>public</small>  reset([ <small>bool</small> <span class="param" title="Pass FALSE to avoid resetting on the next call">$next</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Clears query builder.  Passing FALSE is useful to keep the existing
 query conditions for another query.</p>
 </div>
@@ -3226,7 +3226,7 @@ query conditions for another query.</p>
 </div>
 
 <div class='method'>
-<h3 id="save"><small>public</small>  save([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="save"><small>public</small>  save([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Updates or Creates the record depending on loaded()</p>
 </div>
 <h4>Parameters</h4>
@@ -3255,7 +3255,7 @@ query conditions for another query.</p>
 </div>
 
 <div class='method'>
-<h3 id="saved"><small>public</small>  saved()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="saved"><small>public</small>  saved()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3274,7 +3274,7 @@ query conditions for another query.</p>
 </div>
 
 <div class='method'>
-<h3 id="select"><small>public</small>  select(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="select"><small>public</small>  select(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Choose the columns to select from.</p>
 </div>
 <h4>Parameters</h4>
@@ -3305,7 +3305,7 @@ query conditions for another query.</p>
 </div>
 
 <div class='method'>
-<h3 id="serialize"><small>public</small>  serialize()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="serialize"><small>public</small>  serialize()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Allows serialization of only the object data and state, to prevent
 "stale" objects being unserialized, which also requires less memory.</p>
 </div>
@@ -3332,7 +3332,7 @@ query conditions for another query.</p>
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Column name">$column</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Column name">$column</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Handles setting of columns
 Override this method to add custom set behavior</p>
 </div>
@@ -3345,7 +3345,7 @@ Override this method to add custom set behavior</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3430,13 +3430,13 @@ Override this method to add custom set behavior</p>
 		}
 		else
 		{
-			throw new Kohana_Exception(&#039;The :property: property is a to many relation in the :class: class&#039;,
+			throw new Mountain Valley Church of God_Exception(&#039;The :property: property is a to many relation in the :class: class&#039;,
 				[&#039;:property:&#039; =&gt; $column, &#039;:class:&#039; =&gt; get_class($this)]);
 		}
 	}
 	else
 	{
-		throw new Kohana_Exception(&#039;The :property: property does not exist in the :class: class&#039;,
+		throw new Mountain Valley Church of God_Exception(&#039;The :property: property does not exist in the :class: class&#039;,
 			[&#039;:property:&#039; =&gt; $column, &#039;:class:&#039; =&gt; get_class($this)]);
 	}
 
@@ -3447,7 +3447,7 @@ Override this method to add custom set behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="table_column_type"><small>public</small>  table_column_type(<small>string</small> <span class="param" title="$column">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="table_column_type"><small>public</small>  table_column_type(<small>string</small> <span class="param" title="$column">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns the type of the column</p>
 </div>
 <h4>Parameters</h4>
@@ -3475,7 +3475,7 @@ Override this method to add custom set behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="table_columns"><small>public</small>  table_columns()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="table_columns"><small>public</small>  table_columns()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3494,7 +3494,7 @@ Override this method to add custom set behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="table_name"><small>public</small>  table_name()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="table_name"><small>public</small>  table_name()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3513,7 +3513,7 @@ Override this method to add custom set behavior</p>
 </div>
 
 <div class='method'>
-<h3 id="unique"><small>public</small>  unique(<small>string</small> <span class="param" title="The field to check for uniqueness">$field</span> , <small>mixed</small> <span class="param" title="The value to check for uniqueness">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="unique"><small>public</small>  unique(<small>string</small> <span class="param" title="The field to check for uniqueness">$field</span> , <small>mixed</small> <span class="param" title="The value to check for uniqueness">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Checks whether a column value is unique.
 Excludes itself if loaded.</p>
 </div>
@@ -3550,7 +3550,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="unserialize"><small>public</small>  unserialize(<small>string</small> <span class="param" title="String for unserialization">$data</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="unserialize"><small>public</small>  unserialize(<small>string</small> <span class="param" title="String for unserialization">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Prepares the database connection and reloads the object.</p>
 </div>
 <h4>Parameters</h4>
@@ -3587,7 +3587,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="update"><small>public</small>  update([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="update"><small>public</small>  update([ <small>Validation</small> <span class="param" title="Validation object">$validation</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Updates a single record or multiple records</p>
 </div>
 <h4>Parameters</h4>
@@ -3598,7 +3598,7 @@ Excludes itself if loaded.</p>
 <h4>Tags</h4>
 <ul class='tags'>
 <li>Chainable - </li>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3611,7 +3611,7 @@ Excludes itself if loaded.</p>
 <code class="language-php">public function update(Validation $validation = NULL)
 {
 	if ( ! $this-&gt;_loaded)
-		throw new Kohana_Exception(&#039;Cannot update :model model because it is not loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
+		throw new Mountain Valley Church of God_Exception(&#039;Cannot update :model model because it is not loaded.&#039;, [&#039;:model&#039; =&gt; $this-&gt;_object_name]);
 
    	// Invoke all behaviors
 	foreach ($this-&gt;_behaviors as $behavior)
@@ -3676,7 +3676,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="updated_column"><small>public</small>  updated_column()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="updated_column"><small>public</small>  updated_column()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3695,7 +3695,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="using"><small>public</small>  using(<small>mixed</small> <span class="param" title="Column names">$columns</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="using"><small>public</small>  using(<small>mixed</small> <span class="param" title="Column names">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Adds "USING ..." conditions for the last created JOIN statement.</p>
 </div>
 <h4>Parameters</h4>
@@ -3726,7 +3726,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="validation"><small>public</small>  validation()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="validation"><small>public</small>  validation()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -3751,7 +3751,7 @@ Excludes itself if loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="values"><small>public</small>  values(<small>array</small> <span class="param" title="Array of column => val">$values</span> [, <small>array</small> <span class="param" title="Array of keys to take from $values">$expected</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="values"><small>public</small>  values(<small>array</small> <span class="param" title="Array of column => val">$values</span> [, <small>array</small> <span class="param" title="Array of keys to take from $values">$expected</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Set values from an array with support for one-one relationships.  This method should be used
 for loading in post data, etc.</p>
 </div>
@@ -3810,7 +3810,7 @@ for loading in post data, etc.</p>
 </div>
 
 <div class='method'>
-<h3 id="where"><small>public</small>  where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="where"><small>public</small>  where(<small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$column</span> , <small>string</small> <span class="param" title="Logic operator">$op</span> , <small>mixed</small> <span class="param" title="Column value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Alias of and_where()</p>
 </div>
 <h4>Parameters</h4>
@@ -3845,7 +3845,7 @@ for loading in post data, etc.</p>
 </div>
 
 <div class='method'>
-<h3 id="where_close"><small>public</small>  where_close()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="where_close"><small>public</small>  where_close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Closes an open "AND WHERE (...)" grouping.</p>
 </div>
 <h4>Return Values</h4>
@@ -3865,7 +3865,7 @@ for loading in post data, etc.</p>
 </div>
 
 <div class='method'>
-<h3 id="where_open"><small>public</small>  where_open()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="where_open"><small>public</small>  where_open()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Alias of and_where_open()</p>
 </div>
 <h4>Return Values</h4>
@@ -3885,7 +3885,7 @@ for loading in post data, etc.</p>
 </div>
 
 <div class='method'>
-<h3 id="with"><small>public</small>  with(<small>string</small> <span class="param" title="Target model to bind to">$target_path</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="with"><small>public</small>  with(<small>string</small> <span class="param" title="Target model to bind to">$target_path</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Binds another one-to-one object to this model.  One-to-one objects
 can be nested using 'object1:object2' syntax</p>
 </div>
@@ -3983,7 +3983,7 @@ can be nested using 'object1:object2' syntax</p>
 </div>
 
 <div class='method'>
-<h3 id="_build"><small>protected</small>  _build(<small>integer</small> <span class="param" title="Type of Database query">$type</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_build"><small>protected</small>  _build(<small>integer</small> <span class="param" title="Type of Database query">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Initializes the Database Builder to given query type</p>
 </div>
 <h4>Parameters</h4>
@@ -4033,7 +4033,7 @@ can be nested using 'object1:object2' syntax</p>
 </div>
 
 <div class='method'>
-<h3 id="_build_select"><small>protected</small>  _build_select()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_build_select"><small>protected</small>  _build_select()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns an array of columns to include in the select query. This method
 can be overridden to change the default select behavior.</p>
 </div>
@@ -4061,7 +4061,7 @@ can be overridden to change the default select behavior.</p>
 </div>
 
 <div class='method'>
-<h3 id="_initialize"><small>protected</small>  _initialize()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_initialize"><small>protected</small>  _initialize()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Prepares the model database connection, determines the table name,
 and loads column information.</p>
 </div>
@@ -4189,7 +4189,7 @@ and loads column information.</p>
 </div>
 
 <div class='method'>
-<h3 id="_load_result"><small>protected</small>  _load_result([ <small>bool</small> <span class="param" title="Return an iterator or load a single row">$multiple</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_load_result"><small>protected</small>  _load_result([ <small>bool</small> <span class="param" title="Return an iterator or load a single row">$multiple</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Loads a database result, either as a new record for this model, or as
 an iterator for multiple rows.</p>
 </div>
@@ -4272,7 +4272,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="_load_values"><small>protected</small>  _load_values(<small>array</small> <span class="param" title="Values to load">$values</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_load_values"><small>protected</small>  _load_values(<small>array</small> <span class="param" title="Values to load">$values</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Loads an array of values into into the current object.</p>
 </div>
 <h4>Parameters</h4>
@@ -4352,7 +4352,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="_related"><small>protected</small>  _related(<small>string</small> <span class="param" title="Alias name">$alias</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_related"><small>protected</small>  _related(<small>string</small> <span class="param" title="Alias name">$alias</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns an ORM model for the given one-one related alias</p>
 </div>
 <h4>Parameters</h4>
@@ -4392,7 +4392,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="_serialize_value"><small>protected</small>  _serialize_value(<small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_serialize_value"><small>protected</small>  _serialize_value(<small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Parameters</h4>
 <ul>
@@ -4416,7 +4416,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="_unserialize_value"><small>protected</small>  _unserialize_value(<small>string</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_unserialize_value"><small>protected</small>  _unserialize_value(<small>string</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'></div>
 <h4>Parameters</h4>
 <ul>
@@ -4440,7 +4440,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="_validation"><small>protected</small>  _validation()<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="_validation"><small>protected</small>  _validation()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Initializes validation rules, and labels</p>
 </div>
 <h4>Return Values</h4>
@@ -4480,7 +4480,7 @@ an iterator for multiple rows.</p>
 </div>
 
 <div class='method'>
-<h3 id="get_typed"><small>protected</small>  get_typed(<small>string</small> <span class="param" title="$column">$column</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="get_typed"><small>protected</small>  get_typed(<small>string</small> <span class="param" title="$column">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Returns a value as the native type, will return FALSE if the
 value could not be casted.</p>
 </div>
@@ -4519,7 +4519,7 @@ value could not be casted.</p>
 </div>
 
 <div class='method'>
-<h3 id="run_filter"><small>protected</small>  run_filter(<small>string</small> <span class="param" title="The column name">$field</span> , <small>string</small> <span class="param" title="The value to filter">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_ORM'>Kohana_ORM</a>)</small></h3>
+<h3 id="run_filter"><small>protected</small>  run_filter(<small>string</small> <span class="param" title="The column name">$field</span> , <small>string</small> <span class="param" title="The value to filter">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM'>Mountain Valley Church of God_ORM</a>)</small></h3>
 <div class='description'><p>Filters a value for a specific column</p>
 </div>
 <h4>Parameters</h4>

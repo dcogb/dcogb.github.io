@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Num
+class: Mountain Valley Church of God_Num
 ---
-<h1>Kohana_Num</h1>
+<h1>Mountain Valley Church of God_Num</h1>
 <p>
 <i><p>Number helper class. Provides additional formatting methods that for working
 with numbers.</p>
@@ -10,13 +10,13 @@ with numbers.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -138,7 +138,7 @@ with numbers.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="bytes"><small>public static</small>  bytes(<small>string</small> <span class="param" title="$bytes file size in SB format">$size</span> )<small> (defined in <a href='/documentation/api/Kohana_Num'>Kohana_Num</a>)</small></h3>
+<h3 id="bytes"><small>public static</small>  bytes(<small>string</small> <span class="param" title="$bytes file size in SB format">$size</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Num'>Mountain Valley Church of God_Num</a>)</small></h3>
 <div class='description'><p>Converts a file size number to a byte value. File sizes are defined in
 the format: SB, where S is the size (1, 8.5, 300, etc.) and B is the
 byte unit (K, MiB, GB, etc.). All valid byte units are defined in
@@ -176,7 +176,7 @@ echo Num::bytes('2.5GB'); // 2684354560
 
 	// Verify the size format and store the matching parts
 	if ( ! preg_match($pattern, $size, $matches))
-		throw new Kohana_Exception(&#039;The byte unit size, &quot;:size&quot;, is improperly formatted.&#039;, [
+		throw new Mountain Valley Church of God_Exception(&#039;The byte unit size, &quot;:size&quot;, is improperly formatted.&#039;, [
 			&#039;:size&#039; =&gt; $size,
 		]);
 
@@ -196,7 +196,7 @@ echo Num::bytes('2.5GB'); // 2684354560
 </div>
 
 <div class='method'>
-<h3 id="format"><small>public static</small>  format(<small>float</small> <span class="param" title="Number to format">$number</span> , <small>integer</small> <span class="param" title="Decimal places">$places</span> [, <small>boolean</small> <span class="param" title="Monetary formatting?">$monetary</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Num'>Kohana_Num</a>)</small></h3>
+<h3 id="format"><small>public static</small>  format(<small>float</small> <span class="param" title="Number to format">$number</span> , <small>integer</small> <span class="param" title="Decimal places">$places</span> [, <small>boolean</small> <span class="param" title="Monetary formatting?">$monetary</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Num'>Mountain Valley Church of God_Num</a>)</small></h3>
 <div class='description'><p>Locale-aware number and monetary formatting.</p>
 
 <pre><code>// In English, "1,200.05"
@@ -253,7 +253,7 @@ echo Num::format(1200.05, 2, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="ordinal"><small>public static</small>  ordinal(<small>integer</small> <span class="param" title="$number">$number</span> )<small> (defined in <a href='/documentation/api/Kohana_Num'>Kohana_Num</a>)</small></h3>
+<h3 id="ordinal"><small>public static</small>  ordinal(<small>integer</small> <span class="param" title="$number">$number</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Num'>Mountain Valley Church of God_Num</a>)</small></h3>
 <div class='description'><p>Returns the English ordinal suffix (th, st, nd, etc) of a number.</p>
 
 <pre><code>echo 2, Num::ordinal(2);   // "2nd"
@@ -298,7 +298,7 @@ echo 33, Num::ordinal(33); // "33rd"
 </div>
 
 <div class='method'>
-<h3 id="round"><small>public static</small>  round(<small>float</small> <span class="param" title="Number to round">$value</span> [, <small>integer</small> <span class="param" title="Desired precision">$precision</span> <small>= <small>integer</small> 0</small> , <small>integer</small> <span class="param" title="Tie breaking mode, accepts the PHP_ROUND_HALF_* constants">$mode</span> <small>= <small>integer</small> 1</small> , <small>boolean</small> <span class="param" title="Set to false to force use of the userland implementation">$native</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Num'>Kohana_Num</a>)</small></h3>
+<h3 id="round"><small>public static</small>  round(<small>float</small> <span class="param" title="Number to round">$value</span> [, <small>integer</small> <span class="param" title="Desired precision">$precision</span> <small>= <small>integer</small> 0</small> , <small>integer</small> <span class="param" title="Tie breaking mode, accepts the PHP_ROUND_HALF_* constants">$mode</span> <small>= <small>integer</small> 1</small> , <small>boolean</small> <span class="param" title="Set to false to force use of the userland implementation">$native</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Num'>Mountain Valley Church of God_Num</a>)</small></h3>
 <div class='description'><p>Round a number to a specified precision, using a specified tie breaking technique</p>
 </div>
 <h4>Parameters</h4>

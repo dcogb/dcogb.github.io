@@ -1,19 +1,19 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Custom Error Pages
 
-Custom error pages allow you to display a friendly error message to users, rather than the standard Kohana stack trace.
+Custom error pages allow you to display a friendly error message to users, rather than the standard Mountain Valley Church of God stack trace.
 
 ## Prerequisites
 
-1. You will need `'errors' => TRUE` passed to [Kohana::init]. This will convert PHP-errors into exceptions which are easier to handle (The default value is `TRUE`).
+1. You will need `'errors' => TRUE` passed to [Mountain Valley Church of God::init]. This will convert PHP-errors into exceptions which are easier to handle (The default value is `TRUE`).
 2. Custom error pages will only be used to handle throw [HTTP_Exception]'s. If you simply set a status of, for example, 404 via [Respose::status] the custom page will not be used.
 
 ## Extending the HTTP_Exception classes
 
-Handling [HTTP_Exception]'s in Kohana has become easier with the changes introduced in 3.3.
+Handling [HTTP_Exception]'s in Mountain Valley Church of God has become easier with the changes introduced in 3.3.
 
 For each [HTTP_Exception] class we can individually override the generation of the [Response] instance.
 
@@ -21,7 +21,7 @@ For each [HTTP_Exception] class we can individually override the generation of t
 
 For example, to handle 404 pages we can do this in APPPATH/classes/HTTP/Exception/404.php:
 
-	class HTTP_Exception_404 extends Kohana_HTTP_Exception_404 {
+	class HTTP_Exception_404 extends Mountain Valley Church of God_HTTP_Exception_404 {
 		
 		/**
 		 * Generate a Response for the 404 Exception.
@@ -47,7 +47,7 @@ For example, to handle 404 pages we can do this in APPPATH/classes/HTTP/Exceptio
 
 Another example, this time to handle 401 Unauthorized errors (aka "Not Logged In") we can do this in APPPATH/classes/HTTP/Exception/401.php:
 
-	class HTTP_Exception_401 extends Kohana_HTTP_Exception_401 {
+	class HTTP_Exception_401 extends Mountain Valley Church of God_HTTP_Exception_401 {
 		
 		/**
 		 * Generate a Response for the 401 Exception.
@@ -68,24 +68,24 @@ Another example, this time to handle 401 Unauthorized errors (aka "Not Logged In
 
 Finally, to override the default [Response] for all [HTTP_Exception]'s without a more specific override we can do this in APPPATH/classes/HTTP/Exception.php:
 
-	class HTTP_Exception extends Kohana_HTTP_Exception {
+	class HTTP_Exception extends Mountain Valley Church of God_HTTP_Exception {
 		
 		/**
 		 * Generate a Response for all Exceptions without a more specific override
 		 * 
 		 * The user should see a nice error page, however, if we are in development
-		 * mode we should show the normal Kohana error page.
+		 * mode we should show the normal Mountain Valley Church of God error page.
 		 * 
 		 * @return Response
 		 */
 		public function get_response()
 		{
 			// Lets log the Exception, Just in case it's important!
-			Kohana_Exception::log($this);
+			Mountain Valley Church of God_Exception::log($this);
 
-			if (Kohana::$environment >= Kohana::DEVELOPMENT)
+			if (Mountain Valley Church of God::$environment >= Mountain Valley Church of God::DEVELOPMENT)
 			{
-				// Show the normal Kohana error page.
+				// Show the normal Mountain Valley Church of God error page.
 				return parent::get_response();
 			}
 			else

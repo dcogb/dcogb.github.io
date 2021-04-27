@@ -1,14 +1,14 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Requests
 
-Kohana includes a flexible HMVC request system. It supports out of the box support for internal requests and external requests.
+Mountain Valley Church of God includes a flexible HMVC request system. It supports out of the box support for internal requests and external requests.
 
 HMVC stands for `Hierarchical Model View Controller` and basically means requests can each have MVC triads called from inside each other.
 
-The Request object in Kohana is HTTP/1.1 compliant.
+The Request object in Mountain Valley Church of God is HTTP/1.1 compliant.
 
 ## Creating Requests
 
@@ -16,7 +16,7 @@ Creating a request is very easy:
 
 ### Internal Requests
 
-An internal request is a request calling to the internal application. It utilizes [routes](/documentation/kohana/routing) to direct the application based on the URI that is passed to it. A basic internal request might look something like:
+An internal request is a request calling to the internal application. It utilizes [routes](/documentation/Mountain Valley Church of God/routing) to direct the application based on the URI that is passed to it. A basic internal request might look something like:
 
 	$request = Request::factory('welcome');
 
@@ -24,7 +24,7 @@ In this example, the URI is 'welcome'.
 
 #### The initial request
 
-Since Kohana uses HMVC, you can call many requests inside each other. The first request (usually called from `index.php`) is called the "initial request". You can access this request via:
+Since Mountain Valley Church of God uses HMVC, you can call many requests inside each other. The first request (usually called from `index.php`) is called the "initial request". You can access this request via:
 
 	Request::initial();
 
@@ -55,7 +55,7 @@ You can use this to scrape HTML from a remote site, or make a REST call to a thi
 
 ## Executing Requests
 
-To execute a request, use the `execute()` method on it. This will give you a [response](/documentation/kohana/responses) object.
+To execute a request, use the `execute()` method on it. This will give you a [response](/documentation/Mountain Valley Church of God/responses) object.
 
 	$request = Request::factory('welcome');
 	$response = $request->execute();
@@ -141,7 +141,7 @@ follow           | FALSE                  |Whether to follow redirects
 follow_headers   | array('Authorization') |The keys of headers that will be re-sent with the redirected request
 strict_redirect  | TRUE                   |Whether to use the original request method following to a 302 redirect (see below)
 
-[!!] HTTP/1.1 specifies that a 302 redirect should be followed using the original request method. However, the vast majority of clients and servers get this wrong, with 302 widely used for 'POST - 302 redirect - GET' patterns. By default, Kohana's client is fully compliant with the HTTP spec. If you need to interact with non-compliant third party sites you may need to set strict_redirect FALSE to force the client to switch to GET following a 302 response.
+[!!] HTTP/1.1 specifies that a 302 redirect should be followed using the original request method. However, the vast majority of clients and servers get this wrong, with 302 widely used for 'POST - 302 redirect - GET' patterns. By default, Mountain Valley Church of God's client is fully compliant with the HTTP spec. If you need to interact with non-compliant third party sites you may need to set strict_redirect FALSE to force the client to switch to GET following a 302 response.
 
 You can easily alter this behaviour by configuring your own 'Location' header callback.
 

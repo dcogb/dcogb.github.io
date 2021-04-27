@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Cross-Site Scripting (XSS) Security
 

@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Log
+class: Mountain Valley Church of God_Log
 ---
-<h1>Kohana_Log</h1>
+<h1>Mountain Valley Church of God_Log</h1>
 <p>
 <i><p>Message logging with observer-based log writing.</p>
 
@@ -11,13 +11,13 @@ class: Kohana_Log
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Logging</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -177,7 +177,7 @@ class: Kohana_Log
 <div class='methods'>
 
 <div class='method'>
-<h3 id="add"><small>public</small>  add(<small>string</small> <span class="param" title="Level of message">$level</span> , <small>string</small> <span class="param" title="Message body">$message</span> [, <small>array</small> <span class="param" title="Values to replace in the message">$values</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Additional custom parameters to supply to the log writer">$additional</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Log'>Kohana_Log</a>)</small></h3>
+<h3 id="add"><small>public</small>  add(<small>string</small> <span class="param" title="Level of message">$level</span> , <small>string</small> <span class="param" title="Message body">$message</span> [, <small>array</small> <span class="param" title="Values to replace in the message">$values</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Additional custom parameters to supply to the log writer">$additional</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log'>Mountain Valley Church of God_Log</a>)</small></h3>
 <div class='description'><p>Adds a message to the log. Replacement values must be passed in to be
 replaced using <a href="http://php.net/strtr">strtr</a>.</p>
 
@@ -265,7 +265,7 @@ replaced using <a href="http://php.net/strtr">strtr</a>.</p>
 </div>
 
 <div class='method'>
-<h3 id="attach"><small>public</small>  attach(<small>Log_Writer</small> <span class="param" title="Instance">$writer</span> [, <small>mixed</small> <span class="param" title="Array of messages levels to write OR max level to write">$levels</span> <small>= <small>array</small><span>(0)</span> </small> , <small>integer</small> <span class="param" title="Min level to write IF $levels is not an array">$min_level</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Log'>Kohana_Log</a>)</small></h3>
+<h3 id="attach"><small>public</small>  attach(<small>Log_Writer</small> <span class="param" title="Instance">$writer</span> [, <small>mixed</small> <span class="param" title="Array of messages levels to write OR max level to write">$levels</span> <small>= <small>array</small><span>(0)</span> </small> , <small>integer</small> <span class="param" title="Min level to write IF $levels is not an array">$min_level</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log'>Mountain Valley Church of God_Log</a>)</small></h3>
 <div class='description'><p>Attaches a log writer, and optionally limits the levels of messages that
 will be written by the writer.</p>
 
@@ -308,7 +308,7 @@ will be written by the writer.</p>
 </div>
 
 <div class='method'>
-<h3 id="detach"><small>public</small>  detach(<small>Log_Writer</small> <span class="param" title="Instance">$writer</span> )<small> (defined in <a href='/documentation/api/Kohana_Log'>Kohana_Log</a>)</small></h3>
+<h3 id="detach"><small>public</small>  detach(<small>Log_Writer</small> <span class="param" title="Instance">$writer</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log'>Mountain Valley Church of God_Log</a>)</small></h3>
 <div class='description'><p>Detaches a log writer. The same writer object must be used.</p>
 
 <pre><code>$log-&gt;detach($writer);
@@ -339,7 +339,7 @@ will be written by the writer.</p>
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance()<small> (defined in <a href='/documentation/api/Kohana_Log'>Kohana_Log</a>)</small></h3>
+<h3 id="instance"><small>public static</small>  instance()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log'>Mountain Valley Church of God_Log</a>)</small></h3>
 <div class='description'><p>Get the singleton instance of this class and enable writing at shutdown.</p>
 
 <pre><code>$log = Log::instance();
@@ -371,7 +371,7 @@ will be written by the writer.</p>
 </div>
 
 <div class='method'>
-<h3 id="write"><small>public</small>  write()<small> (defined in <a href='/documentation/api/Kohana_Log'>Kohana_Log</a>)</small></h3>
+<h3 id="write"><small>public</small>  write()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log'>Mountain Valley Church of God_Log</a>)</small></h3>
 <div class='description'><p>Write and clear all of the messages.</p>
 
 <pre><code>$log-&gt;write();

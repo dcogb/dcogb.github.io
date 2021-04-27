@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Kohana_Codebench
+class: Mountain Valley Church of God_Codebench
 ---
-<h1>Kohana_Codebench</h1>
+<h1>Mountain Valley Church of God_Codebench</h1>
 <p>
 <i><p>Codebench — A benchmarking module.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Codebench</dd>
+<dd>Mountain Valley Church of God/Codebench</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -130,7 +130,7 @@ class: Kohana_Codebench
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Constructor.</p>
 </div>
 <h4>Return Values</h4>
@@ -144,14 +144,14 @@ class: Kohana_Codebench
 <code class="language-php">public function __construct()
 {
 	// Set the maximum execution time
-	set_time_limit(Kohana::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
+	set_time_limit(Mountain Valley Church of God::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Runs Codebench on the extending class.</p>
 </div>
 <h4>Return Values</h4>
@@ -290,7 +290,7 @@ class: Kohana_Codebench
 </div>
 
 <div class='method'>
-<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Returns the applicable grade letter for a score.</p>
 </div>
 <h4>Parameters</h4>
@@ -324,7 +324,7 @@ class: Kohana_Codebench
 </div>
 
 <div class='method'>
-<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Callback for array_filter().
 Filters out all methods not to benchmark.</p>
 </div>

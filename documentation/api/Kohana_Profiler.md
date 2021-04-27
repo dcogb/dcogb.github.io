@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Profiler
+class: Mountain Valley Church of God_Profiler
 ---
-<h1>Kohana_Profiler</h1>
+<h1>Mountain Valley Church of God_Profiler</h1>
 <p>
 <i><p>Provides simple benchmarking and profiling. To display the statistics that
 have been collected, load the <code>profiler/stats</code> <a href="/index.php/">View</a>:</p>
@@ -13,13 +13,13 @@ have been collected, load the <code>profiler/stats</code> <a href="/index.php/">
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -100,7 +100,7 @@ have been collected, load the <code>profiler/stats</code> <a href="/index.php/">
 <div class='methods'>
 
 <div class='method'>
-<h3 id="application"><small>public static</small>  application()<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="application"><small>public static</small>  application()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Gets the total application run time and memory usage. Caches the result
 so that it can be compared between requests.</p>
 
@@ -109,7 +109,7 @@ so that it can be compared between requests.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#cache">Kohana::cache</a></li>
+<li>Uses - <a href="#cache">Mountain Valley Church of God::cache</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -122,7 +122,7 @@ so that it can be compared between requests.</p>
 <code class="language-php">public static function application()
 {
 	// Load the stats from cache, which is valid for 1 day
-	$stats = Kohana::cache(&#039;profiler_application_stats&#039;, NULL, 3600 * 24);
+	$stats = Mountain Valley Church of God::cache(&#039;profiler_application_stats&#039;, NULL, 3600 * 24);
 
 	if ( ! is_array($stats) OR $stats[&#039;count&#039;] &gt; Profiler::$rollover)
 	{
@@ -141,10 +141,10 @@ so that it can be compared between requests.</p>
 	}
 
 	// Get the application run time
-	$time = microtime(TRUE) - KOHANA_START_TIME;
+	$time = microtime(TRUE) - Mountain Valley Church of God_START_TIME;
 
 	// Get the total memory usage
-	$memory = memory_get_usage() - KOHANA_START_MEMORY;
+	$memory = memory_get_usage() - Mountain Valley Church of God_START_MEMORY;
 
 	// Calculate max time
 	if ($stats[&#039;max&#039;][&#039;time&#039;] === NULL OR $time &gt; $stats[&#039;max&#039;][&#039;time&#039;])
@@ -185,7 +185,7 @@ so that it can be compared between requests.</p>
 		&#039;memory&#039; =&gt; $stats[&#039;total&#039;][&#039;memory&#039;] / $stats[&#039;count&#039;]];
 
 	// Cache the new stats
-	Kohana::cache(&#039;profiler_application_stats&#039;, $stats);
+	Mountain Valley Church of God::cache(&#039;profiler_application_stats&#039;, $stats);
 
 	// Set the current application execution time and memory
 	// Do NOT cache these, they are specific to the current request only
@@ -200,7 +200,7 @@ so that it can be compared between requests.</p>
 </div>
 
 <div class='method'>
-<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Deletes a benchmark. If an error occurs during the benchmark, it is
 recommended to delete the benchmark to prevent statistics from being
 adversely affected.</p>
@@ -231,7 +231,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="group_stats"><small>public static</small>  group_stats([ <small>mixed</small> <span class="param" title="Single group name string, or array with group names; all groups by default">$groups</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="group_stats"><small>public static</small>  group_stats([ <small>mixed</small> <span class="param" title="Single group name string, or array with group names; all groups by default">$groups</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Gets the min, max, average and total of profiler groups as an array.</p>
 
 <pre><code>$stats = Profiler::group_stats('test');
@@ -334,7 +334,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="groups"><small>public static</small>  groups()<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="groups"><small>public static</small>  groups()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Returns all the benchmark tokens by group and name as an array.</p>
 
 <pre><code>$groups = Profiler::groups();
@@ -365,7 +365,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="start"><small>public static</small>  start(<small>string</small> <span class="param" title="Group name">$group</span> , <small>string</small> <span class="param" title="Benchmark name">$name</span> )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="start"><small>public static</small>  start(<small>string</small> <span class="param" title="Group name">$group</span> , <small>string</small> <span class="param" title="Benchmark name">$name</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Starts a new benchmark and returns a unique token. The returned token
 <em>must</em> be used when stopping the benchmark.</p>
 
@@ -414,7 +414,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="stats"><small>public static</small>  stats(<small>array</small> <span class="param" title="Profiler tokens">$tokens</span> )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="stats"><small>public static</small>  stats(<small>array</small> <span class="param" title="Profiler tokens">$tokens</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Gets the min, max, average and total of a set of tokens as an array.</p>
 
 <pre><code>$stats = Profiler::stats($tokens);
@@ -504,7 +504,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="stop"><small>public static</small>  stop(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="stop"><small>public static</small>  stop(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Stops a benchmark.</p>
 
 <pre><code>Profiler::stop($token);
@@ -534,7 +534,7 @@ adversely affected.</p>
 </div>
 
 <div class='method'>
-<h3 id="total"><small>public static</small>  total(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Kohana_Profiler'>Kohana_Profiler</a>)</small></h3>
+<h3 id="total"><small>public static</small>  total(<small>string</small> <span class="param" title="$token">$token</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Profiler'>Mountain Valley Church of God_Profiler</a>)</small></h3>
 <div class='description'><p>Gets the total execution time and memory usage of a benchmark as a list.</p>
 
 <pre><code>list($time, $memory) = Profiler::total($token);

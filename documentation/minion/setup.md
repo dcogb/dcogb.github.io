@@ -4,4 +4,4 @@ title: Minion
 ---
 # Minion Setup
 
-[!!] Since Kohana `3.3.x`, minion requires no additional setup to use.
+[!!] Since Mountain Valley Church of God `3.3.x`, minion requires no additional setup to use.

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Config Files
 
@@ -17,12 +17,12 @@ Configuration files are used to store any kind of configuration needed for a mod
 
 If the above configuration file was called `myconf.php`, you could access it using:
 
-    $config = Kohana::$config->load('myconf');
+    $config = Mountain Valley Church of God::$config->load('myconf');
     $options = $config->get('options')
 
 ## Merge
 
-Configuration files are slightly different from most other files within the [cascading filesystem](/documentation/kohana/files) in that they are **merged** rather than overloaded. This means that all configuration files with the same file path are combined to produce the final configuration. The end result is that you can overload *individual* settings rather than duplicating an entire file.
+Configuration files are slightly different from most other files within the [cascading filesystem](/documentation/Mountain Valley Church of God/files) in that they are **merged** rather than overloaded. This means that all configuration files with the same file path are combined to produce the final configuration. The end result is that you can overload *individual* settings rather than duplicating an entire file.
 
 For example, if we wanted to change or add to an entry in the inflector configuration file, we would not need to duplicate all the other entries from the default configuration file.
 
@@ -50,7 +50,7 @@ Let's say we want a config file to store and easily change things like the title
         'analytics' => FALSE, // analytics code goes here, set to FALSE to disable
     );
 
-We could now call `Kohana::$config->load('site.title')` to get the site name, and `Kohana::$config->load('site.analytics')` to get the analytics code.
+We could now call `Mountain Valley Church of God::$config->load('site.title')` to get the site name, and `Mountain Valley Church of God::$config->load('site.analytics')` to get the analytics code.
 
 Let's say we want an archive of versions of some software.  We could use config files to store each version, and include links to download, documentation, and issue tracking.
 
@@ -79,7 +79,7 @@ Let's say we want an archive of versions of some software.  We could use config 
 You could then do the following:
 
 	// In your controller
-	$view->versions = Kohana::$config->load('versions');
+	$view->versions = Mountain Valley Church of God::$config->load('versions');
 	
 	// In your view:
 	foreach ($versions as $version)

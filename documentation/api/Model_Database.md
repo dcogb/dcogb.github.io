@@ -3,11 +3,11 @@ layout: api
 class: Model_Database
 ---
 <h1>Model_Database</h1>
-extends <a href='/documentation/api/Kohana_Model_Database'>Kohana_Model_Database</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Model_Database'>Mountain Valley Church of God_Model_Database</a>
 <br />
 extends <a href='/documentation/api/Model'>Model</a>
 <br />
-extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Model'>Mountain Valley Church of God_Model</a>
 <br />
 <p>
 <i><p>Database Model base class.</p>
@@ -15,13 +15,13 @@ extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Database</dd>
+<dd>Mountain Valley Church of God/Database</dd>
 <dt>category</dt>
 <dd>Models</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -32,7 +32,7 @@ extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Model_Database'>Kohana_Model_Database</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Model_Database'>Mountain Valley Church of God_Model_Database</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -85,7 +85,7 @@ extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Database instance object or string">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Model_Database'>Kohana_Model_Database</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Database instance object or string">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Model_Database'>Mountain Valley Church of God_Model_Database</a>)</small></h3>
 <div class='description'><p>Loads the database.</p>
 
 <pre><code>$model = new Foo_Model($db);
@@ -128,7 +128,7 @@ extends <a href='/documentation/api/Kohana_Model'>Kohana_Model</a>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Model name">$name</span> [, <small>mixed</small> <span class="param" title="Database instance object or string">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Model_Database'>Kohana_Model_Database</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Model name">$name</span> [, <small>mixed</small> <span class="param" title="Database instance object or string">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Model_Database'>Mountain Valley Church of God_Model_Database</a>)</small></h3>
 <div class='description'><p>Create a new model instance. A <a href="/index.php/">Database</a> instance or configuration
 group name can be passed to the model. If no database is defined, the
 "default" database group will be used.</p>

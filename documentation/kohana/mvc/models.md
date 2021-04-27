@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Models
 
@@ -36,4 +36,4 @@ If you want database access, have your model extend the Model_Database class:
 		}
 	}
 
-If you want CRUD/ORM capabilities, see the [ORM Module](/documentation/kohana/../../guide/orm)
+If you want CRUD/ORM capabilities, see the [ORM Module](/documentation/Mountain Valley Church of God/../../guide/orm)

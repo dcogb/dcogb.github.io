@@ -1,10 +1,10 @@
 ---
 layout: api
-class: Kohana_HTTP
+class: Mountain Valley Church of God_HTTP
 ---
-<h1>Kohana_HTTP</h1>
+<h1>Mountain Valley Church of God_HTTP</h1>
 <p>
-<i><p>Contains the most low-level helpers methods in Kohana:</p>
+<i><p>Contains the most low-level helpers methods in Mountain Valley Church of God:</p>
 
 <ul>
 <li>Environment initialization</li>
@@ -16,15 +16,15 @@ class: Kohana_HTTP
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>HTTP</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>since</dt>
 <dd>3.1.0</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -85,7 +85,7 @@ class: Kohana_HTTP
 <div class='methods'>
 
 <div class='method'>
-<h3 id="check_cache"><small>public static</small>  check_cache(<small>Request</small> <span class="param" title="Request">$request</span> , <small>Response</small> <span class="param" title="Response">$response</span> [, <small>string</small> <span class="param" title="Resource ETag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP'>Kohana_HTTP</a>)</small></h3>
+<h3 id="check_cache"><small>public static</small>  check_cache(<small>Request</small> <span class="param" title="Request">$request</span> , <small>Response</small> <span class="param" title="Response">$response</span> [, <small>string</small> <span class="param" title="Resource ETag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP'>Mountain Valley Church of God_HTTP</a>)</small></h3>
 <div class='description'><p>Checks the browser cache to see the response needs to be returned,
 execution will halt and a 304 Not Modified will be sent if the
 browser cache is up to date.</p>
@@ -147,7 +147,7 @@ browser cache is up to date.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse_header_string"><small>public static</small>  parse_header_string(<small>string</small> <span class="param" title="Header string to parse">$header_string</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP'>Kohana_HTTP</a>)</small></h3>
+<h3 id="parse_header_string"><small>public static</small>  parse_header_string(<small>string</small> <span class="param" title="Header string to parse">$header_string</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP'>Mountain Valley Church of God_HTTP</a>)</small></h3>
 <div class='description'><p>Parses a HTTP header string into an associative array</p>
 </div>
 <h4>Parameters</h4>
@@ -219,7 +219,7 @@ browser cache is up to date.</p>
 </div>
 
 <div class='method'>
-<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP'>Kohana_HTTP</a>)</small></h3>
+<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP'>Mountain Valley Church of God_HTTP</a>)</small></h3>
 <div class='description'><p>Issues a HTTP redirect.</p>
 </div>
 <h4>Parameters</h4>
@@ -241,7 +241,7 @@ browser cache is up to date.</p>
 	$e = HTTP_Exception::factory($code);
 
 	if ( ! $e instanceof HTTP_Exception_Redirect)
-		throw new Kohana_Exception(&#039;Invalid redirect code \&#039;:code\&#039;&#039;, [
+		throw new Mountain Valley Church of God_Exception(&#039;Invalid redirect code \&#039;:code\&#039;&#039;, [
 			&#039;:code&#039; =&gt; $code
 		]);
 
@@ -252,7 +252,7 @@ browser cache is up to date.</p>
 </div>
 
 <div class='method'>
-<h3 id="request_headers"><small>public static</small>  request_headers()<small> (defined in <a href='/documentation/api/Kohana_HTTP'>Kohana_HTTP</a>)</small></h3>
+<h3 id="request_headers"><small>public static</small>  request_headers()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP'>Mountain Valley Church of God_HTTP</a>)</small></h3>
 <div class='description'><p>Parses the the HTTP request headers and returns an array containing
 key value pairs. This method is slow, but provides an accurate
 representation of the HTTP request.</p>
@@ -321,7 +321,7 @@ representation of the HTTP request.</p>
 </div>
 
 <div class='method'>
-<h3 id="www_form_urlencode"><small>public static</small>  www_form_urlencode([ <small>array</small> <span class="param" title="Params">$params</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP'>Kohana_HTTP</a>)</small></h3>
+<h3 id="www_form_urlencode"><small>public static</small>  www_form_urlencode([ <small>array</small> <span class="param" title="Params">$params</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP'>Mountain Valley Church of God_HTTP</a>)</small></h3>
 <div class='description'><p>Processes an array of key value pairs and encodes
 the values to meet RFC 3986</p>
 </div>

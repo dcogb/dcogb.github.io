@@ -5,7 +5,7 @@ class: Bench_MDDoIncludeViews
 <h1>Bench_MDDoIncludeViews</h1>
 extends <a href='/documentation/api/Codebench'>Codebench</a>
 <br />
-extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>
 <br />
 <p>
 <i>
@@ -13,7 +13,7 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Codebench</dd>
+<dd>Mountain Valley Church of God/Codebench</dd>
 <dt>category</dt>
 <dd>Tests</dd>
 <dt>author</dt>
@@ -87,8 +87,8 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 <dd>
 <small>Default value:</small>
 <br />
- <pre class="debug"><small>string</small><span>(124)</span> "Optimization for the &lt;code&gt;doIncludeViews()&lt;/code&gt; method of &lt;code&gt;Kohana_Kodoc_Markdown&lt;/code&gt;
-		 for the Kohana Userguide."</pre></dd>
+ <pre class="debug"><small>string</small><span>(124)</span> "Optimization for the &lt;code&gt;doIncludeViews()&lt;/code&gt; method of &lt;code&gt;Mountain Valley Church of God_Kodoc_Markdown&lt;/code&gt;
+		 for the Mountain Valley Church of God Userguide."</pre></dd>
 <dt>
 <h4 id='property-grades'><small>public</small>  <span class='blue'>array</span> $grades</h4>
 </dt>
@@ -192,7 +192,7 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Constructor.</p>
 </div>
 <h4>Return Values</h4>
@@ -206,14 +206,14 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 <code class="language-php">public function __construct()
 {
 	// Set the maximum execution time
-	set_time_limit(Kohana::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
+	set_time_limit(Mountain Valley Church of God::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Runs Codebench on the extending class.</p>
 </div>
 <h4>Return Values</h4>
@@ -352,7 +352,7 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 </div>
 
 <div class='method'>
-<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Returns the applicable grade letter for a score.</p>
 </div>
 <h4>Parameters</h4>
@@ -386,7 +386,7 @@ extends <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>
 </div>
 
 <div class='method'>
-<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Kohana_Codebench'>Kohana_Codebench</a>)</small></h3>
+<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Callback for array_filter().
 Filters out all methods not to benchmark.</p>
 </div>

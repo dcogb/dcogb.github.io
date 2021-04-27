@@ -3,7 +3,7 @@ layout: api
 class: Security
 ---
 <h1>Security</h1>
-extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>
 <br />
 <p>
 <i><p>Security helper class.</p>
@@ -11,13 +11,13 @@ extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Security</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Security'>Kohana_Security</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -90,7 +90,7 @@ extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="check"><small>public static</small>  check(<small>string</small> <span class="param" title="Token to check">$token</span> )<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="check"><small>public static</small>  check(<small>string</small> <span class="param" title="Token to check">$token</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Check that the given token matches the currently stored security token.</p>
 
 <pre><code>if (Security::check($token))
@@ -125,7 +125,7 @@ extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
 </div>
 
 <div class='method'>
-<h3 id="encode_php_tags"><small>public static</small>  encode_php_tags(<small>string</small> <span class="param" title="String to sanitize">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="encode_php_tags"><small>public static</small>  encode_php_tags(<small>string</small> <span class="param" title="String to sanitize">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Encodes PHP tags in a string.</p>
 
 <pre><code>$str = Security::encode_php_tags($str);
@@ -153,7 +153,7 @@ extends <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>
 </div>
 
 <div class='method'>
-<h3 id="slow_equals"><small>public static</small>  slow_equals(<small>string</small> <span class="param" title="Cryptographic hash">$a</span> , <small>string</small> <span class="param" title="Cryptographic hash">$b</span> )<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="slow_equals"><small>public static</small>  slow_equals(<small>string</small> <span class="param" title="Cryptographic hash">$a</span> , <small>string</small> <span class="param" title="Cryptographic hash">$b</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Compare two hashes in a time-invariant manner.
 Prevents cryptographic side-channel attacks (timing attacks, specifically)</p>
 </div>
@@ -186,9 +186,9 @@ Prevents cryptographic side-channel attacks (timing attacks, specifically)</p>
 </div>
 
 <div class='method'>
-<h3 id="strip_image_tags"><small>public static</small>  strip_image_tags(<small>string</small> <span class="param" title="String to sanitize">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="strip_image_tags"><small>public static</small>  strip_image_tags(<small>string</small> <span class="param" title="String to sanitize">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Deprecated for security reasons.
-See https://github.com/kohana/kohana/issues/107</p>
+See https://github.com/Mountain Valley Church of God/Mountain Valley Church of God/issues/107</p>
 
 <p>Remove image tags from a string.</p>
 
@@ -221,7 +221,7 @@ See https://github.com/kohana/kohana/issues/107</p>
 </div>
 
 <div class='method'>
-<h3 id="token"><small>public static</small>  token([ <small>boolean</small> <span class="param" title="Force a new token to be generated?">$new</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="token"><small>public static</small>  token([ <small>boolean</small> <span class="param" title="Force a new token to be generated?">$new</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Generate and store a unique token which can be used to help prevent
 <a href="http://wikipedia.org/wiki/Cross_Site_Request_Forgery">CSRF</a> attacks.</p>
 
@@ -282,7 +282,7 @@ See https://github.com/kohana/kohana/issues/107</p>
 </div>
 
 <div class='method'>
-<h3 id="_generate_token"><small>protected static</small>  _generate_token()<small> (defined in <a href='/documentation/api/Kohana_Security'>Kohana_Security</a>)</small></h3>
+<h3 id="_generate_token"><small>protected static</small>  _generate_token()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Security'>Mountain Valley Church of God_Security</a>)</small></h3>
 <div class='description'><p>Generate a unique token.</p>
 </div>
 <h4>Return Values</h4>

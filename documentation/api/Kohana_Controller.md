@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Controller
+class: Mountain Valley Church of God_Controller
 ---
-<h1>Kohana_Controller</h1>
+<h1>Mountain Valley Church of God_Controller</h1>
 <p>
 <i><p>Abstract controller class. Controllers should only be created using a <a href="/index.php/">Request</a>.</p>
 
@@ -22,13 +22,13 @@ $controller-&gt;after();
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Controller</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -111,7 +111,7 @@ $controller-&gt;after();
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>Request</small> <span class="param" title="Request that created the controller">$request</span> , <small>Response</small> <span class="param" title="The request's response">$response</span> )<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>Request</small> <span class="param" title="Request that created the controller">$request</span> , <small>Response</small> <span class="param" title="The request's response">$response</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Creates a new controller instance. Each controller must be constructed
 with the request object that created it.</p>
 </div>
@@ -143,7 +143,7 @@ with the request object that created it.</p>
 </div>
 
 <div class='method'>
-<h3 id="after"><small>public</small>  after()<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="after"><small>public</small>  after()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Automatically executed after the controller action. Can be used to apply
 transformation to the response, add extra output, and execute
 other custom code.</p>
@@ -165,7 +165,7 @@ other custom code.</p>
 </div>
 
 <div class='method'>
-<h3 id="before"><small>public</small>  before()<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="before"><small>public</small>  before()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Automatically executed before the controller action. Can be used to set
 class properties, do authorization checks, and execute other custom code.</p>
 </div>
@@ -186,7 +186,7 @@ class properties, do authorization checks, and execute other custom code.</p>
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Executes the given action and calls the <a href="#before">Controller::before</a> and <a href="#after">Controller::after</a> methods.</p>
 
 <p>Can also be used to catch exceptions from actions in a single place.</p>
@@ -242,7 +242,7 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Issues a HTTP redirect.</p>
 
 <p>Proxies to the <a href="#redirect">HTTP::redirect</a> method.</p>
@@ -270,7 +270,7 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="check_cache"><small>protected</small>  check_cache([ <small>string</small> <span class="param" title="Resource Etag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Controller'>Kohana_Controller</a>)</small></h3>
+<h3 id="check_cache"><small>protected</small>  check_cache([ <small>string</small> <span class="param" title="Resource Etag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Checks the browser cache to see the response needs to be returned,
 execution will halt and a 304 Not Modified will be sent if the
 browser cache is up to date.</p>

@@ -1,22 +1,22 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Transparent Class Extension
 
-The [cascading filesystem](/documentation/kohana/files) allows transparent class extension. For instance, the class [Cookie] is defined in `SYSPATH/classes/Cookie.php` as:
+The [cascading filesystem](/documentation/Mountain Valley Church of God/files) allows transparent class extension. For instance, the class [Cookie] is defined in `SYSPATH/classes/Cookie.php` as:
 
-    class Cookie extends Kohana_Cookie {}
+    class Cookie extends Mountain Valley Church of God_Cookie {}
 
-The default Kohana classes, and many extensions, use this definition so that almost all classes can be extended. You extend any class transparently, by defining your own class in `APPPATH/classes/Cookie.php` to add your own methods.
+The default Mountain Valley Church of God classes, and many extensions, use this definition so that almost all classes can be extended. You extend any class transparently, by defining your own class in `APPPATH/classes/Cookie.php` to add your own methods.
 
-[!!] You should **never** modify any of the files that are distributed with Kohana. Always make modifications to classes using transparent extension to prevent upgrade issues.
+[!!] You should **never** modify any of the files that are distributed with Mountain Valley Church of God. Always make modifications to classes using transparent extension to prevent upgrade issues.
 
-For instance, if you wanted to create method that sets encrypted cookies using the [Encrypt] class, you would create a file at `APPPATH/classes/Cookie.php` that extends Kohana_Cookie, and adds your functions:
+For instance, if you wanted to create method that sets encrypted cookies using the [Encrypt] class, you would create a file at `APPPATH/classes/Cookie.php` that extends Mountain Valley Church of God_Cookie, and adds your functions:
 
     <?php
 
-    class Cookie extends Kohana_Cookie {
+    class Cookie extends Mountain Valley Church of God_Cookie {
 
         /**
          * @var  mixed  default encryption instance
@@ -58,15 +58,15 @@ Now calling `Cookie::encrypt('secret', $data)` will create an encrypted cookie w
 
 ## How it works
 
-To understand how this works, let's look at what happens normally.  When you use the Cookie class, [Kohana::autoload] looks for `classes/Cookie.php` in the [cascading filesystem](/documentation/kohana/files).  It looks in `application`, then each module, then `system`. The file is found in `system` and is included.  Of course, `system/classes/Cookie.php` is just an empty class which extends `Kohana_Cookie`.  Again, [Kohana::autoload] is called this time looking for `classes/Kohana/Cookie.php` which it finds in `system`.
+To understand how this works, let's look at what happens normally.  When you use the Cookie class, [Mountain Valley Church of God::autoload] looks for `classes/Cookie.php` in the [cascading filesystem](/documentation/Mountain Valley Church of God/files).  It looks in `application`, then each module, then `system`. The file is found in `system` and is included.  Of course, `system/classes/Cookie.php` is just an empty class which extends `Mountain Valley Church of God_Cookie`.  Again, [Mountain Valley Church of God::autoload] is called this time looking for `classes/Mountain Valley Church of God/Cookie.php` which it finds in `system`.
 
-When you add your transparently extended cookie class at `application/classes/Cookie.php` this file essentially "replaces" the file at `system/classes/Cookie.php` without actually touching it.  This happens because this time when we use the Cookie class [Kohana::autoload] looks for `classes/Cookie.php` and finds the file in `application` and includes that one, instead of the one in system.
+When you add your transparently extended cookie class at `application/classes/Cookie.php` this file essentially "replaces" the file at `system/classes/Cookie.php` without actually touching it.  This happens because this time when we use the Cookie class [Mountain Valley Church of God::autoload] looks for `classes/Cookie.php` and finds the file in `application` and includes that one, instead of the one in system.
 
 ## Example: changing [Cookie] settings
 
-If you are using the [Cookie](/documentation/kohana/cookies) class, and want to change a setting, you should do so using transparent extension, rather than editing the file in the system folder.  If you edit it directly, and in the future you upgrade your Kohana version by replacing the system folder, your changes will be reverted and your cookies will probably be invalid.  Instead, create a Cookie.php file either in `application/classes/Cookie.php` or a module (`MODPATH/<modulename>/classes/Cookie.php`).
+If you are using the [Cookie](/documentation/Mountain Valley Church of God/cookies) class, and want to change a setting, you should do so using transparent extension, rather than editing the file in the system folder.  If you edit it directly, and in the future you upgrade your Mountain Valley Church of God version by replacing the system folder, your changes will be reverted and your cookies will probably be invalid.  Instead, create a Cookie.php file either in `application/classes/Cookie.php` or a module (`MODPATH/<modulename>/classes/Cookie.php`).
 
-	class Cookie extends Kohana_Cookie {
+	class Cookie extends Mountain Valley Church of God_Cookie {
 	
 		// Set a new salt
 		public $salt = "some new better random salt phrase";
@@ -90,9 +90,9 @@ TODO: Provide some links to modules on github, etc that have examples of transpa
 
 ## Multiple Levels of Extension
 
-If you are extending a Kohana class in a module, you should maintain transparent extensions. In other words, do not include any variables or function in the "base" class (eg. Cookie). Instead make your own namespaced class, and have the "base" class extend that one. With our Encrypted cookie example we can create `MODPATH/mymod/Encrypted/Cookie.php`:
+If you are extending a Mountain Valley Church of God class in a module, you should maintain transparent extensions. In other words, do not include any variables or function in the "base" class (eg. Cookie). Instead make your own namespaced class, and have the "base" class extend that one. With our Encrypted cookie example we can create `MODPATH/mymod/Encrypted/Cookie.php`:
 
-	class Encrypted_Cookie extends Kohana_Cookie {
+	class Encrypted_Cookie extends Mountain Valley Church of God_Cookie {
 
 		// Use the same encrypt() and decrypt() methods as above
 
@@ -102,4 +102,4 @@ And create `MODPATH/mymod/Cookie.php`:
 
 	class Cookie extends Encrypted_Cookie {}
 
-This will still allow users to add their own extension to [Cookie] while leaving your extensions intact. To do that they would make a cookie class that extends `Encrypted_Cookie` (rather than `Kohana_Cookie`) in their application folder.
+This will still allow users to add their own extension to [Cookie] while leaving your extensions intact. To do that they would make a cookie class that extends `Encrypted_Cookie` (rather than `Mountain Valley Church of God_Cookie`) in their application folder.

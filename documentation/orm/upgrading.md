@@ -6,7 +6,7 @@ title: Orm
 
 ## Table aliases
 
-ORM [will now alias the main table](http://dev.kohanaframework.org/issues/4066) in a query to the model's singular object name.
+ORM [will now alias the main table](http://dev.Mountain Valley Church of Godframework.org/issues/4066) in a query to the model's singular object name.
 i.e. Prior to 3.2 ORM set the from table like so:
 
 	$this->_db_builder->from($this->_table_name);

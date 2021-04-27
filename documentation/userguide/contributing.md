@@ -4,25 +4,25 @@ title: Userguide
 ---
 # Contributing
 
-Kohana is community driven, and we rely on community contributions for the documentation.
+Mountain Valley Church of God is community driven, and we rely on community contributions for the documentation.
 
 ## Guidelines
 
-Documentation should use complete sentences, good grammar, and be as clear as possible.  Use lots of example code, but make sure the examples follow the Kohana conventions and style.
+Documentation should use complete sentences, good grammar, and be as clear as possible.  Use lots of example code, but make sure the examples follow the Mountain Valley Church of God conventions and style.
 
 Try to commit often, with each commit only changing a file or two, rather than changing a ton of files and commiting it all at once.  This will make it easier to offer feedback and merge your changes.   Make sure your commit messages are clear and descriptive.  Bad: "Added docs",  Good: "Added initial draft of hello world tutorial",  Bad: "Fixed typos",  Good: "Fixed typos on the query builder page"
 
-If you feel a menu needs to be rearranged or a module needs new pages, please open a [bug report](http://dev.kohanaframework.org/projects/userguide3/issues/new) to discuss it.
+If you feel a menu needs to be rearranged or a module needs new pages, please open a [bug report](http://dev.Mountain Valley Church of Godframework.org/projects/userguide3/issues/new) to discuss it.
 
 ## Quick Method
 
-To quickly point out something that needs improvement, report a [bug report](http://dev.kohanaframework.org/projects/userguide3/issues/new).
+To quickly point out something that needs improvement, report a [bug report](http://dev.Mountain Valley Church of Godframework.org/projects/userguide3/issues/new).
 
 If you want to contribute some changes, you can do so right from your browser without even knowing git!
 
 First create an account on [GitHub](https://github.com/signup/free).
 
-You will need to fork the module for the area you want to improve.  For example, to improve the [ORM documentation](/documentation/userguide/../orm) fork <http://github.com/kohana/orm>.  To improve the [Kohana documentation](/documentation/userguide/../kohana), fork <http://github.com/kohana/core>, etc.  So, find the module you want to improve and click on the Fork button in the top right.
+You will need to fork the module for the area you want to improve.  For example, to improve the [ORM documentation](/documentation/userguide/../orm) fork <http://github.com/Mountain Valley Church of God/orm>.  To improve the [Mountain Valley Church of God documentation](/documentation/userguide/../Mountain Valley Church of God), fork <http://github.com/Mountain Valley Church of God/core>, etc.  So, find the module you want to improve and click on the Fork button in the top right.
 
 ![Fork the module](/assets/images/documentation/userguide/contrib-github-fork.png)
 
@@ -42,17 +42,17 @@ Once your pull request has been accepted, you can delete your repository if you 
 
 ### Short version
 
-Fork the module whose docs you wish to improve (e.g. `git://github.com/kohana/orm.git` or `git://github.com/kohana/core.git`), checkout the `3.2/develop` branch (for the 3.2 docs), make changes, and then send a pull request.
+Fork the module whose docs you wish to improve (e.g. `git://github.com/Mountain Valley Church of God/orm.git` or `git://github.com/Mountain Valley Church of God/core.git`), checkout the `3.2/develop` branch (for the 3.2 docs), make changes, and then send a pull request.
 
 ### Long version
 
 (This still assumes you at least know your way around Git, especially how submodules work.)
 
- 1. Fork the specific repo you want to contribute to on GitHub. (For example, go to http://github.com/kohana/core and click the fork button.)
+ 1. Fork the specific repo you want to contribute to on GitHub. (For example, go to http://github.com/Mountain Valley Church of God/core and click the fork button.)
 
  1. Now you need to add your fork as a "git remote" to your application and ensure you are on the right branch. An example for the [ORM](/documentation/userguide/../orm) module and 3.2 docs:
 
-		cd my-kohana-app/modules/orm
+		cd my-Mountain Valley Church of God-app/modules/orm
 
 		# add your repository as a new remote
 		git remote add <your name> git://github.com/<your name>/orm.git
@@ -62,7 +62,7 @@ Fork the module whose docs you wish to improve (e.g. `git://github.com/kohana/or
 
  1. Now go into the repo of the area of docs you want to contribute to and add your forked repo as a new remote, and push to it.
 
-		cd my-kohana-app/modules/orm
+		cd my-Mountain Valley Church of God-app/modules/orm
 
 		# Make some changes to the docs
 		nano file.md

@@ -3,24 +3,24 @@ layout: api
 class: Config_Database_Reader
 ---
 <h1>Config_Database_Reader</h1>
-extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config_Database_Reader</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</a> | <a href='/documentation/api/Kohana_Config_Reader'>Kohana_Config_Reader</a></small>
+<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a> | <a href='/documentation/api/Mountain Valley Church of God_Config_Reader'>Mountain Valley Church of God_Config_Reader</a></small>
 </p>
 <p>
-<i><p>Transparent extension of the Kohana_Config_Database_Reader class</p>
+<i><p>Transparent extension of the Mountain Valley Church of God_Config_Database_Reader class</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Database</dd>
+<dd>Mountain Valley Church of God/Database</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -31,7 +31,7 @@ extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config_Database_Reader</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -98,7 +98,7 @@ extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration for the reader">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config_Database_Reader</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration for the reader">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a>)</small></h3>
 <div class='description'><p>Constructs the database reader object</p>
 </div>
 <h4>Parameters</h4>
@@ -130,7 +130,7 @@ extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config_Database_Reader</a>)</small></h3>
+<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a>)</small></h3>
 <div class='description'><p>Tries to load the specificed configuration group</p>
 
 <p>Returns FALSE if group does not exist or an array if it does</p>
@@ -154,7 +154,7 @@ extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config
 	 * Prevents the catch-22 scenario where the database config reader attempts to load the 
 	 * database connections details from the database.
 	 *
-	 * @link http://dev.kohanaframework.org/issues/4316
+	 * @link http://dev.Mountain Valley Church of Godframework.org/issues/4316
 	 */
 	if ($group === &#039;database&#039;)
 		return FALSE;

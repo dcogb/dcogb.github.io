@@ -3,11 +3,11 @@ layout: api
 class: Cache
 ---
 <h1>Cache</h1>
-extends <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>
 <br />
 <p>
-<i><p>Kohana Cache provides a common interface to a variety of caching engines. Tags are
-supported where available natively to the cache system. Kohana Cache supports multiple
+<i><p>Mountain Valley Church of God Cache provides a common interface to a variety of caching engines. Tags are
+supported where available natively to the cache system. Mountain Valley Church of God Cache supports multiple
 instances of cache engines through a grouped singleton pattern.</p>
 
 <h3 id="supported-cache-engines">Supported cache engines</h3>
@@ -36,7 +36,7 @@ file caching.</p>
 
 <h3 id="configuration-settings">Configuration settings</h3>
 
-<p>Kohana Cache uses configuration groups to create cache instances. A configuration group can
+<p>Mountain Valley Church of God Cache uses configuration groups to create cache instances. A configuration group can
 use any supported driver, with successive groups using the same driver type if required.</p>
 
 <h4 id="configuration-example">Configuration example</h4>
@@ -59,7 +59,7 @@ use any supported driver, with successive groups using the same driver type if r
 </code></pre>
 
 <p>In cases where only one cache group is required, set <code>Cache::$default</code> (in your bootstrap,
-or by extending <code>Kohana_Cache</code> class) to the name of the group, and use:</p>
+or by extending <code>Mountain Valley Church of God_Cache</code> class) to the name of the group, and use:</p>
 
 <pre><code>$cache = Cache::instance(); // instead of Cache::instance('memcache')
 </code></pre>
@@ -92,22 +92,22 @@ or by extending <code>Kohana_Cache</code> class) to the name of the group, and u
 <h3 id="system-requirements">System requirements</h3>
 
 <ul>
-<li>Kohana 3.0.x</li>
+<li>Mountain Valley Church of God 3.0.x</li>
 <li>PHP 5.2.4 or greater</li>
 </ul>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Cache</dd>
+<dd>Mountain Valley Church of God/Cache</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>version</dt>
 <dd>2.0</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -118,7 +118,7 @@ or by extending <code>Kohana_Cache</code> class) to the name of the group, and u
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -199,7 +199,7 @@ or by extending <code>Kohana_Cache</code> class) to the name of the group, and u
 <dd>
  <pre class="debug"><small>string</small><span>(4)</span> "file"</pre></dd>
 <dt>
-<h4 id='property-instances'><small>public static</small>  <span class='blue'>Kohana_Cache</span> $instances</h4>
+<h4 id='property-instances'><small>public static</small>  <span class='blue'>Mountain Valley Church of God_Cache</span> $instances</h4>
 </dt>
 <dd>
  <p>instances</p>
@@ -223,7 +223,7 @@ or by extending <code>Kohana_Cache</code> class) to the name of the group, and u
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Overload the __clone() method to prevent cloning</p>
 </div>
 <h4>Tags</h4>
@@ -240,14 +240,14 @@ or by extending <code>Kohana_Cache</code> class) to the name of the group, and u
 <pre>
 <code class="language-php">final public function __clone()
 {
-	throw new Cache_Exception(&#039;Cloning of Kohana_Cache objects is forbidden&#039;);
+	throw new Cache_Exception(&#039;Cloning of Mountain Valley Church of God_Cache objects is forbidden&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Getter and setter for the configuration. If no argument provided, the
 current configuration is returned. Otherwise the configuration is set
 to this class.</p>
@@ -304,7 +304,7 @@ $servers = $cache-&gt;config('servers);
 </div>
 
 <div class='method'>
-<h3 id="delete"><small>abstract public</small>  delete(<small>string</small> <span class="param" title="Id to remove from cache">$id</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="delete"><small>abstract public</small>  delete(<small>string</small> <span class="param" title="Id to remove from cache">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Delete a cache entry based on id</p>
 
 <pre><code>// Delete 'foo' entry from the default group
@@ -333,7 +333,7 @@ Cache::instance('memcache')-&gt;delete('foo')
 </div>
 
 <div class='method'>
-<h3 id="delete_all"><small>abstract public</small>  delete_all()<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="delete_all"><small>abstract public</small>  delete_all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Delete all cache entries.</p>
 
 <p>Beware of using this method when
@@ -361,7 +361,7 @@ Cache::instance('memcache')-&gt;delete_all();
 </div>
 
 <div class='method'>
-<h3 id="get"><small>abstract public</small>  get(<small>string</small> <span class="param" title="Id of cache to entry">$id</span> [, <small>string</small> <span class="param" title="Default value to return if cache miss">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="get"><small>abstract public</small>  get(<small>string</small> <span class="param" title="Id of cache to entry">$id</span> [, <small>string</small> <span class="param" title="Default value to return if cache miss">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Retrieve a cached value entry by id.</p>
 
 <pre><code>// Retrieve cache entry from default group
@@ -399,8 +399,8 @@ $data = Cache::instance('memcache')-&gt;get('foo');
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
-<div class='description'><p>Creates a singleton of a Kohana Cache group. If no group is supplied
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
+<div class='description'><p>Creates a singleton of a Mountain Valley Church of God Cache group. If no group is supplied
 the <strong>default</strong> cache group is used.</p>
 
 <pre><code>// Create an instance of the default group
@@ -435,7 +435,7 @@ $foo_group = Cache::$instances['default'];
        // If there is no group supplied, try to get it from the config
        if ($group === NULL)
        {
-           $group = Kohana::$config-&gt;load(&#039;cache.default&#039;);
+           $group = Mountain Valley Church of God::$config-&gt;load(&#039;cache.default&#039;);
        }
 
 	// If there is no group supplied
@@ -451,12 +451,12 @@ $foo_group = Cache::$instances['default'];
 		return Cache::$instances[$group];
 	}
 
-	$config = Kohana::$config-&gt;load(&#039;cache&#039;);
+	$config = Mountain Valley Church of God::$config-&gt;load(&#039;cache&#039;);
 
 	if ( ! $config-&gt;offsetExists($group))
 	{
 		throw new Cache_Exception(
-			&#039;Failed to load Kohana Cache group: :group&#039;,
+			&#039;Failed to load Mountain Valley Church of God Cache group: :group&#039;,
 			[&#039;:group&#039; =&gt; $group]
 		);
 	}
@@ -475,7 +475,7 @@ $foo_group = Cache::$instances['default'];
 </div>
 
 <div class='method'>
-<h3 id="set"><small>abstract public</small>  set(<small>string</small> <span class="param" title="Id of cache entry">$id</span> , <small>string</small> <span class="param" title="Data to set to cache">$data</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>integer</small> 3600</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="set"><small>abstract public</small>  set(<small>string</small> <span class="param" title="Id of cache entry">$id</span> , <small>string</small> <span class="param" title="Data to set to cache">$data</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>integer</small> 3600</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Set a value to cache with id and lifetime</p>
 
 <pre><code>$data = 'bar';
@@ -517,7 +517,7 @@ if (Cache::instance('memcache')-&gt;set('foo', $data, 600))
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Ensures singleton pattern is observed, loads the default expiry</p>
 </div>
 <h4>Parameters</h4>
@@ -537,7 +537,7 @@ if (Cache::instance('memcache')-&gt;set('foo', $data, 600))
 </div>
 
 <div class='method'>
-<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Replaces troublesome characters with underscores and adds prefix to avoid duplicates</p>
 
 <pre><code>// Sanitize a cache id
@@ -570,7 +570,7 @@ $id = $this-&gt;_sanitize_id($id);
     // prefix general configuration cache
     else
     {
-        $prefix = Kohana::$config-&gt;load(&#039;cache.prefix&#039;);
+        $prefix = Mountain Valley Church of God::$config-&gt;load(&#039;cache.prefix&#039;);
     }
 
     // sha1 the id makes sure name is not too long and has not any not allowed characters

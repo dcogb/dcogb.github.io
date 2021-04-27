@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Hello, World
 
@@ -10,7 +10,7 @@ We'll start out by creating a very very basic hello world, and then we'll expand
 
 ## Bare bones
 
-First off we have to make a controller that Kohana can use to handle a request.
+First off we have to make a controller that Mountain Valley Church of God can use to handle a request.
 
 Create the file `application/classes/Controller/Hello.php` in your application folder and fill it out like so:
 
@@ -27,25 +27,25 @@ Create the file `application/classes/Controller/Hello.php` in your application f
 Lets see what's going on here:
 
 `<?php`
-:	You should recognize the first tag as an opening php tag (if you don't you should probably [learn php](http://php.net)).  What follows is a small check that makes sure that this file is being included by Kohana.  It stops people from accessing files directly from the url.
+:	You should recognize the first tag as an opening php tag (if you don't you should probably [learn php](http://php.net)).  What follows is a small check that makes sure that this file is being included by Mountain Valley Church of God.  It stops people from accessing files directly from the url.
 
 `Class Controller_Hello extends Controller`
 :	This line declares our controller,  each controller class has to be prefixed with `Controller_` and an underscore delimited path to the folder the controller is in (see [Conventions and styles](about.conventions) for more info).  Each controller should also extend the base `Controller` class which provides a standard structure for controllers.
 
 
 `public function action_index()`
-:	This defines the "index" action of our controller.  Kohana will attempt to call this action if the user hasn't specified an action. (See [Routes, URLs and Links](tutorials.urls))
+:	This defines the "index" action of our controller.  Mountain Valley Church of God will attempt to call this action if the user hasn't specified an action. (See [Routes, URLs and Links](tutorials.urls))
 
 `echo 'hello, world!';`
 :	And this is the line which outputs the customary phrase!
 
 Now if you open your browser and go to http://localhost/index.php/hello you should see something like:
 
-![Hello, World!](/assets/images/documentation/kohana/hello_world_1.png)
+![Hello, World!](/assets/images/documentation/Mountain Valley Church of God/hello_world_1.png)
 
 ## That was good, but we can do better
 
-What we did in the previous section was a good example of how easy it to create an *extremely* basic Kohana app. (In fact it's so basic, that you should never make it again!)
+What we did in the previous section was a good example of how easy it to create an *extremely* basic Mountain Valley Church of God app. (In fact it's so basic, that you should never make it again!)
 
 If you've ever heard anything about MVC you'll probably have realised that echoing content out in a controller is strictly against the principles of MVC.
 
@@ -76,9 +76,9 @@ Lets change our original controller slightly:
 
 Now lets try running our code...
 
-![Hello, World!](/assets/images/documentation/kohana/hello_world_2_error.png)
+![Hello, World!](/assets/images/documentation/Mountain Valley Church of God/hello_world_2_error.png)
 
-For some reason Kohana's thrown a wobbly and isn't showing our amazing message.
+For some reason Mountain Valley Church of God's thrown a wobbly and isn't showing our amazing message.
 
 If we look at the error message we can see that the View library wasn't able to find our site template, probably because we haven't made it yet – *doh*!
 
@@ -101,10 +101,10 @@ Let's go and make the view file `application/views/site.php` for our message:
 
 If we refresh the page then we can see the fruits of our labour:
 
-![hello, world! We just wanted to say it!](/assets/images/documentation/kohana/hello_world_2.png)
+![hello, world! We just wanted to say it!](/assets/images/documentation/Mountain Valley Church of God/hello_world_2.png)
 
 ## Stage 3 – Profit!
 
 In this tutorial you've learnt how to create a controller and use a view to separate your logic from your display.
 
-This is obviously a very basic introduction to working with Kohana and doesn't even scrape the potential you have when developing applications with it.
+This is obviously a very basic introduction to working with Mountain Valley Church of God and doesn't even scrape the potential you have when developing applications with it.

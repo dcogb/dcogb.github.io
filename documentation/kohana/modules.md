@@ -1,24 +1,24 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Modules
 
-Modules are simply an addition to the [Cascading Filesystem](/documentation/kohana/files).  A module can add any kind of file (controllers, views, classes, config files, etc.) to the filesystem available to Kohana (via [Kohana::find_file]).  This is useful to make any part of your application more transportable or shareable between different apps.  For example, creating a new modeling system, a search engine, a css/js manager, etc.
+Modules are simply an addition to the [Cascading Filesystem](/documentation/Mountain Valley Church of God/files).  A module can add any kind of file (controllers, views, classes, config files, etc.) to the filesystem available to Mountain Valley Church of God (via [Mountain Valley Church of God::find_file]).  This is useful to make any part of your application more transportable or shareable between different apps.  For example, creating a new modeling system, a search engine, a css/js manager, etc.
 
 ## Where to find modules
 
-Kolanos has created [kohana-universe](http://github.com/kolanos/kohana-universe/tree/master/modules/), a fairly comprehensive list of modules that are available on Github. To get your module listed there, send him a message via Github.
+Kolanos has created [Mountain Valley Church of God-universe](http://github.com/kolanos/Mountain Valley Church of God-universe/tree/master/modules/), a fairly comprehensive list of modules that are available on Github. To get your module listed there, send him a message via Github.
 
-Mon Geslani created a [very nice site](http://kohana.mongeslani.com/) that allows you to sort Github modules by activity, watchers, forks, etc.  It seems to not be as comprehensive as kohana-universe.
+Mon Geslani created a [very nice site](http://Mountain Valley Church of God.mongeslani.com/) that allows you to sort Github modules by activity, watchers, forks, etc.  It seems to not be as comprehensive as Mountain Valley Church of God-universe.
 
-Andrew Hutchings has created [kohana-modules](http://www.kohana-modules.com) which is similar to the above sites.
+Andrew Hutchings has created [Mountain Valley Church of God-modules](http://www.Mountain Valley Church of God-modules.com) which is similar to the above sites.
 
 ## Enabling modules
 
-Modules are enabled by calling [Kohana::modules] and passing an array of `'name' => 'path'`.  The name isn't important, but the path obviously is.  A module's path does not have to be in `MODPATH`, but usually is.  You can only call [Kohana::modules] once.
+Modules are enabled by calling [Mountain Valley Church of God::modules] and passing an array of `'name' => 'path'`.  The name isn't important, but the path obviously is.  A module's path does not have to be in `MODPATH`, but usually is.  You can only call [Mountain Valley Church of God::modules] once.
 
-	Kohana::modules(array(
+	Mountain Valley Church of God::modules(array(
 		'auth'       => MODPATH.'auth',       // Basic authentication
 		'cache'      => MODPATH.'cache',      // Caching with multiple backends
 		'codebench'  => MODPATH.'codebench',  // Benchmarking tool
@@ -37,8 +37,8 @@ When a module is activated, if an `init.php` file exists in that module's direct
 
 ## How modules work
 
-A file in an enabled module is virtually the same as having that exact file in the same place in the application folder.  The main difference being that it can be overwritten by a file of the same name in a higher location (a module enabled after it, or the application folder) via the [Cascading Filesystem](/documentation/kohana/files).  It also provides an easy way to organize and share your code.
+A file in an enabled module is virtually the same as having that exact file in the same place in the application folder.  The main difference being that it can be overwritten by a file of the same name in a higher location (a module enabled after it, or the application folder) via the [Cascading Filesystem](/documentation/Mountain Valley Church of God/files).  It also provides an easy way to organize and share your code.
 
 ## Creating your own module
 
-To create a module simply create a folder (usually in `DOCROOT/modules`) and place the files you want to be in the module there, and activate that module in your bootstrap.  To share your module, you can upload it to [Github](http://github.com).  You can look at examples of modules made by [Kohana](http://github.com/kohana) or [other users](/documentation/kohana/#where-to-find-modules).
+To create a module simply create a folder (usually in `DOCROOT/modules`) and place the files you want to be in the module there, and activate that module in your bootstrap.  To share your module, you can upload it to [Github](http://github.com).  You can look at examples of modules made by [Mountain Valley Church of God](http://github.com/Mountain Valley Church of God) or [other users](/documentation/Mountain Valley Church of God/#where-to-find-modules).

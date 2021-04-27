@@ -3,32 +3,32 @@ layout: api
 class: HTTP_Response
 ---
 <h1>HTTP_Response</h1>
-extends <a href='/documentation/api/Kohana_HTTP_Response'>Kohana_HTTP_Response</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_HTTP_Response'>Mountain Valley Church of God_HTTP_Response</a>
 <br />
-extends <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>
 <br />
 extends <a href='/documentation/api/HTTP_Message'>HTTP_Message</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Kohana_HTTP_Response'>Kohana_HTTP_Response</a> | <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a></small>
+<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_HTTP_Response'>Mountain Valley Church of God_HTTP_Response</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a></small>
 </p>
 <p>
 <i><p>A HTTP Response specific interface that adds the methods required
-by HTTP responses. Over and above <a href="/index.php/">Kohana_HTTP_Interaction</a>, this
+by HTTP responses. Over and above <a href="/index.php/">Mountain Valley Church of God_HTTP_Interaction</a>, this
 interface provides status.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>HTTP</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>since</dt>
 <dd>3.1.0</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -76,7 +76,7 @@ interface provides status.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="status"><small>abstract public</small>  status([ <small>integer</small> <span class="param" title="Status to set to this response">$code</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Response'>Kohana_HTTP_Response</a>)</small></h3>
+<h3 id="status"><small>abstract public</small>  status([ <small>integer</small> <span class="param" title="Status to set to this response">$code</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Response'>Mountain Valley Church of God_HTTP_Response</a>)</small></h3>
 <div class='description'><p>Sets or gets the HTTP status from this response.</p>
 
 <pre><code> // Set the HTTP status to 404 Not Found
@@ -106,7 +106,7 @@ interface provides status.</p>
 </div>
 
 <div class='method'>
-<h3 id="body"><small>abstract public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a>)</small></h3>
+<h3 id="body"><small>abstract public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP body to the request or response. The body is
 included after the header, separated by a single empty new line.</p>
 </div>
@@ -131,7 +131,7 @@ included after the header, separated by a single empty new line.</p>
 </div>
 
 <div class='method'>
-<h3 id="headers"><small>abstract public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a>)</small></h3>
+<h3 id="headers"><small>abstract public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP headers to the request or response. All headers
 are included immediately after the HTTP protocol definition during
 transmission. This method provides a simple array or key/value
@@ -158,7 +158,7 @@ interface to the headers.</p>
 </div>
 
 <div class='method'>
-<h3 id="protocol"><small>abstract public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a>)</small></h3>
+<h3 id="protocol"><small>abstract public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP protocol. The standard protocol to use
 is <code>HTTP/1.1</code>.</p>
 </div>
@@ -181,7 +181,7 @@ is <code>HTTP/1.1</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>abstract public</small>  render()<small> (defined in <a href='/documentation/api/Kohana_HTTP_Message'>Kohana_HTTP_Message</a>)</small></h3>
+<h3 id="render"><small>abstract public</small>  render()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Renders the HTTP_Interaction to a string, producing</p>
 
 <ul>

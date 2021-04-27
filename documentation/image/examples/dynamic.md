@@ -103,10 +103,10 @@ The rendering of image uses some caching mechanism. One by setting the max age a
 
 ## Screenshots
 
-Visiting [http://localhost/kohana/imagefly/kitteh/400/400](http://localhost/kohana/imagefly/kitteh/400/400) yields:
+Visiting [http://localhost/Mountain Valley Church of God/imagefly/kitteh/400/400](http://localhost/Mountain Valley Church of God/imagefly/kitteh/400/400) yields:
 
 ![Kitten 400x400](/assets/images/documentation/image/dynamic-400.jpg)
 
-Visiting [http://localhost/kohana/imagefly/kitteh/600/500](http://localhost/kohana/imagefly/kitteh/600/500) yields:
+Visiting [http://localhost/Mountain Valley Church of God/imagefly/kitteh/600/500](http://localhost/Mountain Valley Church of God/imagefly/kitteh/600/500) yields:
 
 ![Kitten 400x400](/assets/images/documentation/image/dynamic-600.jpg)

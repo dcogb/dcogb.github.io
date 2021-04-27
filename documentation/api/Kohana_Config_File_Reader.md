@@ -1,25 +1,25 @@
 ---
 layout: api
-class: Kohana_Config_File_Reader
+class: Mountain Valley Church of God_Config_File_Reader
 ---
-<h1>Kohana_Config_File_Reader</h1>
+<h1>Mountain Valley Church of God_Config_File_Reader</h1>
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Kohana_Config_Reader'>Kohana_Config_Reader</a> | <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</a></small>
+<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Reader'>Mountain Valley Church of God_Config_Reader</a> | <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a></small>
 </p>
 <p>
 <i><p>File-based configuration reader. Multiple configuration directories can be
-used by attaching multiple instances of this class to <a href="/index.php/">Kohana_Config</a>.</p>
+used by attaching multiple instances of this class to <a href="/index.php/">Mountain Valley Church of God_Config</a>.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -75,7 +75,7 @@ used by attaching multiple instances of this class to <a href="/index.php/">Koha
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Configuration directory to search">$directory</span> <small>= <small>string</small><span>(6)</span> "config"</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Config_File_Reader'>Kohana_Config_File_Reader</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Configuration directory to search">$directory</span> <small>= <small>string</small><span>(6)</span> "config"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_File_Reader'>Mountain Valley Church of God_Config_File_Reader</a>)</small></h3>
 <div class='description'><p>Creates a new file reader using the given directory as a config source</p>
 </div>
 <h4>Parameters</h4>
@@ -96,7 +96,7 @@ used by attaching multiple instances of this class to <a href="/index.php/">Koha
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Kohana_Config_File_Reader'>Kohana_Config_File_Reader</a>)</small></h3>
+<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_File_Reader'>Mountain Valley Church of God_Config_File_Reader</a>)</small></h3>
 <div class='description'><p>Load and merge all of the configuration files in this group.</p>
 
 <pre><code>$config-&gt;load($name);
@@ -109,7 +109,7 @@ used by attaching multiple instances of this class to <a href="/index.php/">Koha
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#load">Kohana::load</a></li>
+<li>Uses - <a href="#load">Mountain Valley Church of God::load</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -123,12 +123,12 @@ used by attaching multiple instances of this class to <a href="/index.php/">Koha
 {
 	$config = [];
 
-	if ($files = Kohana::find_file($this-&gt;_directory, $group, NULL, TRUE))
+	if ($files = Mountain Valley Church of God::find_file($this-&gt;_directory, $group, NULL, TRUE))
 	{
 		foreach ($files as $file)
 		{
 			// Merge each file to the configuration array
-			$config = Arr::merge($config, Kohana::load($file));
+			$config = Arr::merge($config, Mountain Valley Church of God::load($file));
 		}
 	}
 

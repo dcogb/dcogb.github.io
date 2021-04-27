@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Error/Exception Handling
 
@@ -21,9 +21,9 @@ Click any of the links to toggle the display of additional information:
 
 ## Disabling Error/Exception Handling
 
-If you do not want to use the internal error handling, you can disable it (highly discouraged) when calling [Kohana::init]:
+If you do not want to use the internal error handling, you can disable it (highly discouraged) when calling [Mountain Valley Church of God::init]:
 
-    Kohana::init(array('errors' => FALSE));
+    Mountain Valley Church of God::init(array('errors' => FALSE));
 
 ## Error Reporting
 
@@ -39,7 +39,7 @@ If you get a white screen when an error is triggered, your host probably has dis
 
     ini_set('display_errors', TRUE);
 
-Errors should **always** be displayed, even in production, because it allows you to use [exception and error handling](/documentation/kohana/debugging.errors) to serve a nice error page rather than a blank white screen when an error happens.
+Errors should **always** be displayed, even in production, because it allows you to use [exception and error handling](/documentation/Mountain Valley Church of God/debugging.errors) to serve a nice error page rather than a blank white screen when an error happens.
 
 ## HTTP Exception Handling
 
@@ -49,7 +49,7 @@ Mountain Valley Church of God comes with a robust system for handing http errors
 
 To register error pages for these, using 404 as an example:
 
-    class HTTP_Exception_404 extends Kohana_HTTP_Exception_404 {
+    class HTTP_Exception_404 extends Mountain Valley Church of God_HTTP_Exception_404 {
 
         public function get_response()
         {

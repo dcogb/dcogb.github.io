@@ -3,7 +3,7 @@ layout: api
 class: Arr
 ---
 <h1>Arr</h1>
-extends <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>
 <br />
 <p>
 <i><p>Array helper.</p>
@@ -11,13 +11,13 @@ extends <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -114,7 +114,7 @@ extends <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="callback"><small>public static</small>  callback(<small>string</small> <span class="param" title="Callback string">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="callback"><small>public static</small>  callback(<small>string</small> <span class="param" title="Callback string">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Creates a callable function and parameter list from a string representation.
 Note that this function does not validate the callback string.</p>
 
@@ -175,7 +175,7 @@ $result = call_user_func_array($func, $params);
 </div>
 
 <div class='method'>
-<h3 id="extract"><small>public static</small>  extract(<small>array</small> <span class="param" title="Array to extract paths from">$array</span> , <small>array</small> <span class="param" title="List of path">$paths</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="extract"><small>public static</small>  extract(<small>array</small> <span class="param" title="Array to extract paths from">$array</span> , <small>array</small> <span class="param" title="List of path">$paths</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Retrieves multiple paths from an array. If the path does not exist in the
 array, the default value will be added instead.</p>
 
@@ -219,7 +219,7 @@ Arr::extract($data, array('level1.level2a', 'password'));
 </div>
 
 <div class='method'>
-<h3 id="flatten"><small>public static</small>  flatten(<small>array</small> <span class="param" title="Array to flatten">$array</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="flatten"><small>public static</small>  flatten(<small>array</small> <span class="param" title="Array to flatten">$array</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Convert a multi-dimensional array into a single-dimensional array.</p>
 
 <pre><code>$array = array('set' =&gt; array('one' =&gt; 'something'), 'two' =&gt; 'other');
@@ -280,7 +280,7 @@ array('one' =&gt; 'something', 'two' =&gt; 'other');
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public static</small>  get(<small>array</small> <span class="param" title="Array to extract from">$array</span> , <small>string</small> <span class="param" title="Key name">$key</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="get"><small>public static</small>  get(<small>array</small> <span class="param" title="Array to extract from">$array</span> , <small>string</small> <span class="param" title="Key name">$key</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Retrieve a single key from an array. If the key does not exist in the
 array, the default value will be returned instead.</p>
 
@@ -323,7 +323,7 @@ $sorting = Arr::get($_GET, 'sorting');
 </div>
 
 <div class='method'>
-<h3 id="is_array"><small>public static</small>  is_array(<small>mixed</small> <span class="param" title="Value to check">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="is_array"><small>public static</small>  is_array(<small>mixed</small> <span class="param" title="Value to check">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Test if a value is an array with an additional check for array-like objects.</p>
 
 <pre><code>// Returns TRUE
@@ -367,7 +367,7 @@ Arr::is_array(Database::instance());
 </div>
 
 <div class='method'>
-<h3 id="is_assoc"><small>public static</small>  is_assoc(<small>array</small> <span class="param" title="Array to check">$array</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="is_assoc"><small>public static</small>  is_assoc(<small>array</small> <span class="param" title="Array to check">$array</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Tests if an array is associative or not.</p>
 
 <pre><code>// Returns TRUE
@@ -404,7 +404,7 @@ Arr::is_assoc('foo', 'bar');
 </div>
 
 <div class='method'>
-<h3 id="map"><small>public static</small>  map(<small>mixed</small> <span class="param" title="Array of callbacks to apply to every element in the array">$callbacks</span> , <small>array</small> <span class="param" title="Array to map">$array</span> [, <small>array</small> <span class="param" title="Array of keys to apply to">$keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="map"><small>public static</small>  map(<small>mixed</small> <span class="param" title="Array of callbacks to apply to every element in the array">$callbacks</span> , <small>array</small> <span class="param" title="Array to map">$array</span> [, <small>array</small> <span class="param" title="Array of keys to apply to">$keys</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Recursive version of <a href="http://php.net/array_map">array_map</a>, applies one or more
 callbacks to all elements in an array, including sub-arrays.</p>
 
@@ -472,7 +472,7 @@ a single array.</p>
 </div>
 
 <div class='method'>
-<h3 id="merge"><small>public static</small>  merge(<small>array</small> <span class="param" title="Initial array">$array1</span> , <small>array</small> <span class="param" title=",... array to merge">$array2</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="merge"><small>public static</small>  merge(<small>array</small> <span class="param" title="Initial array">$array1</span> , <small>array</small> <span class="param" title=",... array to merge">$array2</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Recursively merge two or more arrays. Values in an associative array
 overwrite previous values with the same key. Values in an indexed array
 are appended, but only when they do not already exist in the result.</p>
@@ -575,7 +575,7 @@ array('name' =&gt; 'mary', 'children' =&gt; array('fred', 'paul', 'sally', 'jane
 </div>
 
 <div class='method'>
-<h3 id="overwrite"><small>public static</small>  overwrite(<small>array</small> <span class="param" title="Master array">$array1</span> , <small>array</small> <span class="param" title="Input arrays that will overwrite existing values">$array2</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="overwrite"><small>public static</small>  overwrite(<small>array</small> <span class="param" title="Master array">$array1</span> , <small>array</small> <span class="param" title="Input arrays that will overwrite existing values">$array2</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Overwrites an array with values from input arrays.
 Keys that do not exist in the first array will not be added!</p>
 
@@ -629,7 +629,7 @@ array('name' =&gt; 'jack', 'mood' =&gt; 'happy', 'food' =&gt; 'tacos')
 </div>
 
 <div class='method'>
-<h3 id="path"><small>public static</small>  path(<small>array</small> <span class="param" title="Array to search">$array</span> , <small>mixed</small> <span class="param" title="Key path string (delimiter separated) or array of keys">$path</span> [, <small>mixed</small> <span class="param" title="Default value if the path is not set">$default</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Key path delimiter">$delimiter</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="path"><small>public static</small>  path(<small>array</small> <span class="param" title="Array to search">$array</span> , <small>mixed</small> <span class="param" title="Key path string (delimiter separated) or array of keys">$path</span> [, <small>mixed</small> <span class="param" title="Default value if the path is not set">$default</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Key path delimiter">$delimiter</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Gets a value from an array using a dot separated path.</p>
 
 <pre><code>// Get the value of $array['foo']['bar']
@@ -772,7 +772,7 @@ $colors = Arr::path($array, array('theme', '*', 'color'));
 </div>
 
 <div class='method'>
-<h3 id="pluck"><small>public static</small>  pluck(<small>array</small> <span class="param" title="List of arrays to check">$array</span> , <small>string</small> <span class="param" title="Key to pluck">$key</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="pluck"><small>public static</small>  pluck(<small>array</small> <span class="param" title="List of arrays to check">$array</span> , <small>string</small> <span class="param" title="Key to pluck">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Retrieves muliple single-key values from a list of arrays.</p>
 
 <pre><code>// Get all of the "id" values from a result
@@ -816,7 +816,7 @@ $ids = Arr::pluck($result, 'id');
 </div>
 
 <div class='method'>
-<h3 id="range"><small>public static</small>  range([ <small>integer</small> <span class="param" title="Stepping">$step</span> <small>= <small>integer</small> 10</small> , <small>integer</small> <span class="param" title="Ending number">$max</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="range"><small>public static</small>  range([ <small>integer</small> <span class="param" title="Stepping">$step</span> <small>= <small>integer</small> 10</small> , <small>integer</small> <span class="param" title="Ending number">$max</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Fill an array with a range of numbers.</p>
 
 <pre><code>// Fill an array with values 5, 10, 15, 20
@@ -856,7 +856,7 @@ $values = Arr::range(5, 20);
 </div>
 
 <div class='method'>
-<h3 id="set_path"><small>public static</small>  set_path(<small>array</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Array to update">$array</span> , <small>string</small> <span class="param" title="Path">$path</span> , <small>mixed</small> <span class="param" title="Value to set">$value</span> [, <small>string</small> <span class="param" title="Path delimiter">$delimiter</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="set_path"><small>public static</small>  set_path(<small>array</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Array to update">$array</span> , <small>string</small> <span class="param" title="Path">$path</span> , <small>mixed</small> <span class="param" title="Value to set">$value</span> [, <small>string</small> <span class="param" title="Path delimiter">$delimiter</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Set a value on an array by path.</p>
 </div>
 <h4>Parameters</h4>
@@ -920,7 +920,7 @@ byref  <span class="blue">array </span><strong> $array</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="unshift"><small>public static</small>  unshift(<small>array</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Array to modify">$array</span> , <small>string</small> <span class="param" title="Array key name">$key</span> , <small>mixed</small> <span class="param" title="Array value">$val</span> )<small> (defined in <a href='/documentation/api/Kohana_Arr'>Kohana_Arr</a>)</small></h3>
+<h3 id="unshift"><small>public static</small>  unshift(<small>array</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Array to modify">$array</span> , <small>string</small> <span class="param" title="Array key name">$key</span> , <small>mixed</small> <span class="param" title="Array value">$val</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Arr'>Mountain Valley Church of God_Arr</a>)</small></h3>
 <div class='description'><p>Adds a value to the beginning of an associative array.</p>
 
 <pre><code>// Add an empty value to the start of a select list

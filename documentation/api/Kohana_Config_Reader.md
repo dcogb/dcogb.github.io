@@ -1,12 +1,12 @@
 ---
 layout: api
-class: Kohana_Config_Reader
+class: Mountain Valley Church of God_Config_Reader
 ---
-<h1>Kohana_Config_Reader</h1>
-extends <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</a>
+<h1>Mountain Valley Church of God_Config_Reader</h1>
+extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</a></small>
+<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a></small>
 </p>
 <p>
 <i><p>Interface for config readers</p>
@@ -14,13 +14,13 @@ extends <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -56,7 +56,7 @@ extends <a href='/documentation/api/Kohana_Config_Source'>Kohana_Config_Source</
 <div class='methods'>
 
 <div class='method'>
-<h3 id="load"><small>abstract public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Kohana_Config_Reader'>Kohana_Config_Reader</a>)</small></h3>
+<h3 id="load"><small>abstract public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Reader'>Mountain Valley Church of God_Config_Reader</a>)</small></h3>
 <div class='description'><p>Tries to load the specified configuration group</p>
 
 <p>Returns FALSE if group does not exist or an array if it does</p>

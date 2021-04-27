@@ -1,10 +1,10 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Fragments
 
-Fragments are a quick and simple way to cache HTML or other output.  Fragments are not useful for caching objects or raw database results, in which case you should use a more robust caching method, which can be achieved with the [Cache module](/documentation/kohana/../cache). Fragments use [Kohana::cache()] and will be placed in the cache directory (`application/cache` by default).
+Fragments are a quick and simple way to cache HTML or other output.  Fragments are not useful for caching objects or raw database results, in which case you should use a more robust caching method, which can be achieved with the [Cache module](/documentation/Mountain Valley Church of God/../cache). Fragments use [Mountain Valley Church of God::cache()] and will be placed in the cache directory (`application/cache` by default).
 
 You should use Fragment (or any caching solution) when reading the cache is faster than reprocessing the result.  Reading and parsing a remote file, parsing a complicated template, calculating something, etc.
 

@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Kodoc_Missing
+class: Mountain Valley Church of God_Kodoc_Missing
 ---
-<h1>Kohana_Kodoc_Missing</h1>
+<h1>Mountain Valley Church of God_Kodoc_Missing</h1>
 <p>
 <i><p>Set Kodoc_Missing::create_class as an autoloading to prevent missing classes
 from crashing the api browser.  Classes that are missing a parent will
@@ -11,13 +11,13 @@ extend this class, and get a warning in the API browser.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Userguide</dd>
+<dd>Mountain Valley Church of God/Userguide</dd>
 <dt>category</dt>
 <dd>Undocumented</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -55,7 +55,7 @@ extend this class, and get a warning in the API browser.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="create_class"><small>public static</small>  create_class(<small>string</small> <span class="param" title="Class name">$class</span> )<small> (defined in <a href='/documentation/api/Kohana_Kodoc_Missing'>Kohana_Kodoc_Missing</a>)</small></h3>
+<h3 id="create_class"><small>public static</small>  create_class(<small>string</small> <span class="param" title="Class name">$class</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Missing'>Mountain Valley Church of God_Kodoc_Missing</a>)</small></h3>
 <div class='description'><p>Creates classes when they are otherwise not found.</p>
 
 <pre><code>Kodoc::create_class('ThisClassDoesNotExist');

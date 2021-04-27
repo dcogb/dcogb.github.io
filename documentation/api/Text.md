@@ -3,7 +3,7 @@ layout: api
 class: Text
 ---
 <h1>Text</h1>
-extends <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>
 <br />
 <p>
 <i><p>Text helper class. Provides simple methods for working with text.</p>
@@ -11,13 +11,13 @@ extends <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Text'>Kohana_Text</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -161,7 +161,7 @@ extends <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="alternate"><small>public static</small>  alternate()<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="alternate"><small>public static</small>  alternate()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Alternates between two or more strings.</p>
 
 <pre><code>echo Text::alternate('one', 'two'); // "one"
@@ -198,7 +198,7 @@ unexpected results.</p>
 </div>
 
 <div class='method'>
-<h3 id="auto_link"><small>public static</small>  auto_link(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="auto_link"><small>public static</small>  auto_link(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Converts text email addresses and anchors into links. Existing links
 will not be altered.</p>
 
@@ -234,7 +234,7 @@ will not be altered.</p>
 </div>
 
 <div class='method'>
-<h3 id="auto_link_emails"><small>public static</small>  auto_link_emails(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="auto_link_emails"><small>public static</small>  auto_link_emails(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Converts text email addresses into links. Existing links will not
 be altered.</p>
 
@@ -272,7 +272,7 @@ be altered.</p>
 </div>
 
 <div class='method'>
-<h3 id="auto_link_urls"><small>public static</small>  auto_link_urls(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="auto_link_urls"><small>public static</small>  auto_link_urls(<small>string</small> <span class="param" title="Text to auto link">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Converts text anchors into links. Existing links will not be altered.</p>
 
 <pre><code>echo Text::auto_link_urls($text);
@@ -310,7 +310,7 @@ be altered.</p>
 </div>
 
 <div class='method'>
-<h3 id="auto_p"><small>public static</small>  auto_p(<small>string</small> <span class="param" title="Subject">$str</span> [, <small>boolean</small> <span class="param" title="Convert single linebreaks to <br />">$br</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="auto_p"><small>public static</small>  auto_p(<small>string</small> <span class="param" title="Subject">$str</span> [, <small>boolean</small> <span class="param" title="Convert single linebreaks to <br />">$br</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Automatically applies "p" and "br" markup to text.
 Basically <a href="http://php.net/nl2br">nl2br</a> on steroids.</p>
 
@@ -383,7 +383,7 @@ Basically <a href="http://php.net/nl2br">nl2br</a> on steroids.</p>
 </div>
 
 <div class='method'>
-<h3 id="bytes"><small>public static</small>  bytes(<small>integer</small> <span class="param" title="Size in bytes">$bytes</span> [, <small>string</small> <span class="param" title="A definitive unit">$force_unit</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="The return string format">$format</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether to use SI prefixes or IEC">$si</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="bytes"><small>public static</small>  bytes(<small>integer</small> <span class="param" title="Size in bytes">$bytes</span> [, <small>string</small> <span class="param" title="A definitive unit">$force_unit</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="The return string format">$format</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether to use SI prefixes or IEC">$si</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Returns human readable sizes. Based on original functions written by
 <a href="http://aidanlister.com/repos/v/function.size_readable.php">Aidan Lister</a>
 and <a href="http://www.phpriot.com/d/code/strings/filesize-format/">Quentin Zervaas</a>.</p>
@@ -441,7 +441,7 @@ and <a href="http://www.phpriot.com/d/code/strings/filesize-format/">Quentin Zer
 </div>
 
 <div class='method'>
-<h3 id="censor"><small>public static</small>  censor(<small>string</small> <span class="param" title="Phrase to replace words in">$str</span> , <small>array</small> <span class="param" title="Words to replace">$badwords</span> [, <small>string</small> <span class="param" title="Replacement string">$replacement</span> <small>= <small>string</small><span>(1)</span> "#"</small> , <small>boolean</small> <span class="param" title="Replace words across word boundaries (space, period, etc)">$replace_partial_words</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="censor"><small>public static</small>  censor(<small>string</small> <span class="param" title="Phrase to replace words in">$str</span> , <small>array</small> <span class="param" title="Words to replace">$badwords</span> [, <small>string</small> <span class="param" title="Replacement string">$replacement</span> <small>= <small>string</small><span>(1)</span> "#"</small> , <small>boolean</small> <span class="param" title="Replace words across word boundaries (space, period, etc)">$replace_partial_words</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Replaces the given words with a string.</p>
 
 <pre><code>// Displays "What the #####, man!"
@@ -506,7 +506,7 @@ echo Text::censor('What the frick, man!', array(
 </div>
 
 <div class='method'>
-<h3 id="limit_chars"><small>public static</small>  limit_chars(<small>string</small> <span class="param" title="Phrase to limit characters of">$str</span> [, <small>integer</small> <span class="param" title="Number of characters to limit to">$limit</span> <small>= <small>integer</small> 100</small> , <small>string</small> <span class="param" title="End character or entity">$end_char</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Enable or disable the preservation of words while limiting">$preserve_words</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="limit_chars"><small>public static</small>  limit_chars(<small>string</small> <span class="param" title="Phrase to limit characters of">$str</span> [, <small>integer</small> <span class="param" title="Number of characters to limit to">$limit</span> <small>= <small>integer</small> 100</small> , <small>string</small> <span class="param" title="End character or entity">$end_char</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Enable or disable the preservation of words while limiting">$preserve_words</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Limits a phrase to a given number of characters.</p>
 
 <pre><code>$text = Text::limit_chars($text);
@@ -562,7 +562,7 @@ echo Text::censor('What the frick, man!', array(
 </div>
 
 <div class='method'>
-<h3 id="limit_words"><small>public static</small>  limit_words(<small>string</small> <span class="param" title="Phrase to limit words of">$str</span> [, <small>integer</small> <span class="param" title="Number of words to limit to">$limit</span> <small>= <small>integer</small> 100</small> , <small>string</small> <span class="param" title="End character or entity">$end_char</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="limit_words"><small>public static</small>  limit_words(<small>string</small> <span class="param" title="Phrase to limit words of">$str</span> [, <small>integer</small> <span class="param" title="Number of words to limit to">$limit</span> <small>= <small>integer</small> 100</small> , <small>string</small> <span class="param" title="End character or entity">$end_char</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Limits a phrase to a given number of words.</p>
 
 <pre><code>$text = Text::limit_words($text);
@@ -607,7 +607,7 @@ echo Text::censor('What the frick, man!', array(
 </div>
 
 <div class='method'>
-<h3 id="number"><small>public static</small>  number(<small>integer</small> <span class="param" title="Number to format">$number</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="number"><small>public static</small>  number(<small>integer</small> <span class="param" title="Number to format">$number</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Format a number to human-readable text.</p>
 
 <pre><code>// Display: one thousand and twenty-four
@@ -706,7 +706,7 @@ echo Text::number(5000632);
 </div>
 
 <div class='method'>
-<h3 id="random"><small>public static</small>  random([ <small>string</small> <span class="param" title="A type of pool, or a string of characters to use as the pool">$type</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Length of string to return">$length</span> <small>= <small>integer</small> 8</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="random"><small>public static</small>  random([ <small>string</small> <span class="param" title="A type of pool, or a string of characters to use as the pool">$type</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Length of string to return">$length</span> <small>= <small>integer</small> 8</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Generates a random string of a given type and length.</p>
 
 <pre><code>$str = Text::random(); // 8 character random string
@@ -821,7 +821,7 @@ as the type.</p>
 </div>
 
 <div class='method'>
-<h3 id="reduce_slashes"><small>public static</small>  reduce_slashes(<small>string</small> <span class="param" title="String to reduce slashes of">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="reduce_slashes"><small>public static</small>  reduce_slashes(<small>string</small> <span class="param" title="String to reduce slashes of">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Reduces multiple slashes in a string to single slashes.</p>
 
 <pre><code>$str = Text::reduce_slashes('foo//bar/baz'); // "foo/bar/baz"
@@ -849,7 +849,7 @@ as the type.</p>
 </div>
 
 <div class='method'>
-<h3 id="similar"><small>public static</small>  similar(<small>array</small> <span class="param" title="Words to find similar text of">$words</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="similar"><small>public static</small>  similar(<small>array</small> <span class="param" title="Words to find similar text of">$words</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Finds the text that is similar between a set of words.</p>
 
 <pre><code>$match = Text::similar(array('fred', 'fran', 'free'); // "fr"
@@ -891,7 +891,7 @@ as the type.</p>
 </div>
 
 <div class='method'>
-<h3 id="ucfirst"><small>public static</small>  ucfirst(<small>string</small> <span class="param" title="String to transform">$string</span> [, <small>string</small> <span class="param" title="Delimiter to use">$delimiter</span> <small>= <small>string</small><span>(1)</span> "-"</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="ucfirst"><small>public static</small>  ucfirst(<small>string</small> <span class="param" title="String to transform">$string</span> [, <small>string</small> <span class="param" title="Delimiter to use">$delimiter</span> <small>= <small>string</small><span>(1)</span> "-"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Uppercase words that are not separated by spaces, using a custom
 delimiter or the default.</p>
 
@@ -927,7 +927,7 @@ delimiter or the default.</p>
 </div>
 
 <div class='method'>
-<h3 id="user_agent"><small>public static</small>  user_agent(<small>string</small> <span class="param" title="User_agent">$agent</span> , <small>mixed</small> <span class="param" title="Array or string to return: browser, version, robot, mobile, platform">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="user_agent"><small>public static</small>  user_agent(<small>string</small> <span class="param" title="User_agent">$agent</span> , <small>mixed</small> <span class="param" title="Array or string to return: browser, version, robot, mobile, platform">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Returns information about the client user agent.</p>
 
 <pre><code>// Returns "Chrome" when using Google Chrome
@@ -951,7 +951,7 @@ $info = Text::user_agent($agent, array('browser', 'platform'));
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:config">Kohana::$config</a></li>
+<li>Uses - <a href="#property:config">Mountain Valley Church of God::$config</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -981,7 +981,7 @@ $info = Text::user_agent($agent, array('browser', 'platform'));
 		$info = [];
 
 		// Load browsers
-		$browsers = Kohana::$config-&gt;load(&#039;user_agents&#039;)-&gt;browser;
+		$browsers = Mountain Valley Church of God::$config-&gt;load(&#039;user_agents&#039;)-&gt;browser;
 
 		foreach ($browsers as $search =&gt; $name)
 		{
@@ -1008,7 +1008,7 @@ $info = Text::user_agent($agent, array('browser', 'platform'));
 	else
 	{
 		// Load the search group for this type
-		$group = Kohana::$config-&gt;load(&#039;user_agents&#039;)-&gt;$value;
+		$group = Mountain Valley Church of God::$config-&gt;load(&#039;user_agents&#039;)-&gt;$value;
 
 		foreach ($group as $search =&gt; $name)
 		{
@@ -1028,7 +1028,7 @@ $info = Text::user_agent($agent, array('browser', 'platform'));
 </div>
 
 <div class='method'>
-<h3 id="widont"><small>public static</small>  widont(<small>string</small> <span class="param" title="Text to remove widows from">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="widont"><small>public static</small>  widont(<small>string</small> <span class="param" title="Text to remove widows from">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'><p>Prevents <a href="http://www.shauninman.com/archive/2006/08/22/widont_wordpress_plugin">widow words</a>
 by inserting a non-breaking space between the last two words.</p>
 
@@ -1072,7 +1072,7 @@ by inserting a non-breaking space between the last two words.</p>
 </div>
 
 <div class='method'>
-<h3 id="_auto_link_emails_callback"><small>protected static</small>  _auto_link_emails_callback()<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="_auto_link_emails_callback"><small>protected static</small>  _auto_link_emails_callback()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -1086,7 +1086,7 @@ by inserting a non-breaking space between the last two words.</p>
 </div>
 
 <div class='method'>
-<h3 id="_auto_link_urls_callback1"><small>protected static</small>  _auto_link_urls_callback1()<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="_auto_link_urls_callback1"><small>protected static</small>  _auto_link_urls_callback1()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -1100,7 +1100,7 @@ by inserting a non-breaking space between the last two words.</p>
 </div>
 
 <div class='method'>
-<h3 id="_auto_link_urls_callback2"><small>protected static</small>  _auto_link_urls_callback2()<small> (defined in <a href='/documentation/api/Kohana_Text'>Kohana_Text</a>)</small></h3>
+<h3 id="_auto_link_urls_callback2"><small>protected static</small>  _auto_link_urls_callback2()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Text'>Mountain Valley Church of God_Text</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>

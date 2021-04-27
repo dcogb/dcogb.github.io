@@ -1,20 +1,20 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Classes
 
 TODO: Brief intro to classes.
 
-[Models](/documentation/kohana/mvc/models) and [Controllers](/documentation/kohana/mvc/controllers) are classes as well, but are treated slightly differently by Kohana.  Read their respective pages to learn more.
+[Models](/documentation/Mountain Valley Church of God/mvc/models) and [Controllers](/documentation/Mountain Valley Church of God/mvc/controllers) are classes as well, but are treated slightly differently by Mountain Valley Church of God.  Read their respective pages to learn more.
 
 ## Helper or Library?
 
-Kohana 3 does not differentiate between "helper" classes and "library" classes like in previous versions.  They are all placed in the `classes/` folder and follow the same conventions.  The distinction is that in general, a "helper" class is used statically,  (for examples see the [helpers included in Kohana](helpers)), and library classes are typically instantiated and used as objects (like the [Database query builders](../database/query/builder)).  The distinction is not black and white, and is irrelevant anyways, since they are treated the same by Kohana.
+Mountain Valley Church of God 3 does not differentiate between "helper" classes and "library" classes like in previous versions.  They are all placed in the `classes/` folder and follow the same conventions.  The distinction is that in general, a "helper" class is used statically,  (for examples see the [helpers included in Mountain Valley Church of God](helpers)), and library classes are typically instantiated and used as objects (like the [Database query builders](../database/query/builder)).  The distinction is not black and white, and is irrelevant anyways, since they are treated the same by Mountain Valley Church of God.
 
 ## Creating a class
 
-To create a new class, simply place a file in the `classes/` directory at any point in the [Cascading Filesystem](/documentation/kohana/files), that follows the [Class naming conventions](/documentation/kohana/conventions#class-names-and-file-location).  For example, lets create a `Foobar` class.
+To create a new class, simply place a file in the `classes/` directory at any point in the [Cascading Filesystem](/documentation/Mountain Valley Church of God/files), that follows the [Class naming conventions](/documentation/Mountain Valley Church of God/conventions#class-names-and-file-location).  For example, lets create a `Foobar` class.
 
 	// classes/Foobar.php
 	
@@ -24,7 +24,7 @@ To create a new class, simply place a file in the `classes/` directory at any po
 		}
 	}
 	
-We can now call `Foobar::magic()` any where and Kohana will [autoload](/documentation/kohana/autoloading) the file for us.
+We can now call `Foobar::magic()` any where and Mountain Valley Church of God will [autoload](/documentation/Mountain Valley Church of God/autoloading) the file for us.
 
 We can also put classes in subdirectories.
 

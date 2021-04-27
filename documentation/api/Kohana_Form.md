@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Form
+class: Mountain Valley Church of God_Form
 ---
-<h1>Kohana_Form</h1>
+<h1>Mountain Valley Church of God_Form</h1>
 <p>
 <i><p>Form helper class. Unless otherwise noted, all generated HTML will be made
 safe using the <a href="#chars">HTML::chars</a> method. This prevents against simple XSS
@@ -12,13 +12,13 @@ form fields.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -93,7 +93,7 @@ form fields.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="button"><small>public static</small>  button(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$body</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="button"><small>public static</small>  button(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$body</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a button form input. Note that the body of a button is NOT escaped,
 to allow images and other HTML to be used.</p>
 
@@ -133,7 +133,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="checkbox"><small>public static</small>  checkbox(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Checked status">$checked</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="checkbox"><small>public static</small>  checkbox(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Checked status">$checked</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a checkbox form input.</p>
 
 <pre><code>echo Form::checkbox('remember_me', 1, (bool) $remember);
@@ -179,7 +179,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="close"><small>public static</small>  close()<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="close"><small>public static</small>  close()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates the closing form tag.</p>
 
 <pre><code>echo Form::close();
@@ -202,7 +202,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="file"><small>public static</small>  file(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="file"><small>public static</small>  file(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a file upload form input. No input value can be specified.</p>
 
 <pre><code>echo Form::file('image');
@@ -238,7 +238,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="hidden"><small>public static</small>  hidden(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="hidden"><small>public static</small>  hidden(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a hidden form input.</p>
 
 <pre><code>echo Form::hidden('csrf', $token);
@@ -276,7 +276,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="image"><small>public static</small>  image(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$value</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Add index file to URL?">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="image"><small>public static</small>  image(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$value</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Add index file to URL?">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a image form input.</p>
 
 <pre><code>echo Form::image(NULL, NULL, array('src' =&gt; 'media/img/login.png'));
@@ -325,7 +325,7 @@ to allow images and other HTML to be used.</p>
 </div>
 
 <div class='method'>
-<h3 id="input"><small>public static</small>  input(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="input"><small>public static</small>  input(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a form input. If no type is specified, a "text" type input will
 be returned.</p>
 
@@ -374,7 +374,7 @@ be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="label"><small>public static</small>  label(<small>string</small> <span class="param" title="Target input">$input</span> [, <small>string</small> <span class="param" title="Label text">$text</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="label"><small>public static</small>  label(<small>string</small> <span class="param" title="Target input">$input</span> [, <small>string</small> <span class="param" title="Label text">$text</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a form label. Label text is not automatically translated.</p>
 
 <pre><code>echo Form::label('username', 'Username');
@@ -419,7 +419,7 @@ be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="open"><small>public static</small>  open([ <small>mixed</small> <span class="param" title="Form action, defaults to the current request URI, or [Request] class to use">$action</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="open"><small>public static</small>  open([ <small>mixed</small> <span class="param" title="Form action, defaults to the current request URI, or [Request] class to use">$action</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Generates an opening HTML form tag.</p>
 
 <pre><code>// Form will submit back to the current page using POST
@@ -474,7 +474,7 @@ echo Form::open(NULL, array('enctype' =&gt; 'multipart/form-data'));
 	$attributes[&#039;action&#039;] = $action;
 
 	// Only accept the default character set
-	$attributes[&#039;accept-charset&#039;] = Kohana::$charset;
+	$attributes[&#039;accept-charset&#039;] = Mountain Valley Church of God::$charset;
 
 	if ( ! isset($attributes[&#039;method&#039;]))
 	{
@@ -489,7 +489,7 @@ echo Form::open(NULL, array('enctype' =&gt; 'multipart/form-data'));
 </div>
 
 <div class='method'>
-<h3 id="password"><small>public static</small>  password(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="password"><small>public static</small>  password(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a password form input.</p>
 
 <pre><code>echo Form::password('password');
@@ -527,7 +527,7 @@ echo Form::open(NULL, array('enctype' =&gt; 'multipart/form-data'));
 </div>
 
 <div class='method'>
-<h3 id="radio"><small>public static</small>  radio(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Checked status">$checked</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="radio"><small>public static</small>  radio(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>string</small> <span class="param" title="Input value">$value</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Checked status">$checked</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a radio form input.</p>
 
 <pre><code>echo Form::radio('like_cats', 1, $cats);
@@ -574,7 +574,7 @@ echo Form::radio('like_cats', 0, ! $cats);
 </div>
 
 <div class='method'>
-<h3 id="select"><small>public static</small>  select(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>array</small> <span class="param" title="Available options">$options</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Selected option string, or an array of selected options">$selected</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="select"><small>public static</small>  select(<small>string</small> <span class="param" title="Input name">$name</span> [, <small>array</small> <span class="param" title="Available options">$options</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Selected option string, or an array of selected options">$selected</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a select form input.</p>
 
 <pre><code>echo Form::select('country', $countries, $country);
@@ -700,7 +700,7 @@ echo Form::radio('like_cats', 0, ! $cats);
 </div>
 
 <div class='method'>
-<h3 id="submit"><small>public static</small>  submit(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$value</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="submit"><small>public static</small>  submit(<small>string</small> <span class="param" title="Input name">$name</span> , <small>string</small> <span class="param" title="Input value">$value</span> [, <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a submit form input.</p>
 
 <pre><code>echo Form::submit(NULL, 'Login');
@@ -738,7 +738,7 @@ echo Form::radio('like_cats', 0, ! $cats);
 </div>
 
 <div class='method'>
-<h3 id="textarea"><small>public static</small>  textarea(<small>string</small> <span class="param" title="Textarea name">$name</span> [, <small>string</small> <span class="param" title="Textarea body">$body</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Encode existing HTML characters">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Form'>Kohana_Form</a>)</small></h3>
+<h3 id="textarea"><small>public static</small>  textarea(<small>string</small> <span class="param" title="Textarea name">$name</span> [, <small>string</small> <span class="param" title="Textarea body">$body</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Html attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Encode existing HTML characters">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Form'>Mountain Valley Church of God_Form</a>)</small></h3>
 <div class='description'><p>Creates a textarea form input.</p>
 
 <pre><code>echo Form::textarea('about', $about);

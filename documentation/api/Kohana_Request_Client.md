@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Request_Client
+class: Mountain Valley Church of God_Request_Client
 ---
-<h1>Kohana_Request_Client</h1>
+<h1>Mountain Valley Church of God_Request_Client</h1>
 <p>
 <i><p>Request Client. Processes a <a href="/index.php/">Request</a> and handles <a href="/index.php/">HTTP_Caching</a> if
 available. Will usually return a <a href="/index.php/">Response</a> object as a result of the
@@ -11,13 +11,13 @@ request unless an unexpected error occurs.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -217,7 +217,7 @@ request unless an unexpected error occurs.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Params">$params</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Params">$params</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Creates a new <code>Request_Client</code> object,
 allows for dependency injection.</p>
 </div>
@@ -244,7 +244,7 @@ allows for dependency injection.</p>
 </div>
 
 <div class='method'>
-<h3 id="assign_client_properties"><small>public</small>  assign_client_properties(<small>Request_Client</small> <span class="param" title="$client">$client</span> )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="assign_client_properties"><small>public</small>  assign_client_properties(<small>Request_Client</small> <span class="param" title="$client">$client</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Assigns the properties of the current Request_Client to another
 Request_Client instance - used when setting up a subsequent request.</p>
 </div>
@@ -270,7 +270,7 @@ Request_Client instance - used when setting up a subsequent request.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache"><small>public</small>  cache([ <small>HTTP_Cache</small> <span class="param" title="Engine to use for caching">$cache</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="cache"><small>public</small>  cache([ <small>HTTP_Cache</small> <span class="param" title="Engine to use for caching">$cache</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the internal caching engine,
 used to cache responses if available and valid.</p>
 </div>
@@ -302,7 +302,7 @@ used to cache responses if available and valid.</p>
 </div>
 
 <div class='method'>
-<h3 id="callback_depth"><small>public</small>  callback_depth([ <small>int</small> <span class="param" title="Current recursion depth">$depth</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="callback_depth"><small>public</small>  callback_depth([ <small>int</small> <span class="param" title="Current recursion depth">$depth</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter/Setter for the callback depth property, which is used to track
 how many recursions have been executed within the current request execution.</p>
 </div>
@@ -333,11 +333,11 @@ how many recursions have been executed within the current request execution.</p>
 </div>
 
 <div class='method'>
-<h3 id="callback_params"><small>public</small>  callback_params([ <small>string|array</small> <span class="param" title="$param">$param</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="$value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="callback_params"><small>public</small>  callback_params([ <small>string|array</small> <span class="param" title="$param">$param</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="$value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter/Setter for the callback_params array, which allows additional
 application-specific parameters to be shared with callbacks.</p>
 
-<p>As with other Kohana setter/getters, usage is:</p>
+<p>As with other Mountain Valley Church of God setter/getters, usage is:</p>
 
 <pre><code>// Set full array
 $client-&gt;callback_params(array('foo'=&gt;'bar'));
@@ -397,7 +397,7 @@ $foo = $client-&gt;callback_params('foo');
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute(<small>Request</small> <span class="param" title="$request">$request</span> )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute(<small>Request</small> <span class="param" title="$request">$request</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Processes the request, executing the controller action that handles this
 request, determined by the <a href="/index.php/">Route</a>.</p>
 
@@ -422,8 +422,8 @@ no headers are sent.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
-<li>Uses - [Kohana::$profiling], [Profiler]</li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Uses - [Mountain Valley Church of God::$profiling], [Profiler]</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -487,7 +487,7 @@ no headers are sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="execute_request"><small>abstract public</small>  execute_request(<small>Request</small> <span class="param" title="Request to execute by client">$request</span> , <small>Response</small> <span class="param" title="$response">$response</span> )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="execute_request"><small>abstract public</small>  execute_request(<small>Request</small> <span class="param" title="Request to execute by client">$request</span> , <small>Response</small> <span class="param" title="$response">$response</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Processes the request passed to it and returns the response from
 the URI resource identified.</p>
 
@@ -518,7 +518,7 @@ the URI resource identified.</p>
 </div>
 
 <div class='method'>
-<h3 id="follow"><small>public</small>  follow([ <small>bool</small> <span class="param" title="Boolean indicating if redirects should be followed">$follow</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="follow"><small>public</small>  follow([ <small>bool</small> <span class="param" title="Boolean indicating if redirects should be followed">$follow</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the follow redirects
 setting.</p>
 </div>
@@ -551,7 +551,7 @@ setting.</p>
 </div>
 
 <div class='method'>
-<h3 id="follow_headers"><small>public</small>  follow_headers([ <small>array</small> <span class="param" title="Array of headers to be re-used when following a Location header">$follow_headers</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="follow_headers"><small>public</small>  follow_headers([ <small>array</small> <span class="param" title="Array of headers to be re-used when following a Location header">$follow_headers</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the follow redirects
 headers array.</p>
 </div>
@@ -584,7 +584,7 @@ headers array.</p>
 </div>
 
 <div class='method'>
-<h3 id="header_callbacks"><small>public</small>  header_callbacks([ <small>array</small> <span class="param" title="Array of callbacks to trigger on presence of given headers">$header_callbacks</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="header_callbacks"><small>public</small>  header_callbacks([ <small>array</small> <span class="param" title="Array of callbacks to trigger on presence of given headers">$header_callbacks</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the header callbacks array.</p>
 
 <p>Accepts an array with HTTP response headers as keys and a PHP callback
@@ -628,7 +628,7 @@ to the Location header to support automatic redirect following.</p>
 </div>
 
 <div class='method'>
-<h3 id="max_callback_depth"><small>public</small>  max_callback_depth([ <small>int</small> <span class="param" title="Maximum number of callback requests to execute before aborting">$depth</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="max_callback_depth"><small>public</small>  max_callback_depth([ <small>int</small> <span class="param" title="Maximum number of callback requests to execute before aborting">$depth</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the maximum callback depth property.</p>
 
 <p>This protects the main execution from recursive callback execution (eg
@@ -663,7 +663,7 @@ param before execution is aborted with a Request_Client_Recursion_Exception.</p>
 </div>
 
 <div class='method'>
-<h3 id="on_header_location"><small>public static</small>  on_header_location(<small>Request</small> <span class="param" title="$request">$request</span> , <small>Response</small> <span class="param" title="$response">$response</span> , <small>Request_Client</small> <span class="param" title="$client">$client</span> )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="on_header_location"><small>public static</small>  on_header_location(<small>Request</small> <span class="param" title="$request">$request</span> , <small>Response</small> <span class="param" title="$response">$response</span> , <small>Request_Client</small> <span class="param" title="$client">$client</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>The default handler for following redirects, triggered by the presence of
 a Location header in the response.</p>
 
@@ -736,13 +736,13 @@ one of 201, 301, 302, 303 or 307 for the redirect to be followed.</p>
 </div>
 
 <div class='method'>
-<h3 id="strict_redirect"><small>public</small>  strict_redirect([ <small>bool</small> <span class="param" title="Boolean indicating if 302 redirects should be followed with the original method">$strict_redirect</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client</a>)</small></h3>
+<h3 id="strict_redirect"><small>public</small>  strict_redirect([ <small>bool</small> <span class="param" title="Boolean indicating if 302 redirects should be followed with the original method">$strict_redirect</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request_Client'>Mountain Valley Church of God_Request_Client</a>)</small></h3>
 <div class='description'><p>Getter and setter for the strict redirects setting</p>
 
 <p class="note">HTTP/1.1 specifies that a 302 redirect should be followed using the
 original request method. However, the vast majority of clients and servers
 get this wrong, with 302 widely used for 'POST - 302 redirect - GET' patterns.
-By default, Kohana's client is fully compliant with the HTTP spec. Some
+By default, Mountain Valley Church of God's client is fully compliant with the HTTP spec. Some
 non-compliant third party sites may require that strict_redirect is set
 FALSE to force the client to switch to GET following a 302 response.</p>
 </div>

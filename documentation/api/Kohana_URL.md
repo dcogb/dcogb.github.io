@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_URL
+class: Mountain Valley Church of God_URL
 ---
-<h1>Kohana_URL</h1>
+<h1>Mountain Valley Church of God_URL</h1>
 <p>
 <i><p>URL helper class.</p>
 
@@ -11,13 +11,13 @@ class: Kohana_URL
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -68,7 +68,7 @@ class: Kohana_URL
 <div class='methods'>
 
 <div class='method'>
-<h3 id="base"><small>public static</small>  base([ <small>mixed</small> <span class="param" title="Protocol string, [Request], or boolean">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Add index file to URL?">$index</span> <small>= <small>bool</small> FALSE</small> , <small>string</small> <span class="param" title="Subdomain string">$subdomain</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="base"><small>public static</small>  base([ <small>mixed</small> <span class="param" title="Protocol string, [Request], or boolean">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Add index file to URL?">$index</span> <small>= <small>bool</small> FALSE</small> , <small>string</small> <span class="param" title="Subdomain string">$subdomain</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Gets the base URL to the application.
 To specify a protocol, provide the protocol as a string or request object.
 If a protocol is used, a complete URL will be generated using the
@@ -101,7 +101,7 @@ echo URL::base($request);
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:index_file">Kohana::$index_file</a>, <a href="#protocol">Request::protocol()</a></li>
+<li>Uses - <a href="#property:index_file">Mountain Valley Church of God::$index_file</a>, <a href="#protocol">Request::protocol()</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -114,7 +114,7 @@ echo URL::base($request);
 <code class="language-php">public static function base($protocol = NULL, $index = FALSE, $subdomain = NULL)
 {
 	// Start with the configured base URL
-	$base_url = Kohana::$base_url;
+	$base_url = Mountain Valley Church of God::$base_url;
 
 	if ($protocol === TRUE)
 	{
@@ -141,10 +141,10 @@ echo URL::base($request);
 		$protocol = parse_url($base_url, PHP_URL_SCHEME);
 	}
 
-	if ($index === TRUE AND ! empty(Kohana::$index_file))
+	if ($index === TRUE AND ! empty(Mountain Valley Church of God::$index_file))
 	{
 		// Add the index file to the URL
-		$base_url .= Kohana::$index_file.&#039;/&#039;;
+		$base_url .= Mountain Valley Church of God::$index_file.&#039;/&#039;;
 	}
 
 	if (is_string($protocol))
@@ -186,7 +186,7 @@ echo URL::base($request);
 		// check that host does not contain forbidden characters (see RFC 952 and RFC 2181)
 		// use preg_replace() instead of preg_match() to prevent DoS attacks with long host names
 		if ($host &amp;&amp; &#039;&#039; !== preg_replace(&#039;/(?:^\[)?[a-zA-Z0-9-:\]_]+\.?/&#039;, &#039;&#039;, $host)) {
-			throw new Kohana_Exception(
+			throw new Mountain Valley Church of God_Exception(
 				&#039;Invalid host :host&#039;,
 				[&#039;:host&#039; =&gt; $host]
 			);
@@ -195,7 +195,7 @@ echo URL::base($request);
 		// Validate $host, see if it matches trusted hosts
 		if ( ! static::is_trusted_host($host))
 		{
-			throw new Kohana_Exception(
+			throw new Mountain Valley Church of God_Exception(
 				&#039;Untrusted host :host. If you trust :host, add it to the trusted hosts in the `url` config file.&#039;,
 				[&#039;:host&#039; =&gt; $host]
 			);
@@ -212,7 +212,7 @@ echo URL::base($request);
 </div>
 
 <div class='method'>
-<h3 id="is_trusted_host"><small>public static</small>  is_trusted_host(<small>string</small> <span class="param" title="$host">$host</span> [, <small>array</small> <span class="param" title="$trusted_hosts">$trusted_hosts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="is_trusted_host"><small>public static</small>  is_trusted_host(<small>string</small> <span class="param" title="$host">$host</span> [, <small>array</small> <span class="param" title="$trusted_hosts">$trusted_hosts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Test if given $host should be trusted.</p>
 
 <p>Tests against given $trusted_hosts
@@ -239,7 +239,7 @@ or looks for key <code>trusted_hosts</code> in <code>url</code> config</p>
 	// If list of trusted hosts is not directly provided read from config
 	if (empty($trusted_hosts))
 	{
-		$trusted_hosts = (array) Kohana::$config-&gt;load(&#039;url&#039;)-&gt;get(&#039;trusted_hosts&#039;);
+		$trusted_hosts = (array) Mountain Valley Church of God::$config-&gt;load(&#039;url&#039;)-&gt;get(&#039;trusted_hosts&#039;);
 	}
 
 	// loop through the $trusted_hosts array for a match
@@ -265,7 +265,7 @@ or looks for key <code>trusted_hosts</code> in <code>url</code> config</p>
 </div>
 
 <div class='method'>
-<h3 id="query"><small>public static</small>  query([ <small>array</small> <span class="param" title="Array of GET parameters">$params</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include current request GET parameters">$use_get</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="query"><small>public static</small>  query([ <small>array</small> <span class="param" title="Array of GET parameters">$params</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include current request GET parameters">$use_get</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Merges the current GET parameters with an array of new or overloaded
 parameters and returns the resulting query string.</p>
 
@@ -326,7 +326,7 @@ or something similar.</p>
 </div>
 
 <div class='method'>
-<h3 id="site"><small>public static</small>  site([ <small>string</small> <span class="param" title="Site URI to convert">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>mixed</small> <span class="param" title="Protocol string or [Request] class to use protocol from">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index_page in the URL">$index</span> <small>= <small>bool</small> TRUE</small> , <small>string</small> <span class="param" title="Subdomain string">$subdomain</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="site"><small>public static</small>  site([ <small>string</small> <span class="param" title="Site URI to convert">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>mixed</small> <span class="param" title="Protocol string or [Request] class to use protocol from">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index_page in the URL">$index</span> <small>= <small>bool</small> TRUE</small> , <small>string</small> <span class="param" title="Subdomain string">$subdomain</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Fetches an absolute site URL based on a URI segment.</p>
 
 <pre><code>echo URL::site('foo/bar');
@@ -374,7 +374,7 @@ or something similar.</p>
 </div>
 
 <div class='method'>
-<h3 id="title"><small>public static</small>  title(<small>string</small> <span class="param" title="Phrase to convert">$title</span> [, <small>string</small> <span class="param" title="Word separator (any single character)">$separator</span> <small>= <small>string</small><span>(1)</span> "-"</small> , <small>boolean</small> <span class="param" title="Transliterate to ASCII?">$ascii_only</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="title"><small>public static</small>  title(<small>string</small> <span class="param" title="Phrase to convert">$title</span> [, <small>string</small> <span class="param" title="Word separator (any single character)">$separator</span> <small>= <small>string</small><span>(1)</span> "-"</small> , <small>boolean</small> <span class="param" title="Transliterate to ASCII?">$ascii_only</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Convert a phrase to a URL-safe title.</p>
 
 <pre><code>echo URL::title('My Blog Post'); // "my-blog-post"
@@ -435,7 +435,7 @@ or something similar.</p>
 </div>
 
 <div class='method'>
-<h3 id="_rawurlencode_callback"><small>protected static</small>  _rawurlencode_callback(<small>array</small> <span class="param" title="Array of matches from preg_replace_callback()">$matches</span> )<small> (defined in <a href='/documentation/api/Kohana_URL'>Kohana_URL</a>)</small></h3>
+<h3 id="_rawurlencode_callback"><small>protected static</small>  _rawurlencode_callback(<small>array</small> <span class="param" title="Array of matches from preg_replace_callback()">$matches</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_URL'>Mountain Valley Church of God_URL</a>)</small></h3>
 <div class='description'><p>Callback used for encoding all non-ASCII characters, as per RFC 1738
 Used by URL::site()</p>
 </div>

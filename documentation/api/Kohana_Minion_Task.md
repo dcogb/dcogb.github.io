@@ -1,19 +1,19 @@
 ---
 layout: api
-class: Kohana_Minion_Task
+class: Mountain Valley Church of God_Minion_Task
 ---
-<h1>Kohana_Minion_Task</h1>
+<h1>Mountain Valley Church of God_Minion_Task</h1>
 <p>
 <i><p>Interface that all minion tasks must implement</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Minion</dd>
+<dd>Mountain Valley Church of God/Minion</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -173,7 +173,7 @@ This array is automatically populated based on $_options.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Gets the task name for the task</p>
 </div>
 <h4>Return Values</h4>
@@ -200,7 +200,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="build_validation"><small>public</small>  build_validation(<small>Validation</small> <span class="param" title="The validation object to add rules to ">$validation</span> )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="build_validation"><small>public</small>  build_validation(<small>Validation</small> <span class="param" title="The validation object to add rules to ">$validation</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Adds any validation rules/labels for validating _options</p>
 
 <pre><code>public function build_validation(Validation $validation)
@@ -239,7 +239,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="convert_class_to_task"><small>public static</small>  convert_class_to_task(<small>string|Minion_Task</small> <span class="param" title="The task class / object">$class</span> )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="convert_class_to_task"><small>public static</small>  convert_class_to_task(<small>string|Minion_Task</small> <span class="param" title="The task class / object">$class</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Gets the task name of a task class / task object</p>
 </div>
 <h4>Parameters</h4>
@@ -269,7 +269,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="convert_task_to_class_name"><small>public static</small>  convert_task_to_class_name(<small>string</small> <span class="param" title="Task name">$task</span> )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="convert_task_to_class_name"><small>public static</small>  convert_task_to_class_name(<small>string</small> <span class="param" title="Task name">$task</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Converts a task (e.g. db:migrate to a class name)</p>
 </div>
 <h4>Parameters</h4>
@@ -299,7 +299,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Execute the task with the specified set of options</p>
 </div>
 <h4>Return Values</h4>
@@ -336,7 +336,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>array</small> <span class="param" title="An array of command line options. It should contain the 'task' key">$options</span> )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>array</small> <span class="param" title="An array of command line options. It should contain the 'task' key">$options</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Factory for loading minion tasks</p>
 </div>
 <h4>Parameters</h4>
@@ -408,7 +408,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="get_accepted_options"><small>public</small>  get_accepted_options()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="get_accepted_options"><small>public</small>  get_accepted_options()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Get a set of options that this task can accept</p>
 </div>
 <h4>Return Values</h4>
@@ -428,7 +428,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="get_errors_file"><small>public</small>  get_errors_file()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="get_errors_file"><small>public</small>  get_errors_file()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Returns $_errors_file</p>
 </div>
 <h4>Return Values</h4>
@@ -448,7 +448,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="get_options"><small>public</small>  get_options()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="get_options"><small>public</small>  get_options()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Get the options that were passed into this task with their defaults</p>
 </div>
 <h4>Return Values</h4>
@@ -468,7 +468,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="set_options"><small>public</small>  set_options()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="set_options"><small>public</small>  set_options()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Sets options for this task</p>
 
 <p>$param  array  the array of options to set</p>
@@ -495,7 +495,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="valid_option"><small>public</small>  valid_option()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="valid_option"><small>public</small>  valid_option()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -512,7 +512,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>protected</small>  __construct()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="__construct"><small>protected</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -527,7 +527,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="_compile_task_list"><small>protected</small>  _compile_task_list(<small>array</small> <span class="param" title="Directory structure of tasks">$files</span> [, <small>string</small> <span class="param" title="Prefix">$prefix</span> <small>= <small>string</small><span>(0)</span> ""</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="_compile_task_list"><small>protected</small>  _compile_task_list(<small>array</small> <span class="param" title="Directory structure of tasks">$files</span> [, <small>string</small> <span class="param" title="Prefix">$prefix</span> <small>= <small>string</small><span>(0)</span> ""</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Compiles a list of available tasks from a directory structure</p>
 </div>
 <h4>Parameters</h4>
@@ -575,7 +575,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="_execute"><small>abstract protected</small>  _execute()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="_execute"><small>abstract protected</small>  _execute()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -586,7 +586,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="_help"><small>protected</small>  _help()<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="_help"><small>protected</small>  _help()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Outputs help for this task</p>
 </div>
 <h4>Return Values</h4>
@@ -599,7 +599,7 @@ This array is automatically populated based on $_options.</p>
 <pre>
 <code class="language-php">protected function _help(array $params)
 {
-	$tasks = $this-&gt;_compile_task_list(Kohana::list_files(&#039;classes/task&#039;));
+	$tasks = $this-&gt;_compile_task_list(Mountain Valley Church of God::list_files(&#039;classes/task&#039;));
 
 	$inspector = new ReflectionClass($this);
 
@@ -617,7 +617,7 @@ This array is automatically populated based on $_options.</p>
 </div>
 
 <div class='method'>
-<h3 id="_parse_doccomment"><small>protected</small>  _parse_doccomment(<small>string</small> <span class="param" title="The comment to parse">$comment</span> )<small> (defined in <a href='/documentation/api/Kohana_Minion_Task'>Kohana_Minion_Task</a>)</small></h3>
+<h3 id="_parse_doccomment"><small>protected</small>  _parse_doccomment(<small>string</small> <span class="param" title="The comment to parse">$comment</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Task'>Mountain Valley Church of God_Minion_Task</a>)</small></h3>
 <div class='description'><p>Parses a doccomment, extracting both the comment and any tags associated</p>
 
 <p>Based on the code in Kodoc::parse()</p>

@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Pagination
+class: Mountain Valley Church of God_Pagination
 ---
-<h1>Kohana_Pagination</h1>
+<h1>Mountain Valley Church of God_Pagination</h1>
 <p>
 <i><p>Pagination links generator.</p>
 </i>
@@ -15,7 +15,7 @@ class: Kohana_Pagination
 <dt>author</dt>
 <dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -312,7 +312,7 @@ class: Kohana_Pagination
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> , $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> , $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Creates a new Pagination object.</p>
 </div>
 <h4>Parameters</h4>
@@ -362,7 +362,7 @@ class: Kohana_Pagination
 </div>
 
 <div class='method'>
-<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Property name">$key</span> )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Property name">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Returns a Pagination property.</p>
 </div>
 <h4>Parameters</h4>
@@ -387,7 +387,7 @@ class: Kohana_Pagination
 </div>
 
 <div class='method'>
-<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Config key">$key</span> , <small>mixed</small> <span class="param" title="Config value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Config key">$key</span> , <small>mixed</small> <span class="param" title="Config value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Updates a single config setting, and recalculates pagination if needed.</p>
 </div>
 <h4>Parameters</h4>
@@ -414,7 +414,7 @@ class: Kohana_Pagination
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Renders the pagination links.</p>
 </div>
 <h4>Return Values</h4>
@@ -433,7 +433,7 @@ class: Kohana_Pagination
 	}
 	catch(Exception $e)
 	{
-		Kohana_Exception::handler($e);
+		Mountain Valley Church of God_Exception::handler($e);
 		return &#039;&#039;;
 	}
 }</code>
@@ -442,7 +442,7 @@ class: Kohana_Pagination
 </div>
 
 <div class='method'>
-<h3 id="config_group"><small>public</small>  config_group([ <small>string</small> <span class="param" title="Pagination config group; "default" if none given">$group</span> <small>= <small>string</small><span>(7)</span> "default"</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="config_group"><small>public</small>  config_group([ <small>string</small> <span class="param" title="Pagination config group; "default" if none given">$group</span> <small>= <small>string</small><span>(7)</span> "default"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Retrieves a pagination config group from the config file. One config group can
 refer to another as its parent, which will be recursively loaded.</p>
 </div>
@@ -462,7 +462,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 <code class="language-php">public function config_group($group = &#039;default&#039;)
 {
 	// Load the pagination config file
-	$config_file = Kohana::$config-&gt;load(&#039;pagination&#039;);
+	$config_file = Mountain Valley Church of God::$config-&gt;load(&#039;pagination&#039;);
 
 	// Initialize the $config array
 	$config[&#039;group&#039;] = (string) $group;
@@ -489,7 +489,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> , $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> , $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Creates a new Pagination object.</p>
 </div>
 <h4>Parameters</h4>
@@ -516,7 +516,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="query"><small>public</small>  query([ <small>array</small> <span class="param" title="Parameters to override">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="query"><small>public</small>  query([ <small>array</small> <span class="param" title="Parameters to override">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>URL::query() replacement for Pagination use only</p>
 </div>
 <h4>Parameters</h4>
@@ -562,13 +562,13 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>public</small>  render([ <small>mixed</small> <span class="param" title="String of the view to use, or a Kohana_View object">$view</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="render"><small>public</small>  render([ <small>mixed</small> <span class="param" title="String of the view to use, or a Mountain Valley Church of God_View object">$view</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Renders the pagination links.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">mixed </span><strong> $view</strong> <small> = <small>NULL</small></small> - String of the view to use, or a Kohana_View object</li>
+ <span class="blue">mixed </span><strong> $view</strong> <small> = <small>NULL</small></small> - String of the view to use, or a Mountain Valley Church of God_View object</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -604,7 +604,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="request"><small>public</small>  request([ <small>Request</small> $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="request"><small>public</small>  request([ <small>Request</small> $request <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Request setter / getter</p>
 </div>
 <h4>Parameters</h4>
@@ -636,7 +636,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="route"><small>public</small>  route([ <small>Route</small> $route <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="route"><small>public</small>  route([ <small>Route</small> $route <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Route setter / getter</p>
 </div>
 <h4>Parameters</h4>
@@ -668,7 +668,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="route_params"><small>public</small>  route_params([ <small>array</small> <span class="param" title="Route parameters to set">$route_params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="route_params"><small>public</small>  route_params([ <small>array</small> <span class="param" title="Route parameters to set">$route_params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Route parameters setter / getter</p>
 </div>
 <h4>Parameters</h4>
@@ -700,7 +700,7 @@ refer to another as its parent, which will be recursively loaded.</p>
 </div>
 
 <div class='method'>
-<h3 id="setup"><small>public</small>  setup([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="setup"><small>public</small>  setup([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Loads configuration settings into the object and (re)calculates pagination if needed.
 Allows you to update config settings after a Pagination object has been constructed.</p>
 </div>
@@ -780,7 +780,7 @@ Allows you to update config settings after a Pagination object has been construc
 </div>
 
 <div class='method'>
-<h3 id="url"><small>public</small>  url([ <small>integer</small> <span class="param" title="Page number">$page</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="url"><small>public</small>  url([ <small>integer</small> <span class="param" title="Page number">$page</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Generates the full URL for a certain page.</p>
 </div>
 <h4>Parameters</h4>
@@ -825,7 +825,7 @@ Allows you to update config settings after a Pagination object has been construc
 </div>
 
 <div class='method'>
-<h3 id="valid_page"><small>public</small>  valid_page(<small>integer</small> <span class="param" title="Page number">$page</span> )<small> (defined in <a href='/documentation/api/Kohana_Pagination'>Kohana_Pagination</a>)</small></h3>
+<h3 id="valid_page"><small>public</small>  valid_page(<small>integer</small> <span class="param" title="Page number">$page</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Pagination'>Mountain Valley Church of God_Pagination</a>)</small></h3>
 <div class='description'><p>Checks whether the given page number exists.</p>
 </div>
 <h4>Parameters</h4>

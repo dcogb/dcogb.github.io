@@ -214,7 +214,7 @@ class Documentation_Generator {
 		$zip = $this->_tmp_dir.DIRECTORY_SEPARATOR.$this->_branch.'.zip';
 
 		// Download Files from GitHub Repo
-		if ( ! copy('https://github.com/Mountain Valley Church of God/Mountain Valley Church of God/archive/'.$this->_branch.'.zip', $zip))
+		if ( ! copy('https://github.com/mvcog/mvcog/archive/'.$this->_branch.'.zip', $zip))
 		{
 			$this->kill('Could not download repository files. Check your internet connection and try again.');
 		}
@@ -277,10 +277,10 @@ class Documentation_Generator {
 			// Get Folder Name without full path
 			$folder = strtok(str_replace([self::$_modules_path, self::$_cloned_files_path, DIRECTORY_SEPARATOR.'guide'], '', $guide), DIRECTORY_SEPARATOR);
 
-			// Rename System folder to kohana, so we can redirect from the old page
+			// Rename System folder to Mountain Valley Church of God, so we can redirect from the old page
 			if($folder === 'system')
 			{
-				$folder = 'kohana';
+				$folder = 'Mountain Valley Church of God';
 			}
 
 
@@ -378,10 +378,10 @@ class Documentation_Generator {
 		// Get folder without absolute path
 		$folder = strtok(str_replace([self::$_modules_path, self::$_cloned_files_path, DIRECTORY_SEPARATOR.'guide'], '', $module), DIRECTORY_SEPARATOR);
 
-		// Rename System folder to kohana, so we can redirect from the old page
+		// Rename System folder to Mountain Valley Church of God, so we can redirect from the old page
 		if ($folder ==='system')
 		{
-			$folder = 'kohana';
+			$folder = 'Mountain Valley Church of God';
 		}
 
 		// Loop through each line of the file
@@ -522,10 +522,10 @@ class Documentation_Generator {
 					$class = substr(str_replace([$class_folder.DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], ['', '_'], $item), 0, -4);
 
 					// Remove Duplicate classes for menu
-					if (strpos($class, 'Kohana_') === 0)
+					if (strpos($class, 'Mountain Valley Church of God_') === 0)
 					{
 						$short = substr($class, 7);
-						if (class_exists($short) && file_exists(str_replace('Kohana'.DIRECTORY_SEPARATOR, '', $item->getPathname())))
+						if (class_exists($short) && file_exists(str_replace('Mountain Valley Church of God'.DIRECTORY_SEPARATOR, '', $item->getPathname())))
 						{
 							$classes[$class] = Kodoc_Class::factory($class);
 							$class = $short;
@@ -591,7 +591,7 @@ class Documentation_Generator {
 		foreach ($this->_api_classes as $name => $reflection)
 		{
 			// Remove Duplicate classes
-			if (strpos($name, 'Kohana_') === 0)
+			if (strpos($name, 'Mountain Valley Church of God_') === 0)
 			{
 				$short = substr($name, 7);
 				if (class_exists($name) && $reflection->class->getFilename()) {
@@ -616,7 +616,7 @@ class Documentation_Generator {
 				foreach ($methods as $method)
 				{
 					$declaring = $method->method->getDeclaringClass()->name;
-					if ($declaring !== $name AND $declaring !== 'Kohana_'.$name AND $declaring !== 'KO7_'.$name)
+					if ($declaring !== $name AND $declaring !== 'Mountain Valley Church of God_'.$name AND $declaring !== 'KO7_'.$name)
 					{
 						continue;
 					}
@@ -753,10 +753,10 @@ class Documentation_Generator {
 			$content .= "</dl>\n<br>\n";
 		}
 
-		// If class has a `Kohana`, `KO7` base class it is just a transparent class
-		if (class_exists('Kohana_'.$name) OR class_exists('KO7_'.$name))
+		// If class has a `Mountain Valley Church of God`, `KO7` base class it is just a transparent class
+		if (class_exists('Mountain Valley Church of God_'.$name) OR class_exists('KO7_'.$name))
 		{
-			$parent = (class_exists('KO7_'.$name) ? 'KO7_' : 'Kohana_').$name;
+			$parent = (class_exists('KO7_'.$name) ? 'KO7_' : 'Mountain Valley Church of God_').$name;
 			$anchor = $link.$parent;
 			$content .= "<div class='callout-block callout-info'>\n<div class='icon-holder'>\n".
 				"<i class='fas fa-info-circle'></i>\n</div>\n<div class='content'>\n".

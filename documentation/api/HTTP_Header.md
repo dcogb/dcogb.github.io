@@ -3,7 +3,7 @@ layout: api
 class: HTTP_Header
 ---
 <h1>HTTP_Header</h1>
-extends <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>
 <br />
 extends <a href='/documentation/api/ArrayObject'>ArrayObject</a>
 <br />
@@ -11,7 +11,7 @@ extends <a href='/documentation/api/ArrayObject'>ArrayObject</a>
 <small>Implements: <a href='/documentation/api/IteratorAggregate'>IteratorAggregate</a> | <a href='/documentation/api/Traversable'>Traversable</a> | <a href='/documentation/api/ArrayAccess'>ArrayAccess</a> | <a href='/documentation/api/Serializable'>Serializable</a> | <a href='/documentation/api/Countable'>Countable</a></small>
 </p>
 <p>
-<i><p>The Kohana_HTTP_Header class provides an Object-Orientated interface
+<i><p>The Mountain Valley Church of God_HTTP_Header class provides an Object-Orientated interface
 to HTTP headers. This can parse header arrays returned from the
 PHP functions <code>apache_request_headers()</code> or the <code>http_parse_headers()</code>
 function available within the PECL HTTP library.</p>
@@ -19,15 +19,15 @@ function available within the PECL HTTP library.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>HTTP</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>since</dt>
 <dd>3.1.0</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -38,7 +38,7 @@ function available within the PECL HTTP library.</p>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -298,11 +298,11 @@ function available within the PECL HTTP library.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Input array">$input</span> <small>= <small>array</small><span>(0)</span> </small> , <small>int</small> <span class="param" title="Flags">$flags</span> <small>= <small>integer</small> 0</small> , <small>string</small> <span class="param" title="The iterator class to use">$iterator_class</span> <small>= <small>string</small><span>(13)</span> "ArrayIterator"</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
-<div class='description'><p>Constructor method for <a href="/index.php/">Kohana_HTTP_Header</a>. Uses the standard constructor
+<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Input array">$input</span> <small>= <small>array</small><span>(0)</span> </small> , <small>int</small> <span class="param" title="Flags">$flags</span> <small>= <small>integer</small> 0</small> , <small>string</small> <span class="param" title="The iterator class to use">$iterator_class</span> <small>= <small>string</small><span>(13)</span> "ArrayIterator"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
+<div class='description'><p>Constructor method for <a href="/index.php/">Mountain Valley Church of God_HTTP_Header</a>. Uses the standard constructor
 of the parent <code>ArrayObject</code> class.</p>
 
-<pre><code>$header_object = new HTTP_Header(array('x-powered-by' =&gt; 'Kohana 3.1.x', 'expires' =&gt; '...'));
+<pre><code>$header_object = new HTTP_Header(array('x-powered-by' =&gt; 'Mountain Valley Church of God 3.1.x', 'expires' =&gt; '...'));
 </code></pre>
 </div>
 <h4>Parameters</h4>
@@ -333,7 +333,7 @@ of the parent <code>ArrayObject</code> class.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the header object as a string, including
 the terminating new line</p>
 
@@ -375,7 +375,7 @@ echo (string) $request-&gt;headers();
 </div>
 
 <div class='method'>
-<h3 id="accept_quality"><small>public static</small>  accept_quality(<small>array</small> <span class="param" title="Accept header parts">$parts</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="accept_quality"><small>public static</small>  accept_quality(<small>array</small> <span class="param" title="Accept header parts">$parts</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses an Accept(-*) header and detects the quality</p>
 </div>
 <h4>Parameters</h4>
@@ -433,7 +433,7 @@ echo (string) $request-&gt;headers();
 </div>
 
 <div class='method'>
-<h3 id="accepts_at_quality"><small>public</small>  accepts_at_quality(<small>string</small> <span class="param" title="$type">$type</span> [, <small>boolean</small> <span class="param" title="Explicit check, excludes `*`">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="accepts_at_quality"><small>public</small>  accepts_at_quality(<small>string</small> <span class="param" title="$type">$type</span> [, <small>boolean</small> <span class="param" title="Explicit check, excludes `*`">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the accept quality of a submitted mime type based on the
 request <code>Accept:</code> header. If the <code>$explicit</code> argument is <code>TRUE</code>,
 only precise matches will be returned, excluding all wildcard (<code>*</code>)
@@ -488,7 +488,7 @@ $quality_explicit = $request-&gt;headers()-&gt;accepts_at_quality('text/plain', 
 	// If not a real mime, try and find it in config
 	if (strpos($type, &#039;/&#039;) === FALSE)
 	{
-		$mime = Kohana::$config-&gt;load(&#039;mimes.&#039;.$type);
+		$mime = Mountain Valley Church of God::$config-&gt;load(&#039;mimes.&#039;.$type);
 
 		if ($mime === NULL)
 			return FALSE;
@@ -535,7 +535,7 @@ $quality_explicit = $request-&gt;headers()-&gt;accepts_at_quality('text/plain', 
 </div>
 
 <div class='method'>
-<h3 id="accepts_charset_at_quality"><small>public</small>  accepts_charset_at_quality(<small>string</small> <span class="param" title="Charset to examine">$charset</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="accepts_charset_at_quality"><small>public</small>  accepts_charset_at_quality(<small>string</small> <span class="param" title="Charset to examine">$charset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the quality of the supplied <code>$charset</code> argument. This method
 will automatically parse the <code>Accept-Charset</code> header if present and
 return the associated resolved quality value.</p>
@@ -599,7 +599,7 @@ return the associated resolved quality value.</p>
 </div>
 
 <div class='method'>
-<h3 id="accepts_encoding_at_quality"><small>public</small>  accepts_encoding_at_quality(<small>string</small> <span class="param" title="Encoding type to interrogate">$encoding</span> [, <small>boolean</small> <span class="param" title="Explicit check, ignoring wildcards and `identity`">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="accepts_encoding_at_quality"><small>public</small>  accepts_encoding_at_quality(<small>string</small> <span class="param" title="Encoding type to interrogate">$encoding</span> [, <small>boolean</small> <span class="param" title="Explicit check, ignoring wildcards and `identity`">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the quality of the <code>$encoding</code> type passed to it. Encoding
 is usually compression such as <code>gzip</code>, but could be some other
 message encoding algorithm. This method allows explicit checks to be
@@ -672,7 +672,7 @@ done ignoring wildcards.</p>
 </div>
 
 <div class='method'>
-<h3 id="accepts_language_at_quality"><small>public</small>  accepts_language_at_quality(<small>string</small> <span class="param" title="Language to interrogate">$language</span> [, <small>boolean</small> <span class="param" title="Explicit interrogation, `TRUE` ignores wildcards">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="accepts_language_at_quality"><small>public</small>  accepts_language_at_quality(<small>string</small> <span class="param" title="Language to interrogate">$language</span> [, <small>boolean</small> <span class="param" title="Explicit interrogation, `TRUE` ignores wildcards">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the quality of <code>$language</code> supplied, optionally ignoring
 wildcards if <code>$explicit</code> is set to a non-<code>FALSE</code> value. If the quality
 is not found, <code>0.0</code> is returned.</p>
@@ -757,7 +757,7 @@ $lang3 = $header-&gt;accepts_language_at_quality('en-au', TRUE);
 </div>
 
 <div class='method'>
-<h3 id="create_cache_control"><small>public static</small>  create_cache_control(<small>array</small> <span class="param" title="Cache-Control to render to string">$cache_control</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="create_cache_control"><small>public static</small>  create_cache_control(<small>array</small> <span class="param" title="Cache-Control to render to string">$cache_control</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Generates a Cache-Control HTTP header based on the supplied array.</p>
 
 <pre><code>// Set the cache control headers you want to use
@@ -805,7 +805,7 @@ $response-&gt;headers('Cache-Control', HTTP_Header::create_cache_control($cache_
 </div>
 
 <div class='method'>
-<h3 id="exchangeArray"><small>public</small>  exchangeArray(<small>mixed</small> <span class="param" title="$input">$input</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="exchangeArray"><small>public</small>  exchangeArray(<small>mixed</small> <span class="param" title="$input">$input</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Overloads the <code>ArrayObject::exchangeArray()</code> method to ensure that
 all keys are changed to lowercase.</p>
 </div>
@@ -842,7 +842,7 @@ all keys are changed to lowercase.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetExists"><small>public</small>  offsetExists(<small>string</small> <span class="param" title="$index">$index</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="offsetExists"><small>public</small>  offsetExists(<small>string</small> <span class="param" title="$index">$index</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Overloads the <code>ArrayObject::offsetExists()</code> method to ensure keys
 are lowercase.</p>
 </div>
@@ -872,7 +872,7 @@ are lowercase.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetGet"><small>public</small>  offsetGet(<small>string</small> <span class="param" title="Index to retrieve">$index</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="offsetGet"><small>public</small>  offsetGet(<small>string</small> <span class="param" title="Index to retrieve">$index</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Overload the <code>ArrayObject::offsetGet()</code> method to ensure that all
 keys passed to it are formatted correctly for this object.</p>
 </div>
@@ -902,7 +902,7 @@ keys passed to it are formatted correctly for this object.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetSet"><small>public</small>  offsetSet(<small>mixed</small> <span class="param" title="Index to set `$newval` to">$index</span> , <small>mixed</small> <span class="param" title="New value to set">$newval</span> [, <small>boolean</small> <span class="param" title="Replace existing value">$replace</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="offsetSet"><small>public</small>  offsetSet(<small>mixed</small> <span class="param" title="Index to set `$newval` to">$index</span> , <small>mixed</small> <span class="param" title="New value to set">$newval</span> [, <small>boolean</small> <span class="param" title="Replace existing value">$replace</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Overloads <code>ArrayObject::offsetSet()</code> to enable handling of header
 with multiple instances of the same directive. If the <code>$replace</code> flag
 is <code>FALSE</code>, the header will be appended rather than replacing the
@@ -957,7 +957,7 @@ original setting.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetUnset"><small>public</small>  offsetUnset(<small>string</small> <span class="param" title="$index">$index</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="offsetUnset"><small>public</small>  offsetUnset(<small>string</small> <span class="param" title="$index">$index</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Overloads the <code>ArrayObject::offsetUnset()</code> method to ensure keys
 are lowercase.</p>
 </div>
@@ -987,7 +987,7 @@ are lowercase.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse_accept_header"><small>public static</small>  parse_accept_header([ <small>string</small> <span class="param" title="Accept content header string to parse">$accepts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_accept_header"><small>public static</small>  parse_accept_header([ <small>string</small> <span class="param" title="Accept content header string to parse">$accepts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the accept header to provide the correct quality values
 for each supplied accept type.</p>
 </div>
@@ -1044,7 +1044,7 @@ for each supplied accept type.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse_cache_control"><small>public static</small>  parse_cache_control(<small>array</small> <span class="param" title="Array of headers">$cache_control</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_cache_control"><small>public static</small>  parse_cache_control(<small>array</small> <span class="param" title="Array of headers">$cache_control</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the Cache-Control header and returning an array representation of the Cache-Control
 header.</p>
 
@@ -1102,7 +1102,7 @@ if ($cache_control = HTTP_Header::parse_cache_control($response-&gt;headers('cac
 </div>
 
 <div class='method'>
-<h3 id="parse_charset_header"><small>public static</small>  parse_charset_header([ <small>string</small> <span class="param" title="Charset string to parse">$charset</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_charset_header"><small>public static</small>  parse_charset_header([ <small>string</small> <span class="param" title="Charset string to parse">$charset</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the <code>Accept-Charset:</code> HTTP header and returns an array containing
 the charset and associated quality.</p>
 </div>
@@ -1138,7 +1138,7 @@ the charset and associated quality.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse_encoding_header"><small>public static</small>  parse_encoding_header([ <small>string</small> <span class="param" title="Charset string to parse">$encoding</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_encoding_header"><small>public static</small>  parse_encoding_header([ <small>string</small> <span class="param" title="Charset string to parse">$encoding</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the <code>Accept-Encoding:</code> HTTP header and returns an array containing
 the charsets and associated quality.</p>
 </div>
@@ -1181,7 +1181,7 @@ the charsets and associated quality.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse_header_string"><small>public</small>  parse_header_string(<small>resource</small> <span class="param" title="The resource (required by Curl API)">$resource</span> , <small>string</small> <span class="param" title="The line from the header to parse">$header_line</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_header_string"><small>public</small>  parse_header_string(<small>resource</small> <span class="param" title="The resource (required by Curl API)">$resource</span> , <small>string</small> <span class="param" title="The line from the header to parse">$header_line</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses a HTTP Message header line and applies it to this HTTP_Header</p>
 
 <pre><code>$header = $response-&gt;headers();
@@ -1224,7 +1224,7 @@ $header-&gt;parse_header_string(NULL, 'content-type: application/json');
 </div>
 
 <div class='method'>
-<h3 id="parse_language_header"><small>public static</small>  parse_language_header([ <small>string</small> <span class="param" title="Charset string to parse">$language</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="parse_language_header"><small>public static</small>  parse_language_header([ <small>string</small> <span class="param" title="Charset string to parse">$language</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the <code>Accept-Language:</code> HTTP header and returns an array containing
 the languages and associated quality.</p>
 </div>
@@ -1282,7 +1282,7 @@ the languages and associated quality.</p>
 </div>
 
 <div class='method'>
-<h3 id="preferred_accept"><small>public</small>  preferred_accept(<small>array</small> <span class="param" title="The content types to examine">$types</span> [, <small>boolean</small> <span class="param" title="Only allow explicit references, no wildcards">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="preferred_accept"><small>public</small>  preferred_accept(<small>array</small> <span class="param" title="The content types to examine">$types</span> [, <small>boolean</small> <span class="param" title="Only allow explicit references, no wildcards">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the preferred response content type based on the accept header
 quality settings. If items have the same quality value, the first item
 found in the array supplied as <code>$types</code> will be returned.</p>
@@ -1343,7 +1343,7 @@ $result = $header-&gt;preferred_accept(array(
 </div>
 
 <div class='method'>
-<h3 id="preferred_charset"><small>public</small>  preferred_charset(<small>array</small> <span class="param" title="Charsets to test">$charsets</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="preferred_charset"><small>public</small>  preferred_charset(<small>array</small> <span class="param" title="Charsets to test">$charsets</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the preferred charset from the supplied array <code>$charsets</code> based
 on the <code>Accept-Charset</code> header directive.</p>
 
@@ -1393,7 +1393,7 @@ on the <code>Accept-Charset</code> header directive.</p>
 </div>
 
 <div class='method'>
-<h3 id="preferred_encoding"><small>public</small>  preferred_encoding(<small>array</small> <span class="param" title="Encodings to test against">$encodings</span> [, <small>boolean</small> <span class="param" title="Explicit check, if `TRUE` wildcards are excluded">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="preferred_encoding"><small>public</small>  preferred_encoding(<small>array</small> <span class="param" title="Encodings to test against">$encodings</span> [, <small>boolean</small> <span class="param" title="Explicit check, if `TRUE` wildcards are excluded">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the preferred message encoding type based on quality, and can
 optionally ignore wildcard references. If two or more encodings have the
 same quality, the first listed in <code>$encodings</code> will be returned.</p>
@@ -1447,7 +1447,7 @@ $encoding = $header-&gt;preferred_encoding(array(
 </div>
 
 <div class='method'>
-<h3 id="preferred_language"><small>public</small>  preferred_language(<small>array</small> <span class="param" title="$languages">$languages</span> [, <small>boolean</small> <span class="param" title="$explicit">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="preferred_language"><small>public</small>  preferred_language(<small>array</small> <span class="param" title="$languages">$languages</span> [, <small>boolean</small> <span class="param" title="$explicit">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the preferred language from the supplied array <code>$languages</code> based
 on the <code>Accept-Language</code> header directive.</p>
 
@@ -1500,7 +1500,7 @@ on the <code>Accept-Language</code> header directive.</p>
 </div>
 
 <div class='method'>
-<h3 id="send_headers"><small>public</small>  send_headers([ <small>HTTP_Response</small> <span class="param" title="Header to send">$response</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Replace existing value">$replace</span> <small>= <small>bool</small> FALSE</small> , <small>callback</small> <span class="param" title="Optional callback to replace PHP header function">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="send_headers"><small>public</small>  send_headers([ <small>HTTP_Response</small> <span class="param" title="Header to send">$response</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Replace existing value">$replace</span> <small>= <small>bool</small> FALSE</small> , <small>callback</small> <span class="param" title="Optional callback to replace PHP header function">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Sends headers to the php processor, or supplied <code>$callback</code> argument.
 This method formats the headers correctly for output, re-instating their
 capitalization for transmission.</p>
@@ -1552,12 +1552,12 @@ capitalization for transmission.</p>
 
 	if ( ! isset($headers[&#039;content-type&#039;]))
 	{
-		$processed_headers[] = &#039;Content-Type: &#039;.Kohana::$content_type.&#039;; charset=&#039;.Kohana::$charset;
+		$processed_headers[] = &#039;Content-Type: &#039;.Mountain Valley Church of God::$content_type.&#039;; charset=&#039;.Mountain Valley Church of God::$charset;
 	}
 
-	if (Kohana::$expose AND ! isset($headers[&#039;x-powered-by&#039;]))
+	if (Mountain Valley Church of God::$expose AND ! isset($headers[&#039;x-powered-by&#039;]))
 	{
-		$processed_headers[] = &#039;X-Powered-By: &#039;.Kohana::version();
+		$processed_headers[] = &#039;X-Powered-By: &#039;.Mountain Valley Church of God::version();
 	}
 
 	// Get the cookies and apply
@@ -1662,7 +1662,7 @@ capitalization for transmission.</p>
 </div>
 
 <div class='method'>
-<h3 id="_order_languages_as_received"><small>protected</small>  _order_languages_as_received(<small>array</small> <span class="param" title="Languages to order">$languages</span> [, <small>boolean</small> <span class="param" title="$explicit">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="_order_languages_as_received"><small>protected</small>  _order_languages_as_received(<small>array</small> <span class="param" title="Languages to order">$languages</span> [, <small>boolean</small> <span class="param" title="$explicit">$explicit</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Returns the reordered list of supplied <code>$languages</code> using the order
 from the <code>Accept-Language:</code> HTTP header.</p>
 </div>
@@ -1729,7 +1729,7 @@ from the <code>Accept-Language:</code> HTTP header.</p>
 </div>
 
 <div class='method'>
-<h3 id="_parse_language_header_as_list"><small>protected static</small>  _parse_language_header_as_list([ <small>string</small> <span class="param" title="Charset string to parse">$language</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="_parse_language_header_as_list"><small>protected static</small>  _parse_language_header_as_list([ <small>string</small> <span class="param" title="Charset string to parse">$language</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Parses the <code>Accept-Language:</code> HTTP header and returns an array containing
 the language names.</p>
 </div>
@@ -1772,7 +1772,7 @@ the language names.</p>
 </div>
 
 <div class='method'>
-<h3 id="_send_headers_to_php"><small>protected</small>  _send_headers_to_php(<small>array</small> <span class="param" title="Headers to send to php">$headers</span> , <small>boolean</small> <span class="param" title="Replace existing headers">$replace</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Header'>Kohana_HTTP_Header</a>)</small></h3>
+<h3 id="_send_headers_to_php"><small>protected</small>  _send_headers_to_php(<small>array</small> <span class="param" title="Headers to send to php">$headers</span> , <small>boolean</small> <span class="param" title="Replace existing headers">$replace</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Header'>Mountain Valley Church of God_HTTP_Header</a>)</small></h3>
 <div class='description'><p>Sends the supplied headers to the PHP output buffer. If cookies
 are included in the message they will be handled appropriately.</p>
 </div>

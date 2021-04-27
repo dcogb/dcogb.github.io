@@ -3,11 +3,11 @@ layout: api
 class: Image_Imagick
 ---
 <h1>Image_Imagick</h1>
-extends <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>
 <br />
 extends <a href='/documentation/api/Image'>Image</a>
 <br />
-extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>
 <br />
 <p>
 <i><p>Support for image manipulation using <a href="http://php.net/Imagick">Imagick</a>.</p>
@@ -15,13 +15,13 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Image</dd>
+<dd>Mountain Valley Church of God/Image</dd>
 <dt>category</dt>
 <dd>Drivers</dd>
 <dt>author</dt>
 <dd>Tamas Mihalik tamas.mihalik@gmail.com</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -32,7 +32,7 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -322,12 +322,12 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Runs <a href="#check">Image_Imagick::check</a> and loads the image.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -361,7 +361,7 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 </div>
 
 <div class='method'>
-<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Destroys the loaded image to free up resources.</p>
 </div>
 <h4>Return Values</h4>
@@ -382,12 +382,12 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 </div>
 
 <div class='method'>
-<h3 id="check"><small>public static</small>  check()<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="check"><small>public static</small>  check()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Checks if ImageMagick is enabled.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -401,7 +401,7 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 {
 	if ( ! extension_loaded(&#039;imagick&#039;))
 	{
-		throw new Kohana_Exception(&#039;Imagick is not installed, or the extension is not loaded&#039;);
+		throw new Mountain Valley Church of God_Exception(&#039;Imagick is not installed, or the extension is not loaded&#039;);
 	}
 
 	return Image_Imagick::$_checked = TRUE;
@@ -411,7 +411,7 @@ extends <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Render the current image.</p>
 
 <pre><code>echo $image;
@@ -437,13 +437,13 @@ appropriate Content-Type header or it will not be displayed correctly!</p>
 	}
 	catch (Exception $e)
 	{
-		if (is_object(Kohana::$log))
+		if (is_object(Mountain Valley Church of God::$log))
 		{
 			// Get the text of the exception
-			$error = Kohana_Exception::text($e);
+			$error = Mountain Valley Church of God_Exception::text($e);
 
 			// Add this exception to the log
-			Kohana::$log-&gt;add(Log::ERROR, $error);
+			Mountain Valley Church of God::$log-&gt;add(Log::ERROR, $error);
 		}
 
 		// Showing any kind of error will be &quot;inside&quot; image data
@@ -455,7 +455,7 @@ appropriate Content-Type header or it will not be displayed correctly!</p>
 </div>
 
 <div class='method'>
-<h3 id="background"><small>public</small>  background(<small>string</small> <span class="param" title="Hexadecimal color value">$color</span> [, <small>integer</small> <span class="param" title="Background opacity: 0-100">$opacity</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="background"><small>public</small>  background(<small>string</small> <span class="param" title="Hexadecimal color value">$color</span> [, <small>integer</small> <span class="param" title="Background opacity: 0-100">$opacity</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Set the background color of an image. This is only useful for images
 with alpha transparency.</p>
 
@@ -514,7 +514,7 @@ $image-&gt;background('#000', 50);
 </div>
 
 <div class='method'>
-<h3 id="crop"><small>public</small>  crop(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> [, <small>mixed</small> <span class="param" title="Offset from the left">$offset_x</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Offset from the top">$offset_y</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="crop"><small>public</small>  crop(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> [, <small>mixed</small> <span class="param" title="Offset from the left">$offset_x</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Offset from the top">$offset_y</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Crop an image to the given size. Either the width or the height can be
 omitted and the current width or height will be used.</p>
 
@@ -619,7 +619,7 @@ $image-&gt;crop(200, 200);
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Image file path">$file</span> [, <small>string</small> <span class="param" title="Driver type: GD, ImageMagick, etc">$driver</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="Image file path">$file</span> [, <small>string</small> <span class="param" title="Driver type: GD, ImageMagick, etc">$driver</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Loads an image and prepares it for manipulation.</p>
 
 <pre><code>$image = Image::factory('upload/test.jpg');
@@ -649,7 +649,7 @@ $image-&gt;crop(200, 200);
 	if ($driver === NULL)
 	{
 		// Use the driver from configuration file or default one
-		$configured_driver = Kohana::$config-&gt;load(&#039;image.default_driver&#039;);
+		$configured_driver = Mountain Valley Church of God::$config-&gt;load(&#039;image.default_driver&#039;);
 		$driver = ($configured_driver) ? $configured_driver : Image::$default_driver;
 	}
 
@@ -663,7 +663,7 @@ $image-&gt;crop(200, 200);
 </div>
 
 <div class='method'>
-<h3 id="flip"><small>public</small>  flip(<small>integer</small> <span class="param" title="Direction: Image::HORIZONTAL, Image::VERTICAL">$direction</span> )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="flip"><small>public</small>  flip(<small>integer</small> <span class="param" title="Direction: Image::HORIZONTAL, Image::VERTICAL">$direction</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Flip the image along the horizontal or vertical axis.</p>
 
 <pre><code>// Flip the image from top to bottom
@@ -707,7 +707,7 @@ $image-&gt;flip(Image::VERTICAL);
 </div>
 
 <div class='method'>
-<h3 id="reflection"><small>public</small>  reflection([ <small>integer</small> <span class="param" title="Reflection height">$height</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Reflection opacity: 0-100">$opacity</span> <small>= <small>integer</small> 100</small> , <small>boolean</small> <span class="param" title="TRUE to fade in, FALSE to fade out">$fade_in</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="reflection"><small>public</small>  reflection([ <small>integer</small> <span class="param" title="Reflection height">$height</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Reflection opacity: 0-100">$opacity</span> <small>= <small>integer</small> 100</small> , <small>boolean</small> <span class="param" title="TRUE to fade in, FALSE to fade out">$fade_in</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Add a reflection to an image. The most opaque part of the reflection
 will be equal to the opacity setting and fade out to full transparent.
 Alpha transparency is preserved.</p>
@@ -766,7 +766,7 @@ to opaque at the bottom.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>public</small>  render([ <small>string</small> <span class="param" title="Image type to return: png, jpg, gif, etc">$type</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Quality of image: 1-100">$quality</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="render"><small>public</small>  render([ <small>string</small> <span class="param" title="Image type to return: png, jpg, gif, etc">$type</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Quality of image: 1-100">$quality</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Render the image and return the binary string.</p>
 
 <pre><code>// Render the image at 50% quality
@@ -810,7 +810,7 @@ $data = $image-&gt;render('png');
 </div>
 
 <div class='method'>
-<h3 id="resize"><small>public</small>  resize([ <small>integer</small> <span class="param" title="New width">$width</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="New height">$height</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Master dimension">$master</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="resize"><small>public</small>  resize([ <small>integer</small> <span class="param" title="New width">$width</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="New height">$height</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Master dimension">$master</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Resize the image to the given size. Either the width or the height can
 be omitted and the image will be resized proportionally.</p>
 
@@ -953,7 +953,7 @@ $image-&gt;resize(200, 500, Image::NONE);
 </div>
 
 <div class='method'>
-<h3 id="rotate"><small>public</small>  rotate(<small>integer</small> <span class="param" title="Degrees to rotate: -360-360">$degrees</span> )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="rotate"><small>public</small>  rotate(<small>integer</small> <span class="param" title="Degrees to rotate: -360-360">$degrees</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Rotate the image by a given amount.</p>
 
 <pre><code>// Rotate 45 degrees clockwise
@@ -1014,7 +1014,7 @@ $image-&gt;rotate(-90);
 </div>
 
 <div class='method'>
-<h3 id="save"><small>public</small>  save([ <small>string</small> <span class="param" title="New image path">$file</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Quality of image: 1-100">$quality</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="save"><small>public</small>  save([ <small>string</small> <span class="param" title="New image path">$file</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Quality of image: 1-100">$quality</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Save the image. If the filename is omitted, the original image will
 be overwritten.</p>
 
@@ -1040,7 +1040,7 @@ exception will be thrown.</p>
 <h4>Tags</h4>
 <ul class='tags'>
 <li>Uses - <a href="#_save">Image::_save</a></li>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1062,7 +1062,7 @@ exception will be thrown.</p>
 	{
 		if ( ! is_writable($file))
 		{
-			throw new Kohana_Exception(&#039;File must be writable: :file&#039;,
+			throw new Mountain Valley Church of God_Exception(&#039;File must be writable: :file&#039;,
 				[&#039;:file&#039; =&gt; Debug::path($file)]);
 		}
 	}
@@ -1073,7 +1073,7 @@ exception will be thrown.</p>
 
 		if ( ! is_dir($directory) OR ! is_writable($directory))
 		{
-			throw new Kohana_Exception(&#039;Directory must be writable: :directory&#039;,
+			throw new Mountain Valley Church of God_Exception(&#039;Directory must be writable: :directory&#039;,
 				[&#039;:directory&#039; =&gt; Debug::path($directory)]);
 		}
 	}
@@ -1088,7 +1088,7 @@ exception will be thrown.</p>
 </div>
 
 <div class='method'>
-<h3 id="sharpen"><small>public</small>  sharpen(<small>integer</small> <span class="param" title="Amount to sharpen: 1-100">$amount</span> )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="sharpen"><small>public</small>  sharpen(<small>integer</small> <span class="param" title="Amount to sharpen: 1-100">$amount</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Sharpen the image by a given amount.</p>
 
 <pre><code>// Sharpen the image by 20%
@@ -1126,7 +1126,7 @@ $image-&gt;sharpen(20);
 </div>
 
 <div class='method'>
-<h3 id="watermark"><small>public</small>  watermark(<small>Image</small> <span class="param" title="Watermark Image instance">$watermark</span> [, <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Opacity of watermark: 1-100">$opacity</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="watermark"><small>public</small>  watermark(<small>Image</small> <span class="param" title="Watermark Image instance">$watermark</span> [, <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Opacity of watermark: 1-100">$opacity</span> <small>= <small>integer</small> 100</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Add a watermark to an image with a specified opacity. Alpha transparency
 will be preserved.</p>
 
@@ -1207,7 +1207,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_background"><small>protected</small>  _do_background(<small>integer</small> <span class="param" title="Red">$r</span> , <small>integer</small> <span class="param" title="Green">$g</span> , <small>integer</small> <span class="param" title="Blue">$b</span> , <small>integer</small> <span class="param" title="Opacity">$opacity</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_background"><small>protected</small>  _do_background(<small>integer</small> <span class="param" title="Red">$r</span> , <small>integer</small> <span class="param" title="Green">$g</span> , <small>integer</small> <span class="param" title="Blue">$b</span> , <small>integer</small> <span class="param" title="Opacity">$opacity</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a background.</p>
 </div>
 <h4>Parameters</h4>
@@ -1268,7 +1268,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_crop"><small>protected</small>  _do_crop(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> , <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_crop"><small>protected</small>  _do_crop(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> , <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a crop.</p>
 </div>
 <h4>Parameters</h4>
@@ -1311,7 +1311,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_flip"><small>protected</small>  _do_flip(<small>integer</small> <span class="param" title="Direction to flip">$direction</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_flip"><small>protected</small>  _do_flip(<small>integer</small> <span class="param" title="Direction to flip">$direction</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a flip.</p>
 </div>
 <h4>Parameters</h4>
@@ -1339,7 +1339,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_reflection"><small>protected</small>  _do_reflection(<small>integer</small> <span class="param" title="Reflection height">$height</span> , <small>integer</small> <span class="param" title="Reflection opacity">$opacity</span> , <small>boolean</small> <span class="param" title="TRUE to fade out, FALSE to fade in">$fade_in</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_reflection"><small>protected</small>  _do_reflection(<small>integer</small> <span class="param" title="Reflection height">$height</span> , <small>integer</small> <span class="param" title="Reflection opacity">$opacity</span> , <small>boolean</small> <span class="param" title="TRUE to fade out, FALSE to fade in">$fade_in</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a reflection.</p>
 </div>
 <h4>Parameters</h4>
@@ -1422,7 +1422,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_render"><small>protected</small>  _do_render(<small>string</small> <span class="param" title="Image type: png, jpg, gif, etc">$type</span> , <small>integer</small> <span class="param" title="Quality">$quality</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_render"><small>protected</small>  _do_render(<small>string</small> <span class="param" title="Image type: png, jpg, gif, etc">$type</span> , <small>integer</small> <span class="param" title="Quality">$quality</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a render.</p>
 </div>
 <h4>Parameters</h4>
@@ -1462,7 +1462,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_resize"><small>protected</small>  _do_resize(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_resize"><small>protected</small>  _do_resize(<small>integer</small> <span class="param" title="New width">$width</span> , <small>integer</small> <span class="param" title="New height">$height</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a resize.</p>
 </div>
 <h4>Parameters</h4>
@@ -1498,7 +1498,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_rotate"><small>protected</small>  _do_rotate(<small>integer</small> <span class="param" title="Degrees to rotate">$degrees</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_rotate"><small>protected</small>  _do_rotate(<small>integer</small> <span class="param" title="Degrees to rotate">$degrees</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a rotation.</p>
 </div>
 <h4>Parameters</h4>
@@ -1535,7 +1535,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_save"><small>protected</small>  _do_save(<small>string</small> <span class="param" title="New image filename">$file</span> , <small>integer</small> <span class="param" title="Quality">$quality</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_save"><small>protected</small>  _do_save(<small>string</small> <span class="param" title="New image filename">$file</span> , <small>integer</small> <span class="param" title="Quality">$quality</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a save.</p>
 </div>
 <h4>Parameters</h4>
@@ -1580,7 +1580,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_sharpen"><small>protected</small>  _do_sharpen(<small>integer</small> <span class="param" title="Amount to sharpen">$amount</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_sharpen"><small>protected</small>  _do_sharpen(<small>integer</small> <span class="param" title="Amount to sharpen">$amount</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a sharpen.</p>
 </div>
 <h4>Parameters</h4>
@@ -1611,7 +1611,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_do_watermark"><small>protected</small>  _do_watermark(<small>Image</small> <span class="param" title="Watermarking Image">$image</span> , <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> , <small>integer</small> <span class="param" title="Opacity of watermark">$opacity</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_do_watermark"><small>protected</small>  _do_watermark(<small>Image</small> <span class="param" title="Watermarking Image">$image</span> , <small>integer</small> <span class="param" title="Offset from the left">$offset_x</span> , <small>integer</small> <span class="param" title="Offset from the top">$offset_y</span> , <small>integer</small> <span class="param" title="Opacity of watermark">$opacity</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Execute a watermarking.</p>
 </div>
 <h4>Parameters</h4>
@@ -1662,7 +1662,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_get_imagetype"><small>protected</small>  _get_imagetype(<small>string</small> <span class="param" title="Image extension: png, jpg, etc">$extension</span> )<small> (defined in <a href='/documentation/api/Kohana_Image_Imagick'>Kohana_Image_Imagick</a>)</small></h3>
+<h3 id="_get_imagetype"><small>protected</small>  _get_imagetype(<small>string</small> <span class="param" title="Image extension: png, jpg, etc">$extension</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image_Imagick'>Mountain Valley Church of God_Image_Imagick</a>)</small></h3>
 <div class='description'><p>Get the image type and format for an extension.</p>
 </div>
 <h4>Parameters</h4>
@@ -1672,7 +1672,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1704,7 +1704,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 			$type = SELF::IMAGETYPE_WEBP;
 		break;
 		default:
-			throw new Kohana_Exception(&#039;Installed ImageMagick does not support :type images&#039;,
+			throw new Mountain Valley Church of God_Exception(&#039;Installed ImageMagick does not support :type images&#039;,
 				[&#039;:type&#039; =&gt; $extension]);
 		break;
 	}
@@ -1716,7 +1716,7 @@ $image-&gt;watermark($mark, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="image_type_to_mime_type"><small>protected</small>  image_type_to_mime_type(<small>string</small> <span class="param" title="Image type: png, jpg, gif, etc">$type</span> )<small> (defined in <a href='/documentation/api/Kohana_Image'>Kohana_Image</a>)</small></h3>
+<h3 id="image_type_to_mime_type"><small>protected</small>  image_type_to_mime_type(<small>string</small> <span class="param" title="Image type: png, jpg, gif, etc">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Image'>Mountain Valley Church of God_Image</a>)</small></h3>
 <div class='description'><p>Returns the image mime type
 Adds support for webp image type, which is not known by php</p>
 </div>

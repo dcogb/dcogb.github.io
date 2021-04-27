@@ -1,19 +1,19 @@
 ---
 layout: api
-class: Kohana_Encrypt
+class: Mountain Valley Church of God_Encrypt
 ---
-<h1>Kohana_Encrypt</h1>
+<h1>Mountain Valley Church of God_Encrypt</h1>
 <p>
 <i>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Encrypt</dd>
+<dd>Mountain Valley Church of God/Encrypt</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) 2007-2012 Kohana Team</dd>
+<dd>(c) 2007-2012 Mountain Valley Church of God Team</dd>
 <dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
@@ -101,7 +101,7 @@ class: Kohana_Encrypt
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Encryption key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Encryption mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Encryption cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Encryption key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Encryption mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Encryption cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt'>Mountain Valley Church of God_Encrypt</a>)</small></h3>
 <div class='description'><p>Creates a new mcrypt wrapper.</p>
 </div>
 <h4>Parameters</h4>
@@ -142,7 +142,7 @@ class: Kohana_Encrypt
 </div>
 
 <div class='method'>
-<h3 id="decode"><small>public</small>  decode(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>)</small></h3>
+<h3 id="decode"><small>public</small>  decode(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt'>Mountain Valley Church of God_Encrypt</a>)</small></h3>
 <div class='description'><p>Decrypts an encoded string back to its original value.</p>
 
 <pre><code>$data = $encrypt-&gt;decode($data);
@@ -172,7 +172,7 @@ class: Kohana_Encrypt
 </div>
 
 <div class='method'>
-<h3 id="encode"><small>public</small>  encode(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> )<small> (defined in <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>)</small></h3>
+<h3 id="encode"><small>public</small>  encode(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt'>Mountain Valley Church of God_Encrypt</a>)</small></h3>
 <div class='description'><p>Encrypts a string and returns an encrypted string that can be decoded.</p>
 
 <pre><code>$data = $encrypt-&gt;encode($data);
@@ -207,7 +207,7 @@ displayed, and passed using most other means without corruption.</p>
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Configuration group name">$name</span> <small>= <small>NULL</small></small> , $config <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>)</small></h3>
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Configuration group name">$name</span> <small>= <small>NULL</small></small> , $config <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt'>Mountain Valley Church of God_Encrypt</a>)</small></h3>
 <div class='description'><p>Returns a singleton instance of Encrypt. An encryption key must be
 provided in your "encrypt" configuration file.</p>
 
@@ -242,13 +242,13 @@ provided in your "encrypt" configuration file.</p>
 		if ($config === NULL)
 		{
 			// Load the configuration data
-			$config = Kohana::$config-&gt;load(&#039;encrypt&#039;)-&gt;$name;
+			$config = Mountain Valley Church of God::$config-&gt;load(&#039;encrypt&#039;)-&gt;$name;
 		}
 
 		if ( ! isset($config[&#039;key&#039;]))
 		{
 			// No default encryption key is provided!
-			throw new Kohana_Exception(&#039;No encryption key is defined in the encryption configuration group: :group&#039;,
+			throw new Mountain Valley Church of God_Exception(&#039;No encryption key is defined in the encryption configuration group: :group&#039;,
 				[&#039;:group&#039; =&gt; $name]);
 		}
 
@@ -263,7 +263,7 @@ provided in your "encrypt" configuration file.</p>
 </div>
 
 <div class='method'>
-<h3 id="_create_iv"><small>protected</small>  _create_iv()<small> (defined in <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>)</small></h3>
+<h3 id="_create_iv"><small>protected</small>  _create_iv()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt'>Mountain Valley Church of God_Encrypt</a>)</small></h3>
 <div class='description'><p>Proxy for the mcrypt_create_iv function - to allow mocking and testing against KAT vectors</p>
 </div>
 <h4>Return Values</h4>

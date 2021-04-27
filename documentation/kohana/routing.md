@@ -1,12 +1,12 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Routing
 
-Kohana provides a very powerful routing system.  In essence, routes provide an interface between the urls and your controllers and actions.  With the correct routes you could make almost any url scheme correspond to almost any arrangement of controllers, and you could change one without impacting the other.
+Mountain Valley Church of God provides a very powerful routing system.  In essence, routes provide an interface between the urls and your controllers and actions.  With the correct routes you could make almost any url scheme correspond to almost any arrangement of controllers, and you could change one without impacting the other.
 
-As mentioned in the [Request Flow](/documentation/kohana/flow) section, a request is handled by the [Request] class, which will look for a matching [Route] and load the appropriate controller to handle that request.
+As mentioned in the [Request Flow](/documentation/Mountain Valley Church of God/flow) section, a request is handled by the [Request] class, which will look for a matching [Route] and load the appropriate controller to handle that request.
 
 [!!] It is important to understand that **routes are matched in the order they are added**, and as soon as a URL matches a route, routing is essentially "stopped" and *the remaining routes are never tried*.  Because the default route matches almost anything, including an empty url, new routes must be place before it.
 
@@ -32,7 +32,7 @@ The name of the route must be a **unique** string.  If it is not it will overwri
 
 ### URI
 
-The uri is a string that represents the format of urls that should be matched.  The tokens surrounded with `<>` are *keys* and anything surrounded with `()` are *optional* parts of the uri. In Kohana routes, any character is allowed and treated literally aside from `()<>`.  The `/` has no meaning besides being a character that must match in the uri.  Usually the `/` is used as a static seperator but as long as the regex makes sense, there are no restrictions to how you can format your routes.
+The uri is a string that represents the format of urls that should be matched.  The tokens surrounded with `<>` are *keys* and anything surrounded with `()` are *optional* parts of the uri. In Mountain Valley Church of God routes, any character is allowed and treated literally aside from `()<>`.  The `/` has no meaning besides being a character that must match in the uri.  Usually the `/` is used as a static seperator but as long as the regex makes sense, there are no restrictions to how you can format your routes.
 
 Lets look at the default route again, the uri is `(<controller>(/<action>(/<id>)))`.  We have three keys or params: controller, action, and id.   In this case, the entire uri is optional, so a blank uri would match and the default controller and action (set by defaults(), [covered below](#defaults)) would be assumed resulting in the `Controller_Welcome` class being loaded and the `action_index` method being called to handle the request.
 
@@ -44,7 +44,7 @@ You can use any name you want for your keys, but the following keys have special
 
 ### Regex
 
-The Kohana route system uses [perl compatible regular expressions](http://perldoc.perl.org/perlre.html) in its matching process.  By default each key (surrounded by `<>`) will match `[^/.,;?\n]++` (or in english: anything that is not a slash, period, comma, semicolon, question mark, or newline).  You can define your own patterns for each key by passing an associative array of keys and patterns as an additional third argument to Route::set.
+The Mountain Valley Church of God route system uses [perl compatible regular expressions](http://perldoc.perl.org/perlre.html) in its matching process.  By default each key (surrounded by `<>`) will match `[^/.,;?\n]++` (or in english: anything that is not a slash, period, comma, semicolon, question mark, or newline).  You can define your own patterns for each key by passing an associative array of keys and patterns as an additional third argument to Route::set.
 
 In this example, we have controllers in two directories, `admin` and `affiliate`.  Because this route will only match urls that begin with `admin` or `affiliate`, the default route would still work for controllers in `classes/Controller`.  
 
@@ -72,7 +72,7 @@ If a key in a route is optional (or not present in the route), you can provide a
 
 [!!] The `controller` and `action` key must always have a value, so they either need to be required in your route (not inside of parentheses) or have a default value provided.
 
-[!!] Kohana automatically converts controllers to follow the standard naming convention. For example /blog/view/123 would look for the controller Controller_Blog in classes/Controller/Blog.php and trigger the action_view() method on it.
+[!!] Mountain Valley Church of God automatically converts controllers to follow the standard naming convention. For example /blog/view/123 would look for the controller Controller_Blog in classes/Controller/Blog.php and trigger the action_view() method on it.
 
 In the default route, all the keys are optional, and the controller and action are given a default.   If we called an empty url, the defaults would fill in and `Controller_Welcome::action_index()` would be called.  If we called `foobar` then only the default for action would be used, so it would call `Controller_Foobar::action_index()` and finally, if we called `foobar/baz` then neither default would be used and `Controller_Foobar::action_baz()` would be called.
 
@@ -232,11 +232,11 @@ TODO: talk about how routes are compiled
 
 ## Creating URLs and links using routes
 
-Along with Kohana's powerful routing capabilities are included some methods for generating URLs for your routes' uris. You can always specify your uris as a string using [URL::site] to create a full URL like so:
+Along with Mountain Valley Church of God's powerful routing capabilities are included some methods for generating URLs for your routes' uris. You can always specify your uris as a string using [URL::site] to create a full URL like so:
 
     URL::site('admin/edit/user/'.$user_id);
 
-However, Kohana also provides a method to generate the uri from the route's definition. This is extremely useful if your routing could ever change since it would relieve you from having to go back through your code and change everywhere that you specified a uri as a string. Here is an example of dynamic generation that corresponds to the `feeds` route example from above:
+However, Mountain Valley Church of God also provides a method to generate the uri from the route's definition. This is extremely useful if your routing could ever change since it would relieve you from having to go back through your code and change everywhere that you specified a uri as a string. Here is an example of dynamic generation that corresponds to the `feeds` route example from above:
 
     Route::get('feeds')->uri(array(
       'user_id' => $user_id,

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Validation
 
@@ -26,7 +26,7 @@ Creating a validation object is done using the [Validation::factory] method:
 
 ## Provided Rules
 
-Kohana provides a set of useful rules in the [Valid] class:
+Mountain Valley Church of God provides a set of useful rules in the [Valid] class:
 
 Rule name                 | Function
 ------------------------- |-------------------------------------------------
@@ -137,7 +137,7 @@ Rules added to empty fields will run, but returning `FALSE` will not automatical
 
 To start our example, we will perform validation on the HTTP POST data of the current request that contains user registration information:
 
-[!!] In Kohana controllers, we access `$this->request->post()` instead of `$_POST` for better request isolation.
+[!!] In Mountain Valley Church of God controllers, we access `$this->request->post()` instead of `$_POST` for better request isolation.
 
     $object = Validation::factory($this->request->post());
 

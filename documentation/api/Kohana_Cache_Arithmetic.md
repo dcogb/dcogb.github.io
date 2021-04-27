@@ -1,22 +1,22 @@
 ---
 layout: api
-class: Kohana_Cache_Arithmetic
+class: Mountain Valley Church of God_Cache_Arithmetic
 ---
-<h1>Kohana_Cache_Arithmetic</h1>
+<h1>Mountain Valley Church of God_Cache_Arithmetic</h1>
 <p>
-<i><p>Kohana Cache Arithmetic Interface, for basic cache integer based
+<i><p>Mountain Valley Church of God Cache Arithmetic Interface, for basic cache integer based
 arithmetic, addition and subtraction</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Cache</dd>
+<dd>Mountain Valley Church of God/Cache</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -57,7 +57,7 @@ arithmetic, addition and subtraction</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="decrement"><small>abstract public</small>  decrement(<small>string</small> <span class="param" title="Id of cache entry to decrement">$id</span> [, <small>int</small> <span class="param" title="Step value to decrement by">$step</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_Arithmetic'>Kohana_Cache_Arithmetic</a>)</small></h3>
+<h3 id="decrement"><small>abstract public</small>  decrement(<small>string</small> <span class="param" title="Id of cache entry to decrement">$id</span> [, <small>int</small> <span class="param" title="Step value to decrement by">$step</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Arithmetic'>Mountain Valley Church of God_Cache_Arithmetic</a>)</small></h3>
 <div class='description'><p>Decrements a given value by the step value supplied.
 Useful for shared counters and other persistent integer based
 tracking.</p>
@@ -85,7 +85,7 @@ tracking.</p>
 </div>
 
 <div class='method'>
-<h3 id="increment"><small>abstract public</small>  increment(<small>string</small> <span class="param" title="Id of cache entry to increment">$id</span> [, <small>int</small> <span class="param" title="Step value to increment by">$step</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_Arithmetic'>Kohana_Cache_Arithmetic</a>)</small></h3>
+<h3 id="increment"><small>abstract public</small>  increment(<small>string</small> <span class="param" title="Id of cache entry to increment">$id</span> [, <small>int</small> <span class="param" title="Step value to increment by">$step</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Arithmetic'>Mountain Valley Church of God_Cache_Arithmetic</a>)</small></h3>
 <div class='description'><p>Increments a given value by the step value supplied.
 Useful for shared counters and other persistent integer based
 tracking.</p>

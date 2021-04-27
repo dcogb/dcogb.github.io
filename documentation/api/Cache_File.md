@@ -3,18 +3,18 @@ layout: api
 class: Cache_File
 ---
 <h1>Cache_File</h1>
-extends <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>
 <br />
 extends <a href='/documentation/api/Cache'>Cache</a>
 <br />
-extends <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Kohana_Cache_GarbageCollect'>Kohana_Cache_GarbageCollect</a> | <a href='/documentation/api/Cache_GarbageCollect'>Cache_GarbageCollect</a></small>
+<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Cache_GarbageCollect'>Mountain Valley Church of God_Cache_GarbageCollect</a> | <a href='/documentation/api/Cache_GarbageCollect'>Cache_GarbageCollect</a></small>
 </p>
 <p>
-<i><p><a href="api/Kohana_Cache">Kohana Cache</a> File driver. Provides a file based
-driver for the Kohana Cache library. This is one of the slowest
+<i><p><a href="api/Mountain Valley Church of God_Cache">Mountain Valley Church of God Cache</a> File driver. Provides a file based
+driver for the Mountain Valley Church of God Cache library. This is one of the slowest
 caching methods.</p>
 
 <h3 id="configuration-example">Configuration example</h3>
@@ -24,7 +24,7 @@ caching methods.</p>
 <pre><code>return array(
      'file'   =&gt; array(                          // File driver group
              'driver'         =&gt; 'file',         // using File driver
-             'cache_dir'     =&gt; APPPATH.'cache/.kohana_cache', // Cache location
+             'cache_dir'     =&gt; APPPATH.'cache/.Mountain Valley Church of God_cache', // Cache location
       ),
 )
 </code></pre>
@@ -61,20 +61,20 @@ no need to pass the group name when instantiating a cache instance.</p>
 <h3 id="system-requirements">System requirements</h3>
 
 <ul>
-<li>Kohana 3.0.x</li>
+<li>Mountain Valley Church of God 3.0.x</li>
 <li>PHP 5.2.4 or greater</li>
 </ul>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Cache</dd>
+<dd>Mountain Valley Church of God/Cache</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -85,7 +85,7 @@ no need to pass the group name when instantiating a cache instance.</p>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -193,7 +193,7 @@ no need to pass the group name when instantiating a cache instance.</p>
 <dd>
  <pre class="debug"><small>string</small><span>(4)</span> "file"</pre></dd>
 <dt>
-<h4 id='property-instances'><small>public static</small>  <span class='blue'>Kohana_Cache</span> $instances</h4>
+<h4 id='property-instances'><small>public static</small>  <span class='blue'>Mountain Valley Church of God_Cache</span> $instances</h4>
 </dt>
 <dd>
  <p>instances</p>
@@ -241,7 +241,7 @@ no need to pass the group name when instantiating a cache instance.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title="Id to remove from cache">$id</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title="Id to remove from cache">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Delete a cache entry based on id</p>
 
 <pre><code>// Delete 'foo' entry from the file group
@@ -275,7 +275,7 @@ Cache::instance('file')-&gt;delete('foo');
 </div>
 
 <div class='method'>
-<h3 id="delete_all"><small>public</small>  delete_all()<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="delete_all"><small>public</small>  delete_all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Delete all cache entries.</p>
 
 <p>Beware of using this method when
@@ -305,7 +305,7 @@ Cache::instance('file')-&gt;delete_all();
 </div>
 
 <div class='method'>
-<h3 id="garbage_collect"><small>public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="garbage_collect"><small>public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Garbage collection method that cleans any expired
 cache entries from the cache.</p>
 </div>
@@ -329,7 +329,7 @@ cache entries from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Id of cache to entry">$id</span> [, <small>string</small> <span class="param" title="Default value to return if cache miss">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Id of cache to entry">$id</span> [, <small>string</small> <span class="param" title="Default value to return if cache miss">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Retrieve a cached value entry by id.</p>
 
 <pre><code>// Retrieve cache entry from file group
@@ -422,7 +422,7 @@ $data = Cache::instance('file')-&gt;get('foo', 'bar');
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Id of cache entry">$id</span> , <small>string</small> <span class="param" title="Data to set to cache">$data</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Id of cache entry">$id</span> , <small>string</small> <span class="param" title="Data to set to cache">$data</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Set a value to cache with id and lifetime</p>
 
 <pre><code>$data = 'bar';
@@ -502,7 +502,7 @@ Cache::instance('file')-&gt;set('foo', $data, 30);
 </div>
 
 <div class='method'>
-<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Overload the __clone() method to prevent cloning</p>
 </div>
 <h4>Tags</h4>
@@ -519,14 +519,14 @@ Cache::instance('file')-&gt;set('foo', $data, 30);
 <pre>
 <code class="language-php">final public function __clone()
 {
-	throw new Cache_Exception(&#039;Cloning of Kohana_Cache objects is forbidden&#039;);
+	throw new Cache_Exception(&#039;Cloning of Mountain Valley Church of God_Cache objects is forbidden&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Getter and setter for the configuration. If no argument provided, the
 current configuration is returned. Otherwise the configuration is set
 to this class.</p>
@@ -583,8 +583,8 @@ $servers = $cache-&gt;config('servers);
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
-<div class='description'><p>Creates a singleton of a Kohana Cache group. If no group is supplied
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
+<div class='description'><p>Creates a singleton of a Mountain Valley Church of God Cache group. If no group is supplied
 the <strong>default</strong> cache group is used.</p>
 
 <pre><code>// Create an instance of the default group
@@ -619,7 +619,7 @@ $foo_group = Cache::$instances['default'];
        // If there is no group supplied, try to get it from the config
        if ($group === NULL)
        {
-           $group = Kohana::$config-&gt;load(&#039;cache.default&#039;);
+           $group = Mountain Valley Church of God::$config-&gt;load(&#039;cache.default&#039;);
        }
 
 	// If there is no group supplied
@@ -635,12 +635,12 @@ $foo_group = Cache::$instances['default'];
 		return Cache::$instances[$group];
 	}
 
-	$config = Kohana::$config-&gt;load(&#039;cache&#039;);
+	$config = Mountain Valley Church of God::$config-&gt;load(&#039;cache&#039;);
 
 	if ( ! $config-&gt;offsetExists($group))
 	{
 		throw new Cache_Exception(
-			&#039;Failed to load Kohana Cache group: :group&#039;,
+			&#039;Failed to load Mountain Valley Church of God Cache group: :group&#039;,
 			[&#039;:group&#039; =&gt; $group]
 		);
 	}
@@ -659,7 +659,7 @@ $foo_group = Cache::$instances['default'];
 </div>
 
 <div class='method'>
-<h3 id="_check_cache_dir"><small>protected</small>  _check_cache_dir()<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="_check_cache_dir"><small>protected</small>  _check_cache_dir()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Check that the cache directory exists and writeable. Attempts to create
 it if not exists.</p>
 </div>
@@ -674,7 +674,7 @@ it if not exists.</p>
 {
 	try
 	{
-		$directory = Arr::get($this-&gt;_config, &#039;cache_dir&#039;, Kohana::$cache_dir);
+		$directory = Arr::get($this-&gt;_config, &#039;cache_dir&#039;, Mountain Valley Church of God::$cache_dir);
 		$this-&gt;_cache_dir = new SplFileInfo($directory);
 	}
 	catch (UnexpectedValueException $e)
@@ -707,7 +707,7 @@ it if not exists.</p>
 </div>
 
 <div class='method'>
-<h3 id="_delete_file"><small>protected</small>  _delete_file(<small>SplFileInfo</small> <span class="param" title="File">$file</span> [, <small>boolean</small> <span class="param" title="Retain the parent directory">$retain_parent_directory</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Ignore_errors to prevent all exceptions interrupting exec">$ignore_errors</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Only expired files">$only_expired</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="_delete_file"><small>protected</small>  _delete_file(<small>SplFileInfo</small> <span class="param" title="File">$file</span> [, <small>boolean</small> <span class="param" title="Retain the parent directory">$retain_parent_directory</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Ignore_errors to prevent all exceptions interrupting exec">$ignore_errors</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Only expired files">$only_expired</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Deletes files recursively and returns FALSE on any errors</p>
 
 <pre><code>// Delete a file or folder whilst retaining parent directory and ignore all errors
@@ -854,7 +854,7 @@ $this-&gt;_delete_file($folder, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_is_expired"><small>protected</small>  _is_expired(<small>SplFileInfo</small> <span class="param" title="The cache file">$file</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="_is_expired"><small>protected</small>  _is_expired(<small>SplFileInfo</small> <span class="param" title="The cache file">$file</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Test if cache file is expired</p>
 </div>
 <h4>Parameters</h4>
@@ -894,7 +894,7 @@ $this-&gt;_delete_file($folder, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_make_directory"><small>protected</small>  _make_directory(<small>string</small> <span class="param" title="Directory path">$directory</span> [, <small>integer</small> <span class="param" title="Chmod mode">$mode</span> <small>= <small>integer</small> 511</small> , <small>boolean</small> <span class="param" title="Allows nested directories creation">$recursive</span> <small>= <small>bool</small> FALSE</small> , <small>resource</small> <span class="param" title="A stream context">$context</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="_make_directory"><small>protected</small>  _make_directory(<small>string</small> <span class="param" title="Directory path">$directory</span> [, <small>integer</small> <span class="param" title="Chmod mode">$mode</span> <small>= <small>integer</small> 511</small> , <small>boolean</small> <span class="param" title="Allows nested directories creation">$recursive</span> <small>= <small>bool</small> FALSE</small> , <small>resource</small> <span class="param" title="A stream context">$context</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Makes the cache directory if it doesn't exist. Simply a wrapper for
 <code>mkdir</code> to ensure DRY principles</p>
 </div>
@@ -945,7 +945,7 @@ $this-&gt;_delete_file($folder, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="_resolve_directory"><small>protected</small>  _resolve_directory(<small>string</small> <span class="param" title="Filename to resolve">$filename</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="_resolve_directory"><small>protected</small>  _resolve_directory(<small>string</small> <span class="param" title="Filename to resolve">$filename</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Resolves the cache directory real path from the filename</p>
 
 <pre><code> // Get the realpath of the cache folder
@@ -974,7 +974,7 @@ $this-&gt;_delete_file($folder, TRUE, TRUE);
 </div>
 
 <div class='method'>
-<h3 id="filename"><small>protected static</small>  filename(<small>string</small> <span class="param" title="String to hash into filename">$string</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache_File'>Kohana_Cache_File</a>)</small></h3>
+<h3 id="filename"><small>protected static</small>  filename(<small>string</small> <span class="param" title="String to hash into filename">$string</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_File'>Mountain Valley Church of God_Cache_File</a>)</small></h3>
 <div class='description'><p>Creates a hashed filename based on the string. This is used
 to create shorter unique IDs for each cache filename.</p>
 
@@ -1004,7 +1004,7 @@ $filename = Cache_File::filename($this-&gt;_sanitize_id($id));
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Ensures singleton pattern is observed, loads the default expiry</p>
 </div>
 <h4>Parameters</h4>
@@ -1024,7 +1024,7 @@ $filename = Cache_File::filename($this-&gt;_sanitize_id($id));
 </div>
 
 <div class='method'>
-<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Kohana_Cache'>Kohana_Cache</a>)</small></h3>
+<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Replaces troublesome characters with underscores and adds prefix to avoid duplicates</p>
 
 <pre><code>// Sanitize a cache id
@@ -1057,7 +1057,7 @@ $id = $this-&gt;_sanitize_id($id);
     // prefix general configuration cache
     else
     {
-        $prefix = Kohana::$config-&gt;load(&#039;cache.prefix&#039;);
+        $prefix = Mountain Valley Church of God::$config-&gt;load(&#039;cache.prefix&#039;);
     }
 
     // sha1 the id makes sure name is not too long and has not any not allowed characters

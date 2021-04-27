@@ -1,17 +1,17 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 # Profiling
 
-Kohana provides a very simple way to display statistics about your application:
+Mountain Valley Church of God provides a very simple way to display statistics about your application:
 
-1. Common [Kohana] method calls, such as [Kohana::find_file()].
+1. Common [Mountain Valley Church of God] method calls, such as [Mountain Valley Church of God::find_file()].
 2. Requests. Including the main request, as well as any sub-requests.
 3. [Database] queries
 4. Average execution times for your application
 
-[!!]  In order for profiling to work, the `profile` setting must be `TRUE` in your [Kohana::init()] call in your bootstrap.
+[!!]  In order for profiling to work, the `profile` setting must be `TRUE` in your [Mountain Valley Church of God::init()] call in your bootstrap.
 
 ## Profiling your code
 
@@ -20,7 +20,7 @@ You can easily add profiling to your own functions and code.  This is done using
 	public function foobar($input)
 	{
 		// Be sure to only profile if it's enabled
-		if (Kohana::$profiling === TRUE)
+		if (Mountain Valley Church of God::$profiling === TRUE)
 		{
 			// Start a new benchmark
 			$benchmark = Profiler::start('Your Category', __FUNCTION__);

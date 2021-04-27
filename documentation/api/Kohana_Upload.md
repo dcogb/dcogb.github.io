@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_Upload
+class: Mountain Valley Church of God_Upload
 ---
-<h1>Kohana_Upload</h1>
+<h1>Mountain Valley Church of God_Upload</h1>
 <p>
 <i><p>Upload helper class for working with uploaded files and <a href="/index.php/">Validation</a>.</p>
 
@@ -22,13 +22,13 @@ uploading will not work!</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -103,7 +103,7 @@ uploading will not work!</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="image"><small>public static</small>  image(<small>array</small> <span class="param" title="$_FILES item">$file</span> [, <small>integer</small> <span class="param" title="Maximum width of image">$max_width</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Maximum height of image">$max_height</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Match width and height exactly?">$exact</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="image"><small>public static</small>  image(<small>array</small> <span class="param" title="$_FILES item">$file</span> [, <small>integer</small> <span class="param" title="Maximum width of image">$max_width</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Maximum height of image">$max_height</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Match width and height exactly?">$exact</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Validation rule to test if an upload is an image and, optionally, is the correct size.</p>
 
 <pre><code>// The "image" file must be an image
@@ -186,7 +186,7 @@ $array-&gt;rule('image', 'Upload::image', array(':value', 100, 100, TRUE));
 </div>
 
 <div class='method'>
-<h3 id="not_empty"><small>public static</small>  not_empty(<small>array</small> <span class="param" title="$_FILES item">$file</span> )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="not_empty"><small>public static</small>  not_empty(<small>array</small> <span class="param" title="$_FILES item">$file</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Tests if a successful upload has been made.</p>
 
 <pre><code>$array-&gt;rule('file', 'Upload::not_empty');
@@ -217,7 +217,7 @@ $array-&gt;rule('image', 'Upload::image', array(':value', 100, 100, TRUE));
 </div>
 
 <div class='method'>
-<h3 id="save"><small>public static</small>  save(<small>array</small> <span class="param" title="Uploaded file data">$file</span> [, <small>string</small> <span class="param" title="New filename">$filename</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="New directory">$directory</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Chmod mask">$chmod</span> <small>= <small>integer</small> 420</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="save"><small>public static</small>  save(<small>array</small> <span class="param" title="Uploaded file data">$file</span> [, <small>string</small> <span class="param" title="New filename">$filename</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="New directory">$directory</span> <small>= <small>NULL</small></small> , <small>integer</small> <span class="param" title="Chmod mask">$chmod</span> <small>= <small>integer</small> 420</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Save an uploaded file to a new location. If no filename is provided,
 the original filename will be used, with a unique prefix added.</p>
 
@@ -279,7 +279,7 @@ the original filename will be used, with a unique prefix added.</p>
 
 	if ( ! is_dir($directory) OR ! is_writable(realpath($directory)))
 	{
-		throw new Kohana_Exception(&#039;Directory :dir must be writable&#039;,
+		throw new Mountain Valley Church of God_Exception(&#039;Directory :dir must be writable&#039;,
 			[&#039;:dir&#039; =&gt; Debug::path($directory)]);
 	}
 
@@ -305,7 +305,7 @@ the original filename will be used, with a unique prefix added.</p>
 </div>
 
 <div class='method'>
-<h3 id="size"><small>public static</small>  size(<small>array</small> <span class="param" title="$_FILES item">$file</span> , <small>string</small> <span class="param" title="Maximum file size allowed">$size</span> )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="size"><small>public static</small>  size(<small>array</small> <span class="param" title="$_FILES item">$file</span> , <small>string</small> <span class="param" title="Maximum file size allowed">$size</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Validation rule to test if an uploaded file is allowed by file size.
 File sizes are defined as: SB, where S is the size (1, 8.5, 300, etc.)
 and B is the byte unit (K, MiB, GB, etc.). All valid byte units are
@@ -355,7 +355,7 @@ $array-&gt;rule('file', 'Upload::size', array(':value', '2.5KiB'))
 </div>
 
 <div class='method'>
-<h3 id="type"><small>public static</small>  type(<small>array</small> <span class="param" title="$_FILES item">$file</span> , <small>array</small> <span class="param" title="Allowed file extensions">$allowed</span> )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="type"><small>public static</small>  type(<small>array</small> <span class="param" title="$_FILES item">$file</span> , <small>array</small> <span class="param" title="Allowed file extensions">$allowed</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Test if an uploaded file is an allowed file type, by extension.</p>
 
 <pre><code>$array-&gt;rule('file', 'Upload::type', array(':value', array('jpg', 'png', 'gif')));
@@ -390,7 +390,7 @@ $array-&gt;rule('file', 'Upload::size', array(':value', '2.5KiB'))
 </div>
 
 <div class='method'>
-<h3 id="valid"><small>public static</small>  valid(<small>array</small> <span class="param" title="$_FILES item">$file</span> )<small> (defined in <a href='/documentation/api/Kohana_Upload'>Kohana_Upload</a>)</small></h3>
+<h3 id="valid"><small>public static</small>  valid(<small>array</small> <span class="param" title="$_FILES item">$file</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Upload'>Mountain Valley Church of God_Upload</a>)</small></h3>
 <div class='description'><p>Tests if upload data is valid, even if no file was uploaded. If you
 <em>do</em> require a file to be uploaded, add the <a href="#not_empty">Upload::not_empty</a> rule
 before this rule.</p>

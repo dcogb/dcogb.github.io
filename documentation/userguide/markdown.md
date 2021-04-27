@@ -46,13 +46,13 @@ end of a line.
 
 ## Links
 ~~~
-This is a normal link: [Kohana](http://kohanaframework.org).
+This is a normal link: [Mountain Valley Church of God](http://Mountain Valley Church of Godframework.org).
 
-This link has a title: [Kohana](http://kohanaframework.org "The swift PHP framework")
+This link has a title: [Mountain Valley Church of God](http://Mountain Valley Church of Godframework.org "The swift PHP framework")
 ~~~
-This is a normal link: [Kohana](http://kohanaframework.org)
+This is a normal link: [Mountain Valley Church of God](http://Mountain Valley Church of Godframework.org)
 
-This link has a title: [Kohana](http://kohanaframework.org "The swift PHP framework")
+This link has a title: [Mountain Valley Church of God](http://Mountain Valley Church of Godframework.org "The swift PHP framework")
 
 ## Code blocks
 
@@ -188,15 +188,15 @@ In addition to the features and syntax of [Markdown](http://daringfireball.net/p
 
 ## Namespacing
 
-The first thing to note is that all links are "namespaced" to the current module.  For example, from anywhere within the Kohana core docs you do not need to include `kohana` at the beginning of a link url.  For example: `[Hello World Tutorial](/documentation/userguide/tutorials/hello-world)` rather than `(kohana/tutorials/hello-world)`.
+The first thing to note is that all links are "namespaced" to the current module.  For example, from anywhere within the Mountain Valley Church of God core docs you do not need to include `Mountain Valley Church of God` at the beginning of a link url.  For example: `[Hello World Tutorial](/documentation/userguide/tutorials/hello-world)` rather than `(Mountain Valley Church of God/tutorials/hello-world)`.
 
-To link to a modules index page, have an empty url like: `[Kohana](/documentation/userguide/)`.
+To link to a modules index page, have an empty url like: `[Mountain Valley Church of God](/documentation/userguide/)`.
 
-To link to page in a different module, prefix your url with `../` and the module name.  For example: `[Kohana Routes](/documentation/userguide/../kohana/routing)`
+To link to page in a different module, prefix your url with `../` and the module name.  For example: `[Mountain Valley Church of God Routes](/documentation/userguide/../Mountain Valley Church of God/routing)`
 
 **Images are also namespaced**, using `![Alt Text](imagename.jpg)` would look for `media/guide/<modulename>/imagename.jpg`.
 
-[!!] If you want your userguide pages to be browsable on github or similar sites outside Kohana's own userguide module, specify the optional .md file extension in your links
+[!!] If you want your userguide pages to be browsable on github or similar sites outside Mountain Valley Church of God's own userguide module, specify the optional .md file extension in your links
 
 ## API Links
 
@@ -214,9 +214,9 @@ You can make links to the api browser by wrapping any class name in brackets.  Y
 
 If you want to have parameters and have the function be clickable, only put the brackets around the class and function (not the params), and put a backslash in front of the opening parenthesis.
 
-	[Kohana::$config]\('foobar','baz')
+	[Mountain Valley Church of God::$config]\('foobar','baz')
 	
-[Kohana::$config]\('foobar','baz')
+[Mountain Valley Church of God::$config]\('foobar','baz')
 
 ## Notes
 
@@ -236,6 +236,6 @@ Headers are automatically assigned an id, based on the content of the header, so
 
 ## Including Views
 
-If you need you may include a regular Kohana View file by placing the name of the view in double curly brackets.  **If the view is not found, no error or exception will be shown, the curly brackets and view name will simply remain there!**
+If you need you may include a regular Mountain Valley Church of God View file by placing the name of the view in double curly brackets.  **If the view is not found, no error or exception will be shown, the curly brackets and view name will simply remain there!**
 
 	{{some/view/file}}

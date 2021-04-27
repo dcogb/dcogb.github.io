@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Kohana_File
+class: Mountain Valley Church of God_File
 ---
-<h1>Kohana_File</h1>
+<h1>Mountain Valley Church of God_File</h1>
 <p>
 <i><p>File helper class.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -69,7 +69,7 @@ class: Kohana_File
 <div class='methods'>
 
 <div class='method'>
-<h3 id="ext_by_mime"><small>public static</small>  ext_by_mime(<small>string</small> <span class="param" title="MIME type to lookup">$type</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="ext_by_mime"><small>public static</small>  ext_by_mime(<small>string</small> <span class="param" title="MIME type to lookup">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Lookup a single file extension by MIME type.</p>
 </div>
 <h4>Parameters</h4>
@@ -101,7 +101,7 @@ class: Kohana_File
 </div>
 
 <div class='method'>
-<h3 id="exts_by_mime"><small>public static</small>  exts_by_mime(<small>string</small> <span class="param" title="File MIME type">$type</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="exts_by_mime"><small>public static</small>  exts_by_mime(<small>string</small> <span class="param" title="File MIME type">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Lookup file extensions by MIME type</p>
 </div>
 <h4>Parameters</h4>
@@ -124,7 +124,7 @@ class: Kohana_File
 	// Fill the static array
 	if (empty($types))
 	{
-		foreach (Kohana::$config-&gt;load(&#039;mimes&#039;) as $ext =&gt; $mimes)
+		foreach (Mountain Valley Church of God::$config-&gt;load(&#039;mimes&#039;) as $ext =&gt; $mimes)
 		{
 			foreach ($mimes as $mime)
 			{
@@ -153,7 +153,7 @@ class: Kohana_File
 </div>
 
 <div class='method'>
-<h3 id="join"><small>public static</small>  join(<small>string</small> <span class="param" title="Split filename, without .000 extension">$filename</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="join"><small>public static</small>  join(<small>string</small> <span class="param" title="Split filename, without .000 extension">$filename</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Join a split file into a whole file. Does the reverse of <a href="#split">File::split</a>.</p>
 
 <pre><code>$count = File::join($file);
@@ -208,7 +208,7 @@ class: Kohana_File
 </div>
 
 <div class='method'>
-<h3 id="mime"><small>public static</small>  mime(<small>string</small> <span class="param" title="File name or path">$filename</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="mime"><small>public static</small>  mime(<small>string</small> <span class="param" title="File name or path">$filename</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Attempt to get the mime type from a file. This method is horribly
 unreliable, due to PHP being horribly unreliable when it comes to
 determining the mime type of a file.</p>
@@ -275,7 +275,7 @@ determining the mime type of a file.</p>
 </div>
 
 <div class='method'>
-<h3 id="mime_by_ext"><small>public static</small>  mime_by_ext(<small>string</small> <span class="param" title="Php, pdf, txt, etc">$extension</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="mime_by_ext"><small>public static</small>  mime_by_ext(<small>string</small> <span class="param" title="Php, pdf, txt, etc">$extension</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Return the mime type of an extension.</p>
 
 <pre><code>$mime = File::mime_by_ext('png'); // "image/png"
@@ -299,7 +299,7 @@ determining the mime type of a file.</p>
 <code class="language-php">public static function mime_by_ext($extension)
 {
 	// Load all of the mime types
-	$mimes = Kohana::$config-&gt;load(&#039;mimes&#039;);
+	$mimes = Mountain Valley Church of God::$config-&gt;load(&#039;mimes&#039;);
 
 	return isset($mimes[$extension]) ? $mimes[$extension][0] : FALSE;
 }</code>
@@ -308,7 +308,7 @@ determining the mime type of a file.</p>
 </div>
 
 <div class='method'>
-<h3 id="mimes_by_ext"><small>public static</small>  mimes_by_ext(<small>string</small> <span class="param" title="Extension to lookup">$extension</span> )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="mimes_by_ext"><small>public static</small>  mimes_by_ext(<small>string</small> <span class="param" title="Extension to lookup">$extension</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Lookup MIME types for a file</p>
 </div>
 <h4>Parameters</h4>
@@ -318,7 +318,7 @@ determining the mime type of a file.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>See - <a href="#mime_by_ext">Kohana_File::mime_by_ext()</a></li>
+<li>See - <a href="#mime_by_ext">Mountain Valley Church of God_File::mime_by_ext()</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -331,7 +331,7 @@ determining the mime type of a file.</p>
 <code class="language-php">public static function mimes_by_ext($extension)
 {
 	// Load all of the mime types
-	$mimes = Kohana::$config-&gt;load(&#039;mimes&#039;);
+	$mimes = Mountain Valley Church of God::$config-&gt;load(&#039;mimes&#039;);
 
 	return isset($mimes[$extension]) ? ( (array) $mimes[$extension]) : [];
 }</code>
@@ -340,7 +340,7 @@ determining the mime type of a file.</p>
 </div>
 
 <div class='method'>
-<h3 id="split"><small>public static</small>  split(<small>string</small> <span class="param" title="File to be split">$filename</span> [, <small>integer</small> <span class="param" title="Size, in MB, for each piece to be">$piece_size</span> <small>= <small>integer</small> 10</small> ] )<small> (defined in <a href='/documentation/api/Kohana_File'>Kohana_File</a>)</small></h3>
+<h3 id="split"><small>public static</small>  split(<small>string</small> <span class="param" title="File to be split">$filename</span> [, <small>integer</small> <span class="param" title="Size, in MB, for each piece to be">$piece_size</span> <small>= <small>integer</small> 10</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_File'>Mountain Valley Church of God_File</a>)</small></h3>
 <div class='description'><p>Split a file into pieces matching a specific size. Used when you need to
 split large files into smaller pieces for easy transmission.</p>
 

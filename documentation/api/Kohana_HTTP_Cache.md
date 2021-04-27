@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_HTTP_Cache
+class: Mountain Valley Church of God_HTTP_Cache
 ---
-<h1>Kohana_HTTP_Cache</h1>
+<h1>Mountain Valley Church of God_HTTP_Cache</h1>
 <p>
 <i><p>HTTP Caching adaptor class that provides caching services to the
 <a href="/index.php/">Request_Client</a> class, using HTTP cache control logic as defined in
@@ -11,13 +11,13 @@ RFC 2616.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -205,7 +205,7 @@ RFC 2616.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title=" ">$options</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title=" ">$options</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Constructor method for this class. Allows dependency injection of the
 required components such as <code>Cache</code> and the cache key generator.</p>
 </div>
@@ -237,7 +237,7 @@ required components such as <code>Cache</code> and the cache key generator.</p>
 </div>
 
 <div class='method'>
-<h3 id="allow_private_cache"><small>public</small>  allow_private_cache([ <small>boolean</small> <span class="param" title="Allow caching of privately marked responses">$setting</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="allow_private_cache"><small>public</small>  allow_private_cache([ <small>boolean</small> <span class="param" title="Allow caching of privately marked responses">$setting</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Gets or sets the <a href="#allow_private_cache">Request_Client::allow_private_cache</a> setting.
 If set to <code>TRUE</code>, the client will also cache cache-control directives
 that have the <code>private</code> setting.</p>
@@ -274,7 +274,7 @@ that have the <code>private</code> setting.</p>
 </div>
 
 <div class='method'>
-<h3 id="basic_cache_key_generator"><small>public static</small>  basic_cache_key_generator(<small>Request</small> <span class="param" title="$request">$request</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="basic_cache_key_generator"><small>public static</small>  basic_cache_key_generator(<small>Request</small> <span class="param" title="$request">$request</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Basic cache key generator that hashes the entire request and returns
 it. This is fine for static content, or dynamic content where user
 specific information is encoded into the request.</p>
@@ -310,21 +310,21 @@ specific information is encoded into the request.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache"><small>public</small>  cache([ <small>Kohana_Cache</small> <span class="param" title="Engine to use for caching">$cache</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="cache"><small>public</small>  cache([ <small>Mountain Valley Church of God_Cache</small> <span class="param" title="Engine to use for caching">$cache</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Getter and setter for the internal caching engine,
 used to cache responses if available and valid.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">Kohana_Cache </span><strong> $cache</strong> <small> = <small>NULL</small></small> - Engine to use for caching</li>
+ <span class="blue">Mountain Valley Church of God_Cache </span><strong> $cache</strong> <small> = <small>NULL</small></small> - Engine to use for caching</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
 <li>
-<span class='blue'>Kohana_Cache</span>  
+<span class='blue'>Mountain Valley Church of God_Cache</span>  
 </li><li>
-<span class='blue'>Kohana_Request_Client</span>  
+<span class='blue'>Mountain Valley Church of God_Request_Client</span>  
 </li></ul>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -342,7 +342,7 @@ used to cache responses if available and valid.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache_key_callback"><small>public</small>  cache_key_callback([ <small>callback</small> <span class="param" title="$callback">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="cache_key_callback"><small>public</small>  cache_key_callback([ <small>callback</small> <span class="param" title="$callback">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Sets or gets the cache key generator callback for this caching
 class. The cache key generator provides a unique hash based on the
 <code>Request</code> object passed to it.</p>
@@ -388,7 +388,7 @@ method.</p>
 		return $this-&gt;_cache_key_callback;
 
 	if ( ! is_callable($callback))
-		throw new Kohana_Exception(&#039;cache_key_callback must be callable!&#039;);
+		throw new Mountain Valley Church of God_Exception(&#039;cache_key_callback must be callable!&#039;);
 
 	$this-&gt;_cache_key_callback = $callback;
 	return $this;
@@ -398,7 +398,7 @@ method.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache_lifetime"><small>public</small>  cache_lifetime(<small>Response</small> <span class="param" title="Response to evaluate">$response</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="cache_lifetime"><small>public</small>  cache_lifetime(<small>Response</small> <span class="param" title="Response to evaluate">$response</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Calculates the total Time To Live based on the specification
 RFC 2616 cache lifetime rules.</p>
 </div>
@@ -489,7 +489,7 @@ RFC 2616 cache lifetime rules.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache_response"><small>public</small>  cache_response(<small>string</small> <span class="param" title="The cache key to use">$key</span> , <small>Request</small> <span class="param" title="The HTTP Request">$request</span> [, <small>Response</small> <span class="param" title="The HTTP Response">$response</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="cache_response"><small>public</small>  cache_response(<small>string</small> <span class="param" title="The cache key to use">$key</span> , <small>Request</small> <span class="param" title="The HTTP Request">$request</span> [, <small>Response</small> <span class="param" title="The HTTP Response">$response</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Caches a <a href="/index.php/">Response</a> using the supplied <a href="/index.php/">Cache</a>
 and the key generated by <a href="#_create_cache_key">Request_Client::_create_cache_key</a>.</p>
 
@@ -572,9 +572,9 @@ one that is available.</p>
 </div>
 
 <div class='method'>
-<h3 id="create_cache_key"><small>public</small>  create_cache_key(<small>Request</small> <span class="param" title="Request to create key for">$request</span> [, <small>callback</small> <span class="param" title="Optional callback to use instead of built-in method">$callback</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="create_cache_key"><small>public</small>  create_cache_key(<small>Request</small> <span class="param" title="Request to create key for">$request</span> [, <small>callback</small> <span class="param" title="Optional callback to use instead of built-in method">$callback</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Creates a cache key for the request to use for caching
-<a href="/index.php/">Kohana_Response</a> returned by <a href="#execute">Request::execute</a>.</p>
+<a href="/index.php/">Mountain Valley Church of God_Response</a> returned by <a href="#execute">Request::execute</a>.</p>
 
 <p>This is the default cache key generating logic, but can be overridden
 by setting <a href="#cache_key_callback">HTTP_Cache::cache_key_callback()</a>.</p>
@@ -606,7 +606,7 @@ by setting <a href="#cache_key_callback">HTTP_Cache::cache_key_callback()</a>.</
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute(<small>Request_Client</small> <span class="param" title="Client to execute with Cache-Control">$client</span> , <small>Request</small> <span class="param" title="Request to execute with client">$request</span> , $response )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute(<small>Request_Client</small> <span class="param" title="Client to execute with Cache-Control">$client</span> , <small>Request</small> <span class="param" title="Request to execute with client">$request</span> , $response )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Executes the supplied <a href="/index.php/">Request</a> with the supplied <a href="/index.php/">Request_Client</a>.
 Before execution, the HTTP_Cache adapter checks the request type,
 destructive requests such as <code>POST</code>, <code>PUT</code> and <code>DELETE</code> will bypass
@@ -684,7 +684,7 @@ Request methods will allow caching, if the rules are met.</p>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>mixed</small> <span class="param" title="Cache engine to use">$cache</span> [, <small>array</small> <span class="param" title="Options to set to this class">$options</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>mixed</small> <span class="param" title="Cache engine to use">$cache</span> [, <small>array</small> <span class="param" title="Options to set to this class">$options</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Factory method for HTTP_Cache that provides a convenient dependency
 injector for the Cache library.</p>
 
@@ -737,7 +737,7 @@ injector for the Cache library.</p>
 </div>
 
 <div class='method'>
-<h3 id="invalidate_cache"><small>public</small>  invalidate_cache(<small>Request</small> <span class="param" title="Response to remove from cache">$request</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="invalidate_cache"><small>public</small>  invalidate_cache(<small>Request</small> <span class="param" title="Response to remove from cache">$request</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Invalidate a cached response for the <a href="/index.php/">Request</a> supplied.
 This has the effect of deleting the response from the
 <a href="/index.php/">Cache</a> entry.</p>
@@ -769,7 +769,7 @@ This has the effect of deleting the response from the
 </div>
 
 <div class='method'>
-<h3 id="request_execution_time"><small>public</small>  request_execution_time()<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="request_execution_time"><small>public</small>  request_execution_time()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Returns the duration of the last request execution.
 Either returns the time of completed requests or
 <code>FALSE</code> if the request hasn't finished executing, or
@@ -795,7 +795,7 @@ is yet to be run.</p>
 </div>
 
 <div class='method'>
-<h3 id="set_cache"><small>public</small>  set_cache(<small>Response</small> <span class="param" title="The Response">$response</span> )<small> (defined in <a href='/documentation/api/Kohana_HTTP_Cache'>Kohana_HTTP_Cache</a>)</small></h3>
+<h3 id="set_cache"><small>public</small>  set_cache(<small>Response</small> <span class="param" title="The Response">$response</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Cache'>Mountain Valley Church of God_HTTP_Cache</a>)</small></h3>
 <div class='description'><p>Controls whether the response can be cached. Uses HTTP
 protocol to determine whether the response can be cached.</p>
 </div>

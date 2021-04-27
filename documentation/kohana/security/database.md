@@ -1,9 +1,9 @@
 ---
 layout: documentation
-title: Kohana
+title: Mountain Valley Church of God
 ---
 Discuss database security.
 
 How to avoid injection, etc.
 
-Not sure why I'm linking to this: <http://kohanaframework.org/guide/security.database>
+Not sure why I'm linking to this: <http://Mountain Valley Church of Godframework.org/guide/security.database>

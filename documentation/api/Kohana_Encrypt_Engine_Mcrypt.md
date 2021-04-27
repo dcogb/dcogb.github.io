@@ -1,9 +1,9 @@
 ---
 layout: api
-class: Kohana_Encrypt_Engine_Mcrypt
+class: Mountain Valley Church of God_Encrypt_Engine_Mcrypt
 ---
-<h1>Kohana_Encrypt_Engine_Mcrypt</h1>
-extends <a href='/documentation/api/Kohana_Encrypt_Engine'>Kohana_Encrypt_Engine</a>
+<h1>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</h1>
+extends <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine'>Mountain Valley Church of God_Encrypt_Engine</a>
 <br />
 <p>
 <i><p>The Encrypt Mcrypt engine provides two-way encryption of text and binary strings
@@ -28,11 +28,11 @@ which produces short output with high entropy.</dd>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana/Encrypt</dd>
+<dd>Mountain Valley Church of God/Encrypt</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -156,7 +156,7 @@ Using MCRYPT_RAND will silently revert to MCRYPT_DEV_URANDOM</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Mcrypt key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Encrypt_Engine_Mcrypt'>Kohana_Encrypt_Engine_Mcrypt</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Mcrypt key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Mcrypt'>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</a>)</small></h3>
 <div class='description'><p>Creates a new mcrypt wrapper.</p>
 </div>
 <h4>Parameters</h4>
@@ -217,7 +217,7 @@ Using MCRYPT_RAND will silently revert to MCRYPT_DEV_URANDOM</p>
 </div>
 
 <div class='method'>
-<h3 id="create_iv"><small>public</small>  create_iv()<small> (defined in <a href='/documentation/api/Kohana_Encrypt_Engine_Mcrypt'>Kohana_Encrypt_Engine_Mcrypt</a>)</small></h3>
+<h3 id="create_iv"><small>public</small>  create_iv()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Mcrypt'>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</a>)</small></h3>
 <div class='description'><p>Proxy for the mcrypt_create_iv function - to allow mocking and testing against KAT vectors</p>
 </div>
 <h4>Return Values</h4>
@@ -238,7 +238,7 @@ Using MCRYPT_RAND will silently revert to MCRYPT_DEV_URANDOM</p>
 </div>
 
 <div class='method'>
-<h3 id="decrypt"><small>public</small>  decrypt(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Kohana_Encrypt_Engine_Mcrypt'>Kohana_Encrypt_Engine_Mcrypt</a>)</small></h3>
+<h3 id="decrypt"><small>public</small>  decrypt(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Mcrypt'>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</a>)</small></h3>
 <div class='description'><p>Decrypts an encoded string back to its original value.</p>
 
 <pre><code>$data = $encrypt-&gt;decode($data);
@@ -290,7 +290,7 @@ Using MCRYPT_RAND will silently revert to MCRYPT_DEV_URANDOM</p>
 </div>
 
 <div class='method'>
-<h3 id="encrypt"><small>public</small>  encrypt(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> , $iv )<small> (defined in <a href='/documentation/api/Kohana_Encrypt_Engine_Mcrypt'>Kohana_Encrypt_Engine_Mcrypt</a>)</small></h3>
+<h3 id="encrypt"><small>public</small>  encrypt(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> , $iv )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Mcrypt'>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</a>)</small></h3>
 <div class='description'><p>Encrypts a string and returns an encrypted string that can be decoded.</p>
 
 <pre><code>$data = $encrypt-&gt;encode($data);
@@ -328,7 +328,7 @@ displayed, and passed using most other means without corruption.</p>
 </div>
 
 <div class='method'>
-<h3 id="_normalize_key"><small>protected</small>  _normalize_key(<small>string</small> <span class="param" title="Encryption key">$key</span> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> , <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> )<small> (defined in <a href='/documentation/api/Kohana_Encrypt_Engine_Mcrypt'>Kohana_Encrypt_Engine_Mcrypt</a>)</small></h3>
+<h3 id="_normalize_key"><small>protected</small>  _normalize_key(<small>string</small> <span class="param" title="Encryption key">$key</span> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> , <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Mcrypt'>Mountain Valley Church of God_Encrypt_Engine_Mcrypt</a>)</small></h3>
 <div class='description'><p>Normalize key for PHP 5.6 for backwards compatibility</p>
 
 <p>This method is a shim to make PHP 5.6 behave in a B/C way for

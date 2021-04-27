@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Kohana_Valid
+class: Mountain Valley Church of God_Valid
 ---
-<h1>Kohana_Valid</h1>
+<h1>Mountain Valley Church of God_Valid</h1>
 <p>
 <i><p>Validation rules.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Security</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -117,7 +117,7 @@ class: Kohana_Valid
 <div class='methods'>
 
 <div class='method'>
-<h3 id="alpha"><small>public static</small>  alpha(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="alpha"><small>public static</small>  alpha(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks whether a string consists of alphabetical characters only.</p>
 </div>
 <h4>Parameters</h4>
@@ -153,7 +153,7 @@ class: Kohana_Valid
 </div>
 
 <div class='method'>
-<h3 id="alpha_dash"><small>public static</small>  alpha_dash(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="alpha_dash"><small>public static</small>  alpha_dash(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks whether a string consists of alphabetical characters, numbers, underscores and dashes only.</p>
 </div>
 <h4>Parameters</h4>
@@ -189,7 +189,7 @@ class: Kohana_Valid
 </div>
 
 <div class='method'>
-<h3 id="alpha_numeric"><small>public static</small>  alpha_numeric(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="alpha_numeric"><small>public static</small>  alpha_numeric(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks whether a string consists of alphabetical characters and numbers only.</p>
 </div>
 <h4>Parameters</h4>
@@ -223,7 +223,7 @@ class: Kohana_Valid
 </div>
 
 <div class='method'>
-<h3 id="color"><small>public static</small>  color(<small>string</small> <span class="param" title="Input string">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="color"><small>public static</small>  color(<small>string</small> <span class="param" title="Input string">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks if a string is a proper hexadecimal HTML color value. The validation
 is quite flexible as it does not require an initial "#" and also allows for
 the short notation using only three instead of six hexadecimal characters.</p>
@@ -250,7 +250,7 @@ the short notation using only three instead of six hexadecimal characters.</p>
 </div>
 
 <div class='method'>
-<h3 id="credit_card"><small>public static</small>  credit_card(<small>integer</small> <span class="param" title="Credit card number">$number</span> [, <small>string|array</small> <span class="param" title="Card type, or an array of card types">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="credit_card"><small>public static</small>  credit_card(<small>integer</small> <span class="param" title="Credit card number">$number</span> [, <small>string|array</small> <span class="param" title="Card type, or an array of card types">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validates a credit card number, with a Luhn check if possible.</p>
 </div>
 <h4>Parameters</h4>
@@ -295,7 +295,7 @@ the short notation using only three instead of six hexadecimal characters.</p>
 		return FALSE;
 	}
 
-	$cards = Kohana::$config-&gt;load(&#039;credit_cards&#039;);
+	$cards = Mountain Valley Church of God::$config-&gt;load(&#039;credit_cards&#039;);
 
 	// Check card type
 	$type = strtolower($type);
@@ -325,7 +325,7 @@ the short notation using only three instead of six hexadecimal characters.</p>
 </div>
 
 <div class='method'>
-<h3 id="date"><small>public static</small>  date(<small>string</small> <span class="param" title="Date to check">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="date"><small>public static</small>  date(<small>string</small> <span class="param" title="Date to check">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Tests if a string is a valid date string.</p>
 </div>
 <h4>Parameters</h4>
@@ -350,7 +350,7 @@ the short notation using only three instead of six hexadecimal characters.</p>
 </div>
 
 <div class='method'>
-<h3 id="decimal"><small>public static</small>  decimal(<small>string</small> <span class="param" title="Number to check">$str</span> [, <small>integer</small> <span class="param" title="Number of decimal places">$places</span> <small>= <small>integer</small> 2</small> , <small>integer</small> <span class="param" title="Number of digits">$digits</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="decimal"><small>public static</small>  decimal(<small>string</small> <span class="param" title="Number to check">$str</span> [, <small>integer</small> <span class="param" title="Number of decimal places">$places</span> <small>= <small>integer</small> 2</small> , <small>integer</small> <span class="param" title="Number of digits">$digits</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks if a string is a proper decimal format. Optionally, a specific
 number of digits can be checked too.</p>
 </div>
@@ -394,7 +394,7 @@ number of digits can be checked too.</p>
 </div>
 
 <div class='method'>
-<h3 id="digit"><small>public static</small>  digit(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="digit"><small>public static</small>  digit(<small>string</small> <span class="param" title="Input string">$str</span> [, <small>boolean</small> <span class="param" title="Trigger UTF-8 compatibility">$utf8</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks whether a string consists of digits only (no dots or dashes).</p>
 </div>
 <h4>Parameters</h4>
@@ -428,7 +428,7 @@ number of digits can be checked too.</p>
 </div>
 
 <div class='method'>
-<h3 id="email"><small>public static</small>  email(<small>string</small> <span class="param" title="E-mail address">$email</span> [, <small>bool</small> <span class="param" title="Strict e-mail checking">$strict</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="email"><small>public static</small>  email(<small>string</small> <span class="param" title="E-mail address">$email</span> [, <small>bool</small> <span class="param" title="Strict e-mail checking">$strict</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validates e-mail address</p>
 </div>
 <h4>Parameters</h4>
@@ -466,7 +466,7 @@ number of digits can be checked too.</p>
 </div>
 
 <div class='method'>
-<h3 id="email_domain"><small>public static</small>  email_domain(<small>string</small> <span class="param" title="Email address">$email</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="email_domain"><small>public static</small>  email_domain(<small>string</small> <span class="param" title="Email address">$email</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validate the domain of an email address by checking if the domain has a
 valid MX record.</p>
 </div>
@@ -501,7 +501,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="equals"><small>public static</small>  equals(<small>string</small> <span class="param" title="Value">$value</span> , <small>string</small> <span class="param" title="Required value">$required</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="equals"><small>public static</small>  equals(<small>string</small> <span class="param" title="Value">$value</span> , <small>string</small> <span class="param" title="Required value">$required</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks that a field is exactly the value required.</p>
 </div>
 <h4>Parameters</h4>
@@ -528,7 +528,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="exact_length"><small>public static</small>  exact_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer|array</small> <span class="param" title="Exact length required, or array of valid lengths">$length</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="exact_length"><small>public static</small>  exact_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer|array</small> <span class="param" title="Exact length required, or array of valid lengths">$length</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks that a field is exactly the right length.</p>
 </div>
 <h4>Parameters</h4>
@@ -565,7 +565,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="ip"><small>public static</small>  ip(<small>string</small> <span class="param" title="IP address">$ip</span> [, <small>boolean</small> <span class="param" title="Allow private IP networks">$allow_private</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="ip"><small>public static</small>  ip(<small>string</small> <span class="param" title="IP address">$ip</span> [, <small>boolean</small> <span class="param" title="Allow private IP networks">$allow_private</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validate an IP.</p>
 </div>
 <h4>Parameters</h4>
@@ -601,7 +601,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="luhn"><small>public static</small>  luhn(<small>string</small> <span class="param" title="Number to check">$number</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="luhn"><small>public static</small>  luhn(<small>string</small> <span class="param" title="Number to check">$number</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validate a number against the <a href="http://en.wikipedia.org/wiki/Luhn_algorithm">Luhn</a>
 (mod10) formula.</p>
 </div>
@@ -659,7 +659,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="matches"><small>public static</small>  matches(<small>array</small> <span class="param" title="Array of values">$array</span> , <small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Field name to match">$match</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="matches"><small>public static</small>  matches(<small>array</small> <span class="param" title="Array of values">$array</span> , <small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Field name to match">$match</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks if a field matches the value of another field.</p>
 </div>
 <h4>Parameters</h4>
@@ -688,7 +688,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="max_length"><small>public static</small>  max_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer</small> <span class="param" title="Maximum length required">$length</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="max_length"><small>public static</small>  max_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer</small> <span class="param" title="Maximum length required">$length</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks that a field is short enough.</p>
 </div>
 <h4>Parameters</h4>
@@ -715,7 +715,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="min_length"><small>public static</small>  min_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer</small> <span class="param" title="Minimum length required">$length</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="min_length"><small>public static</small>  min_length(<small>string</small> <span class="param" title="Value">$value</span> , <small>integer</small> <span class="param" title="Minimum length required">$length</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks that a field is long enough.</p>
 </div>
 <h4>Parameters</h4>
@@ -742,7 +742,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="not_empty"><small>public static</small>  not_empty()<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="not_empty"><small>public static</small>  not_empty()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks if a field is not empty.</p>
 </div>
 <h4>Return Values</h4>
@@ -769,7 +769,7 @@ valid MX record.</p>
 </div>
 
 <div class='method'>
-<h3 id="numeric"><small>public static</small>  numeric(<small>string</small> <span class="param" title="Input string">$str</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="numeric"><small>public static</small>  numeric(<small>string</small> <span class="param" title="Input string">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks whether a string is a valid number (negative and decimal numbers allowed).</p>
 
 <p>Uses {@link http://www.php.net/manual/en/function.localeconv.php locale conversion}
@@ -801,7 +801,7 @@ to allow decimal point to be locale specific.</p>
 </div>
 
 <div class='method'>
-<h3 id="phone"><small>public static</small>  phone(<small>string</small> <span class="param" title="Phone number to check">$number</span> [, <small>array</small> <span class="param" title="$lengths">$lengths</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="phone"><small>public static</small>  phone(<small>string</small> <span class="param" title="Phone number to check">$number</span> [, <small>array</small> <span class="param" title="$lengths">$lengths</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks if a phone number is valid.</p>
 </div>
 <h4>Parameters</h4>
@@ -837,7 +837,7 @@ to allow decimal point to be locale specific.</p>
 </div>
 
 <div class='method'>
-<h3 id="range"><small>public static</small>  range(<small>string</small> <span class="param" title="Number to check">$number</span> , <small>integer</small> <span class="param" title="Minimum value">$min</span> , <small>integer</small> <span class="param" title="Maximum value">$max</span> [, <small>integer</small> <span class="param" title="Increment size">$step</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="range"><small>public static</small>  range(<small>string</small> <span class="param" title="Number to check">$number</span> , <small>integer</small> <span class="param" title="Minimum value">$min</span> , <small>integer</small> <span class="param" title="Maximum value">$max</span> [, <small>integer</small> <span class="param" title="Increment size">$step</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Tests if a number is within a range.</p>
 </div>
 <h4>Parameters</h4>
@@ -881,7 +881,7 @@ to allow decimal point to be locale specific.</p>
 </div>
 
 <div class='method'>
-<h3 id="regex"><small>public static</small>  regex(<small>string</small> <span class="param" title="Value">$value</span> , <small>string</small> <span class="param" title="Regular expression to match (including delimiters)">$expression</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="regex"><small>public static</small>  regex(<small>string</small> <span class="param" title="Value">$value</span> , <small>string</small> <span class="param" title="Regular expression to match (including delimiters)">$expression</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Checks a field against a regular expression.</p>
 </div>
 <h4>Parameters</h4>
@@ -908,7 +908,7 @@ to allow decimal point to be locale specific.</p>
 </div>
 
 <div class='method'>
-<h3 id="url"><small>public static</small>  url(<small>string</small> <span class="param" title="URL">$url</span> )<small> (defined in <a href='/documentation/api/Kohana_Valid'>Kohana_Valid</a>)</small></h3>
+<h3 id="url"><small>public static</small>  url(<small>string</small> <span class="param" title="URL">$url</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Valid'>Mountain Valley Church of God_Valid</a>)</small></h3>
 <div class='description'><p>Validate a URL.</p>
 </div>
 <h4>Parameters</h4>

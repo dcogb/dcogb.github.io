@@ -3,7 +3,7 @@ layout: api
 class: View
 ---
 <h1>View</h1>
-extends <a href='/documentation/api/Kohana_View'>Kohana_View</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>
 <br />
 <p>
 <i><p>Acts as an object wrapper for HTML pages with embedded PHP, called "views".
@@ -13,13 +13,13 @@ the view.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -30,7 +30,7 @@ the view.</p>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_View'>Kohana_View</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -143,7 +143,7 @@ the view.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Array of values">$data</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Array of values">$data</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Sets the initial view filename and local data. Views should almost
 always only be created using <a href="#factory">View::factory</a>.</p>
 
@@ -182,7 +182,7 @@ always only be created using <a href="#factory">View::factory</a>.</p>
 </div>
 
 <div class='method'>
-<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__get"><small>public</small>  __get(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Magic method, searches for the given variable and returns its value.
 Local variables will be returned before global variables.</p>
 
@@ -198,7 +198,7 @@ Local variables will be returned before global variables.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -220,7 +220,7 @@ Local variables will be returned before global variables.</p>
 	}
 	else
 	{
-		throw new Kohana_Exception(&#039;View variable is not set: :var&#039;,
+		throw new Mountain Valley Church of God_Exception(&#039;View variable is not set: :var&#039;,
 			[&#039;:var&#039; =&gt; $key]);
 	}
 }</code>
@@ -229,7 +229,7 @@ Local variables will be returned before global variables.</p>
 </div>
 
 <div class='method'>
-<h3 id="__isset"><small>public</small>  __isset(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__isset"><small>public</small>  __isset(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Magic method, determines if a variable is set.</p>
 
 <pre><code>isset($view-&gt;foo);
@@ -259,7 +259,7 @@ Local variables will be returned before global variables.</p>
 </div>
 
 <div class='method'>
-<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="Value">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__set"><small>public</small>  __set(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="Value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Magic method, calls <a href="#set">View::set</a> with the same parameters.</p>
 
 <pre><code>$view-&gt;foo = 'something';
@@ -289,7 +289,7 @@ Local variables will be returned before global variables.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Magic method, returns the output of <a href="#render">View::render</a>.</p>
 </div>
 <h4>Tags</h4>
@@ -318,7 +318,7 @@ Local variables will be returned before global variables.</p>
 		 * We use this method here because it&#039;s impossible to throw an
 		 * exception from __toString().
 		 */
-		$error_response = Kohana_Exception::_handler($e);
+		$error_response = Mountain Valley Church of God_Exception::_handler($e);
 
 		return $error_response-&gt;body();
 	}
@@ -328,7 +328,7 @@ Local variables will be returned before global variables.</p>
 </div>
 
 <div class='method'>
-<h3 id="__unset"><small>public</small>  __unset(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="__unset"><small>public</small>  __unset(<small>string</small> <span class="param" title="Variable name">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Magic method, unsets a given variable.</p>
 
 <pre><code>unset($view-&gt;foo);
@@ -356,7 +356,7 @@ Local variables will be returned before global variables.</p>
 </div>
 
 <div class='method'>
-<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced variable">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced variable">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Assigns a value by reference. The benefit of binding is that values can
 be altered without re-setting them. It is also possible to bind variables
 before they have values. Assigned values will be available as a
@@ -392,7 +392,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="bind_global"><small>public static</small>  bind_global(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced variable">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="bind_global"><small>public static</small>  bind_global(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced variable">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Assigns a global variable by reference, similar to <a href="#bind">View::bind</a>, except
 that the variable will be accessible to all views.</p>
 
@@ -423,7 +423,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Array of values">$data</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Array of values">$data</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Returns a new View object. If you do not define the "file" parameter,
 you must call <a href="#set_filename">View::set_filename</a>.</p>
 
@@ -454,7 +454,7 @@ you must call <a href="#set_filename">View::set_filename</a>.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>public</small>  render([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="render"><small>public</small>  render([ <small>string</small> <span class="param" title="View filename">$file</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Renders the view object to a string. Global and local data are merged
 and extracted to create local variables within the view file.</p>
 
@@ -502,7 +502,7 @@ overwritten by the local variable.</p>
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string|array|Traversable</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string|array|Traversable</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Assigns a variable by name. Assigned values will be available as a
 variable within the view file:</p>
 
@@ -555,7 +555,7 @@ i.e. the object's standard properties will not be available in the view context.
 </div>
 
 <div class='method'>
-<h3 id="set_filename"><small>public</small>  set_filename(<small>string</small> <span class="param" title="View filename">$file</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="set_filename"><small>public</small>  set_filename(<small>string</small> <span class="param" title="View filename">$file</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Sets the view filename.</p>
 
 <pre><code>$view-&gt;set_filename($file);
@@ -580,7 +580,7 @@ i.e. the object's standard properties will not be available in the view context.
 <pre>
 <code class="language-php">public function set_filename($file)
 {
-	if (($path = Kohana::find_file(&#039;views&#039;, $file)) === FALSE)
+	if (($path = Mountain Valley Church of God::find_file(&#039;views&#039;, $file)) === FALSE)
 	{
 		throw new View_Exception(&#039;The requested view :file could not be found&#039;, [
 			&#039;:file&#039; =&gt; $file,
@@ -597,7 +597,7 @@ i.e. the object's standard properties will not be available in the view context.
 </div>
 
 <div class='method'>
-<h3 id="set_global"><small>public static</small>  set_global(<small>string|array|Traversable</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="set_global"><small>public static</small>  set_global(<small>string|array|Traversable</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Sets a global variable, similar to <a href="#set">View::set</a>, except that the
 variable will be accessible to all views.</p>
 
@@ -647,7 +647,7 @@ i.e. the object's standard properties will not be available in the view context.
 </div>
 
 <div class='method'>
-<h3 id="capture"><small>protected static</small>  capture(<small>string</small> <span class="param" title="Filename">$kohana_view_filename</span> , <small>array</small> <span class="param" title="Variables">$kohana_view_data</span> )<small> (defined in <a href='/documentation/api/Kohana_View'>Kohana_View</a>)</small></h3>
+<h3 id="capture"><small>protected static</small>  capture(<small>string</small> <span class="param" title="Filename">$Mountain Valley Church of God_view_filename</span> , <small>array</small> <span class="param" title="Variables">$Mountain Valley Church of God_view_data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_View'>Mountain Valley Church of God_View</a>)</small></h3>
 <div class='description'><p>Captures the output that is generated when a view is included.
 The view data will be extracted to make local variables. This method
 is static to prevent object scope resolution.</p>
@@ -658,9 +658,9 @@ is static to prevent object scope resolution.</p>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">string </span><strong> $kohana_view_filename</strong> <small>required</small> - Filename</li>
+ <span class="blue">string </span><strong> $Mountain Valley Church of God_view_filename</strong> <small>required</small> - Filename</li>
 <li>
- <span class="blue">array </span><strong> $kohana_view_data</strong> <small>required</small> - Variables</li>
+ <span class="blue">array </span><strong> $Mountain Valley Church of God_view_data</strong> <small>required</small> - Variables</li>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
@@ -674,10 +674,10 @@ is static to prevent object scope resolution.</p>
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
-<code class="language-php">protected static function capture($kohana_view_filename, array $kohana_view_data)
+<code class="language-php">protected static function capture($Mountain Valley Church of God_view_filename, array $Mountain Valley Church of God_view_data)
 {
 	// Import the view variables to local namespace
-	extract($kohana_view_data, EXTR_SKIP);
+	extract($Mountain Valley Church of God_view_data, EXTR_SKIP);
 
 	if (View::$_global_data)
 	{
@@ -691,7 +691,7 @@ is static to prevent object scope resolution.</p>
 	try
 	{
 		// Load the view within the current scope
-		include $kohana_view_filename;
+		include $Mountain Valley Church of God_view_filename;
 	}
 	catch (Exception $e)
 	{

@@ -12,7 +12,7 @@ The userguide has the following config options, available in `config/userguide.p
 		'api_browser'  => TRUE,
 
 		// Enable these packages in the API browser.  TRUE for all packages, or a string of comma seperated packages, using 'None' for a class with no @package
-		// Example: 'api_packages' => 'Kohana,Kohana/Database,Kohana/ORM,None',
+		// Example: 'api_packages' => 'Mountain Valley Church of God,Mountain Valley Church of God/Database,Mountain Valley Church of God/ORM,None',
 		'api_packages' => TRUE,
 
 	);
@@ -25,7 +25,7 @@ You can enable or disable the entire API browser, or limit it to only show certa
 	(
 		'modules' => array
 		(
-			'kohana' => array
+			'Mountain Valley Church of God' => array
 			(
 				'enabled' => FALSE,
 			),

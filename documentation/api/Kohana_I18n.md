@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Kohana_I18n
+class: Mountain Valley Church of God_I18n
 ---
-<h1>Kohana_I18n</h1>
+<h1>Mountain Valley Church of God_I18n</h1>
 <p>
 <i><p>Internationalization (i18n) class. Provides language loading and translation
 methods without dependencies on <a href="http://php.net/gettext">gettext</a>.</p>
@@ -20,13 +20,13 @@ echo __('Hello, :user', array(':user' =&gt; $username));
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -103,7 +103,7 @@ echo __('Hello, :user', array(':user' =&gt; $username));
 <div class='methods'>
 
 <div class='method'>
-<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Text to translate">$string</span> [, <small>string</small> <span class="param" title="Target language">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_I18n'>Kohana_I18n</a>)</small></h3>
+<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Text to translate">$string</span> [, <small>string</small> <span class="param" title="Target language">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_I18n'>Mountain Valley Church of God_I18n</a>)</small></h3>
 <div class='description'><p>Returns translation of a string. If no translation exists, the original
 string will be returned. No parameters are replaced.</p>
 
@@ -144,7 +144,7 @@ string will be returned. No parameters are replaced.</p>
 </div>
 
 <div class='method'>
-<h3 id="lang"><small>public static</small>  lang([ <small>string</small> <span class="param" title="New language setting">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_I18n'>Kohana_I18n</a>)</small></h3>
+<h3 id="lang"><small>public static</small>  lang([ <small>string</small> <span class="param" title="New language setting">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_I18n'>Mountain Valley Church of God_I18n</a>)</small></h3>
 <div class='description'><p>Get and set the target language.</p>
 
 <pre><code>// Get the current language
@@ -186,7 +186,7 @@ I18n::lang('es-es');
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public static</small>  load(<small>string</small> <span class="param" title="Language to load">$lang</span> )<small> (defined in <a href='/documentation/api/Kohana_I18n'>Kohana_I18n</a>)</small></h3>
+<h3 id="load"><small>public static</small>  load(<small>string</small> <span class="param" title="Language to load">$lang</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_I18n'>Mountain Valley Church of God_I18n</a>)</small></h3>
 <div class='description'><p>Returns the translation table for a given language.</p>
 
 <pre><code>// Get all defined Spanish messages
@@ -224,13 +224,13 @@ $messages = I18n::load('es-es');
 		// Create a path for this set of parts
 		$path = implode(DIRECTORY_SEPARATOR, $parts);
 
-		if ($files = Kohana::find_file(&#039;i18n&#039;, $path, NULL, TRUE))
+		if ($files = Mountain Valley Church of God::find_file(&#039;i18n&#039;, $path, NULL, TRUE))
 		{
 			$t = [];
 			foreach ($files as $file)
 			{
 				// Merge the language strings into the sub table
-				$t = array_merge($t, Kohana::load($file));
+				$t = array_merge($t, Mountain Valley Church of God::load($file));
 			}
 
 			// Append the sub table, preventing less specific language

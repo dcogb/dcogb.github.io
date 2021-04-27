@@ -3,7 +3,7 @@ layout: api
 class: Validation
 ---
 <h1>Validation</h1>
-extends <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>
+extends <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>
 <br />
 <p class='interfaces'>
 <small>Implements: <a href='/documentation/api/ArrayAccess'>ArrayAccess</a></small>
@@ -14,13 +14,13 @@ extends <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Kohana</dd>
+<dd>Mountain Valley Church of God</dd>
 <dt>category</dt>
 <dd>Security</dd>
 <dt>author</dt>
-<dd>Kohana Team</dd>
+<dd>Mountain Valley Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Kohana Team</dd>
+<dd>(c) Mountain Valley Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -31,7 +31,7 @@ extends <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -202,7 +202,7 @@ extends <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>array</small> <span class="param" title="Array to validate">$array</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>array</small> <span class="param" title="Array to validate">$array</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Sets the unique "any field" key and creates an ArrayObject from the
 passed array.</p>
 </div>
@@ -228,7 +228,7 @@ passed array.</p>
 </div>
 
 <div class='method'>
-<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Returns the array representation of the current object.
 Deprecated in favor of <a href="#data">Validation::data</a></p>
 </div>
@@ -253,7 +253,7 @@ Deprecated in favor of <a href="#data">Validation::data</a></p>
 </div>
 
 <div class='method'>
-<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name or an array of variables">$key</span> [, <small>mixed</small> <span class="param" title="Value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Bind a value to a parameter definition.</p>
 
 <pre><code>// This allows you to use :model in the parameter definition of rules
@@ -297,7 +297,7 @@ $validation-&gt;bind(':model', $model)
 </div>
 
 <div class='method'>
-<h3 id="check"><small>public</small>  check()<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="check"><small>public</small>  check()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Executes all validation rules. This should
 typically be called within an if/else block.</p>
 
@@ -317,7 +317,7 @@ typically be called within an if/else block.</p>
 <pre>
 <code class="language-php">public function check()
 {
-	if (Kohana::$profiling === TRUE)
+	if (Mountain Valley Church of God::$profiling === TRUE)
 	{
 		// Start a new benchmark
 		$benchmark = Profiler::start(&#039;Validation&#039;, __FUNCTION__);
@@ -483,7 +483,7 @@ typically be called within an if/else block.</p>
 </div>
 
 <div class='method'>
-<h3 id="copy"><small>public</small>  copy(<small>array</small> <span class="param" title="New data set">$array</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="copy"><small>public</small>  copy(<small>array</small> <span class="param" title="New data set">$array</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Copies the current rules to a new array.</p>
 
 <pre><code>$copy = $array-&gt;copy($new_data);
@@ -521,7 +521,7 @@ typically be called within an if/else block.</p>
 </div>
 
 <div class='method'>
-<h3 id="data"><small>public</small>  data()<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="data"><small>public</small>  data()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Returns the array of data to be validated.</p>
 </div>
 <h4>Return Values</h4>
@@ -541,7 +541,7 @@ typically be called within an if/else block.</p>
 </div>
 
 <div class='method'>
-<h3 id="error"><small>public</small>  error(<small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Error message">$error</span> [, <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="error"><small>public</small>  error(<small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Error message">$error</span> [, <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Add an error to a field.</p>
 </div>
 <h4>Parameters</h4>
@@ -572,7 +572,7 @@ typically be called within an if/else block.</p>
 </div>
 
 <div class='method'>
-<h3 id="errors"><small>public</small>  errors([ <small>string</small> <span class="param" title="File to load error messages from">$file</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Translate the message">$translate</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="errors"><small>public</small>  errors([ <small>string</small> <span class="param" title="File to load error messages from">$file</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Translate the message">$translate</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Returns the error messages. If no file is specified, the error message
 will be the name of the rule that failed. When a file is specified, the
 message will be loaded from "field/rule", or if no rule-specific message
@@ -596,7 +596,7 @@ $errors = $Validation-&gt;errors('forms/login');
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#message">Kohana::message</a></li>
+<li>Uses - <a href="#message">Mountain Valley Church of God::message</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -691,19 +691,19 @@ $errors = $Validation-&gt;errors('forms/login');
 			}
 		}
 
-		if ($message = Kohana::message($file, &quot;{$field}.{$error}&quot;) AND is_string($message))
+		if ($message = Mountain Valley Church of God::message($file, &quot;{$field}.{$error}&quot;) AND is_string($message))
 		{
 			// Found a message for this field and error
 		}
-		elseif ($message = Kohana::message($file, &quot;{$field}.default&quot;) AND is_string($message))
+		elseif ($message = Mountain Valley Church of God::message($file, &quot;{$field}.default&quot;) AND is_string($message))
 		{
 			// Found a default message for this field
 		}
-		elseif ($message = Kohana::message($file, $error) AND is_string($message))
+		elseif ($message = Mountain Valley Church of God::message($file, $error) AND is_string($message))
 		{
 			// Found a default message for this error
 		}
-		elseif ($message = Kohana::message(&#039;validation&#039;, $error) AND is_string($message))
+		elseif ($message = Mountain Valley Church of God::message(&#039;validation&#039;, $error) AND is_string($message))
 		{
 			// Found a default message for this error
 		}
@@ -743,7 +743,7 @@ $errors = $Validation-&gt;errors('forms/login');
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>array</small> <span class="param" title="Array to use for validation">$array</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>array</small> <span class="param" title="Array to use for validation">$array</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Creates a new Validation instance.</p>
 </div>
 <h4>Parameters</h4>
@@ -768,7 +768,7 @@ $errors = $Validation-&gt;errors('forms/login');
 </div>
 
 <div class='method'>
-<h3 id="label"><small>public</small>  label(<small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Label">$label</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="label"><small>public</small>  label(<small>string</small> <span class="param" title="Field name">$field</span> , <small>string</small> <span class="param" title="Label">$label</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Sets or overwrites the label name for a field.</p>
 </div>
 <h4>Parameters</h4>
@@ -798,7 +798,7 @@ $errors = $Validation-&gt;errors('forms/login');
 </div>
 
 <div class='method'>
-<h3 id="labels"><small>public</small>  labels(<small>array</small> <span class="param" title="List of field => label names">$labels</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="labels"><small>public</small>  labels(<small>array</small> <span class="param" title="List of field => label names">$labels</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Sets labels using an array.</p>
 </div>
 <h4>Parameters</h4>
@@ -825,7 +825,7 @@ $errors = $Validation-&gt;errors('forms/login');
 </div>
 
 <div class='method'>
-<h3 id="offsetExists"><small>public</small>  offsetExists(<small>string</small> <span class="param" title="Key to check">$offset</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="offsetExists"><small>public</small>  offsetExists(<small>string</small> <span class="param" title="Key to check">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Checks if key is set in array data.
 Implements ArrayAccess method.</p>
 </div>
@@ -851,7 +851,7 @@ Implements ArrayAccess method.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetGet"><small>public</small>  offsetGet(<small>string</small> <span class="param" title="Key to return">$offset</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="offsetGet"><small>public</small>  offsetGet(<small>string</small> <span class="param" title="Key to return">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Gets a value from the array data.
 Implements ArrayAccess method.</p>
 </div>
@@ -877,7 +877,7 @@ Implements ArrayAccess method.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetSet"><small>public</small>  offsetSet(<small>string</small> <span class="param" title="Key to set">$offset</span> , <small>mixed</small> <span class="param" title="Value to set">$value</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="offsetSet"><small>public</small>  offsetSet(<small>string</small> <span class="param" title="Key to set">$offset</span> , <small>mixed</small> <span class="param" title="Value to set">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Throws an exception because Validation is read-only.
 Implements ArrayAccess method.</p>
 </div>
@@ -890,7 +890,7 @@ Implements ArrayAccess method.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -902,14 +902,14 @@ Implements ArrayAccess method.</p>
 <pre>
 <code class="language-php">public function offsetSet($offset, $value)
 {
-	throw new Kohana_Exception(&#039;Validation objects are read-only.&#039;);
+	throw new Mountain Valley Church of God_Exception(&#039;Validation objects are read-only.&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="offsetUnset"><small>public</small>  offsetUnset(<small>string</small> <span class="param" title="Key to unset">$offset</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="offsetUnset"><small>public</small>  offsetUnset(<small>string</small> <span class="param" title="Key to unset">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Throws an exception because Validation is read-only.
 Implements ArrayAccess method.</p>
 </div>
@@ -920,7 +920,7 @@ Implements ArrayAccess method.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Kohana_Exception</a></li>
+<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -932,14 +932,14 @@ Implements ArrayAccess method.</p>
 <pre>
 <code class="language-php">public function offsetUnset($offset)
 {
-	throw new Kohana_Exception(&#039;Validation objects are read-only.&#039;);
+	throw new Mountain Valley Church of God_Exception(&#039;Validation objects are read-only.&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="rule"><small>public</small>  rule(<small>string</small> <span class="param" title="Field name">$field</span> , <small>callback</small> <span class="param" title="Valid PHP callback or closure">$rule</span> [, <small>array</small> <span class="param" title="Extra parameters for the rule">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="rule"><small>public</small>  rule(<small>string</small> <span class="param" title="Field name">$field</span> , <small>callback</small> <span class="param" title="Valid PHP callback or closure">$rule</span> [, <small>array</small> <span class="param" title="Extra parameters for the rule">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Overwrites or appends rules to a field. Each rule will be executed once.
 All rules must be string names of functions method names. Parameters must
 match the parameters of the callback function exactly</p>
@@ -1012,7 +1012,7 @@ $validation-&gt;rule('index',
 </div>
 
 <div class='method'>
-<h3 id="rules"><small>public</small>  rules(<small>string</small> <span class="param" title="Field name">$field</span> , <small>array</small> <span class="param" title="List of callbacks">$rules</span> )<small> (defined in <a href='/documentation/api/Kohana_Validation'>Kohana_Validation</a>)</small></h3>
+<h3 id="rules"><small>public</small>  rules(<small>string</small> <span class="param" title="Field name">$field</span> , <small>array</small> <span class="param" title="List of callbacks">$rules</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Validation'>Mountain Valley Church of God_Validation</a>)</small></h3>
 <div class='description'><p>Add rules using an array.</p>
 </div>
 <h4>Parameters</h4>

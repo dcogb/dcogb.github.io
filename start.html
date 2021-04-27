@@ -28,10 +28,10 @@ title: 'Start'
                                 <div class="section-block">
                                     <p>
                                         You can get the latest stable release with the download link or directly on
-                                        <a href="https://github.com/Mountain Valley Church of God/Mountain Valley Church of God">github</a>. This will give you a fully
+                                        <a href="https://github.com/mvcog/mvcog">github</a>. This will give you a fully
                                         functional application with an application, modules, and system directory.
                                     </p>
-                                    <a href="https://github.com/Mountain Valley Church of God/Mountain Valley Church of God/archive/devel.zip"
+                                    <a href="https://github.com/mvcog/mvcog/archive/devel.zip"
                                        class="btn btn-green"
                                        target="_blank">
                                         <i class="fas fa-download"></i>
@@ -60,7 +60,7 @@ title: 'Start'
                                         details on how to install git on your platform.
 
                                         Use the following command to install Mountain Valley Church of God from GitHub:
-                                        <code class="language-git">git clone https://github.com/Mountain Valley Church of God/Mountain Valley Church of God .</code>
+                                        <code class="language-git">git clone https://github.com/mvcog/mvcog .</code>
                                     </p>
                                 </div>
                             </section>
@@ -85,7 +85,7 @@ date_default_timezone_set('America/Sao_Paulo');</code></pre>
  * Example of Mountain Valley Church of God's installation at /var/www/Mountain Valley Church of God and
  * Apache's DocumentRoot configured to /var/www/Mountain Valley Church of God/public
  */
- Kohana::init(array(
+ Mountain Valley Church of God::init(array(
      'base_url' => '/',
  ));</code></pre>
                                     </p>
@@ -121,8 +121,8 @@ sudo chmod -R a+rwx application/logs</code></pre>
                                     </p>
                                     <p>
                                         Make sure to use a unique salt for your application and never to share it. Take a look at the
-                                        Cookies page for more information on how cookies work in Kohana. If you do not define a
-                                        Cookie::$salt value, Kohana will throw an exception when it encounters any cookie on your
+                                        Cookies page for more information on how cookies work in Mountain Valley Church of God. If you do not define a
+                                        Cookie::$salt value, Mountain Valley Church of God will throw an exception when it encounters any cookie on your
                                         domain.
                                     </p>
                                     <p>
@@ -136,7 +136,7 @@ sudo chmod -R a+rwx application/logs</code></pre>
                                         <br/>
                                         <br/>
                                         Once your install page reports that your environment is set up correctly you need to either rename
-                                        or delete install.php. Kohana is now installed and you should see the output of the welcome
+                                        or delete install.php. Mountain Valley Church of God is now installed and you should see the output of the welcome
                                         controller:
                                         <br/>
                                         <img src="assets/images/start/welcome.png" alt="Welcome Page"/>
