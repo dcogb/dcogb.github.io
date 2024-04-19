@@ -3,15 +3,15 @@ layout: api
 class: Database_Query_Builder_Insert
 ---
 <h1>Database_Query_Builder_Insert</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>
+extends <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>
 <br />
 extends <a href='/documentation/api/Database_Query_Builder'>Database_Query_Builder</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>
+extends <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>
 <br />
 extends <a href='/documentation/api/Database_Query'>Database_Query</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>
+extends <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>
 <br />
 <p>
 <i><p>Database query builder for INSERT statements. See <a href="/database/query/builder">Query Builder</a> for usage and examples.</p>
@@ -19,13 +19,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Query</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -36,7 +36,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -272,7 +272,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Table name or array($table, $alias) or object">$table</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Column names">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>mixed</small> <span class="param" title="Table name or array($table, $alias) or object">$table</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Column names">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Set the table and columns for an insert.</p>
 </div>
 <h4>Parameters</h4>
@@ -312,7 +312,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="columns"><small>public</small>  columns(<small>array</small> <span class="param" title="Column names">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="columns"><small>public</small>  columns(<small>array</small> <span class="param" title="Column names">$columns</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Set the columns that will be inserted.</p>
 </div>
 <h4>Parameters</h4>
@@ -339,7 +339,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="compile"><small>public</small>  compile([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="compile"><small>public</small>  compile([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Compile the SQL query and return it.</p>
 </div>
 <h4>Parameters</h4>
@@ -406,7 +406,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="reset"><small>public</small>  reset()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="reset"><small>public</small>  reset()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Reset the current builder status.</p>
 </div>
 <h4>Return Values</h4>
@@ -435,7 +435,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="select"><small>public</small>  select(<small>object</small> <span class="param" title="Database_Query of SELECT type">$query</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="select"><small>public</small>  select(<small>object</small> <span class="param" title="Database_Query of SELECT type">$query</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Use a sub-query to for the inserted values.</p>
 </div>
 <h4>Parameters</h4>
@@ -455,7 +455,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 {
 	if ($query-&gt;type() !== Database::SELECT)
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;Only SELECT queries can be combined with INSERT queries&#039;);
+		throw new Donica Church of God_Exception(&#039;Only SELECT queries can be combined with INSERT queries&#039;);
 	}
 
 	$this-&gt;_values = $query;
@@ -467,7 +467,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="table"><small>public</small>  table(<small>string</small> <span class="param" title="Table name">$table</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="table"><small>public</small>  table(<small>string</small> <span class="param" title="Table name">$table</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Sets the table to insert into.</p>
 </div>
 <h4>Parameters</h4>
@@ -486,7 +486,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 <code class="language-php">public function table($table)
 {
 	if ( ! is_string($table))
-		throw new Mountain Valley Church of God_Exception(&#039;INSERT INTO syntax does not allow table aliasing&#039;);
+		throw new Donica Church of God_Exception(&#039;INSERT INTO syntax does not allow table aliasing&#039;);
 
 	$this-&gt;_table = $table;
 
@@ -497,7 +497,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="values"><small>public</small>  values(<small>array</small> <span class="param" title="Values list">$values</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder_Insert'>Mountain Valley Church of God_Database_Query_Builder_Insert</a>)</small></h3>
+<h3 id="values"><small>public</small>  values(<small>array</small> <span class="param" title="Values list">$values</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder_Insert'>Donica Church of God_Database_Query_Builder_Insert</a>)</small></h3>
 <div class='description'><p>Adds or overwrites values. Multiple value sets can be added.</p>
 </div>
 <h4>Parameters</h4>
@@ -517,7 +517,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 {
 	if ( ! is_array($this-&gt;_values))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;INSERT INTO ... SELECT statements cannot be combined with INSERT INTO ... VALUES&#039;);
+		throw new Donica Church of God_Exception(&#039;INSERT INTO ... SELECT statements cannot be combined with INSERT INTO ... VALUES&#039;);
 	}
 
 	// Get all of the passed values
@@ -535,7 +535,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Return the SQL query string.</p>
 </div>
 <h4>Return Values</h4>
@@ -555,7 +555,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 	}
 	catch (Exception $e)
 	{
-		return Mountain Valley Church of God_Exception::text($e);
+		return Donica Church of God_Exception::text($e);
 	}
 }</code>
 </pre>
@@ -563,7 +563,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="as_assoc"><small>public</small>  as_assoc()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="as_assoc"><small>public</small>  as_assoc()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Returns results as associative arrays</p>
 </div>
 <h4>Return Values</h4>
@@ -587,7 +587,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="as_object"><small>public</small>  as_object([ <small>string</small> <span class="param" title="Classname or TRUE for stdClass">$class</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="as_object"><small>public</small>  as_object([ <small>string</small> <span class="param" title="Classname or TRUE for stdClass">$class</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Returns results as objects</p>
 </div>
 <h4>Parameters</h4>
@@ -622,7 +622,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Query
 </div>
 
 <div class='method'>
-<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to use">$var</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to use">$var</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Bind a variable to a parameter in the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -652,7 +652,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="cached"><small>public</small>  cached([ <small>integer</small> <span class="param" title="Number of seconds to cache, 0 deletes it from the cache">$lifetime</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether or not to execute the query during a cache hit">$force</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="cached"><small>public</small>  cached([ <small>integer</small> <span class="param" title="Number of seconds to cache, 0 deletes it from the cache">$lifetime</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether or not to execute the query during a cache hit">$force</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Enables the query to be cached for a specified amount of time.</p>
 </div>
 <h4>Parameters</h4>
@@ -664,7 +664,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:cache_life">Mountain Valley Church of God::$cache_life</a></li>
+<li>Uses - <a href="#property:cache_life">Donica Church of God::$cache_life</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -679,7 +679,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 	if ($lifetime === NULL)
 	{
 		// Use the global setting
-		$lifetime = Mountain Valley Church of God::$cache_life;
+		$lifetime = Donica Church of God::$cache_life;
 	}
 
 	$this-&gt;_force_execute = $force;
@@ -692,7 +692,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Result object classname, TRUE for stdClass or FALSE for array">$as_object</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Result object constructor arguments">$object_params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Result object classname, TRUE for stdClass or FALSE for array">$as_object</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Result object constructor arguments">$object_params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Execute the current query on the given database.</p>
 </div>
 <h4>Parameters</h4>
@@ -743,7 +743,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 		$cache_key = &#039;Database::query(&quot;&#039;.$db.&#039;&quot;, &quot;&#039;.$sql.&#039;&quot;)&#039;;
 
 		// Read the cache first to delete a possible hit with lifetime &lt;= 0
-		if (($result = Mountain Valley Church of God::cache($cache_key, NULL, $this-&gt;_lifetime)) !== NULL
+		if (($result = Donica Church of God::cache($cache_key, NULL, $this-&gt;_lifetime)) !== NULL
 			AND ! $this-&gt;_force_execute)
 		{
 			// Return a cached result
@@ -757,7 +757,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 	if (isset($cache_key) AND $this-&gt;_lifetime &gt; 0)
 	{
 		// Cache the result array
-		Mountain Valley Church of God::cache($cache_key, $result-&gt;as_array(), $this-&gt;_lifetime);
+		Donica Church of God::cache($cache_key, $result-&gt;as_array(), $this-&gt;_lifetime);
 	}
 
 	return $result;
@@ -767,7 +767,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Set the value of a parameter in the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -797,7 +797,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="parameters"><small>public</small>  parameters(<small>array</small> <span class="param" title="List of parameters">$params</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="parameters"><small>public</small>  parameters(<small>array</small> <span class="param" title="List of parameters">$params</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Add multiple parameters to the query.</p>
 </div>
 <h4>Parameters</h4>
@@ -825,7 +825,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="type"><small>public</small>  type()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query'>Mountain Valley Church of God_Database_Query</a>)</small></h3>
+<h3 id="type"><small>public</small>  type()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query'>Donica Church of God_Database_Query</a>)</small></h3>
 <div class='description'><p>Get the type of the query.</p>
 </div>
 <h4>Return Values</h4>
@@ -845,7 +845,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="_compile_conditions"><small>protected</small>  _compile_conditions(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Condition statements">$conditions</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>)</small></h3>
+<h3 id="_compile_conditions"><small>protected</small>  _compile_conditions(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Condition statements">$conditions</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>)</small></h3>
 <div class='description'><p>Compiles an array of conditions into an SQL partial. Used for WHERE
 and HAVING.</p>
 </div>
@@ -975,7 +975,7 @@ and HAVING.</p>
 </div>
 
 <div class='method'>
-<h3 id="_compile_group_by"><small>protected</small>  _compile_group_by(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="$columns">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>)</small></h3>
+<h3 id="_compile_group_by"><small>protected</small>  _compile_group_by(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="$columns">$columns</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>)</small></h3>
 <div class='description'><p>Compiles an array of GROUP BY columns into an SQL partial.</p>
 </div>
 <h4>Parameters</h4>
@@ -1020,7 +1020,7 @@ and HAVING.</p>
 </div>
 
 <div class='method'>
-<h3 id="_compile_join"><small>protected</small>  _compile_join(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Join statements">$joins</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>)</small></h3>
+<h3 id="_compile_join"><small>protected</small>  _compile_join(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Join statements">$joins</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>)</small></h3>
 <div class='description'><p>Compiles an array of JOIN statements into an SQL partial.</p>
 </div>
 <h4>Parameters</h4>
@@ -1055,7 +1055,7 @@ and HAVING.</p>
 </div>
 
 <div class='method'>
-<h3 id="_compile_order_by"><small>protected</small>  _compile_order_by(<small>Database</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Sorting columns ">$columns</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>)</small></h3>
+<h3 id="_compile_order_by"><small>protected</small>  _compile_order_by(<small>Database</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Sorting columns ">$columns</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>)</small></h3>
 <div class='description'><p>Compiles an array of ORDER BY statements into an SQL partial.</p>
 </div>
 <h4>Parameters</h4>
@@ -1117,7 +1117,7 @@ and HAVING.</p>
 </div>
 
 <div class='method'>
-<h3 id="_compile_set"><small>protected</small>  _compile_set(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Updated values">$values</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Query_Builder'>Mountain Valley Church of God_Database_Query_Builder</a>)</small></h3>
+<h3 id="_compile_set"><small>protected</small>  _compile_set(<small>object</small> <span class="param" title="Database instance">$db</span> , <small>array</small> <span class="param" title="Updated values">$values</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Query_Builder'>Donica Church of God_Database_Query_Builder</a>)</small></h3>
 <div class='description'><p>Compiles an array of set values into an SQL partial. Used for UPDATE.</p>
 </div>
 <h4>Parameters</h4>

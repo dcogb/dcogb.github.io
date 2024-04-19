@@ -1,12 +1,12 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Config_Reader
+class: Donica Church of God_Config_Reader
 ---
-<h1>Mountain Valley Church of God_Config_Reader</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a>
+<h1>Donica Church of God_Config_Reader</h1>
+extends <a href='/documentation/api/Donica Church of God_Config_Source'>Donica Church of God_Config_Source</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a></small>
+<small>Implements: <a href='/documentation/api/Donica Church of God_Config_Source'>Donica Church of God_Config_Source</a></small>
 </p>
 <p>
 <i><p>Interface for config readers</p>
@@ -14,13 +14,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -56,7 +56,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'
 <div class='methods'>
 
 <div class='method'>
-<h3 id="load"><small>abstract public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Reader'>Mountain Valley Church of God_Config_Reader</a>)</small></h3>
+<h3 id="load"><small>abstract public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Reader'>Donica Church of God_Config_Reader</a>)</small></h3>
 <div class='description'><p>Tries to load the specified configuration group</p>
 
 <p>Returns FALSE if group does not exist or an array if it does</p>

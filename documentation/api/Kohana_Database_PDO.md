@@ -1,11 +1,11 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Database_PDO
+class: Donica Church of God_Database_PDO
 ---
-<h1>Mountain Valley Church of God_Database_PDO</h1>
+<h1>Donica Church of God_Database_PDO</h1>
 extends <a href='/documentation/api/Database'>Database</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>
+extends <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>
 <br />
 <p>
 <i><p>PDO database connection.</p>
@@ -13,13 +13,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database'>Moun
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Drivers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -249,7 +249,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database'>Moun
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Stores the database configuration locally and name the instance.</p>
 
 <p class="note">This method cannot be accessed directly, you must use <a href="#instance">Database::instance</a>.</p>
@@ -277,7 +277,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database'>Moun
 </div>
 
 <div class='method'>
-<h3 id="begin"><small>public</small>  begin([ <small>string</small> <span class="param" title="Transaction mode">$mode</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="begin"><small>public</small>  begin([ <small>string</small> <span class="param" title="Transaction mode">$mode</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Start a SQL transaction</p>
 
 <pre><code>// Start the transactions
@@ -321,7 +321,7 @@ catch (Database_Exception $e)
 </div>
 
 <div class='method'>
-<h3 id="commit"><small>public</small>  commit()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="commit"><small>public</small>  commit()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Commit the current transaction</p>
 
 <pre><code>// Commit the database changes
@@ -348,7 +348,7 @@ $db-&gt;commit();
 </div>
 
 <div class='method'>
-<h3 id="connect"><small>public</small>  connect()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="connect"><small>public</small>  connect()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Connect to the database. This is called automatically when the first
 query is executed.</p>
 
@@ -415,7 +415,7 @@ query is executed.</p>
 </div>
 
 <div class='method'>
-<h3 id="create_aggregate"><small>public</small>  create_aggregate(<small>string</small> <span class="param" title="Name of the SQL function to be created or redefined">$name</span> , <small>callback</small> <span class="param" title="Called for each row of a result set">$step</span> , <small>callback</small> <span class="param" title="Called after all rows of a result set have been processed">$final</span> [, <small>integer</small> <span class="param" title="Number of arguments that the SQL function takes ">$arguments</span> <small>= <small>integer</small> -1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="create_aggregate"><small>public</small>  create_aggregate(<small>string</small> <span class="param" title="Name of the SQL function to be created or redefined">$name</span> , <small>callback</small> <span class="param" title="Called for each row of a result set">$step</span> , <small>callback</small> <span class="param" title="Called after all rows of a result set have been processed">$final</span> [, <small>integer</small> <span class="param" title="Number of arguments that the SQL function takes ">$arguments</span> <small>= <small>integer</small> -1</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Create or redefine a SQL aggregate function.</p>
 
 <p class="note">Works only with SQLite</p>
@@ -457,7 +457,7 @@ query is executed.</p>
 </div>
 
 <div class='method'>
-<h3 id="create_function"><small>public</small>  create_function(<small>string</small> <span class="param" title="Name of the SQL function to be created or redefined">$name</span> , <small>callback</small> <span class="param" title="Callback which implements the SQL function">$callback</span> [, <small>integer</small> <span class="param" title="Number of arguments that the SQL function takes ">$arguments</span> <small>= <small>integer</small> -1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="create_function"><small>public</small>  create_function(<small>string</small> <span class="param" title="Name of the SQL function to be created or redefined">$name</span> , <small>callback</small> <span class="param" title="Callback which implements the SQL function">$callback</span> [, <small>integer</small> <span class="param" title="Number of arguments that the SQL function takes ">$arguments</span> <small>= <small>integer</small> -1</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Create or redefine a SQL function.</p>
 
 <p class="note">Works only with SQLite</p>
@@ -497,7 +497,7 @@ query is executed.</p>
 </div>
 
 <div class='method'>
-<h3 id="disconnect"><small>public</small>  disconnect()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="disconnect"><small>public</small>  disconnect()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Disconnect from the database. This is called automatically by <a href="#__destruct">Database::__destruct</a>.
 Clears the database instance from <a href="#property:instances">Database::$instances</a>.</p>
 
@@ -524,7 +524,7 @@ Clears the database instance from <a href="#property:instances">Database::$insta
 </div>
 
 <div class='method'>
-<h3 id="escape"><small>public</small>  escape(<small>string</small> <span class="param" title="Value to quote">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="escape"><small>public</small>  escape(<small>string</small> <span class="param" title="Value to quote">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Sanitize a string by escaping characters that could cause an SQL
 injection attack.</p>
 
@@ -556,7 +556,7 @@ injection attack.</p>
 </div>
 
 <div class='method'>
-<h3 id="list_columns"><small>public</small>  list_columns(<small>string</small> <span class="param" title="Table to get columns from">$table</span> [, <small>string</small> <span class="param" title="Column to search for">$like</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether to add the table prefix automatically or not">$add_prefix</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="list_columns"><small>public</small>  list_columns(<small>string</small> <span class="param" title="Table to get columns from">$table</span> [, <small>string</small> <span class="param" title="Column to search for">$like</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Whether to add the table prefix automatically or not">$add_prefix</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Lists all of the columns in a table. Optionally, a LIKE string can be
 used to search for specific fields.</p>
 
@@ -589,7 +589,7 @@ $columns = $db-&gt;list_columns('users', NULL, FALSE);
 <pre>
 <code class="language-php">public function list_columns($table, $like = NULL, $add_prefix = TRUE)
 {
-	throw new Mountain Valley Church of God_Exception(&#039;Database method :method is not supported by :class&#039;,
+	throw new Donica Church of God_Exception(&#039;Database method :method is not supported by :class&#039;,
 		[&#039;:method&#039; =&gt; __FUNCTION__, &#039;:class&#039; =&gt; __CLASS__]);
 }</code>
 </pre>
@@ -597,7 +597,7 @@ $columns = $db-&gt;list_columns('users', NULL, FALSE);
 </div>
 
 <div class='method'>
-<h3 id="list_tables"><small>public</small>  list_tables([ <small>string</small> <span class="param" title="Table to search for">$like</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="list_tables"><small>public</small>  list_tables([ <small>string</small> <span class="param" title="Table to search for">$like</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>List all of the tables in the database. Optionally, a LIKE string can
 be used to search for specific tables.</p>
 
@@ -623,7 +623,7 @@ $tables = $db-&gt;list_tables('user%');
 <pre>
 <code class="language-php">public function list_tables($like = NULL)
 {
-	throw new Mountain Valley Church of God_Exception(&#039;Database method :method is not supported by :class&#039;,
+	throw new Donica Church of God_Exception(&#039;Database method :method is not supported by :class&#039;,
 		[&#039;:method&#039; =&gt; __FUNCTION__, &#039;:class&#039; =&gt; __CLASS__]);
 }</code>
 </pre>
@@ -631,7 +631,7 @@ $tables = $db-&gt;list_tables('user%');
 </div>
 
 <div class='method'>
-<h3 id="query"><small>public</small>  query(<small>integer</small> <span class="param" title="Database::SELECT, Database::INSERT, etc">$type</span> , <small>string</small> <span class="param" title="SQL query">$sql</span> [, <small>mixed</small> <span class="param" title="Result object class string, TRUE for stdClass, FALSE for assoc array">$as_object</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Object construct parameters for result class">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="query"><small>public</small>  query(<small>integer</small> <span class="param" title="Database::SELECT, Database::INSERT, etc">$type</span> , <small>string</small> <span class="param" title="SQL query">$sql</span> [, <small>mixed</small> <span class="param" title="Result object class string, TRUE for stdClass, FALSE for assoc array">$as_object</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="Object construct parameters for result class">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Perform an SQL query of the given type.</p>
 
 <pre><code>// Make a SELECT query and use objects for results
@@ -669,7 +669,7 @@ $db-&gt;query(Database::SELECT, 'SELECT * FROM users LIMIT 1', 'Model_User');
 	// Make sure the database is connected
 	$this-&gt;_connection or $this-&gt;connect();
 
-	if (Mountain Valley Church of God::$profiling)
+	if (Donica Church of God::$profiling)
 	{
 		// Benchmark this query for the current instance
 		$benchmark = Profiler::start(&quot;Database ({$this-&gt;_instance})&quot;, $sql);
@@ -744,7 +744,7 @@ $db-&gt;query(Database::SELECT, 'SELECT * FROM users LIMIT 1', 'Model_User');
 </div>
 
 <div class='method'>
-<h3 id="rollback"><small>public</small>  rollback()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="rollback"><small>public</small>  rollback()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Abort the current transaction</p>
 
 <pre><code>// Undo the changes
@@ -771,7 +771,7 @@ $db-&gt;rollback();
 </div>
 
 <div class='method'>
-<h3 id="set_charset"><small>public</small>  set_charset(<small>string</small> <span class="param" title="Character set name">$charset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_PDO'>Mountain Valley Church of God_Database_PDO</a>)</small></h3>
+<h3 id="set_charset"><small>public</small>  set_charset(<small>string</small> <span class="param" title="Character set name">$charset</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_PDO'>Donica Church of God_Database_PDO</a>)</small></h3>
 <div class='description'><p>Set the connection character set. This is called automatically by <a href="#connect">Database::connect</a>.</p>
 
 <pre><code>$db-&gt;set_charset('utf8');
@@ -807,7 +807,7 @@ $db-&gt;rollback();
 </div>
 
 <div class='method'>
-<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Disconnect from the database when the object is destroyed.</p>
 
 <pre><code>// Destroy the database instance
@@ -834,7 +834,7 @@ will still be stored in <code>Database::$instances</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Returns the database instance name.</p>
 
 <pre><code>echo (string) $db;
@@ -857,7 +857,7 @@ will still be stored in <code>Database::$instances</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="count_records"><small>public</small>  count_records(<small>mixed</small> <span class="param" title="Table name string or array(query, alias)">$table</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="count_records"><small>public</small>  count_records(<small>mixed</small> <span class="param" title="Table name string or array(query, alias)">$table</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Count the number of records in a table.</p>
 
 <pre><code>// Get the total number of records in the "users" table
@@ -890,7 +890,7 @@ $count = $db-&gt;count_records('users');
 </div>
 
 <div class='method'>
-<h3 id="datatype"><small>public</small>  datatype(<small>string</small> <span class="param" title="SQL data type">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="datatype"><small>public</small>  datatype(<small>string</small> <span class="param" title="SQL data type">$type</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Returns a normalized array describing the SQL data type</p>
 
 <pre><code>$db-&gt;datatype('char');
@@ -974,7 +974,7 @@ $count = $db-&gt;count_records('users');
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Instance name">$name</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Configuration parameters">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Instance name">$name</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Configuration parameters">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Get a singleton Database instance. If configuration is not specified,
 it will be loaded from the database configuration file using the same
 group as the name.</p>
@@ -1014,12 +1014,12 @@ $db = Database::instance('custom', $config);
 		if ($config === NULL)
 		{
 			// Load the configuration for this database
-			$config = Mountain Valley Church of God::$config-&gt;load(&#039;database&#039;)-&gt;$name;
+			$config = Donica Church of God::$config-&gt;load(&#039;database&#039;)-&gt;$name;
 		}
 
 		if ( ! isset($config[&#039;type&#039;]))
 		{
-			throw new Mountain Valley Church of God_Exception(&#039;Database type not defined in :name configuration&#039;,
+			throw new Donica Church of God_Exception(&#039;Database type not defined in :name configuration&#039;,
 				[&#039;:name&#039; =&gt; $name]);
 		}
 
@@ -1040,7 +1040,7 @@ $db = Database::instance('custom', $config);
 </div>
 
 <div class='method'>
-<h3 id="quote"><small>public</small>  quote(<small>mixed</small> <span class="param" title="Any value to quote">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="quote"><small>public</small>  quote(<small>mixed</small> <span class="param" title="Any value to quote">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Quote a value for an SQL query.</p>
 
 <pre><code>$db-&gt;quote(NULL);   // 'NULL'
@@ -1123,7 +1123,7 @@ All other objects will be converted using the <code>__toString</code> method.</p
 </div>
 
 <div class='method'>
-<h3 id="quote_column"><small>public</small>  quote_column(<small>mixed</small> <span class="param" title="Column name or array(column, alias)">$column</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="quote_column"><small>public</small>  quote_column(<small>mixed</small> <span class="param" title="Column name or array(column, alias)">$column</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Quote a database column name and add the table prefix if needed.</p>
 
 <pre><code>$column = $db-&gt;quote_column($column);
@@ -1230,7 +1230,7 @@ All other objects will be converted using the <code>__toString</code> method.</p
 </div>
 
 <div class='method'>
-<h3 id="quote_identifier"><small>public</small>  quote_identifier(<small>mixed</small> <span class="param" title="Any identifier">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="quote_identifier"><small>public</small>  quote_identifier(<small>mixed</small> <span class="param" title="Any identifier">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Quote a database identifier</p>
 
 <p>Objects passed to this function will be converted to strings.
@@ -1309,7 +1309,7 @@ All other objects will be converted using the <code>__toString</code> method.</p
 </div>
 
 <div class='method'>
-<h3 id="quote_table"><small>public</small>  quote_table(<small>mixed</small> <span class="param" title="Table name or array(table, alias)">$table</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="quote_table"><small>public</small>  quote_table(<small>mixed</small> <span class="param" title="Table name or array(table, alias)">$table</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Quote a database table name and adds the table prefix if needed.</p>
 
 <pre><code>$table = $db-&gt;quote_table($table);
@@ -1406,7 +1406,7 @@ All other objects will be converted using the <code>__toString</code> method.</p
 </div>
 
 <div class='method'>
-<h3 id="table_prefix"><small>public</small>  table_prefix()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="table_prefix"><small>public</small>  table_prefix()<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Return the table prefix defined in the current configuration.</p>
 
 <pre><code>$prefix = $db-&gt;table_prefix();
@@ -1429,7 +1429,7 @@ All other objects will be converted using the <code>__toString</code> method.</p
 </div>
 
 <div class='method'>
-<h3 id="_parse_type"><small>protected</small>  _parse_type(<small>string</small> <span class="param" title="$type">$type</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database'>Mountain Valley Church of God_Database</a>)</small></h3>
+<h3 id="_parse_type"><small>protected</small>  _parse_type(<small>string</small> <span class="param" title="$type">$type</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database'>Donica Church of God_Database</a>)</small></h3>
 <div class='description'><p>Extracts the text between parentheses, if any.</p>
 
 <pre><code>// Returns: array('CHAR', '6')

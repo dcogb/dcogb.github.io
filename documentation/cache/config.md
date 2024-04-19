@@ -2,9 +2,9 @@
 layout: documentation
 title: Cache
 ---
-# Mountain Valley Church of God Cache configuration
+# Donica Church of God Cache configuration
 
-Mountain Valley Church of God Cache uses configuration groups to create cache instances. A configuration group can
+Donica Church of God Cache uses configuration groups to create cache instances. A configuration group can
 use any supported driver, with successive groups using multiple instances of the same driver type.
 
 The default cache group is loaded based on the `Cache::$default` setting. It is set to the `file` driver as standard, however this can be changed within the `/application/boostrap.php` file.
@@ -29,7 +29,7 @@ default_expire | __NO__   | (_string_) The driver type to use
 	'file'  => array
 	(
 		'driver'             => 'file',
-		'cache_dir'          => APPPATH.'cache/.Mountain Valley Church of God_cache',
+		'cache_dir'          => APPPATH.'cache/.Donica Church of God_cache',
 		'default_expire'     => 3600,
 	),
 
@@ -109,7 +109,7 @@ failure_callback | __NO__   | (_[callback](http://www.php.net/manual/en/language
 	(
 		'driver'             => 'sqlite',
 		'default_expire'     => 3600,
-		'database'           => APPPATH.'cache/Mountain Valley Church of God-cache.sql3',
+		'database'           => APPPATH.'cache/Donica Church of God-cache.sql3',
 		'schema'             => 'CREATE TABLE caches(id VARCHAR(127) PRIMARY KEY, 
 		                                  tags VARCHAR(255), expiration INTEGER, cache TEXT)',
 	),
@@ -119,7 +119,7 @@ failure_callback | __NO__   | (_[callback](http://www.php.net/manual/en/language
 	'file'    => array
 	(
 		'driver'             => 'file',
-		'cache_dir'          => 'cache/.Mountain Valley Church of God_cache',
+		'cache_dir'          => 'cache/.Donica Church of God_cache',
 		'default_expire'     => 3600,
 	)
 

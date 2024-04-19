@@ -3,7 +3,7 @@ layout: api
 class: DB
 ---
 <h1>DB</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>
+extends <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>
 <br />
 <p>
 <i><p>Provides a shortcut to get Database related objects for <a href="../database/query">making queries</a>.</p>
@@ -48,13 +48,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain V
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -65,7 +65,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain V
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -117,7 +117,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain V
 <div class='methods'>
 
 <div class='method'>
-<h3 id="delete"><small>public static</small>  delete([ <small>string</small> <span class="param" title="Table to delete from">$table</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="delete"><small>public static</small>  delete([ <small>string</small> <span class="param" title="Table to delete from">$table</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query_Builder_Delete</a>.</p>
 
 <pre><code>// DELETE FROM users
@@ -146,7 +146,7 @@ $query = DB::delete('users');
 </div>
 
 <div class='method'>
-<h3 id="expr"><small>public static</small>  expr(<small>string</small> <span class="param" title="Expression">$string</span> [, <small>array</small> <span class="param" title="Parameters">$parameters</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="expr"><small>public static</small>  expr(<small>string</small> <span class="param" title="Expression">$string</span> [, <small>array</small> <span class="param" title="Parameters">$parameters</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Expression</a> which is not escaped. An expression
 is the only way to use SQL functions within query builders.</p>
 
@@ -179,7 +179,7 @@ $users = ORM::factory('user')-&gt;where(DB::expr("BINARY `hash`"), '=', $hash)-&
 </div>
 
 <div class='method'>
-<h3 id="insert"><small>public static</small>  insert([ <small>string</small> <span class="param" title="Table to insert into">$table</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="List of column names or array($column, $alias) or object">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="insert"><small>public static</small>  insert([ <small>string</small> <span class="param" title="Table to insert into">$table</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="List of column names or array($column, $alias) or object">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query_Builder_Insert</a>.</p>
 
 <pre><code>// INSERT INTO users (id, username)
@@ -210,7 +210,7 @@ $query = DB::insert('users', array('id', 'username'));
 </div>
 
 <div class='method'>
-<h3 id="query"><small>public static</small>  query(<small>integer</small> <span class="param" title="Type: Database::SELECT, Database::UPDATE, etc">$type</span> , <small>string</small> <span class="param" title="SQL statement">$sql</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="query"><small>public static</small>  query(<small>integer</small> <span class="param" title="Type: Database::SELECT, Database::UPDATE, etc">$type</span> , <small>string</small> <span class="param" title="SQL statement">$sql</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query</a> of the given type.</p>
 
 <pre><code>// Create a new SELECT query
@@ -249,7 +249,7 @@ For all other queries, the number of affected rows is returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="select"><small>public static</small>  select([ <small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="select"><small>public static</small>  select([ <small>mixed</small> <span class="param" title="Column name or array($column, $alias) or object">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query_Builder_Select</a>. Each argument will be
 treated as a column. To generate a <code>foo AS bar</code> alias, use an array.</p>
 
@@ -282,7 +282,7 @@ $query = DB::select(array('id', 'user_id'));
 </div>
 
 <div class='method'>
-<h3 id="select_array"><small>public static</small>  select_array([ <small>array</small> <span class="param" title="Columns to select">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="select_array"><small>public static</small>  select_array([ <small>array</small> <span class="param" title="Columns to select">$columns</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query_Builder_Select</a> from an array of columns.</p>
 
 <pre><code>// SELECT id, username
@@ -311,7 +311,7 @@ $query = DB::select_array(array('id', 'username'));
 </div>
 
 <div class='method'>
-<h3 id="update"><small>public static</small>  update([ <small>string</small> <span class="param" title="Table to update">$table</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_DB'>Mountain Valley Church of God_DB</a>)</small></h3>
+<h3 id="update"><small>public static</small>  update([ <small>string</small> <span class="param" title="Table to update">$table</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_DB'>Donica Church of God_DB</a>)</small></h3>
 <div class='description'><p>Create a new <a href="/index.php/">Database_Query_Builder_Update</a>.</p>
 
 <pre><code>// UPDATE users

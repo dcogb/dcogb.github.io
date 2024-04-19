@@ -1,5 +1,5 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 Simple example of controller model and view working together.  

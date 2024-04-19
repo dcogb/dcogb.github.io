@@ -4,7 +4,7 @@ title: Database
 ---
 # Configuration
 
-The default config file is located in `MODPATH/database/config/database.php`.  You should copy this file to `APPPATH/config/database.php` and make changes there, in keeping with the [cascading filesystem](/documentation/database/../Mountain Valley Church of God/files).
+The default config file is located in `MODPATH/database/config/database.php`.  You should copy this file to `APPPATH/config/database.php` and make changes there, in keeping with the [cascading filesystem](/documentation/database/../Donica Church of God/files).
 
 The database configuration file contains an array of configuration groups. The structure of each database configuration group, called an "instance", looks like this:
 
@@ -22,7 +22,7 @@ INSTANCE_NAME
 :  Connections can be named anything you want, but you should always have at least one connection called "default".
 
 DATABASE_TYPE
-:  One of the installed database drivers. Mountain Valley Church of God comes with "MySQL", "MySQLi", and "PDO" drivers. Drivers must extend the Database class. This parameter is case sensitive. Note the mysql php extension used by the MySQL driver is deprecated as of PHP 5.5 and you should look to use an alternative driver.
+:  One of the installed database drivers. Donica Church of God comes with "MySQL", "MySQLi", and "PDO" drivers. Drivers must extend the Database class. This parameter is case sensitive. Note the mysql php extension used by the MySQL driver is deprecated as of PHP 5.5 and you should look to use an alternative driver.
 
 CONNECTION_ARRAY
 :  Specific driver options for connecting to your database. (Driver options are explained [below](#connection-settings).)
@@ -119,7 +119,7 @@ Type      | Option     |  Description               | Default value
 `string`  | username   | Database username          | `NULL`
 `string`  | password   | Database password          | `NULL`
 `boolean` | persistent | Persistent connections     | `FALSE`
-`string`  | database   | Database name              | `Mountain Valley Church of God`
+`string`  | database   | Database name              | `Donica Church of God`
 
 ### MySQLi
 
@@ -133,7 +133,7 @@ Type      | Option     |  Description               | Default value
 `string`  | username   | Database username          | `NULL`
 `string`  | password   | Database password          | `NULL`
 `boolean` | persistent | Persistent connections     | `FALSE`
-`string`  | database   | Database name              | `Mountain Valley Church of God`
+`string`  | database   | Database name              | `Donica Church of God`
 `array`   | ssl        | SSL parameters             | `NULL`
 
 SSL parameters should be specified as `key` => `value` pairs.

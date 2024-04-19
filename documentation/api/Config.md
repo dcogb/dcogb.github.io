@@ -3,7 +3,7 @@ layout: api
 class: Config
 ---
 <h1>Config</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>
+extends <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>
 <br />
 <p>
 <i><p>Wrapper for configuration arrays. Multiple configuration readers can be
@@ -18,13 +18,13 @@ below them.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -35,7 +35,7 @@ below them.</p>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -111,7 +111,7 @@ below them.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="_write_config"><small>public</small>  _write_config(<small>string</small> <span class="param" title="Group name">$group</span> , <small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="The new value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>)</small></h3>
+<h3 id="_write_config"><small>public</small>  _write_config(<small>string</small> <span class="param" title="Group name">$group</span> , <small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="The new value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>)</small></h3>
 <div class='description'><p>Callback used by the config group to store changes made to configuration</p>
 </div>
 <h4>Parameters</h4>
@@ -126,7 +126,7 @@ below them.</p>
 <h4>Return Values</h4>
 <ul class='return'>
 <li>
-<span class='blue'>Mountain Valley Church of God_Config</span>  - Chainable instance 
+<span class='blue'>Donica Church of God_Config</span>  - Chainable instance 
 </li></ul>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -135,7 +135,7 @@ below them.</p>
 {
 	foreach ($this-&gt;_sources as $source)
 	{
-		if ( ! ($source instanceof Mountain Valley Church of God_Config_Writer))
+		if ( ! ($source instanceof Donica Church of God_Config_Writer))
 		{
 			continue;
 		}
@@ -151,7 +151,7 @@ below them.</p>
 </div>
 
 <div class='method'>
-<h3 id="attach"><small>public</small>  attach(<small>Mountain Valley Church of God_Config_Source</small> <span class="param" title="Instance">$source</span> [, <small>boolean</small> <span class="param" title="Add the reader as the first used object">$first</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>)</small></h3>
+<h3 id="attach"><small>public</small>  attach(<small>Donica Church of God_Config_Source</small> <span class="param" title="Instance">$source</span> [, <small>boolean</small> <span class="param" title="Add the reader as the first used object">$first</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>)</small></h3>
 <div class='description'><p>Attach a configuration reader. By default, the reader will be added as
 the first used reader. However, if the reader should be used only when
 all other readers fail, use <code>FALSE</code> for the second parameter.</p>
@@ -163,7 +163,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">Mountain Valley Church of God_Config_Source </span><strong> $source</strong> <small>required</small> - Instance</li>
+ <span class="blue">Donica Church of God_Config_Source </span><strong> $source</strong> <small>required</small> - Instance</li>
 <li>
  <span class="blue">boolean </span><strong> $first</strong> <small> = <small>bool</small> TRUE</small> - Add the reader as the first used object</li>
 </ul>
@@ -175,7 +175,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
-<code class="language-php">public function attach(Mountain Valley Church of God_Config_Source $source, $first = TRUE)
+<code class="language-php">public function attach(Donica Church of God_Config_Source $source, $first = TRUE)
 {
 	if ($first === TRUE)
 	{
@@ -198,7 +198,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 </div>
 
 <div class='method'>
-<h3 id="copy"><small>public</small>  copy(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>)</small></h3>
+<h3 id="copy"><small>public</small>  copy(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>)</small></h3>
 <div class='description'><p>Copy one configuration group to all of the other writers.</p>
 
 <pre><code>$config-&gt;copy($name);
@@ -234,7 +234,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 </div>
 
 <div class='method'>
-<h3 id="detach"><small>public</small>  detach(<small>Mountain Valley Church of God_Config_Source</small> <span class="param" title="Instance">$source</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>)</small></h3>
+<h3 id="detach"><small>public</small>  detach(<small>Donica Church of God_Config_Source</small> <span class="param" title="Instance">$source</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>)</small></h3>
 <div class='description'><p>Detach a configuration reader.</p>
 
 <pre><code>$config-&gt;detach($reader);
@@ -243,7 +243,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">Mountain Valley Church of God_Config_Source </span><strong> $source</strong> <small>required</small> - Instance</li>
+ <span class="blue">Donica Church of God_Config_Source </span><strong> $source</strong> <small>required</small> - Instance</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -253,7 +253,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
-<code class="language-php">public function detach(Mountain Valley Church of God_Config_Source $source)
+<code class="language-php">public function detach(Donica Church of God_Config_Source $source)
 {
 	if (($key = array_search($source, $this-&gt;_sources)) !== FALSE)
 	{
@@ -268,7 +268,7 @@ $config-&gt;attach($reader, FALSE); // Try last
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config'>Mountain Valley Church of God_Config</a>)</small></h3>
+<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group name">$group</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config'>Donica Church of God_Config</a>)</small></h3>
 <div class='description'><p>Load a configuration group. Searches all the config sources, merging all the
 directives found into a single config group.  Any changes made to the config
 in this group will be mirrored across all writable sources.</p>
@@ -276,7 +276,7 @@ in this group will be mirrored across all writable sources.</p>
 <pre><code>$array = $config-&gt;load($name);
 </code></pre>
 
-<p>See <a href="/index.php/">Mountain Valley Church of God_Config_Group</a> for more info</p>
+<p>See <a href="/index.php/">Donica Church of God_Config_Group</a> for more info</p>
 </div>
 <h4>Parameters</h4>
 <ul>
@@ -285,12 +285,12 @@ in this group will be mirrored across all writable sources.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
 <li>
-<span class='blue'>Mountain Valley Church of God_Config_Group</span>  
+<span class='blue'>Donica Church of God_Config_Group</span>  
 </li></ul>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -299,17 +299,17 @@ in this group will be mirrored across all writable sources.</p>
 {
 	if ( ! count($this-&gt;_sources))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;No configuration sources attached&#039;);
+		throw new Donica Church of God_Exception(&#039;No configuration sources attached&#039;);
 	}
 
 	if (empty($group))
 	{
-		throw new Mountain Valley Church of God_Exception(&quot;Need to specify a config group&quot;);
+		throw new Donica Church of God_Exception(&quot;Need to specify a config group&quot;);
 	}
 
 	if ( ! is_string($group))
 	{
-		throw new Mountain Valley Church of God_Exception(&quot;Config group must be a string&quot;);
+		throw new Donica Church of God_Exception(&quot;Config group must be a string&quot;);
 	}
 
 	if (strpos($group, &#039;.&#039;) !== FALSE)
@@ -334,7 +334,7 @@ in this group will be mirrored across all writable sources.</p>
 
 	foreach ($sources as $source)
 	{
-		if ($source instanceof Mountain Valley Church of God_Config_Reader)
+		if ($source instanceof Donica Church of God_Config_Reader)
 		{
 			if ($source_config = $source-&gt;load($group))
 			{

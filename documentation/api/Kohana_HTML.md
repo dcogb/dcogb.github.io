@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_HTML
+class: Donica Church of God_HTML
 ---
-<h1>Mountain Valley Church of God_HTML</h1>
+<h1>Donica Church of God_HTML</h1>
 <p>
 <i><p>HTML helper class. Provides generic methods for generating various HTML
 tags and making output HTML safe.</p>
@@ -10,13 +10,13 @@ tags and making output HTML safe.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -140,7 +140,7 @@ tags and making output HTML safe.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="anchor"><small>public static</small>  anchor(<small>string</small> <span class="param" title="URL or URI string">$uri</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="anchor"><small>public static</small>  anchor(<small>string</small> <span class="param" title="URL or URI string">$uri</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Create HTML link anchors. Note that the title is not escaped, to allow
 HTML elements within links (images, etc).</p>
 
@@ -212,7 +212,7 @@ HTML elements within links (images, etc).</p>
 </div>
 
 <div class='method'>
-<h3 id="attributes"><small>public static</small>  attributes([ <small>array</small> <span class="param" title="Attribute list">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="attributes"><small>public static</small>  attributes([ <small>array</small> <span class="param" title="Attribute list">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Compiles an array of HTML attributes into an attribute string.
 Attributes will be sorted using HTML::$attribute_order for consistency.</p>
 
@@ -288,7 +288,7 @@ Attributes will be sorted using HTML::$attribute_order for consistency.</p>
 </div>
 
 <div class='method'>
-<h3 id="chars"><small>public static</small>  chars(<small>string</small> <span class="param" title="String to convert">$value</span> [, <small>boolean</small> <span class="param" title="Encode existing entities">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="chars"><small>public static</small>  chars(<small>string</small> <span class="param" title="String to convert">$value</span> [, <small>boolean</small> <span class="param" title="Encode existing entities">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Convert special characters to HTML entities. All untrusted content
 should be passed through this method to prevent XSS injections.</p>
 
@@ -312,14 +312,14 @@ should be passed through this method to prevent XSS injections.</p>
 <pre>
 <code class="language-php">public static function chars($value, $double_encode = TRUE)
 {
-	return htmlspecialchars( (string) $value, ENT_QUOTES, Mountain Valley Church of God::$charset, $double_encode);
+	return htmlspecialchars( (string) $value, ENT_QUOTES, Donica Church of God::$charset, $double_encode);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="entities"><small>public static</small>  entities(<small>string</small> <span class="param" title="String to convert">$value</span> [, <small>boolean</small> <span class="param" title="Encode existing entities">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="entities"><small>public static</small>  entities(<small>string</small> <span class="param" title="String to convert">$value</span> [, <small>boolean</small> <span class="param" title="Encode existing entities">$double_encode</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Convert all applicable characters to HTML entities. All characters
 that cannot be represented in HTML with the current character set
 will be converted to entities.</p>
@@ -344,14 +344,14 @@ will be converted to entities.</p>
 <pre>
 <code class="language-php">public static function entities($value, $double_encode = TRUE)
 {
-	return htmlentities( (string) $value, ENT_QUOTES, Mountain Valley Church of God::$charset, $double_encode);
+	return htmlentities( (string) $value, ENT_QUOTES, Donica Church of God::$charset, $double_encode);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="file_anchor"><small>public static</small>  file_anchor(<small>string</small> <span class="param" title="Name of file to link to">$file</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="file_anchor"><small>public static</small>  file_anchor(<small>string</small> <span class="param" title="Name of file to link to">$file</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Creates an HTML anchor to a file. Note that the title is not escaped,
 to allow HTML elements within links (images, etc).</p>
 
@@ -401,7 +401,7 @@ to allow HTML elements within links (images, etc).</p>
 </div>
 
 <div class='method'>
-<h3 id="image"><small>public static</small>  image(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="image"><small>public static</small>  image(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Creates a image link.</p>
 
 <pre><code>echo HTML::image('media/img/logo.png', array('alt' =&gt; 'My Company'));
@@ -448,7 +448,7 @@ to allow HTML elements within links (images, etc).</p>
 </div>
 
 <div class='method'>
-<h3 id="mailto"><small>public static</small>  mailto(<small>string</small> <span class="param" title="Email address to send to">$email</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="mailto"><small>public static</small>  mailto(<small>string</small> <span class="param" title="Email address to send to">$email</span> [, <small>string</small> <span class="param" title="Link text">$title</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="HTML anchor attributes">$attributes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Creates an email (mailto:) anchor. Note that the title is not escaped,
 to allow HTML elements within links (images, etc).</p>
 
@@ -491,7 +491,7 @@ to allow HTML elements within links (images, etc).</p>
 </div>
 
 <div class='method'>
-<h3 id="script"><small>public static</small>  script(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="script"><small>public static</small>  script(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Creates a script link.</p>
 
 <pre><code>echo HTML::script('media/js/jquery.min.js');
@@ -541,7 +541,7 @@ to allow HTML elements within links (images, etc).</p>
 </div>
 
 <div class='method'>
-<h3 id="style"><small>public static</small>  style(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTML'>Mountain Valley Church of God_HTML</a>)</small></h3>
+<h3 id="style"><small>public static</small>  style(<small>string</small> <span class="param" title="File name">$file</span> [, <small>array</small> <span class="param" title="Default attributes">$attributes</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol to pass to URL::base()">$protocol</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Include the index page">$index</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTML'>Donica Church of God_HTML</a>)</small></h3>
 <div class='description'><p>Creates a style sheet link element.</p>
 
 <pre><code>echo HTML::style('media/css/screen.css');

@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Route
+class: Donica Church of God_Route
 ---
-<h1>Mountain Valley Church of God_Route</h1>
+<h1>Donica Church of God_Route</h1>
 <p>
 <i><p>Routes are used to determine the controller and action for a requested URI.
 Every route generates a regular expression which is used to match a URI
@@ -36,13 +36,13 @@ makes them an extremely powerful and flexible way to generate internal links.</p
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -293,7 +293,7 @@ makes them an extremely powerful and flexible way to generate internal links.</p
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Route URI pattern">$uri</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Key patterns">$regex</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Route URI pattern">$uri</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Key patterns">$regex</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Creates a new route. Sets the URI and regular expressions for keys.
 Routes should always be created with <a href="#set">Route::set</a> or they will not
 be properly stored.</p>
@@ -348,7 +348,7 @@ be properly stored.</p>
 </div>
 
 <div class='method'>
-<h3 id="all"><small>public static</small>  all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="all"><small>public static</small>  all()<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Retrieves all named routes.</p>
 
 <pre><code>$routes = Route::all();
@@ -371,7 +371,7 @@ be properly stored.</p>
 </div>
 
 <div class='method'>
-<h3 id="cache"><small>public static</small>  cache([ <small>boolean</small> <span class="param" title="Cache the current routes">$save</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Append, rather than replace, cached routes when loading">$append</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="cache"><small>public static</small>  cache([ <small>boolean</small> <span class="param" title="Cache the current routes">$save</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Append, rather than replace, cached routes when loading">$append</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Saves or loads the route cache. If your routes will remain the same for
 a long period of time, use this to reload the routes from the cache
 rather than redefining them on every page load.</p>
@@ -392,7 +392,7 @@ rather than redefining them on every page load.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#cache">Mountain Valley Church of God::cache</a></li>
+<li>Uses - <a href="#cache">Donica Church of God::cache</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -411,19 +411,19 @@ rather than redefining them on every page load.</p>
 		try
 		{
 			// Cache all defined routes
-			Mountain Valley Church of God::cache(&#039;Route::cache()&#039;, Route::$_routes);
+			Donica Church of God::cache(&#039;Route::cache()&#039;, Route::$_routes);
 		}
 		catch (Exception $e)
 		{
 			// We most likely have a lambda in a route, which cannot be cached
-			throw new Mountain Valley Church of God_Exception(&#039;One or more routes could not be cached (:message)&#039;, [
+			throw new Donica Church of God_Exception(&#039;One or more routes could not be cached (:message)&#039;, [
 					&#039;:message&#039; =&gt; $e-&gt;getMessage(),
 				], 0, $e);
 		}
 	}
 	else
 	{
-		if ($routes = Mountain Valley Church of God::cache(&#039;Route::cache()&#039;))
+		if ($routes = Donica Church of God::cache(&#039;Route::cache()&#039;))
 		{
 			if ($append)
 			{
@@ -451,7 +451,7 @@ rather than redefining them on every page load.</p>
 </div>
 
 <div class='method'>
-<h3 id="compile"><small>public static</small>  compile()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="compile"><small>public static</small>  compile()<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Returns the compiled regular expression for the route. This translates
 keys and optional groups to a proper PCRE regular expression.</p>
 
@@ -511,7 +511,7 @@ keys and optional groups to a proper PCRE regular expression.</p>
 </div>
 
 <div class='method'>
-<h3 id="defaults"><small>public</small>  defaults([ <small>array</small> <span class="param" title="Key values">$defaults</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="defaults"><small>public</small>  defaults([ <small>array</small> <span class="param" title="Key values">$defaults</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Provides default values for keys when they are not present. The default
 action will always be "index" unless it is overloaded here.</p>
 
@@ -552,7 +552,7 @@ action will always be "index" unless it is overloaded here.</p>
 </div>
 
 <div class='method'>
-<h3 id="filter"><small>public</small>  filter(<small>array</small> <span class="param" title="Callback string, array, or closure">$callback</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="filter"><small>public</small>  filter(<small>array</small> <span class="param" title="Callback string, array, or closure">$callback</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Filters to be run before route parameters are returned:</p>
 
 <pre><code>$route-&gt;filter(
@@ -584,7 +584,7 @@ parameters, return an array.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -598,7 +598,7 @@ parameters, return an array.</p>
 {
 	if ( ! is_callable($callback))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;Invalid Route::callback specified&#039;);
+		throw new Donica Church of God_Exception(&#039;Invalid Route::callback specified&#039;);
 	}
 
 	$this-&gt;_filters[] = $callback;
@@ -610,7 +610,7 @@ parameters, return an array.</p>
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Route name">$name</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Route name">$name</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Retrieves a named route.</p>
 
 <pre><code>$route = Route::get('default');
@@ -623,7 +623,7 @@ parameters, return an array.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -637,7 +637,7 @@ parameters, return an array.</p>
 {
 	if ( ! isset(Route::$_routes[$name]))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;The requested route does not exist: :route&#039;,
+		throw new Donica Church of God_Exception(&#039;The requested route does not exist: :route&#039;,
 			[&#039;:route&#039; =&gt; $name]);
 	}
 
@@ -648,7 +648,7 @@ parameters, return an array.</p>
 </div>
 
 <div class='method'>
-<h3 id="is_external"><small>public</small>  is_external()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="is_external"><small>public</small>  is_external()<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Returns whether this route is an external route
 to a remote controller.</p>
 </div>
@@ -669,7 +669,7 @@ to a remote controller.</p>
 </div>
 
 <div class='method'>
-<h3 id="matches"><small>public</small>  matches(<small>Request</small> <span class="param" title="Request object to match">$request</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="matches"><small>public</small>  matches(<small>Request</small> <span class="param" title="Request object to match">$request</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Tests if the route matches a given Request. A successful match will return
 all of the routed parameters as an array. A failed match will return
 boolean FALSE.</p>
@@ -770,7 +770,7 @@ $params = $route-&gt;matches(Request::factory('users/edit/10'));
 </div>
 
 <div class='method'>
-<h3 id="name"><small>public static</small>  name(<small>Route</small> <span class="param" title="Instance">$route</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="name"><small>public static</small>  name(<small>Route</small> <span class="param" title="Instance">$route</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Get the name of a route.</p>
 
 <pre><code>$name = Route::name($route)
@@ -798,7 +798,7 @@ $params = $route-&gt;matches(Request::factory('users/edit/10'));
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public static</small>  set(<small>string</small> <span class="param" title="Route name">$name</span> [, <small>string</small> <span class="param" title="URI pattern">$uri</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Regex patterns for route keys">$regex</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="set"><small>public static</small>  set(<small>string</small> <span class="param" title="Route name">$name</span> [, <small>string</small> <span class="param" title="URI pattern">$uri</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Regex patterns for route keys">$regex</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Stores a named route and returns it. The "action" will always be set to
 "index" if it is not defined.</p>
 
@@ -834,7 +834,7 @@ $params = $route-&gt;matches(Request::factory('users/edit/10'));
 </div>
 
 <div class='method'>
-<h3 id="uri"><small>public</small>  uri([ <small>array</small> <span class="param" title="URI parameters">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="uri"><small>public</small>  uri([ <small>array</small> <span class="param" title="URI parameters">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Generates a URI for the current route based on the parameters given.</p>
 
 <pre><code>// Using the "default" route: "users/profile/10"
@@ -852,7 +852,7 @@ $route-&gt;uri(array(
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 <li>Uses - <a href="#constant:REGEX_GROUP">Route::REGEX_GROUP</a>, <a href="#constant:REGEX_KEY">Route::REGEX_KEY</a></li>
 </ul>
 <h4>Return Values</h4>
@@ -933,7 +933,7 @@ $route-&gt;uri(array(
 
 		if ($required AND $missing)
 		{
-			throw new Mountain Valley Church of God_Exception(
+			throw new Donica Church of God_Exception(
 				&#039;Required route parameter not passed: :param&#039;,
 				[&#039;:param&#039; =&gt; reset($missing)]
 			);
@@ -969,7 +969,7 @@ $route-&gt;uri(array(
 </div>
 
 <div class='method'>
-<h3 id="url"><small>public static</small>  url(<small>string</small> <span class="param" title="Route name">$name</span> [, <small>array</small> <span class="param" title="URI parameters">$params</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol string or boolean, adds protocol and domain">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Route'>Mountain Valley Church of God_Route</a>)</small></h3>
+<h3 id="url"><small>public static</small>  url(<small>string</small> <span class="param" title="Route name">$name</span> [, <small>array</small> <span class="param" title="URI parameters">$params</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Protocol string or boolean, adds protocol and domain">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Route'>Donica Church of God_Route</a>)</small></h3>
 <div class='description'><p>Create a URL from a route name. This is a shortcut for:</p>
 
 <pre><code>echo URL::site(Route::get($name)-&gt;uri($params), $protocol);

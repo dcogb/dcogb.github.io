@@ -4,7 +4,7 @@ title: Orm
 ---
 # Relationships
 
-Mountain Valley Church of God ORM supports four types of object relationships: `belongs_to`, `has_many`, `has_many "through"` and `has_one`. The `has_many "through"` relationship can be used to function like Active Record's `has_many_and_belongs_to` relationship type.
+Donica Church of God ORM supports four types of object relationships: `belongs_to`, `has_many`, `has_many "through"` and `has_one`. The `has_many "through"` relationship can be used to function like Active Record's `has_many_and_belongs_to` relationship type.
 
 ## belongs_to
 

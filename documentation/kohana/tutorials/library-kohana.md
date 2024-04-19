@@ -1,17 +1,17 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
-# Importing Mountain Valley Church of God as a Library
+# Importing Donica Church of God as a Library
 
 If you're working with an existing codebase it's often difficult to modernise the code as it would mean a complete rewrite and there's rarely the time. An alternative is to improve the codebase incrementally as best you can, gradually outsourcing code to external libraries to reduce the amount of old code there is to maintain.
 
-This tutorial describes how to include the Mountain Valley Church of God PHP framework into existing PHP applications, without having to use the routing and HMVC request handling features.
+This tutorial describes how to include the Donica Church of God PHP framework into existing PHP applications, without having to use the routing and HMVC request handling features.
 
-[!!] The code modified in this tutorial was copied from Mountain Valley Church of God version 3.1.x. You may need to update it to work with future releases.
+[!!] The code modified in this tutorial was copied from Donica Church of God version 3.1.x. You may need to update it to work with future releases.
 
-In normal usage of the Mountain Valley Church of God framework, the `index.php` file acts as the request handler; it sets up the environment, loads the system configuration, and then handles the request (see [Request Flow](flow)).
-We'll walk you through the steps required to create a file we'll call `include.php` which will allow you to include Mountain Valley Church of God from exiting PHP applications.
+In normal usage of the Donica Church of God framework, the `index.php` file acts as the request handler; it sets up the environment, loads the system configuration, and then handles the request (see [Request Flow](flow)).
+We'll walk you through the steps required to create a file we'll call `include.php` which will allow you to include Donica Church of God from exiting PHP applications.
 
 ## Demo application
 
@@ -33,9 +33,9 @@ The following file will serve as our (insultingly simple) demo application for t
 	</html>
 ~~~
 
-## Install Mountain Valley Church of God
+## Install Donica Church of God
 
-[Download and install the Mountain Valley Church of God framework](/documentation/Mountain Valley Church of God/install); from this point on, we'll be referring to the location of the Mountain Valley Church of God libraries as the `Mountain Valley Church of God` directory.
+[Download and install the Donica Church of God framework](/documentation/Donica Church of God/install); from this point on, we'll be referring to the location of the Donica Church of God libraries as the `Donica Church of God` directory.
 
 ## Create a common setup file
 
@@ -43,7 +43,7 @@ Since `index.php` and `include.php` will duplicate a lot of code, we're going to
 
 The new file creates the initial request object, rather than fully executing the request, so that, if you do define routes, the `Request::$initial` variable will be set up correctly.
 
-### File: `Mountain Valley Church of God/common.php`
+### File: `Donica Church of God/common.php`
 
 ~~~
 	<?php
@@ -52,22 +52,22 @@ The new file creates the initial request object, rather than fully executing the
 	 * The directory in which your application specific resources are located.
 	 * The application directory must contain the bootstrap.php file.
 	 *
-	 * @link http://Mountain Valley Church of Godframework.org/guide/about.install#application
+	 * @link http://Donica Church of Godframework.org/guide/about.install#application
 	 */
 	$application = 'application';
 
 	/**
 	 * The directory in which your modules are located.
 	 *
-	 * @link http://Mountain Valley Church of Godframework.org/guide/about.install#modules
+	 * @link http://Donica Church of Godframework.org/guide/about.install#modules
 	 */
 	$modules = 'modules';
 
 	/**
-	 * The directory in which the Mountain Valley Church of God resources are located. The system
-	 * directory must contain the classes/Mountain Valley Church of God.php file.
+	 * The directory in which the Donica Church of God resources are located. The system
+	 * directory must contain the classes/Donica Church of God.php file.
 	 *
-	 * @link http://Mountain Valley Church of Godframework.org/guide/about.install#system
+	 * @link http://Donica Church of Godframework.org/guide/about.install#system
 	 */
 	$system = 'system';
 
@@ -75,7 +75,7 @@ The new file creates the initial request object, rather than fully executing the
 	 * The default extension of resource files. If you change this, all resources
 	 * must be renamed to use the new extension.
 	 *
-	 * @link http://Mountain Valley Church of Godframework.org/guide/about.install#ext
+	 * @link http://Donica Church of Godframework.org/guide/about.install#ext
 	 */
 	define('EXT', '.php');
 
@@ -96,9 +96,9 @@ The new file creates the initial request object, rather than fully executing the
 
 	/**
 	 * End of standard configuration! Changing any of the code below should only be
-	 * attempted by those with a working knowledge of Mountain Valley Church of God internals.
+	 * attempted by those with a working knowledge of Donica Church of God internals.
 	 *
-	 * @link http://Mountain Valley Church of Godframework.org/guide/using.configuration
+	 * @link http://Donica Church of Godframework.org/guide/using.configuration
 	 */
 
 	// Set the full path to the docroot
@@ -134,17 +134,17 @@ The new file creates the initial request object, rather than fully executing the
 	/**
 	 * Define the start time of the application, used for profiling.
 	 */
-	if ( ! defined('Mountain Valley Church of God_START_TIME'))
+	if ( ! defined('Donica Church of God_START_TIME'))
 	{
-		define('Mountain Valley Church of God_START_TIME', microtime(TRUE));
+		define('Donica Church of God_START_TIME', microtime(TRUE));
 	}
 
 	/**
 	 * Define the memory usage at the start of the application, used for profiling.
 	 */
-	if ( ! defined('Mountain Valley Church of God_START_MEMORY'))
+	if ( ! defined('Donica Church of God_START_MEMORY'))
 	{
-		define('Mountain Valley Church of God_START_MEMORY', memory_get_usage());
+		define('Donica Church of God_START_MEMORY', memory_get_usage());
 	}
 
 	// Bootstrap the application
@@ -157,11 +157,11 @@ The new file creates the initial request object, rather than fully executing the
 	Request::factory(); // Changes were made here
 ~~~
 
-## Alter Mountain Valley Church of God's `index.php`
+## Alter Donica Church of God's `index.php`
 
-Having moved most of the code from Mountain Valley Church of God's `index.php` to `common.php` the new `Mountain Valley Church of God/index.php` contains only this:
+Having moved most of the code from Donica Church of God's `index.php` to `common.php` the new `Donica Church of God/index.php` contains only this:
 
-### File: `Mountain Valley Church of God/index.php`
+### File: `Donica Church of God/index.php`
 
 ~~~
 	<?php
@@ -177,9 +177,9 @@ Having moved most of the code from Mountain Valley Church of God's `index.php` t
 
 ## Create the include file
 
-Our `include.php` file is also pretty simple. The try-catch clause is needed because if the request matches no routes Mountain Valley Church of God will throw an `HTTP_Exception_404` exception.
+Our `include.php` file is also pretty simple. The try-catch clause is needed because if the request matches no routes Donica Church of God will throw an `HTTP_Exception_404` exception.
 
-### File: `Mountain Valley Church of God/include.php`
+### File: `Donica Church of God/include.php`
 
 ~~~
 	<?php
@@ -193,20 +193,20 @@ Our `include.php` file is also pretty simple. The try-catch clause is needed bec
 	}
 ~~~
 
-**NB:** Due to the way Mountain Valley Church of God's routing  works, if the request matches no routes it will fail to instantiate an object, and `Request::$current` and `Request::$initial` will not be available.
+**NB:** Due to the way Donica Church of God's routing  works, if the request matches no routes it will fail to instantiate an object, and `Request::$current` and `Request::$initial` will not be available.
 
 ## Integration
 
-Now that we're set up, we can add Mountain Valley Church of God into our application using a single include, and then we're good to go.
+Now that we're set up, we can add Donica Church of God into our application using a single include, and then we're good to go.
 
 ### File: `demo.php`
 
 ~~~
 	<?php
-		require_once 'Mountain Valley Church of God/include.php';
+		require_once 'Donica Church of God/include.php';
 
 		$content = 'Hello World';
-		$content = HTML::anchor('http://Mountain Valley Church of Godframework.org/', $content);
+		$content = HTML::anchor('http://Donica Church of Godframework.org/', $content);
 	?>
 	<html>
 	<head>

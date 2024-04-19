@@ -1,25 +1,25 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Kodoc_Markdown
+class: Donica Church of God_Kodoc_Markdown
 ---
-<h1>Mountain Valley Church of God_Kodoc_Markdown</h1>
+<h1>Donica Church of God_Kodoc_Markdown</h1>
 extends <a href='/documentation/api/MarkdownExtra_Parser'>MarkdownExtra_Parser</a>
 <br />
 extends <a href='/documentation/api/Markdown_Parser'>Markdown_Parser</a>
 <br />
 <p>
-<i><p>Custom Markdown parser for Mountain Valley Church of God documentation.</p>
+<i><p>Custom Markdown parser for Donica Church of God documentation.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Userguide</dd>
+<dd>Donica Church of God/Userguide</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -1224,7 +1224,7 @@ Used to prevent creating multiple headings with same id.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -1243,7 +1243,7 @@ Used to prevent creating multiple headings with same id.</p>
 	// Add note spans last
 	$this-&gt;span_gamut[&#039;doNotes&#039;] = 100;
 
-	// Parse Mountain Valley Church of God view inclusions at the very end
+	// Parse Donica Church of God view inclusions at the very end
 	$this-&gt;document_gamut[&#039;doIncludeViews&#039;] = 99;
 
 	// Show table of contents for userguide pages
@@ -1257,7 +1257,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="_doHeaders_callback_atx"><small>public</small>  _doHeaders_callback_atx(<small>array</small> <span class="param" title="Matches from regex call">$matches</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="_doHeaders_callback_atx"><small>public</small>  _doHeaders_callback_atx(<small>array</small> <span class="param" title="Matches from regex call">$matches</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Callback for the heading atx style</p>
 
 <h1 id="heading-1">Heading 1</h1>
@@ -1297,7 +1297,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="_doHeaders_callback_setext"><small>public</small>  _doHeaders_callback_setext(<small>array</small> <span class="param" title="Matches from regex call">$matches</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="_doHeaders_callback_setext"><small>public</small>  _doHeaders_callback_setext(<small>array</small> <span class="param" title="Matches from regex call">$matches</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Callback for the heading setext style</p>
 
 <h1 id="heading-1">Heading 1</h1>
@@ -1339,7 +1339,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doAPI"><small>public</small>  doAPI(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doAPI"><small>public</small>  doAPI(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Parses links to the API browser.</p>
 
 <pre><code>[Class_Name], [Class::method] or [Class::$property]
@@ -1367,7 +1367,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doBaseURL"><small>public</small>  doBaseURL(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doBaseURL"><small>public</small>  doBaseURL(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Add the current base url to all local links.</p>
 
 <pre><code>[filesystem](about.filesystem "Optional title")
@@ -1396,7 +1396,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doImageURL"><small>public</small>  doImageURL(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doImageURL"><small>public</small>  doImageURL(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Add the current base url to all local images.</p>
 
 <pre><code>![Install Page](img/install.png "Optional title")
@@ -1425,7 +1425,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doIncludeViews"><small>public</small>  doIncludeViews()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doIncludeViews"><small>public</small>  doIncludeViews()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -1440,7 +1440,7 @@ Used to prevent creating multiple headings with same id.</p>
 		{
 			list($search, $view) = $set;
 
-			if (Mountain Valley Church of God::find_file(&#039;views&#039;, $view))
+			if (Donica Church of God::find_file(&#039;views&#039;, $view))
 			{
 				try
 				{
@@ -1453,7 +1453,7 @@ Used to prevent creating multiple headings with same id.</p>
 					*
 					* NOTE: Is this really the correct way to handle an exception?
 					*/
-					$response = Mountain Valley Church of God_exception::_handler($e);
+					$response = Donica Church of God_exception::_handler($e);
 
 					$replace[$search] = $response-&gt;body();
 				}
@@ -1470,7 +1470,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doNotes"><small>public</small>  doNotes(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doNotes"><small>public</small>  doNotes(<small>string</small> <span class="param" title="Span text">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Wrap notes in the applicable markup. Notes can contain single newlines.</p>
 
 <pre><code>[!!] Remember the milk!
@@ -1503,7 +1503,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="doTOC"><small>public</small>  doTOC()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="doTOC"><small>public</small>  doTOC()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -1533,7 +1533,7 @@ Used to prevent creating multiple headings with same id.</p>
 </div>
 
 <div class='method'>
-<h3 id="make_heading_id"><small>public</small>  make_heading_id(<small>string</small> <span class="param" title="The heading text">$heading</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="make_heading_id"><small>public</small>  make_heading_id(<small>string</small> <span class="param" title="The heading text">$heading</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Makes a heading id from the heading text
 If any heading share the same name then subsequent headings will have an integer appended</p>
 </div>
@@ -1573,7 +1573,7 @@ If any heading share the same name then subsequent headings will have an integer
 </div>
 
 <div class='method'>
-<h3 id="markdown"><small>public static</small>  markdown(<small>string</small> <span class="param" title="Text to parse">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="markdown"><small>public static</small>  markdown(<small>string</small> <span class="param" title="Text to parse">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'><p>Transform some text using <a href="/index.php/">Kodoc_Markdown</a></p>
 </div>
 <h4>Parameters</h4>
@@ -4338,7 +4338,7 @@ If any heading share the same name then subsequent headings will have an integer
 </div>
 
 <div class='method'>
-<h3 id="_add_to_toc"><small>protected</small>  _add_to_toc()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Markdown'>Mountain Valley Church of God_Kodoc_Markdown</a>)</small></h3>
+<h3 id="_add_to_toc"><small>protected</small>  _add_to_toc()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Markdown'>Donica Church of God_Kodoc_Markdown</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>

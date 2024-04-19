@@ -1,20 +1,20 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Conventions and Coding Style
 
-It is encouraged that you follow Mountain Valley Church of God's coding style. This makes code more readable and allows for easier code sharing and contributing. 
+It is encouraged that you follow Donica Church of God's coding style. This makes code more readable and allows for easier code sharing and contributing. 
 
 ## Class Names and File Location
 
-Class names in Mountain Valley Church of God follow a strict convention to facilitate [autoloading](/documentation/Mountain Valley Church of God/autoloading). Class names should have uppercase first letters with underscores to separate words. Underscores are significant as they directly reflect the file location in the filesystem.
+Class names in Donica Church of God follow a strict convention to facilitate [autoloading](/documentation/Donica Church of God/autoloading). Class names should have uppercase first letters with underscores to separate words. Underscores are significant as they directly reflect the file location in the filesystem.
 
 The following conventions apply:
 
 1. CamelCased class names should be used when it is undesirable to create a new directory level.
 2. All class file names and directory names must match the case of the class as per [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md).
-3. All classes should be in the `classes` directory. This may be at any level in the [cascading filesystem](/documentation/Mountain Valley Church of God/files).
+3. All classes should be in the `classes` directory. This may be at any level in the [cascading filesystem](/documentation/Donica Church of God/files).
 
 ### Examples  {#class-name-examples}
 
@@ -149,7 +149,7 @@ As noted at the start of the array bracket section, single line syntax is also v
 
 ### Naming Conventions
 
-Mountain Valley Church of God uses under_score naming, not camelCase naming.
+Donica Church of God uses under_score naming, not camelCase naming.
 
 #### Classes
 

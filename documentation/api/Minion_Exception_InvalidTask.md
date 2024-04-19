@@ -3,15 +3,15 @@ layout: api
 class: Minion_Exception_InvalidTask
 ---
 <h1>Minion_Exception_InvalidTask</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Minion_Exception_InvalidTask'>Mountain Valley Church of God_Minion_Exception_InvalidTask</a>
+extends <a href='/documentation/api/Donica Church of God_Minion_Exception_InvalidTask'>Donica Church of God_Minion_Exception_InvalidTask</a>
 <br />
 extends <a href='/documentation/api/Minion_Exception'>Minion_Exception</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Minion_Exception'>Mountain Valley Church of God_Minion_Exception</a>
+extends <a href='/documentation/api/Donica Church of God_Minion_Exception'>Donica Church of God_Minion_Exception</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Exception</a>
+extends <a href='/documentation/api/Donica Church of God_Exception'>Donica Church of God_Exception</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>
+extends <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>
 <br />
 extends <a href='/documentation/api/Exception'>Exception</a>
 <br />
@@ -24,11 +24,11 @@ extends <a href='/documentation/api/Exception'>Exception</a>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Minion</dd>
+<dd>Donica Church of God/Minion</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -39,7 +39,7 @@ extends <a href='/documentation/api/Exception'>Exception</a>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Minion_Exception_InvalidTask'>Mountain Valley Church of God_Minion_Exception_InvalidTask</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Minion_Exception_InvalidTask'>Donica Church of God_Minion_Exception_InvalidTask</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -145,7 +145,7 @@ extends <a href='/documentation/api/Exception'>Exception</a>
  <p>error rendering view</p>
 </dd>
 <dd>
- <pre class="debug"><small>string</small><span>(12)</span> "Mountain Valley Church of God/error"</pre></dd>
+ <pre class="debug"><small>string</small><span>(12)</span> "Donica Church of God/error"</pre></dd>
 <dt>
 <h4 id='property-error_view_content_type'><small>public static</small>  <span class='blue'>string</span> $error_view_content_type</h4>
 </dt>
@@ -222,7 +222,7 @@ extends <a href='/documentation/api/Exception'>Exception</a>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="format_for_cli"><small>public</small>  format_for_cli()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Exception_InvalidTask'>Mountain Valley Church of God_Minion_Exception_InvalidTask</a>)</small></h3>
+<h3 id="format_for_cli"><small>public</small>  format_for_cli()<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_Exception_InvalidTask'>Donica Church of God_Minion_Exception_InvalidTask</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -236,7 +236,7 @@ extends <a href='/documentation/api/Exception'>Exception</a>
 </div>
 
 <div class='method'>
-<h3 id="handler"><small>public static</small>  handler(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_Exception'>Mountain Valley Church of God_Minion_Exception</a>)</small></h3>
+<h3 id="handler"><small>public static</small>  handler(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_Exception'>Donica Church of God_Minion_Exception</a>)</small></h3>
 <div class='description'><p>Inline exception handler, displays the error message, source of the
 exception, and the stack trace of the error.</p>
 
@@ -249,7 +249,7 @@ exception, and the stack trace of the error.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#text">Mountain Valley Church of God_Exception::text</a></li>
+<li>Uses - <a href="#text">Donica Church of God_Exception::text</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -264,7 +264,7 @@ exception, and the stack trace of the error.</p>
 	try
 	{
 		// Log the exception
-		Mountain Valley Church of God_Exception::log($e);
+		Donica Church of God_Exception::log($e);
 
 		if ($e instanceof Minion_Exception)
 		{
@@ -272,7 +272,7 @@ exception, and the stack trace of the error.</p>
 		}
 		else
 		{
-			echo Mountain Valley Church of God_Exception::text($e);
+			echo Donica Church of God_Exception::text($e);
 		}
 
 		$exit_code = $e-&gt;getCode();
@@ -291,7 +291,7 @@ exception, and the stack trace of the error.</p>
 		ob_get_level() and ob_clean();
 
 		// Display the exception text
-		echo Mountain Valley Church of God_Exception::text($e), &quot;\n&quot;;
+		echo Donica Church of God_Exception::text($e), &quot;\n&quot;;
 
 		// Exit with an error status
 		exit(1);
@@ -302,10 +302,10 @@ exception, and the stack trace of the error.</p>
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Error message">$message</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Translation variables">$variables</span> <small>= <small>NULL</small></small> , <small>integer|string</small> <span class="param" title="The exception code">$code</span> <small>= <small>integer</small> 0</small> , <small>Exception</small> <span class="param" title="Previous exception">$previous</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Error message">$message</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Translation variables">$variables</span> <small>= <small>NULL</small></small> , <small>integer|string</small> <span class="param" title="The exception code">$code</span> <small>= <small>integer</small> 0</small> , <small>Exception</small> <span class="param" title="Previous exception">$previous</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Creates a new translated exception.</p>
 
-<pre><code>throw new Mountain Valley Church of God_Exception('Something went terrible wrong, :user',
+<pre><code>throw new Donica Church of God_Exception('Something went terrible wrong, :user',
     array(':user' =&gt; $user));
 </code></pre>
 </div>
@@ -345,7 +345,7 @@ exception, and the stack trace of the error.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Magic object-to-string method.</p>
 
 <pre><code>echo $exception;
@@ -353,7 +353,7 @@ exception, and the stack trace of the error.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#text">Mountain Valley Church of God_Exception::text</a></li>
+<li>Uses - <a href="#text">Donica Church of God_Exception::text</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -365,14 +365,14 @@ exception, and the stack trace of the error.</p>
 <pre>
 <code class="language-php">public function __toString()
 {
-    return Mountain Valley Church of God_Exception::text($this);
+    return Donica Church of God_Exception::text($this);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="_handler"><small>public static</small>  _handler(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="_handler"><small>public static</small>  _handler(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Exception handler, logs the exception and generates a Response object
 for display.</p>
 </div>
@@ -383,7 +383,7 @@ for display.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#response">Mountain Valley Church of God_Exception::response</a></li>
+<li>Uses - <a href="#response">Donica Church of God_Exception::response</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -398,10 +398,10 @@ for display.</p>
     try
     {
         // Log the exception
-        Mountain Valley Church of God_Exception::log($e);
+        Donica Church of God_Exception::log($e);
 
         // Generate the response
-        $response = Mountain Valley Church of God_Exception::response($e);
+        $response = Donica Church of God_Exception::response($e);
 
         return $response;
     }
@@ -415,9 +415,9 @@ for display.</p>
         ob_get_level() AND ob_clean();
 
         // Set the Status code to 500, and Content-Type to text/plain.
-        header(&#039;Content-Type: text/plain; charset=&#039;.Mountain Valley Church of God::$charset, TRUE, 500);
+        header(&#039;Content-Type: text/plain; charset=&#039;.Donica Church of God::$charset, TRUE, 500);
 
-        echo Mountain Valley Church of God_Exception::text($e);
+        echo Donica Church of God_Exception::text($e);
 
         exit(1);
     }
@@ -427,7 +427,7 @@ for display.</p>
 </div>
 
 <div class='method'>
-<h3 id="log"><small>public static</small>  log(<small>Exception</small> <span class="param" title="$e">$e</span> [, <small>int</small> <span class="param" title="$level">$level</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="log"><small>public static</small>  log(<small>Exception</small> <span class="param" title="$e">$e</span> [, <small>int</small> <span class="param" title="$level">$level</span> <small>= <small>integer</small> 1</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Logs an exception.</p>
 </div>
 <h4>Parameters</h4>
@@ -439,7 +439,7 @@ for display.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#text">Mountain Valley Church of God_Exception::text</a></li>
+<li>Uses - <a href="#text">Donica Church of God_Exception::text</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -451,16 +451,16 @@ for display.</p>
 <pre>
 <code class="language-php">public static function log($e, $level = Log::EMERGENCY)
 {
-    if (is_object(Mountain Valley Church of God::$log))
+    if (is_object(Donica Church of God::$log))
     {
         // Create a text version of the exception
-        $error = Mountain Valley Church of God_Exception::text($e);
+        $error = Donica Church of God_Exception::text($e);
 
         // Add this exception to the log
-        Mountain Valley Church of God::$log-&gt;add($level, $error, NULL, [&#039;exception&#039; =&gt; $e]);
+        Donica Church of God::$log-&gt;add($level, $error, NULL, [&#039;exception&#039; =&gt; $e]);
 
         // Make sure the logs are written
-        Mountain Valley Church of God::$log-&gt;write();
+        Donica Church of God::$log-&gt;write();
     }
 }</code>
 </pre>
@@ -468,7 +468,7 @@ for display.</p>
 </div>
 
 <div class='method'>
-<h3 id="response"><small>public static</small>  response(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="response"><small>public static</small>  response(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Get a Response object representing the exception</p>
 </div>
 <h4>Parameters</h4>
@@ -478,7 +478,7 @@ for display.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#text">Mountain Valley Church of God_Exception::text</a></li>
+<li>Uses - <a href="#text">Donica Church of God_Exception::text</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -553,10 +553,10 @@ for display.</p>
                 }
             }
 
-            if (isset(Mountain Valley Church of God_Exception::$php_errors[$code]))
+            if (isset(Donica Church of God_Exception::$php_errors[$code]))
             {
                 // Use the human-readable error name
-                $code = Mountain Valley Church of God_Exception::$php_errors[$code];
+                $code = Donica Church of God_Exception::$php_errors[$code];
             }
         }
 
@@ -578,7 +578,7 @@ for display.</p>
         }
 
         // Instantiate the error view.
-        $view = View::factory(Mountain Valley Church of God_Exception::$error_view, get_defined_vars());
+        $view = View::factory(Donica Church of God_Exception::$error_view, get_defined_vars());
 
         // Prepare the response object.
         $response = Response::factory();
@@ -587,7 +587,7 @@ for display.</p>
         $response-&gt;status(($e instanceof HTTP_Exception) ? $e-&gt;getCode() : 500);
 
         // Set the response headers
-        $response-&gt;headers(&#039;Content-Type&#039;, Mountain Valley Church of God_Exception::$error_view_content_type.&#039;; charset=&#039;.Mountain Valley Church of God::$charset);
+        $response-&gt;headers(&#039;Content-Type&#039;, Donica Church of God_Exception::$error_view_content_type.&#039;; charset=&#039;.Donica Church of God::$charset);
 
         // Set the response body
         $response-&gt;body($view-&gt;render());
@@ -601,7 +601,7 @@ for display.</p>
         $response = Response::factory();
         $response-&gt;status(500);
         $response-&gt;headers(&#039;Content-Type&#039;, &#039;text/plain&#039;);
-        $response-&gt;body(Mountain Valley Church of God_Exception::text($e));
+        $response-&gt;body(Donica Church of God_Exception::text($e));
     }
 
     return $response;
@@ -611,7 +611,7 @@ for display.</p>
 </div>
 
 <div class='method'>
-<h3 id="text"><small>public static</small>  text(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Mountain Valley Church of God_Exception'>Mountain Valley Church of God_Mountain Valley Church of God_Exception</a>)</small></h3>
+<h3 id="text"><small>public static</small>  text(<small>Exception</small> <span class="param" title="$e">$e</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Donica Church of God_Exception'>Donica Church of God_Donica Church of God_Exception</a>)</small></h3>
 <div class='description'><p>Get a single line of text representing the exception:</p>
 
 <p>Error [ Code ]: Message ~ File [ Line ]</p>

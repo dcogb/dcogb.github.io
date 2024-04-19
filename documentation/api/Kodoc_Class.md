@@ -3,11 +3,11 @@ layout: api
 class: Kodoc_Class
 ---
 <h1>Kodoc_Class</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>
+extends <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>
 <br />
 extends <a href='/documentation/api/Kodoc'>Kodoc</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>
+extends <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>
 <br />
 <p>
 <i><p>Class documentation generator.</p>
@@ -15,13 +15,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountai
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Userguide</dd>
+<dd>Donica Church of God/Userguide</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -32,7 +32,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountai
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -220,7 +220,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountai
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Class name">$class</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Class name">$class</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Loads a class and uses <a href="http://php.net/reflection">reflection</a> to parse
 the class. Reads the class modifiers, constants and comment. Parses the
 comment to find the description and tags.</p>
@@ -284,7 +284,7 @@ comment to find the description and tags.</p>
 </div>
 
 <div class='method'>
-<h3 id="constants"><small>public</small>  constants()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="constants"><small>public</small>  constants()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Gets the constants of this class as HTML.</p>
 </div>
 <h4>Return Values</h4>
@@ -311,7 +311,7 @@ comment to find the description and tags.</p>
 </div>
 
 <div class='method'>
-<h3 id="description"><small>public</small>  description()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="description"><small>public</small>  description()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Get the description of this class as HTML. Includes a warning when the
 class or one of its parents could not be found.</p>
 </div>
@@ -347,7 +347,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="methods"><small>public</small>  methods()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="methods"><small>public</small>  methods()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Gets a list of the class properties as <a href="/index.php/">Kodoc_Method</a> objects.</p>
 </div>
 <h4>Return Values</h4>
@@ -376,7 +376,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="properties"><small>public</small>  properties()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="properties"><small>public</small>  properties()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Gets a list of the class properties as <a href="/index.php/">Kodoc_Property</a> objects.</p>
 </div>
 <h4>Return Values</h4>
@@ -408,7 +408,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="tags"><small>public</small>  tags()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="tags"><small>public</small>  tags()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Get the tags of this class as HTML.</p>
 </div>
 <h4>Return Values</h4>
@@ -438,12 +438,12 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="class_methods"><small>public static</small>  class_methods()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="class_methods"><small>public static</small>  class_methods()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Get all classes and methods of files in a list.</p>
 
 <blockquote>
   <p>I personally don't like this as it was used on the index page.  Way too much stuff on one page.  It has potential for a package index page though.
-   For example:  class_methods( Mountain Valley Church of God::list_files('classes/sprig') ) could make a nice index page for the sprig package in the api browser
+   For example:  class_methods( Donica Church of God::list_files('classes/sprig') ) could make a nice index page for the sprig package in the api browser
       ~bluehawk</p>
 </blockquote>
 </div>
@@ -494,13 +494,13 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="classes"><small>public static</small>  classes([ <small>array</small> <span class="param" title="Array of files, obtained using Mountain Valley Church of God::list_files">$list</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="classes"><small>public static</small>  classes([ <small>array</small> <span class="param" title="Array of files, obtained using Donica Church of God::list_files">$list</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Returns an array of all the classes available, built by listing all files in the classes folder.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">array </span><strong> $list</strong> <small> = <small>NULL</small></small> - Array of files, obtained using Mountain Valley Church of God::list_files</li>
+ <span class="blue">array </span><strong> $list</strong> <small> = <small>NULL</small></small> - Array of files, obtained using Donica Church of God::list_files</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -514,7 +514,7 @@ class or one of its parents could not be found.</p>
 {
 	if ($list === NULL)
 	{
-		$list = Mountain Valley Church of God::list_files(&#039;classes&#039;);
+		$list = Donica Church of God::list_files(&#039;classes&#039;);
 	}
 
 	$classes = [];
@@ -547,7 +547,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -561,7 +561,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="format_tag"><small>public static</small>  format_tag(<small>string</small> <span class="param" title="Name of the tag without @">$tag</span> , <small>string</small> <span class="param" title="Content of the tag">$text</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="format_tag"><small>public static</small>  format_tag(<small>string</small> <span class="param" title="Name of the tag without @">$tag</span> , <small>string</small> <span class="param" title="Content of the tag">$text</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Generate HTML for the content of a tag.</p>
 </div>
 <h4>Parameters</h4>
@@ -630,7 +630,7 @@ class or one of its parents could not be found.</p>
 </div>
 
 <div class='method'>
-<h3 id="is_transparent"><small>public static</small>  is_transparent(<small>string</small> <span class="param" title="The name of the class to check for transparency">$class</span> [, <small>array</small> <span class="param" title="An optional list of all defined classes">$classes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="is_transparent"><small>public static</small>  is_transparent(<small>string</small> <span class="param" title="The name of the class to check for transparency">$class</span> [, <small>array</small> <span class="param" title="An optional list of all defined classes">$classes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Checks whether a class is a transparent extension class or not.</p>
 
 <p>This method takes an optional $classes parameter, a list of all defined
@@ -641,7 +641,7 @@ prefixes.</p>
 <p>Transparent prefixes are defined in the userguide.php config file:</p>
 
 <pre><code>'transparent_prefixes' =&gt; array(
-    'Mountain Valley Church of God' =&gt; TRUE,
+    'Donica Church of God' =&gt; TRUE,
 );
 </code></pre>
 
@@ -676,7 +676,7 @@ namespaces and exclude them from the userguide.</p>
 
 	if ( ! $transparent_prefixes)
 	{
-		$transparent_prefixes = Mountain Valley Church of God::$config-&gt;load(&#039;userguide.transparent_prefixes&#039;);
+		$transparent_prefixes = Donica Church of God::$config-&gt;load(&#039;userguide.transparent_prefixes&#039;);
 	}
 
 	// Split the class name at the first underscore
@@ -713,7 +713,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="link_class_member"><small>public static</small>  link_class_member(<small>array</small> <span class="param" title="Array( 1 => link text, 2 => class name, [3 => member name] )">$matches</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="link_class_member"><small>public static</small>  link_class_member(<small>array</small> <span class="param" title="Array( 1 => link text, 2 => class name, [3 => member name] )">$matches</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Make a class#member API link using an array of matches from <a href="#property:regex_class_member">Kodoc::$regex_class_member</a></p>
 </div>
 <h4>Parameters</h4>
@@ -737,7 +737,7 @@ namespaces and exclude them from the userguide.</p>
 
 	if (isset($matches[3]))
 	{
-		// If the first char is a $ it is a property, e.g. Mountain Valley Church of God::$base_url
+		// If the first char is a $ it is a property, e.g. Donica Church of God::$base_url
 		if ($matches[3][0] === &#039;$&#039;)
 		{
 			$member = &#039;#property:&#039;.substr($matches[3], 1);
@@ -759,7 +759,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="menu"><small>public static</small>  menu()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="menu"><small>public static</small>  menu()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Creates an html list of all classes sorted by category (or package if no category)</p>
 </div>
 <h4>Return Values</h4>
@@ -827,7 +827,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="parse"><small>public static</small>  parse(<small>string</small> <span class="param" title="The DocBlock to parse">$comment</span> [, <small>boolean</small> <span class="param" title="Whether or not to convert the return values to HTML (deprecated)">$html</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="parse"><small>public static</small>  parse(<small>string</small> <span class="param" title="The DocBlock to parse">$comment</span> [, <small>boolean</small> <span class="param" title="Whether or not to convert the return values to HTML (deprecated)">$html</span> <small>= <small>bool</small> TRUE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Parse a comment to extract the description and the tags</p>
 
 <p class="note">Converting the output to HTML in this method is deprecated in 3.3</p>
@@ -936,7 +936,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="show_class"><small>public static</small>  show_class(<small>Kodoc_Class</small> <span class="param" title="The class to test">$class</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="show_class"><small>public static</small>  show_class(<small>Kodoc_Class</small> <span class="param" title="The class to test">$class</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Test whether a class should be shown, based on the api_packages config option</p>
 </div>
 <h4>Parameters</h4>
@@ -954,7 +954,7 @@ namespaces and exclude them from the userguide.</p>
 <pre>
 <code class="language-php">public static function show_class(Kodoc_Class $class)
 {
-	$api_packages = Mountain Valley Church of God::$config-&gt;load(&#039;userguide.api_packages&#039;);
+	$api_packages = Donica Church of God::$config-&gt;load(&#039;userguide.api_packages&#039;);
 
 	// If api_packages is true, all packages should be shown
 	if ($api_packages === TRUE)
@@ -980,7 +980,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="source"><small>public static</small>  source(<small>string</small> <span class="param" title="The filename">$file</span> , <small>int</small> <span class="param" title="Start line?">$start</span> , <small>int</small> <span class="param" title="End line?">$end</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc'>Mountain Valley Church of God_Kodoc</a>)</small></h3>
+<h3 id="source"><small>public static</small>  source(<small>string</small> <span class="param" title="The filename">$file</span> , <small>int</small> <span class="param" title="Start line?">$start</span> , <small>int</small> <span class="param" title="End line?">$end</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc'>Donica Church of God_Kodoc</a>)</small></h3>
 <div class='description'><p>Get the source of a function</p>
 </div>
 <h4>Parameters</h4>
@@ -1020,7 +1020,7 @@ namespaces and exclude them from the userguide.</p>
 </div>
 
 <div class='method'>
-<h3 id="_method_sort"><small>protected</small>  _method_sort()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="_method_sort"><small>protected</small>  _method_sort()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'><p>Sort methods based on their visibility and declaring class based on:</p>
 
 <ul>
@@ -1094,7 +1094,7 @@ declared by the current class</li>
 </div>
 
 <div class='method'>
-<h3 id="_prop_sort"><small>protected</small>  _prop_sort()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Kodoc_Class'>Mountain Valley Church of God_Kodoc_Class</a>)</small></h3>
+<h3 id="_prop_sort"><small>protected</small>  _prop_sort()<small> (defined in <a href='/documentation/api/Donica Church of God_Kodoc_Class'>Donica Church of God_Kodoc_Class</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>

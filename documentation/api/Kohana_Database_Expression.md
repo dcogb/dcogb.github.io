@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Database_Expression
+class: Donica Church of God_Database_Expression
 ---
-<h1>Mountain Valley Church of God_Database_Expression</h1>
+<h1>Donica Church of God_Database_Expression</h1>
 <p>
 <i><p>Database expressions can be used to add unescaped SQL fragments to a
 <a href="/index.php/">Database_Query_Builder</a> object.</p>
@@ -18,13 +18,13 @@ $query = DB::select(array(DB::expr('CONCAT(first_name, last_name)'), 'full_name'
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -108,7 +108,7 @@ $query = DB::select(array(DB::expr('CONCAT(first_name, last_name)'), 'full_name'
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Raw SQL expression string">$value</span> [, <small>array</small> <span class="param" title="Unquoted parameter values">$parameters</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Raw SQL expression string">$value</span> [, <small>array</small> <span class="param" title="Unquoted parameter values">$parameters</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Sets the expression string.</p>
 
 <pre><code>$expression = new Database_Expression('COUNT(users.id)');
@@ -140,7 +140,7 @@ $query = DB::select(array(DB::expr('CONCAT(first_name, last_name)'), 'full_name'
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Return the value of the expression as a string.</p>
 
 <pre><code>echo $expression;
@@ -167,7 +167,7 @@ $query = DB::select(array(DB::expr('CONCAT(first_name, last_name)'), 'full_name'
 </div>
 
 <div class='method'>
-<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to use">$var</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to use">$var</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Bind a variable to a parameter.</p>
 </div>
 <h4>Parameters</h4>
@@ -196,7 +196,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 </div>
 
 <div class='method'>
-<h3 id="compile"><small>public</small>  compile([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="compile"><small>public</small>  compile([ <small>mixed</small> <span class="param" title="Database instance or name of instance">$db</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Compile the SQL expression and return it. Replaces any parameters with
 their given values.</p>
 </div>
@@ -239,7 +239,7 @@ their given values.</p>
 </div>
 
 <div class='method'>
-<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="param"><small>public</small>  param(<small>string</small> <span class="param" title="Parameter key to replace">$param</span> , <small>mixed</small> <span class="param" title="Value to use">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Set the value of a parameter.</p>
 </div>
 <h4>Parameters</h4>
@@ -268,7 +268,7 @@ their given values.</p>
 </div>
 
 <div class='method'>
-<h3 id="parameters"><small>public</small>  parameters(<small>array</small> <span class="param" title="List of parameter values">$params</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="parameters"><small>public</small>  parameters(<small>array</small> <span class="param" title="List of parameter values">$params</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Add multiple parameter values.</p>
 </div>
 <h4>Parameters</h4>
@@ -295,7 +295,7 @@ their given values.</p>
 </div>
 
 <div class='method'>
-<h3 id="value"><small>public</small>  value()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Expression'>Mountain Valley Church of God_Database_Expression</a>)</small></h3>
+<h3 id="value"><small>public</small>  value()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Expression'>Donica Church of God_Database_Expression</a>)</small></h3>
 <div class='description'><p>Get the expression value as a string.</p>
 
 <pre><code>$sql = $expression-&gt;value();

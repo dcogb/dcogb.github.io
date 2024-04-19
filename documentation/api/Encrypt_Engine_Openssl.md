@@ -3,9 +3,9 @@ layout: api
 class: Encrypt_Engine_Openssl
 ---
 <h1>Encrypt_Engine_Openssl</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>
+extends <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine'>Mountain Valley Church of God_Encrypt_Engine</a>
+extends <a href='/documentation/api/Donica Church of God_Encrypt_Engine'>Donica Church of God_Encrypt_Engine</a>
 <br />
 <p>
 <i><p>The Encrypt Openssl engine provides two-way encryption of text and binary strings
@@ -25,11 +25,11 @@ is used.</dd>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Encrypt</dd>
+<dd>Donica Church of God/Encrypt</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -40,7 +40,7 @@ is used.</dd>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -154,7 +154,7 @@ is used.</dd>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="$key encryption key">$key_config</span> [, <small>string</small> <span class="param" title="Openssl mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Openssl cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="$key encryption key">$key_config</span> [, <small>string</small> <span class="param" title="Openssl mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Openssl cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Creates a new openssl wrapper.</p>
 </div>
 <h4>Parameters</h4>
@@ -189,7 +189,7 @@ is used.</dd>
 		if ($length !== 16)
 		{
 			// No valid encryption key is provided!
-			throw new Mountain Valley Church of God_Exception(&#039;No valid encryption key is defined in the encryption configuration: length should be 16 for AES-128-CBC&#039;);
+			throw new Donica Church of God_Exception(&#039;No valid encryption key is defined in the encryption configuration: length should be 16 for AES-128-CBC&#039;);
 		}
 	}
 		
@@ -198,14 +198,14 @@ is used.</dd>
 		if ($length !== 32)
 		{
 			// No valid encryption key is provided!
-			throw new Mountain Valley Church of God_Exception(&#039;No valid encryption key is defined in the encryption configuration: length should be 32 for AES-256-CBC&#039;);
+			throw new Donica Church of God_Exception(&#039;No valid encryption key is defined in the encryption configuration: length should be 32 for AES-256-CBC&#039;);
 		}
 	}
 	
 	else
 	{
 		// No valid encryption cipher is provided!
-		throw new Mountain Valley Church of God_Exception(&#039;No valid encryption cipher is defined in the encryption configuration.&#039;);
+		throw new Donica Church of God_Exception(&#039;No valid encryption cipher is defined in the encryption configuration.&#039;);
 	}
 }</code>
 </pre>
@@ -213,7 +213,7 @@ is used.</dd>
 </div>
 
 <div class='method'>
-<h3 id="create_iv"><small>public</small>  create_iv()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="create_iv"><small>public</small>  create_iv()<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Proxy for the random_bytes function - to allow mocking and testing against KAT vectors</p>
 </div>
 <h4>Return Values</h4>
@@ -240,14 +240,14 @@ is used.</dd>
 		}
 	}
 
-	throw new Mountain Valley Church of God_Exception(&#039;Could not create initialization vector.&#039;);
+	throw new Donica Church of God_Exception(&#039;Could not create initialization vector.&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="decrypt"><small>public</small>  decrypt(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="decrypt"><small>public</small>  decrypt(<small>string</small> <span class="param" title="Encoded string to be decrypted">$data</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Decrypts an encoded string back to its original value.</p>
 </div>
 <h4>Parameters</h4>
@@ -309,7 +309,7 @@ is used.</dd>
 </div>
 
 <div class='method'>
-<h3 id="encrypt"><small>public</small>  encrypt(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> , $iv )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="encrypt"><small>public</small>  encrypt(<small>string</small> <span class="param" title="Data to be encrypted">$data</span> , $iv )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Encrypts a string and returns an encrypted string that can be decoded.</p>
 </div>
 <h4>Parameters</h4>
@@ -360,7 +360,7 @@ is used.</dd>
 </div>
 
 <div class='method'>
-<h3 id="hash"><small>protected</small>  hash(<small>string</small> <span class="param" title="$iv">$iv</span> , <small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="hash"><small>protected</small>  hash(<small>string</small> <span class="param" title="$iv">$iv</span> , <small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Create a MAC for the given value.</p>
 </div>
 <h4>Parameters</h4>
@@ -387,7 +387,7 @@ is used.</dd>
 </div>
 
 <div class='method'>
-<h3 id="valid_mac"><small>protected</small>  valid_mac(<small>array</small> <span class="param" title="$payload">$payload</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="valid_mac"><small>protected</small>  valid_mac(<small>array</small> <span class="param" title="$payload">$payload</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Determine if the MAC for the given payload is valid.</p>
 </div>
 <h4>Parameters</h4>
@@ -415,7 +415,7 @@ is used.</dd>
 </div>
 
 <div class='method'>
-<h3 id="valid_payload"><small>protected</small>  valid_payload(<small>mixed</small> <span class="param" title="$payload">$payload</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine_Openssl'>Mountain Valley Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
+<h3 id="valid_payload"><small>protected</small>  valid_payload(<small>mixed</small> <span class="param" title="$payload">$payload</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine_Openssl'>Donica Church of God_Encrypt_Engine_Openssl</a>)</small></h3>
 <div class='description'><p>Verify that the encryption payload is valid.</p>
 </div>
 <h4>Parameters</h4>

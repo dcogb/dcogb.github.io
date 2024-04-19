@@ -1,10 +1,10 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Response
+class: Donica Church of God_Response
 ---
-<h1>Mountain Valley Church of God_Response</h1>
+<h1>Donica Church of God_Response</h1>
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/HTTP_Response'>HTTP_Response</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Response'>Mountain Valley Church of God_HTTP_Response</a></small>
+<small>Implements: <a href='/documentation/api/HTTP_Response'>HTTP_Response</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a> | <a href='/documentation/api/Donica Church of God_HTTP_Response'>Donica Church of God_HTTP_Response</a></small>
 </p>
 <p>
 <i><p>Response wrapper. Created as the result of any <a href="/index.php/">Request</a> execution
@@ -14,13 +14,13 @@ response format.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -244,7 +244,7 @@ response format.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Setup the response object">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Setup the response object">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Sets up the response object</p>
 </div>
 <h4>Parameters</h4>
@@ -284,7 +284,7 @@ response format.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Outputs the body when cast to string</p>
 </div>
 <h4>Return Values</h4>
@@ -304,7 +304,7 @@ response format.</p>
 </div>
 
 <div class='method'>
-<h3 id="body"><small>public</small>  body()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="body"><small>public</small>  body()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Gets or sets the body of the response</p>
 </div>
 <h4>Return Values</h4>
@@ -328,7 +328,7 @@ response format.</p>
 </div>
 
 <div class='method'>
-<h3 id="content_length"><small>public</small>  content_length()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="content_length"><small>public</small>  content_length()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Returns the length of the body for use with
 content header</p>
 </div>
@@ -349,7 +349,7 @@ content header</p>
 </div>
 
 <div class='method'>
-<h3 id="cookie"><small>public</small>  cookie([ <small>mixed</small> <span class="param" title="Cookie name, or array of cookie values">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to cookie">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="cookie"><small>public</small>  cookie([ <small>mixed</small> <span class="param" title="Cookie name, or array of cookie values">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to cookie">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Set and get cookies values for this response.</p>
 
 <pre><code>// Get the cookies set to the response
@@ -422,7 +422,7 @@ $response-&gt;cookie('session', array(
 </div>
 
 <div class='method'>
-<h3 id="delete_cookie"><small>public</small>  delete_cookie(<small>string</small> <span class="param" title="$name">$name</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="delete_cookie"><small>public</small>  delete_cookie(<small>string</small> <span class="param" title="$name">$name</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Deletes a cookie set to the response</p>
 </div>
 <h4>Parameters</h4>
@@ -448,7 +448,7 @@ $response-&gt;cookie('session', array(
 </div>
 
 <div class='method'>
-<h3 id="delete_cookies"><small>public</small>  delete_cookies()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="delete_cookies"><small>public</small>  delete_cookies()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Deletes all cookies from this response</p>
 </div>
 <h4>Return Values</h4>
@@ -469,7 +469,7 @@ $response-&gt;cookie('session', array(
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory([ <small>array</small> <span class="param" title="Setup the response object">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory([ <small>array</small> <span class="param" title="Setup the response object">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Factory method to create a new <a href="/index.php/">Response</a>. Pass properties
 in using an associative array.</p>
 
@@ -502,7 +502,7 @@ in using an associative array.</p>
 </div>
 
 <div class='method'>
-<h3 id="generate_etag"><small>public</small>  generate_etag()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="generate_etag"><small>public</small>  generate_etag()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Generate ETag
 Generates an ETag from the response ready to be returned</p>
 </div>
@@ -533,7 +533,7 @@ Generates an ETag from the response ready to be returned</p>
 </div>
 
 <div class='method'>
-<h3 id="headers"><small>public</small>  headers([ <small>mixed</small> <span class="param" title="$key">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="$value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="headers"><small>public</small>  headers([ <small>mixed</small> <span class="param" title="$key">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="$value">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Gets and sets headers to the <a href="/index.php/">Response</a>, allowing chaining
 of response methods. If chaining isn't required, direct
 access to the property should be used instead.</p>
@@ -592,7 +592,7 @@ access to the property should be used instead.</p>
 </div>
 
 <div class='method'>
-<h3 id="protocol"><small>public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="protocol"><small>public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP protocol. The standard protocol to use
 is <code>HTTP/1.1</code>.</p>
 </div>
@@ -629,7 +629,7 @@ is <code>HTTP/1.1</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>public</small>  render()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="render"><small>public</small>  render()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Renders the HTTP_Interaction to a string, producing</p>
 
 <ul>
@@ -651,16 +651,16 @@ is <code>HTTP/1.1</code>.</p>
 	if ( ! $this-&gt;_header-&gt;offsetExists(&#039;content-type&#039;))
 	{
 		// Add the default Content-Type header if required
-		$this-&gt;_header[&#039;content-type&#039;] = Mountain Valley Church of God::$content_type.&#039;; charset=&#039;.Mountain Valley Church of God::$charset;
+		$this-&gt;_header[&#039;content-type&#039;] = Donica Church of God::$content_type.&#039;; charset=&#039;.Donica Church of God::$charset;
 	}
 
 	// Set the content length
 	$this-&gt;headers(&#039;content-length&#039;, (string) $this-&gt;content_length());
 
-	// If Mountain Valley Church of God expose, set the user-agent
-	if (Mountain Valley Church of God::$expose)
+	// If Donica Church of God expose, set the user-agent
+	if (Donica Church of God::$expose)
 	{
-		$this-&gt;headers(&#039;user-agent&#039;, Mountain Valley Church of God::version());
+		$this-&gt;headers(&#039;user-agent&#039;, Donica Church of God::version());
 	}
 
 	// Prepare cookies
@@ -700,7 +700,7 @@ is <code>HTTP/1.1</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="send_file"><small>public</small>  send_file(<small>string|resource|bool</small> <span class="param" title="Filename with path, file stream, or TRUE for the current response">$filename</span> [, <small>string</small> <span class="param" title="Downloaded file name">$download</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Additional options">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="send_file"><small>public</small>  send_file(<small>string|resource|bool</small> <span class="param" title="Filename with path, file stream, or TRUE for the current response">$filename</span> [, <small>string</small> <span class="param" title="Downloaded file name">$download</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Additional options">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Send file download as the response. All execution will be halted when
 this method is called! Use TRUE for the filename to send the current
 response as the file content. The third parameter allows the following
@@ -739,7 +739,7 @@ options to be set:</p>
 
 <p>Download a file that already exists:</p>
 
-<pre><code>$request-&gt;send_file('media/packages/Mountain Valley Church of God.zip');
+<pre><code>$request-&gt;send_file('media/packages/Donica Church of God.zip');
 </code></pre>
 
 <p>Download a generated file:</p>
@@ -768,7 +768,7 @@ $request-&gt;send_file(TRUE, $filename);
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 <li>Uses - <a href="#mime_by_ext">File::mime_by_ext</a>, <a href="#mime">File::mime</a>, <a href="#send_headers">Request::send_headers</a></li>
 </ul>
 <h4>Return Values</h4>
@@ -791,7 +791,7 @@ $request-&gt;send_file(TRUE, $filename);
 	{
 		if (empty($download))
 		{
-			throw new Mountain Valley Church of God_Exception(&#039;Download name must be provided for streaming files&#039;);
+			throw new Donica Church of God_Exception(&#039;Download name must be provided for streaming files&#039;);
 		}
 
 		// Temporary files will automatically be deleted
@@ -822,14 +822,14 @@ $request-&gt;send_file(TRUE, $filename);
 	{
 		if (empty($download))
 		{
-			throw new Mountain Valley Church of God_Exception(&#039;Download name must be provided for streaming files&#039;);
+			throw new Donica Church of God_Exception(&#039;Download name must be provided for streaming files&#039;);
 		}
 
 		// Make sure this is a file handle
 		$file_meta = stream_get_meta_data($filename);
 		if ($file_meta[&#039;seekable&#039;] === FALSE)
 		{
-			throw new Mountain Valley Church of God_Exception(&#039;Resource must be a file handle&#039;);
+			throw new Donica Church of God_Exception(&#039;Resource must be a file handle&#039;);
 		}
 
 		// Handle file streams passed in as resources
@@ -862,7 +862,7 @@ $request-&gt;send_file(TRUE, $filename);
 
 	if ( ! is_resource($file))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;Could not read file to send: :file&#039;, [
+		throw new Donica Church of God_Exception(&#039;Could not read file to send: :file&#039;, [
 			&#039;:file&#039; =&gt; $download,
 		]);
 	}
@@ -955,15 +955,15 @@ $request-&gt;send_file(TRUE, $filename);
 		catch (Exception $e)
 		{
 			// Create a text version of the exception
-			$error = Mountain Valley Church of God_Exception::text($e);
+			$error = Donica Church of God_Exception::text($e);
 
-			if (is_object(Mountain Valley Church of God::$log))
+			if (is_object(Donica Church of God::$log))
 			{
 				// Add this exception to the log
-				Mountain Valley Church of God::$log-&gt;add(Log::ERROR, $error);
+				Donica Church of God::$log-&gt;add(Log::ERROR, $error);
 
 				// Make sure the logs are written
-				Mountain Valley Church of God::$log-&gt;write();
+				Donica Church of God::$log-&gt;write();
 			}
 
 			// Do NOT display the exception, it will corrupt the output!
@@ -978,7 +978,7 @@ $request-&gt;send_file(TRUE, $filename);
 </div>
 
 <div class='method'>
-<h3 id="send_headers"><small>public</small>  send_headers([ <small>boolean</small> <span class="param" title="Replace existing headers">$replace</span> <small>= <small>bool</small> FALSE</small> , <small>callback</small> <span class="param" title="Function to handle header output">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="send_headers"><small>public</small>  send_headers([ <small>boolean</small> <span class="param" title="Replace existing headers">$replace</span> <small>= <small>bool</small> FALSE</small> , <small>callback</small> <span class="param" title="Function to handle header output">$callback</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Sends the response status and all set headers.</p>
 </div>
 <h4>Parameters</h4>
@@ -1005,7 +1005,7 @@ $request-&gt;send_file(TRUE, $filename);
 </div>
 
 <div class='method'>
-<h3 id="status"><small>public</small>  status([ <small>integer</small> <span class="param" title="Status to set to this response">$status</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="status"><small>public</small>  status([ <small>integer</small> <span class="param" title="Status to set to this response">$status</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Sets or gets the HTTP status from this response.</p>
 
 <pre><code> // Set the HTTP status to 404 Not Found
@@ -1042,7 +1042,7 @@ $request-&gt;send_file(TRUE, $filename);
 	}
 	else
 	{
-		throw new Mountain Valley Church of God_Exception(__METHOD__.&#039; unknown status value : :value&#039;, [&#039;:value&#039; =&gt; $status]);
+		throw new Donica Church of God_Exception(__METHOD__.&#039; unknown status value : :value&#039;, [&#039;:value&#039; =&gt; $status]);
 	}
 }</code>
 </pre>
@@ -1050,7 +1050,7 @@ $request-&gt;send_file(TRUE, $filename);
 </div>
 
 <div class='method'>
-<h3 id="_calculate_byte_range"><small>protected</small>  _calculate_byte_range(<small>integer</small> <span class="param" title="$size">$size</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="_calculate_byte_range"><small>protected</small>  _calculate_byte_range(<small>integer</small> <span class="param" title="$size">$size</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Calculates the byte range to use with send_file. If HTTP_RANGE doesn't
 exist then the complete byte range is returned</p>
 </div>
@@ -1108,7 +1108,7 @@ exist then the complete byte range is returned</p>
 </div>
 
 <div class='method'>
-<h3 id="_parse_byte_range"><small>protected</small>  _parse_byte_range()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Response'>Mountain Valley Church of God_Response</a>)</small></h3>
+<h3 id="_parse_byte_range"><small>protected</small>  _parse_byte_range()<small> (defined in <a href='/documentation/api/Donica Church of God_Response'>Donica Church of God_Response</a>)</small></h3>
 <div class='description'><p>Parse the byte ranges from the HTTP_RANGE header used for
 resumable downloads.</p>
 </div>

@@ -1,23 +1,23 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Config_Source
+class: Donica Church of God_Config_Source
 ---
-<h1>Mountain Valley Church of God_Config_Source</h1>
+<h1>Donica Church of God_Config_Source</h1>
 <p>
 <i><p>Base Config source Interface</p>
 
-<p>Used to identify either config readers or writers when calling <a href="#attach">Mountain Valley Church of God_Config::attach()</a></p>
+<p>Used to identify either config readers or writers when calling <a href="#attach">Donica Church of God_Config::attach()</a></p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>

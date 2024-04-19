@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Example of basic controller for application
 
@@ -149,7 +149,7 @@ public function init_config()
     foreach ($this->config as $name)
     {
         // Load and merge config parts.
-        $config = array_merge($config, (array) Mountain Valley Church of God::config($name, TRUE));
+        $config = array_merge($config, (array) Donica Church of God::config($name, TRUE));
     }
     $this->config = $config;
 }

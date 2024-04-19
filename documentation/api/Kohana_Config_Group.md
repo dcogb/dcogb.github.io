@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Config_Group
+class: Donica Church of God_Config_Group
 ---
-<h1>Mountain Valley Church of God_Config_Group</h1>
+<h1>Donica Church of God_Config_Group</h1>
 extends <a href='/documentation/api/ArrayObject'>ArrayObject</a>
 <br />
 <p class='interfaces'>
@@ -12,20 +12,20 @@ extends <a href='/documentation/api/ArrayObject'>ArrayObject</a>
 <i><p>The group wrapper acts as an interface to all the config directives
 gathered from across the system.</p>
 
-<p>This is the object returned from Mountain Valley Church of God_Config::load</p>
+<p>This is the object returned from Donica Church of God_Config::load</p>
 
 <p>Any modifications to configuration items should be done through an instance of this object</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -171,7 +171,7 @@ Used when updating config items</p>
 <br />
  <pre class="debug"><small>string</small><span>(0)</span> ""</pre></dd>
 <dt>
-<h4 id='property-_parent_instance'><small>protected</small>  <span class='blue'>Mountain Valley Church of God_Config</span> $_parent_instance</h4>
+<h4 id='property-_parent_instance'><small>protected</small>  <span class='blue'>Donica Church of God_Config</span> $_parent_instance</h4>
 </dt>
 <dd>
  <p>Reference the config object that created this group
@@ -189,14 +189,14 @@ Used when updating config</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>Mountain Valley Church of God_Config</small> <span class="param" title=""Owning" instance of Mountain Valley Church of God_Config">$instance</span> , <small>string</small> <span class="param" title="The group name">$group</span> [, <small>array</small> <span class="param" title="Group's config">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
-<div class='description'><p>Constructs the group object.  Mountain Valley Church of God_Config passes the config group
+<h3 id="__construct"><small>public</small>  __construct(<small>Donica Church of God_Config</small> <span class="param" title=""Owning" instance of Donica Church of God_Config">$instance</span> , <small>string</small> <span class="param" title="The group name">$group</span> [, <small>array</small> <span class="param" title="Group's config">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
+<div class='description'><p>Constructs the group object.  Donica Church of God_Config passes the config group
 and its config items to the object here.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">Mountain Valley Church of God_Config </span><strong> $instance</strong> <small>required</small> - "Owning" instance of Mountain Valley Church of God_Config</li>
+ <span class="blue">Donica Church of God_Config </span><strong> $instance</strong> <small>required</small> - "Owning" instance of Donica Church of God_Config</li>
 <li>
  <span class="blue">string </span><strong> $group</strong> <small>required</small> - The group name</li>
 <li>
@@ -205,7 +205,7 @@ and its config items to the object here.</p>
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
-<code class="language-php">public function __construct(Mountain Valley Church of God_Config $instance, $group, array $config = [])
+<code class="language-php">public function __construct(Donica Church of God_Config $instance, $group, array $config = [])
 {
 	$this-&gt;_parent_instance = $instance;
 	$this-&gt;_group_name      = $group;
@@ -217,7 +217,7 @@ and its config items to the object here.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Return the current group in serialized form.</p>
 
 <pre><code>echo $config;
@@ -240,7 +240,7 @@ and its config items to the object here.</p>
 </div>
 
 <div class='method'>
-<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Alias for getArrayCopy()</p>
 </div>
 <h4>Return Values</h4>
@@ -260,7 +260,7 @@ and its config items to the object here.</p>
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Array key">$key</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Array key">$key</span> [, <small>mixed</small> <span class="param" title="Default value">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Get a variable from the configuration or return the default value.</p>
 
 <pre><code>$value = $config-&gt;get($key);
@@ -290,7 +290,7 @@ and its config items to the object here.</p>
 </div>
 
 <div class='method'>
-<h3 id="group_name"><small>public</small>  group_name()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="group_name"><small>public</small>  group_name()<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Returns the config group's name</p>
 </div>
 <h4>Return Values</h4>
@@ -310,7 +310,7 @@ and its config items to the object here.</p>
 </div>
 
 <div class='method'>
-<h3 id="offsetSet"><small>public</small>  offsetSet(<small>string</small> <span class="param" title="The key of the config item we're changing">$key</span> , <small>mixed</small> <span class="param" title="The new array value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="offsetSet"><small>public</small>  offsetSet(<small>string</small> <span class="param" title="The key of the config item we're changing">$key</span> , <small>mixed</small> <span class="param" title="The new array value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Overrides ArrayObject::offsetSet()
 This method is called when config is changed via</p>
 
@@ -342,7 +342,7 @@ $config['var'] = 'asd';
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Array key">$key</span> , <small>mixed</small> <span class="param" title="Array value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Group'>Mountain Valley Church of God_Config_Group</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Array key">$key</span> , <small>mixed</small> <span class="param" title="Array value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Group'>Donica Church of God_Config_Group</a>)</small></h3>
 <div class='description'><p>Sets a value in the configuration array.</p>
 
 <pre><code>$config-&gt;set($key, $new_value);

@@ -1,20 +1,20 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Encrypt_Engine
+class: Donica Church of God_Encrypt_Engine
 ---
-<h1>Mountain Valley Church of God_Encrypt_Engine</h1>
+<h1>Donica Church of God_Encrypt_Engine</h1>
 <p>
 <i>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Encrypt</dd>
+<dd>Donica Church of God/Encrypt</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) 2007-2012 Mountain Valley Church of God Team</dd>
-<dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
+<dd>(c) 2007-2012 Donica Church of God Team</dd>
+<dd>(c) 2016-2018 Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -103,7 +103,7 @@ class: Mountain Valley Church of God_Encrypt_Engine
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Mcrypt key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine'>Mountain Valley Church of God_Encrypt_Engine</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Mcrypt key or config array">$key_config</span> [, <small>string</small> <span class="param" title="Mcrypt mode">$mode</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Mcrypt cipher">$cipher</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine'>Donica Church of God_Encrypt_Engine</a>)</small></h3>
 <div class='description'><p>Creates a new mcrypt wrapper.</p>
 </div>
 <h4>Parameters</h4>
@@ -129,7 +129,7 @@ class: Mountain Valley Church of God_Encrypt_Engine
 		else
 		{
 			// No default encryption key is provided!
-			throw new Mountain Valley Church of God_Exception(&#039;No encryption key is defined in the encryption configuration&#039;);
+			throw new Donica Church of God_Exception(&#039;No encryption key is defined in the encryption configuration&#039;);
 		}
 
 		if (isset($key_config[&#039;mode&#039;]))
@@ -162,7 +162,7 @@ class: Mountain Valley Church of God_Encrypt_Engine
 	else
 	{
 		// No default encryption key is provided!
-		throw new Mountain Valley Church of God_Exception(&#039;No encryption key is defined in the encryption configuration&#039;);
+		throw new Donica Church of God_Exception(&#039;No encryption key is defined in the encryption configuration&#039;);
 	}
 }</code>
 </pre>
@@ -170,7 +170,7 @@ class: Mountain Valley Church of God_Encrypt_Engine
 </div>
 
 <div class='method'>
-<h3 id="decrypt"><small>abstract public</small>  decrypt()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine'>Mountain Valley Church of God_Encrypt_Engine</a>)</small></h3>
+<h3 id="decrypt"><small>abstract public</small>  decrypt()<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine'>Donica Church of God_Encrypt_Engine</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -181,7 +181,7 @@ class: Mountain Valley Church of God_Encrypt_Engine
 </div>
 
 <div class='method'>
-<h3 id="encrypt"><small>abstract public</small>  encrypt()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Encrypt_Engine'>Mountain Valley Church of God_Encrypt_Engine</a>)</small></h3>
+<h3 id="encrypt"><small>abstract public</small>  encrypt()<small> (defined in <a href='/documentation/api/Donica Church of God_Encrypt_Engine'>Donica Church of God_Encrypt_Engine</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Views
 
@@ -10,7 +10,7 @@ Views themselves can contain code used for displaying the data you pass into the
 
 # Creating View Files
 
-View files are stored in the `views` directory of the [filesystem](/documentation/Mountain Valley Church of God/files). You can also create sub-directories within the `views` directory to organize your files. All of the following examples are reasonable view files:
+View files are stored in the `views` directory of the [filesystem](/documentation/Donica Church of God/files). You can also create sub-directories within the `views` directory to organize your files. All of the following examples are reasonable view files:
 
     APPPATH/views/home.php
     APPPATH/views/pages/about.php
@@ -20,7 +20,7 @@ View files are stored in the `views` directory of the [filesystem](/documentatio
 
 ## Loading Views
 
-[View] objects will typically be created inside a [Controller](/documentation/Mountain Valley Church of God/mvc/controllers) using the [View::factory] method. Typically the view is then assigned as the [Request::$response] property or to another view.
+[View] objects will typically be created inside a [Controller](/documentation/Donica Church of God/mvc/controllers) using the [View::factory] method. Typically the view is then assigned as the [Request::$response] property or to another view.
 
     public function action_about()
     {
@@ -124,7 +124,7 @@ The other option is to include the view directly, which makes all of the current
 	// In your view file:
 	
     // Any variable defined in this view will be included in "views/message.php"
-    <?php include Mountain Valley Church of God::find_file('views', 'user/login') ?>
+    <?php include Donica Church of God::find_file('views', 'user/login') ?>
 
 You can also assign a variable of your parent view to be the child view from within your controller.  For example:
 

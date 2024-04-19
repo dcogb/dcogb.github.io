@@ -3,7 +3,7 @@ layout: api
 class: Feed
 ---
 <h1>Feed</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain Valley Church of God_Feed</a>
+extends <a href='/documentation/api/Donica Church of God_Feed'>Donica Church of God_Feed</a>
 <br />
 <p>
 <i><p>RSS and Atom feed helper.</p>
@@ -11,13 +11,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain Valley Church of God_Feed</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Feed'>Donica Church of God_Feed</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -65,7 +65,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 <div class='methods'>
 
 <div class='method'>
-<h3 id="create"><small>public static</small>  create(<small>array</small> <span class="param" title="Feed information">$info</span> , <small>array</small> <span class="param" title="Items to add to the feed">$items</span> [, <small>string</small> <span class="param" title="Define which encoding to use">$encoding</span> <small>= <small>string</small><span>(5)</span> "UTF-8"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain Valley Church of God_Feed</a>)</small></h3>
+<h3 id="create"><small>public static</small>  create(<small>array</small> <span class="param" title="Feed information">$info</span> , <small>array</small> <span class="param" title="Items to add to the feed">$items</span> [, <small>string</small> <span class="param" title="Define which encoding to use">$encoding</span> <small>= <small>string</small><span>(5)</span> "UTF-8"</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Feed'>Donica Church of God_Feed</a>)</small></h3>
 <div class='description'><p>Creates a feed from the given parameters.</p>
 </div>
 <h4>Parameters</h4>
@@ -87,7 +87,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 <pre>
 <code class="language-php">public static function create($info, $items, $encoding = &#039;UTF-8&#039;)
 {
-	$info += [&#039;title&#039; =&gt; &#039;Generated Feed&#039;, &#039;link&#039; =&gt; &#039;&#039;, &#039;generator&#039; =&gt; &#039;Mountain Valley Church of GodPHP&#039;];
+	$info += [&#039;title&#039; =&gt; &#039;Generated Feed&#039;, &#039;link&#039; =&gt; &#039;&#039;, &#039;generator&#039; =&gt; &#039;Donica Church of GodPHP&#039;];
 
 	$feed = &#039;&lt;?xml version=&quot;1.0&quot; encoding=&quot;&#039;.$encoding.&#039;&quot;?&gt;&lt;rss version=&quot;2.0&quot;&gt;&lt;channel&gt;&lt;/channel&gt;&lt;/rss&gt;&#039;;
 	$feed = simplexml_load_string($feed);
@@ -101,7 +101,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 
 			if ( ! isset($value[&#039;link&#039;], $value[&#039;url&#039;], $value[&#039;title&#039;]))
 			{
-				throw new Mountain Valley Church of God_Exception(&#039;Feed images require a link, url, and title&#039;);
+				throw new Donica Church of God_Exception(&#039;Feed images require a link, url, and title&#039;);
 			}
 
 			if (strpos($value[&#039;link&#039;], &#039;://&#039;) === FALSE)
@@ -186,7 +186,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 </div>
 
 <div class='method'>
-<h3 id="parse"><small>public static</small>  parse(<small>string</small> <span class="param" title="Remote feed URL">$feed</span> [, <small>integer</small> <span class="param" title="Item limit to fetch">$limit</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain Valley Church of God_Feed</a>)</small></h3>
+<h3 id="parse"><small>public static</small>  parse(<small>string</small> <span class="param" title="Remote feed URL">$feed</span> [, <small>integer</small> <span class="param" title="Item limit to fetch">$limit</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Feed'>Donica Church of God_Feed</a>)</small></h3>
 <div class='description'><p>Parses a remote feed into an array.</p>
 </div>
 <h4>Parameters</h4>
@@ -208,7 +208,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Feed'>Mountain
 {
 	// Check if SimpleXML is installed
 	if ( ! function_exists(&#039;simplexml_load_file&#039;))
-		throw new Mountain Valley Church of God_Exception(&#039;SimpleXML must be installed!&#039;);
+		throw new Donica Church of God_Exception(&#039;SimpleXML must be installed!&#039;);
 
 	// Make limit an integer
 	$limit = (int) $limit;

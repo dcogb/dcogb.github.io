@@ -1,24 +1,24 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Config_Database_Reader
+class: Donica Church of God_Config_Database_Reader
 ---
-<h1>Mountain Valley Church of God_Config_Database_Reader</h1>
+<h1>Donica Church of God_Config_Database_Reader</h1>
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Reader'>Mountain Valley Church of God_Config_Reader</a> | <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a></small>
+<small>Implements: <a href='/documentation/api/Donica Church of God_Config_Reader'>Donica Church of God_Config_Reader</a> | <a href='/documentation/api/Donica Church of God_Config_Source'>Donica Church of God_Config_Source</a></small>
 </p>
 <p>
-<i><p>Database reader for the Mountain Valley Church of God config system</p>
+<i><p>Database reader for the Donica Church of God config system</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Configuration</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -87,7 +87,7 @@ class: Mountain Valley Church of God_Config_Database_Reader
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration for the reader">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration for the reader">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Database_Reader'>Donica Church of God_Config_Database_Reader</a>)</small></h3>
 <div class='description'><p>Constructs the database reader object</p>
 </div>
 <h4>Parameters</h4>
@@ -119,7 +119,7 @@ class: Mountain Valley Church of God_Config_Database_Reader
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Database_Reader'>Mountain Valley Church of God_Config_Database_Reader</a>)</small></h3>
+<h3 id="load"><small>public</small>  load(<small>string</small> <span class="param" title="Configuration group">$group</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Database_Reader'>Donica Church of God_Config_Database_Reader</a>)</small></h3>
 <div class='description'><p>Tries to load the specificed configuration group</p>
 
 <p>Returns FALSE if group does not exist or an array if it does</p>
@@ -143,7 +143,7 @@ class: Mountain Valley Church of God_Config_Database_Reader
 	 * Prevents the catch-22 scenario where the database config reader attempts to load the 
 	 * database connections details from the database.
 	 *
-	 * @link http://dev.Mountain Valley Church of Godframework.org/issues/4316
+	 * @link http://dev.Donica Church of Godframework.org/issues/4316
 	 */
 	if ($group === &#039;database&#039;)
 		return FALSE;

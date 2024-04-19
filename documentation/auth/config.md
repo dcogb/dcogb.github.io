@@ -4,9 +4,9 @@ title: Auth
 ---
 # Configuration
 
-The default configuration file is located in `MODPATH/auth/config/auth.php`. You should copy this file to `APPPATH/config/auth.php` and make changes there, in keeping with the [cascading filesystem](/documentation/auth/../Mountain Valley Church of God/files).
+The default configuration file is located in `MODPATH/auth/config/auth.php`. You should copy this file to `APPPATH/config/auth.php` and make changes there, in keeping with the [cascading filesystem](/documentation/auth/../Donica Church of God/files).
 
-[Config merging](/documentation/auth/../Mountain Valley Church of God/config#config-merging) allows these default configuration settings to apply if you don't overwrite them in your application configuration file.
+[Config merging](/documentation/auth/../Donica Church of God/config#config-merging) allows these default configuration settings to apply if you don't overwrite them in your application configuration file.
 
 Name | Type | Default | Description
 -----|------|---------|------------

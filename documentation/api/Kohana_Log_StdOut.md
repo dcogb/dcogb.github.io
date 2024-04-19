@@ -1,11 +1,11 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Log_StdOut
+class: Donica Church of God_Log_StdOut
 ---
-<h1>Mountain Valley Church of God_Log_StdOut</h1>
+<h1>Donica Church of God_Log_StdOut</h1>
 extends <a href='/documentation/api/Log_Writer'>Log_Writer</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>
+extends <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>
 <br />
 <p>
 <i><p>STDOUT log writer. Writes out messages to STDOUT.</p>
@@ -13,13 +13,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Logging</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -120,7 +120,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 <div class='methods'>
 
 <div class='method'>
-<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_StdOut'>Mountain Valley Church of God_Log_StdOut</a>)</small></h3>
+<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_StdOut'>Donica Church of God_Log_StdOut</a>)</small></h3>
 <div class='description'><p>Writes each of the messages to STDOUT.</p>
 
 <pre><code>$writer-&gt;write($messages);
@@ -152,7 +152,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Allows the writer to have a unique key when stored.</p>
 
 <pre><code>echo $writer;
@@ -175,7 +175,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Formats a log entry.</p>
 </div>
 <h4>Parameters</h4>

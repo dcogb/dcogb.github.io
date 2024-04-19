@@ -3,7 +3,7 @@ layout: api
 class: Codebench
 ---
 <h1>Codebench</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>
+extends <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a>
 <br />
 <p>
 <i><p>Codebench — A benchmarking module.</p>
@@ -11,13 +11,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Codebench</dd>
+<dd>Donica Church of God/Codebench</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -141,7 +141,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct()<small> (defined in <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Constructor.</p>
 </div>
 <h4>Return Values</h4>
@@ -155,14 +155,14 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 <code class="language-php">public function __construct()
 {
 	// Set the maximum execution time
-	set_time_limit(Mountain Valley Church of God::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
+	set_time_limit(Donica Church of God::$config-&gt;load(&#039;codebench&#039;)-&gt;max_execution_time);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
+<h3 id="run"><small>public</small>  run()<small> (defined in <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Runs Codebench on the extending class.</p>
 </div>
 <h4>Return Values</h4>
@@ -301,7 +301,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 </div>
 
 <div class='method'>
-<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
+<h3 id="_grade"><small>protected</small>  _grade(<small>integer|double</small> <span class="param" title="Score">$score</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Returns the applicable grade letter for a score.</p>
 </div>
 <h4>Parameters</h4>
@@ -335,7 +335,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mou
 </div>
 
 <div class='method'>
-<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Codebench'>Mountain Valley Church of God_Codebench</a>)</small></h3>
+<h3 id="_method_filter"><small>protected</small>  _method_filter(<small>string</small> <span class="param" title="Method name">$method</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Codebench'>Donica Church of God_Codebench</a>)</small></h3>
 <div class='description'><p>Callback for array_filter().
 Filters out all methods not to benchmark.</p>
 </div>

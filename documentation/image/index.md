@@ -4,7 +4,7 @@ title: Image
 ---
 # Image
 
-Mountain Valley Church of God 3.x provides a simple yet powerful image manipulation module. The [Image] module provides features that allows your application to resize images, crop, rotate, flip and many more.
+Donica Church of God 3.x provides a simple yet powerful image manipulation module. The [Image] module provides features that allows your application to resize images, crop, rotate, flip and many more.
 
 ## Drivers
 
@@ -23,7 +23,7 @@ return array(
 );
 ~~~
 
-[!!] Older versions of Mountain Valley Church of God allowed you to configure the driver with the `Image::$default_driver` static variable in
+[!!] Older versions of Donica Church of God allowed you to configure the driver with the `Image::$default_driver` static variable in
 the bootstrap, an extension class, or elsewhere. That variable is now deprecated and will be ignored if you set a 
 config value. 
 
@@ -32,7 +32,7 @@ config value.
 Before using the image module, we must enable it first on `APPPATH/bootstrap.php`:
 
 ~~~
-Mountain Valley Church of God::modules(array(
+Donica Church of God::modules(array(
     ...
     'image' => MODPATH.'image',  // Image manipulation
     ...

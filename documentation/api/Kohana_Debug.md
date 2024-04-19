@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Debug
+class: Donica Church of God_Debug
 ---
-<h1>Mountain Valley Church of God_Debug</h1>
+<h1>Donica Church of God_Debug</h1>
 <p>
 <i><p>Contains debugging and dumping tools.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -66,7 +66,7 @@ class: Mountain Valley Church of God_Debug
 <div class='methods'>
 
 <div class='method'>
-<h3 id="dump"><small>public static</small>  dump(<small>mixed</small> <span class="param" title="Variable to dump">$value</span> [, <small>integer</small> <span class="param" title="Maximum length of strings">$length</span> <small>= <small>integer</small> 128</small> , <small>integer</small> <span class="param" title="Recursion limit">$level_recursion</span> <small>= <small>integer</small> 10</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="dump"><small>public static</small>  dump(<small>mixed</small> <span class="param" title="Variable to dump">$value</span> [, <small>integer</small> <span class="param" title="Maximum length of strings">$length</span> <small>= <small>integer</small> 128</small> , <small>integer</small> <span class="param" title="Recursion limit">$level_recursion</span> <small>= <small>integer</small> 10</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Returns an HTML string of information about a single variable.</p>
 
 <p>Borrows heavily on concepts from the Debug class of <a href="http://nettephp.com/">Nette</a>.</p>
@@ -97,13 +97,13 @@ class: Mountain Valley Church of God_Debug
 </div>
 
 <div class='method'>
-<h3 id="path"><small>public static</small>  path(<small>string</small> <span class="param" title="Path to debug">$file</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="path"><small>public static</small>  path(<small>string</small> <span class="param" title="Path to debug">$file</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Removes application, system, modpath, or docroot from a filename,
 replacing them with the plain text equivalents. Useful for debugging
 when you want to display a shorter path.</p>
 
-<pre><code>// Displays SYSPATH/classes/Mountain Valley Church of God.php
-echo Debug::path(Mountain Valley Church of God::find_file('classes', 'Mountain Valley Church of God'));
+<pre><code>// Displays SYSPATH/classes/Donica Church of God.php
+echo Debug::path(Donica Church of God::find_file('classes', 'Donica Church of God'));
 </code></pre>
 </div>
 <h4>Parameters</h4>
@@ -145,7 +145,7 @@ echo Debug::path(Mountain Valley Church of God::find_file('classes', 'Mountain V
 </div>
 
 <div class='method'>
-<h3 id="source"><small>public static</small>  source(<small>string</small> <span class="param" title="File to open">$file</span> , <small>integer</small> <span class="param" title="Line number to highlight">$line_number</span> [, <small>integer</small> <span class="param" title="Number of padding lines">$padding</span> <small>= <small>integer</small> 5</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="source"><small>public static</small>  source(<small>string</small> <span class="param" title="File to open">$file</span> , <small>integer</small> <span class="param" title="Line number to highlight">$line_number</span> [, <small>integer</small> <span class="param" title="Number of padding lines">$padding</span> <small>= <small>integer</small> 5</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Returns an HTML string, highlighting a specific line of a file, with some
 number of lines padded above and below.</p>
 
@@ -200,7 +200,7 @@ echo Debug::source(__FILE__, __LINE__);
 		if ($line &gt;= $range[&#039;start&#039;])
 		{
 			// Make the row safe for output
-			$row = htmlspecialchars($row, ENT_NOQUOTES, Mountain Valley Church of God::$charset);
+			$row = htmlspecialchars($row, ENT_NOQUOTES, Donica Church of God::$charset);
 
 			// Trim whitespace and sanitize the row
 			$row = &#039;&lt;span class=&quot;number&quot;&gt;&#039;.sprintf($format, $line).&#039;&lt;/span&gt; &#039;.$row;
@@ -230,7 +230,7 @@ echo Debug::source(__FILE__, __LINE__);
 </div>
 
 <div class='method'>
-<h3 id="trace"><small>public static</small>  trace([ <small>array</small> <span class="param" title="$trace">$trace</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="trace"><small>public static</small>  trace([ <small>array</small> <span class="param" title="$trace">$trace</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Returns an array of HTML strings that represent each step in the backtrace.</p>
 
 <pre><code>// Displays the entire current backtrace
@@ -372,7 +372,7 @@ echo implode('&lt;br/&gt;', Debug::trace());
 </div>
 
 <div class='method'>
-<h3 id="vars"><small>public static</small>  vars()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="vars"><small>public static</small>  vars()<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Returns an HTML string of debugging information about any number of
 variables, each wrapped in a "pre" tag:</p>
 
@@ -409,7 +409,7 @@ echo Debug::vars($foo, $bar, $baz);
 </div>
 
 <div class='method'>
-<h3 id="_dump"><small>protected static</small>  _dump(<small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to dump">$var</span> [, <small>integer</small> <span class="param" title="Maximum length of strings">$length</span> <small>= <small>integer</small> 128</small> , <small>integer</small> <span class="param" title="Recursion limit">$limit</span> <small>= <small>integer</small> 10</small> , <small>integer</small> <span class="param" title="Current recursion level (internal usage only!)">$level</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Debug'>Mountain Valley Church of God_Debug</a>)</small></h3>
+<h3 id="_dump"><small>protected static</small>  _dump(<small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Variable to dump">$var</span> [, <small>integer</small> <span class="param" title="Maximum length of strings">$length</span> <small>= <small>integer</small> 128</small> , <small>integer</small> <span class="param" title="Recursion limit">$limit</span> <small>= <small>integer</small> 10</small> , <small>integer</small> <span class="param" title="Current recursion level (internal usage only!)">$level</span> <small>= <small>integer</small> 0</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Debug'>Donica Church of God_Debug</a>)</small></h3>
 <div class='description'><p>Helper for Debug::dump(), handles recursion in arrays and objects.</p>
 </div>
 <h4>Parameters</h4>
@@ -464,7 +464,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 					}
 				}
 
-				return &#039;&lt;small&gt;resource&lt;/small&gt;&lt;span&gt;(&#039;.$type.&#039;)&lt;/span&gt; &#039;.htmlspecialchars($file, ENT_NOQUOTES, Mountain Valley Church of God::$charset);
+				return &#039;&lt;small&gt;resource&lt;/small&gt;&lt;span&gt;(&#039;.$type.&#039;)&lt;/span&gt; &#039;.htmlspecialchars($file, ENT_NOQUOTES, Donica Church of God::$charset);
 			}
 		}
 		else
@@ -477,17 +477,17 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 		// Clean invalid multibyte characters. iconv is only invoked
 		// if there are non ASCII characters in the string, so this
 		// isn&#039;t too much of a hit.
-		$var = UTF8::clean($var, Mountain Valley Church of God::$charset);
+		$var = UTF8::clean($var, Donica Church of God::$charset);
 
 		if (UTF8::strlen($var) &gt; $length)
 		{
 			// Encode the truncated string
-			$str = htmlspecialchars(UTF8::substr($var, 0, $length), ENT_NOQUOTES, Mountain Valley Church of God::$charset).&#039;&amp;nbsp;&amp;hellip;&#039;;
+			$str = htmlspecialchars(UTF8::substr($var, 0, $length), ENT_NOQUOTES, Donica Church of God::$charset).&#039;&amp;nbsp;&amp;hellip;&#039;;
 		}
 		else
 		{
 			// Encode the string
-			$str = htmlspecialchars($var, ENT_NOQUOTES, Mountain Valley Church of God::$charset);
+			$str = htmlspecialchars($var, ENT_NOQUOTES, Donica Church of God::$charset);
 		}
 
 		return &#039;&lt;small&gt;string&lt;/small&gt;&lt;span&gt;(&#039;.strlen($var).&#039;)&lt;/span&gt; &quot;&#039;.$str.&#039;&quot;&#039;;
@@ -525,7 +525,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 				if ($key === $marker) continue;
 				if ( ! is_int($key))
 				{
-					$key = &#039;&quot;&#039;.htmlspecialchars($key, ENT_NOQUOTES, Mountain Valley Church of God::$charset).&#039;&quot;&#039;;
+					$key = &#039;&quot;&#039;.htmlspecialchars($key, ENT_NOQUOTES, Donica Church of God::$charset).&#039;&quot;&#039;;
 				}
 
 				$output[] = &quot;$space$s$key =&gt; &quot;.Debug::_dump($val, $length, $limit, $level + 1);
@@ -601,7 +601,7 @@ byref  <span class="blue">mixed </span><strong> $var</strong> <small>required</s
 	}
 	else
 	{
-		return &#039;&lt;small&gt;&#039;.gettype($var).&#039;&lt;/small&gt; &#039;.htmlspecialchars(print_r($var, TRUE), ENT_NOQUOTES, Mountain Valley Church of God::$charset);
+		return &#039;&lt;small&gt;&#039;.gettype($var).&#039;&lt;/small&gt; &#039;.htmlspecialchars(print_r($var, TRUE), ENT_NOQUOTES, Donica Church of God::$charset);
 	}
 }</code>
 </pre>

@@ -3,10 +3,10 @@ layout: api
 class: Cache_GarbageCollect
 ---
 <h1>Cache_GarbageCollect</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Cache_GarbageCollect'>Mountain Valley Church of God_Cache_GarbageCollect</a>
+extends <a href='/documentation/api/Donica Church of God_Cache_GarbageCollect'>Donica Church of God_Cache_GarbageCollect</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Cache_GarbageCollect'>Mountain Valley Church of God_Cache_GarbageCollect</a></small>
+<small>Implements: <a href='/documentation/api/Donica Church of God_Cache_GarbageCollect'>Donica Church of God_Cache_GarbageCollect</a></small>
 </p>
 <p>
 <i><p>Garbage Collection interface for caches that have no GC methods
@@ -16,15 +16,15 @@ cache systems clean their own caches periodically.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Cache</dd>
+<dd>Donica Church of God/Cache</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>version</dt>
 <dd>2.0</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>since</dt>
@@ -62,7 +62,7 @@ cache systems clean their own caches periodically.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="garbage_collect"><small>abstract public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_GarbageCollect'>Mountain Valley Church of God_Cache_GarbageCollect</a>)</small></h3>
+<h3 id="garbage_collect"><small>abstract public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_GarbageCollect'>Donica Church of God_Cache_GarbageCollect</a>)</small></h3>
 <div class='description'><p>Garbage collection method that cleans any expired
 cache entries from the cache.</p>
 </div>

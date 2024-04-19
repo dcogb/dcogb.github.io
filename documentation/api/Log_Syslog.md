@@ -3,11 +3,11 @@ layout: api
 class: Log_Syslog
 ---
 <h1>Log_Syslog</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Log_Syslog'>Mountain Valley Church of God_Log_Syslog</a>
+extends <a href='/documentation/api/Donica Church of God_Log_Syslog'>Donica Church of God_Log_Syslog</a>
 <br />
 extends <a href='/documentation/api/Log_Writer'>Log_Writer</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>
+extends <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>
 <br />
 <p>
 <i><p>Syslog log writer.</p>
@@ -15,13 +15,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Logging</dd>
 <dt>author</dt>
 <dd>Jeremy Bush</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -32,7 +32,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Log_Syslog'>Mountain Valley Church of God_Log_Syslog</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Log_Syslog'>Donica Church of God_Log_Syslog</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -152,13 +152,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Syslog identifier">$ident</span> <small>= <small>string</small><span>(9)</span> "Mountain Valley Church of GodPHP"</small> , <small>int</small> <span class="param" title="Facility to log to">$facility</span> <small>= <small>integer</small> 8</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Syslog'>Mountain Valley Church of God_Log_Syslog</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>string</small> <span class="param" title="Syslog identifier">$ident</span> <small>= <small>string</small><span>(9)</span> "Donica Church of GodPHP"</small> , <small>int</small> <span class="param" title="Facility to log to">$facility</span> <small>= <small>integer</small> 8</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Syslog'>Donica Church of God_Log_Syslog</a>)</small></h3>
 <div class='description'><p>Creates a new syslog logger.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
 <li>
- <span class="blue">string </span><strong> $ident</strong> <small> = <small>string</small><span>(9)</span> "Mountain Valley Church of GodPHP"</small> - Syslog identifier</li>
+ <span class="blue">string </span><strong> $ident</strong> <small> = <small>string</small><span>(9)</span> "Donica Church of GodPHP"</small> - Syslog identifier</li>
 <li>
  <span class="blue">int </span><strong> $facility</strong> <small> = <small>integer</small> 8</small> - Facility to log to</li>
 </ul>
@@ -174,7 +174,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
-<code class="language-php">public function __construct($ident = &#039;Mountain Valley Church of GodPHP&#039;, $facility = LOG_USER)
+<code class="language-php">public function __construct($ident = &#039;Donica Church of GodPHP&#039;, $facility = LOG_USER)
 {
 	$this-&gt;_ident = $ident;
 
@@ -186,7 +186,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Syslog'>Mountain Valley Church of God_Log_Syslog</a>)</small></h3>
+<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Syslog'>Donica Church of God_Log_Syslog</a>)</small></h3>
 <div class='description'><p>Closes the syslog connection</p>
 </div>
 <h4>Return Values</h4>
@@ -207,7 +207,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Syslog'>Mountain Valley Church of God_Log_Syslog</a>)</small></h3>
+<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Syslog'>Donica Church of God_Log_Syslog</a>)</small></h3>
 <div class='description'><p>Writes each of the messages into the syslog.</p>
 </div>
 <h4>Parameters</h4>
@@ -240,7 +240,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Allows the writer to have a unique key when stored.</p>
 
 <pre><code>echo $writer;
@@ -263,7 +263,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </div>
 
 <div class='method'>
-<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Formats a log entry.</p>
 </div>
 <h4>Parameters</h4>

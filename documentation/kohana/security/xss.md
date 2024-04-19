@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Cross-Site Scripting (XSS) Security
 

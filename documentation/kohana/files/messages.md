@@ -1,16 +1,16 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Messages
 
-Mountain Valley Church of God has a robust key based lookup system so you can define system messages.
+Donica Church of God has a robust key based lookup system so you can define system messages.
 
 ## Getting a message
 
-Use the Mountain Valley Church of God::message() method to get a message key:
+Use the Donica Church of God::message() method to get a message key:
 
-	Mountain Valley Church of God::message('forms', 'foobar');
+	Donica Church of God::message('forms', 'foobar');
 
 This will look in the `messages/forms.php` file for the `foobar` key:
 
@@ -22,7 +22,7 @@ This will look in the `messages/forms.php` file for the `foobar` key:
 
 You can also look in subfolders and sub-keys:
 
-	Mountain Valley Church of God::message('forms/contact', 'foobar.bar');
+	Donica Church of God::message('forms/contact', 'foobar.bar');
 
 This will look in the `messages/forms/contact.php` for the `[foobar][bar]` key:
 

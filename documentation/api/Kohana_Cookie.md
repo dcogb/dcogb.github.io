@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Cookie
+class: Donica Church of God_Cookie
 ---
-<h1>Mountain Valley Church of God_Cookie</h1>
+<h1>Donica Church of God_Cookie</h1>
 <p>
 <i><p>Cookie helper.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -134,7 +134,7 @@ class: Mountain Valley Church of God_Cookie
 <div class='methods'>
 
 <div class='method'>
-<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="Cookie name">$name</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="Cookie name">$name</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Deletes a cookie by making the value NULL and expiring it.</p>
 
 <pre><code>Cookie::delete('theme');
@@ -166,7 +166,7 @@ class: Mountain Valley Church of God_Cookie
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Cookie name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="get"><small>public static</small>  get(<small>string</small> <span class="param" title="Cookie name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Gets the value of a signed cookie. Cookies without signatures will not
 be returned. If the cookie signature is present, but invalid, the cookie
 will be deleted.</p>
@@ -226,7 +226,7 @@ $theme = Cookie::get('theme', 'blue');
 </div>
 
 <div class='method'>
-<h3 id="salt"><small>public static</small>  salt(<small>string</small> <span class="param" title="Name of cookie">$name</span> , <small>string</small> <span class="param" title="Value of cookie ">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="salt"><small>public static</small>  salt(<small>string</small> <span class="param" title="Name of cookie">$name</span> , <small>string</small> <span class="param" title="Value of cookie ">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Generates a salt string for a cookie based on the name and value.</p>
 
 <pre><code>$salt = Cookie::salt('theme', 'red');
@@ -242,7 +242,7 @@ $theme = Cookie::get('theme', 'blue');
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a> if Cookie::$salt is not configured</li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a> if Cookie::$salt is not configured</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -257,7 +257,7 @@ $theme = Cookie::get('theme', 'blue');
 	// Require a valid salt
 	if ( ! Cookie::$salt)
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;A valid cookie salt is required. Please set Cookie::$salt in your bootstrap.php. For more information check the documentation&#039;);
+		throw new Donica Church of God_Exception(&#039;A valid cookie salt is required. Please set Cookie::$salt in your bootstrap.php. For more information check the documentation&#039;);
 	}
 
 	// Determine the user agent
@@ -270,7 +270,7 @@ $theme = Cookie::get('theme', 'blue');
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public static</small>  set(<small>string</small> <span class="param" title="Name of cookie">$name</span> , <small>string</small> <span class="param" title="Value of cookie">$value</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="set"><small>public static</small>  set(<small>string</small> <span class="param" title="Name of cookie">$name</span> , <small>string</small> <span class="param" title="Value of cookie">$value</span> [, <small>integer</small> <span class="param" title="Lifetime in seconds">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Sets a signed cookie. Note that all cookie values must be strings and no
 automatic serialization will be performed!</p>
 
@@ -327,7 +327,7 @@ Cookie::set('theme', 'red');
 </div>
 
 <div class='method'>
-<h3 id="_setcookie"><small>protected static</small>  _setcookie(<small>string</small> <span class="param" title="$name">$name</span> , <small>string</small> <span class="param" title="$value">$value</span> , <small>integer</small> <span class="param" title="$expire">$expire</span> , <small>string</small> <span class="param" title="$path">$path</span> , <small>string</small> <span class="param" title="$domain">$domain</span> , <small>boolean</small> <span class="param" title="$secure">$secure</span> , <small>boolean</small> <span class="param" title=" ">$httponly</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="_setcookie"><small>protected static</small>  _setcookie(<small>string</small> <span class="param" title="$name">$name</span> , <small>string</small> <span class="param" title="$value">$value</span> , <small>integer</small> <span class="param" title="$expire">$expire</span> , <small>string</small> <span class="param" title="$path">$path</span> , <small>string</small> <span class="param" title="$domain">$domain</span> , <small>boolean</small> <span class="param" title="$secure">$secure</span> , <small>boolean</small> <span class="param" title=" ">$httponly</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Proxy for the native setcookie function - to allow mocking in unit tests so that they do not fail when headers
 have been sent.</p>
 </div>
@@ -370,7 +370,7 @@ have been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_time"><small>protected static</small>  _time()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cookie'>Mountain Valley Church of God_Cookie</a>)</small></h3>
+<h3 id="_time"><small>protected static</small>  _time()<small> (defined in <a href='/documentation/api/Donica Church of God_Cookie'>Donica Church of God_Cookie</a>)</small></h3>
 <div class='description'><p>Proxy for the native time function - to allow mocking of time-related logic in unit tests</p>
 </div>
 <h4>Tags</h4>

@@ -3,7 +3,7 @@ layout: api
 class: Inflector
 ---
 <h1>Inflector</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>
+extends <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>
 <br />
 <p>
 <i><p>Inflector helper class. Inflection is changing the form of a word based on
@@ -14,13 +14,13 @@ the context it is used in. For example, changing a word into a plural form.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -31,7 +31,7 @@ the context it is used in. For example, changing a word into a plural form.</p>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -118,7 +118,7 @@ the context it is used in. For example, changing a word into a plural form.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="camelize"><small>public static</small>  camelize(<small>string</small> <span class="param" title="Phrase to camelize">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="camelize"><small>public static</small>  camelize(<small>string</small> <span class="param" title="Phrase to camelize">$str</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Makes a phrase camel case. Spaces and underscores will be removed.</p>
 
 <pre><code>$str = Inflector::camelize('mother cat');     // "motherCat"
@@ -150,7 +150,7 @@ $str = Inflector::camelize('kittens in bed'); // "kittensInBed"
 </div>
 
 <div class='method'>
-<h3 id="decamelize"><small>public static</small>  decamelize(<small>string</small> <span class="param" title="Phrase to camelize">$str</span> [, <small>string</small> <span class="param" title="Word separator">$sep</span> <small>= <small>string</small><span>(1)</span> " "</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="decamelize"><small>public static</small>  decamelize(<small>string</small> <span class="param" title="Phrase to camelize">$str</span> [, <small>string</small> <span class="param" title="Word separator">$sep</span> <small>= <small>string</small><span>(1)</span> " "</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Converts a camel case phrase into a spaced phrase.</p>
 
 <pre><code>$str = Inflector::decamelize('houseCat');    // "house cat"
@@ -181,7 +181,7 @@ $str = Inflector::decamelize('kingAllyCat'); // "king ally cat"
 </div>
 
 <div class='method'>
-<h3 id="humanize"><small>public static</small>  humanize(<small>string</small> <span class="param" title="Phrase to make human-readable">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="humanize"><small>public static</small>  humanize(<small>string</small> <span class="param" title="Phrase to make human-readable">$str</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Makes an underscored or dashed phrase human-readable.</p>
 
 <pre><code>$str = Inflector::humanize('kittens-are-cats'); // "kittens are cats"
@@ -210,7 +210,7 @@ $str = Inflector::humanize('dogs_as_well');     // "dogs as well"
 </div>
 
 <div class='method'>
-<h3 id="plural"><small>public static</small>  plural(<small>string</small> <span class="param" title="Word to pluralize">$str</span> [, <small>integer</small> <span class="param" title="Count of thing">$count</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="plural"><small>public static</small>  plural(<small>string</small> <span class="param" title="Word to pluralize">$str</span> [, <small>integer</small> <span class="param" title="Count of thing">$count</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Makes a singular word plural.</p>
 
 <pre><code>echo Inflector::plural('fish'); // "fish", uncountable
@@ -272,7 +272,7 @@ not one.</p>
 	if (empty(Inflector::$irregular))
 	{
 		// Cache irregular words
-		Inflector::$irregular = Mountain Valley Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;irregular;
+		Inflector::$irregular = Donica Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;irregular;
 	}
 
 	if (isset(Inflector::$irregular[$str]))
@@ -311,7 +311,7 @@ not one.</p>
 </div>
 
 <div class='method'>
-<h3 id="singular"><small>public static</small>  singular(<small>string</small> <span class="param" title="Word to make singular">$str</span> [, <small>integer</small> <span class="param" title="Count of thing">$count</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="singular"><small>public static</small>  singular(<small>string</small> <span class="param" title="Word to make singular">$str</span> [, <small>integer</small> <span class="param" title="Count of thing">$count</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Makes a plural word singular.</p>
 
 <pre><code>echo Inflector::singular('cats'); // "cat"
@@ -370,7 +370,7 @@ greater than one and not zero.</p>
 	if (empty(Inflector::$irregular))
 	{
 		// Cache irregular words
-		Inflector::$irregular = Mountain Valley Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;irregular;
+		Inflector::$irregular = Donica Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;irregular;
 	}
 
 	if ($irregular = array_search($str, Inflector::$irregular))
@@ -405,7 +405,7 @@ greater than one and not zero.</p>
 </div>
 
 <div class='method'>
-<h3 id="uncountable"><small>public static</small>  uncountable(<small>string</small> <span class="param" title="Word to check">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="uncountable"><small>public static</small>  uncountable(<small>string</small> <span class="param" title="Word to check">$str</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Checks if a word is defined as uncountable. An uncountable word has a
 single form. For instance, one "fish" and many "fish", not "fishes".</p>
 
@@ -415,7 +415,7 @@ Inflector::uncountable('cat');  // FALSE
 
 <p>If you find a word is being pluralized improperly, it has probably not
 been defined as uncountable in <code>config/inflector.php</code>. If this is the
-case, please report <a href="http://dev.Mountain Valley Church of Godphp.com/projects/Mountain Valley Church of God3/issues">an issue</a>.</p>
+case, please report <a href="http://dev.Donica Church of Godphp.com/projects/Donica Church of God3/issues">an issue</a>.</p>
 </div>
 <h4>Parameters</h4>
 <ul>
@@ -435,7 +435,7 @@ case, please report <a href="http://dev.Mountain Valley Church of Godphp.com/pro
 	if (Inflector::$uncountable === NULL)
 	{
 		// Cache uncountables
-		Inflector::$uncountable = Mountain Valley Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;uncountable;
+		Inflector::$uncountable = Donica Church of God::$config-&gt;load(&#039;inflector&#039;)-&gt;uncountable;
 
 		// Make uncountables mirrored
 		Inflector::$uncountable = array_combine(Inflector::$uncountable, Inflector::$uncountable);
@@ -448,7 +448,7 @@ case, please report <a href="http://dev.Mountain Valley Church of Godphp.com/pro
 </div>
 
 <div class='method'>
-<h3 id="underscore"><small>public static</small>  underscore(<small>string</small> <span class="param" title="Phrase to underscore">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Inflector'>Mountain Valley Church of God_Inflector</a>)</small></h3>
+<h3 id="underscore"><small>public static</small>  underscore(<small>string</small> <span class="param" title="Phrase to underscore">$str</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Inflector'>Donica Church of God_Inflector</a>)</small></h3>
 <div class='description'><p>Makes a phrase underscored instead of spaced.</p>
 
 <pre><code>$str = Inflector::underscore('five cats'); // "five_cats";

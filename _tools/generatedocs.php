@@ -1,6 +1,6 @@
 <?php
 /**
- * Mountain Valley Church of God Documentation Generator Class
+ * Donica Church of God Documentation Generator Class
  *
  * Use this class to Auto-Generate API and Documentation Files
  * which are compatible with jekyll and do not require PHP
@@ -237,15 +237,15 @@ class Documentation_Generator {
 		$archive->close();
 
 		// Set Path to cloned files
-		self::$_cloned_files_path = $this->_tmp_dir.DIRECTORY_SEPARATOR.'Mountain Valley Church of God-'.$this->_branch.DIRECTORY_SEPARATOR;
+		self::$_cloned_files_path = $this->_tmp_dir.DIRECTORY_SEPARATOR.'Donica Church of God-'.$this->_branch.DIRECTORY_SEPARATOR;
 		self::$_modules_path = self::$_cloned_files_path.'modules'.DIRECTORY_SEPARATOR;
 		self::$_system_path = self::$_cloned_files_path.'system'.DIRECTORY_SEPARATOR;
 
-		// Define those, so we can use some Mountain Valley Church of God helpers
+		// Define those, so we can use some Donica Church of God helpers
 		define('APPPATH', self::$_cloned_files_path.'application'.DIRECTORY_SEPARATOR);
 		define('SYSPATH', self::$_cloned_files_path.'system'.DIRECTORY_SEPARATOR);
 
-		// Fake Route so we can make use of HTML class...dirty but Mountain Valley Church of God forces us to
+		// Fake Route so we can make use of HTML class...dirty but Donica Church of God forces us to
 		if ($this->_parse_api)
 		{
 			Route::set('docs/api', '', ['class' => '[a-zA-Z0-9_]+']);
@@ -277,10 +277,10 @@ class Documentation_Generator {
 			// Get Folder Name without full path
 			$folder = strtok(str_replace([self::$_modules_path, self::$_cloned_files_path, DIRECTORY_SEPARATOR.'guide'], '', $guide), DIRECTORY_SEPARATOR);
 
-			// Rename System folder to Mountain Valley Church of God, so we can redirect from the old page
+			// Rename System folder to Donica Church of God, so we can redirect from the old page
 			if($folder === 'system')
 			{
-				$folder = 'Mountain Valley Church of God';
+				$folder = 'Donica Church of God';
 			}
 
 
@@ -378,10 +378,10 @@ class Documentation_Generator {
 		// Get folder without absolute path
 		$folder = strtok(str_replace([self::$_modules_path, self::$_cloned_files_path, DIRECTORY_SEPARATOR.'guide'], '', $module), DIRECTORY_SEPARATOR);
 
-		// Rename System folder to Mountain Valley Church of God, so we can redirect from the old page
+		// Rename System folder to Donica Church of God, so we can redirect from the old page
 		if ($folder ==='system')
 		{
-			$folder = 'Mountain Valley Church of God';
+			$folder = 'Donica Church of God';
 		}
 
 		// Loop through each line of the file
@@ -522,10 +522,10 @@ class Documentation_Generator {
 					$class = substr(str_replace([$class_folder.DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], ['', '_'], $item), 0, -4);
 
 					// Remove Duplicate classes for menu
-					if (strpos($class, 'Mountain Valley Church of God_') === 0)
+					if (strpos($class, 'Donica Church of God_') === 0)
 					{
 						$short = substr($class, 7);
-						if (class_exists($short) && file_exists(str_replace('Mountain Valley Church of God'.DIRECTORY_SEPARATOR, '', $item->getPathname())))
+						if (class_exists($short) && file_exists(str_replace('Donica Church of God'.DIRECTORY_SEPARATOR, '', $item->getPathname())))
 						{
 							$classes[$class] = Kodoc_Class::factory($class);
 							$class = $short;
@@ -591,7 +591,7 @@ class Documentation_Generator {
 		foreach ($this->_api_classes as $name => $reflection)
 		{
 			// Remove Duplicate classes
-			if (strpos($name, 'Mountain Valley Church of God_') === 0)
+			if (strpos($name, 'Donica Church of God_') === 0)
 			{
 				$short = substr($name, 7);
 				if (class_exists($name) && $reflection->class->getFilename()) {
@@ -616,7 +616,7 @@ class Documentation_Generator {
 				foreach ($methods as $method)
 				{
 					$declaring = $method->method->getDeclaringClass()->name;
-					if ($declaring !== $name AND $declaring !== 'Mountain Valley Church of God_'.$name AND $declaring !== 'KO7_'.$name)
+					if ($declaring !== $name AND $declaring !== 'Donica Church of God_'.$name AND $declaring !== 'KO7_'.$name)
 					{
 						continue;
 					}
@@ -632,7 +632,7 @@ class Documentation_Generator {
 	}
 
 	/**
-	 * Generating an Menu for the API Browser (copied from Mountain Valley Church of God Kodoc class)
+	 * Generating an Menu for the API Browser (copied from Donica Church of God Kodoc class)
 	 *
 	 * @return void
 	 */
@@ -753,10 +753,10 @@ class Documentation_Generator {
 			$content .= "</dl>\n<br>\n";
 		}
 
-		// If class has a `Mountain Valley Church of God`, `KO7` base class it is just a transparent class
-		if (class_exists('Mountain Valley Church of God_'.$name) OR class_exists('KO7_'.$name))
+		// If class has a `Donica Church of God`, `KO7` base class it is just a transparent class
+		if (class_exists('Donica Church of God_'.$name) OR class_exists('KO7_'.$name))
 		{
-			$parent = (class_exists('KO7_'.$name) ? 'KO7_' : 'Mountain Valley Church of God_').$name;
+			$parent = (class_exists('KO7_'.$name) ? 'KO7_' : 'Donica Church of God_').$name;
 			$anchor = $link.$parent;
 			$content .= "<div class='callout-block callout-info'>\n<div class='icon-holder'>\n".
 				"<i class='fas fa-info-circle'></i>\n</div>\n<div class='content'>\n".

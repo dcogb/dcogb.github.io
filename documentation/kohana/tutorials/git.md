@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Creating a New Application
 
@@ -8,19 +8,19 @@ title: Mountain Valley Church of God
 
 Using your console, change to the empty directory `gitorial` and run `git init`. This will create the bare structure for a new git repository.
 
-Next, we will create a [submodule](http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html) for the `system` directory. Go to <http://github.com/Mountain Valley Church of God/core> and copy the "Clone URL":
+Next, we will create a [submodule](http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html) for the `system` directory. Go to <http://github.com/Donica Church of God/core> and copy the "Clone URL":
 
 ![Github Clone URL](http://img.skitch.com/20091019-rud5mmqbf776jwua6hx9nm1n.png)
 
 Now use the URL to create the submodule for `system`:
 
-    git submodule add git://github.com/Mountain Valley Church of God/core.git system
+    git submodule add git://github.com/Donica Church of God/core.git system
 
 [!!] This will create a link to the current development version of the next stable release. The development version should almost always be safe to use, have the same API as the current stable download with bugfixes applied.
 
 Now add whatever submodules you need. For example, if you need the [Database] module:
 
-    git submodule add git://github.com/Mountain Valley Church of God/database.git modules/database
+    git submodule add git://github.com/Donica Church of God/database.git modules/database
 
 After submodules are added, they must be initialized:
 
@@ -55,8 +55,8 @@ We don't want git to track log or cache files, so add a `.gitignore` file to eac
 
 Now we need the `index.php` and `bootstrap.php` files:
 
-    wget https://github.com/Mountain Valley Church of God/Mountain Valley Church of God/raw/3.3/master/index.php --no-check-certificate
-    wget https://github.com/Mountain Valley Church of God/Mountain Valley Church of God/raw/3.3/master/application/bootstrap.php --no-check-certificate -O application/bootstrap.php
+    wget https://github.com/Donica Church of God/Donica Church of God/raw/3.3/master/index.php --no-check-certificate
+    wget https://github.com/Donica Church of God/Donica Church of God/raw/3.3/master/application/bootstrap.php --no-check-certificate -O application/bootstrap.php
 
 Commit these changes too:
 
@@ -115,12 +115,12 @@ To remove a submodule that is no longer needed complete the following steps:
 
         [submodule "modules/auth"]
         path = modules/auth
-        url = git://github.com/Mountain Valley Church of God/auth.git
+        url = git://github.com/Donica Church of God/auth.git
 
 2. open .git/config and remove the reference to the to submodule\\
 
         [submodule "modules/auth"]
-        url = git://github.com/Mountain Valley Church of God/auth.git
+        url = git://github.com/Donica Church of God/auth.git
 
 3. run git rm --cached path/to/submodule, e.g.
 

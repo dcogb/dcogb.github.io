@@ -1,21 +1,21 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Date
+class: Donica Church of God_Date
 ---
-<h1>Mountain Valley Church of God_Date</h1>
+<h1>Donica Church of God_Date</h1>
 <p>
 <i><p>Date helper.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -172,7 +172,7 @@ class: Mountain Valley Church of God_Date
 <div class='methods'>
 
 <div class='method'>
-<h3 id="adjust"><small>public static</small>  adjust(<small>integer</small> <span class="param" title="Hour to adjust">$hour</span> , <small>string</small> <span class="param" title="AM or PM">$ampm</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="adjust"><small>public static</small>  adjust(<small>integer</small> <span class="param" title="Hour to adjust">$hour</span> , <small>string</small> <span class="param" title="AM or PM">$ampm</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Adjusts a non-24-hour number into a 24-hour number.</p>
 
 <pre><code>$hour = Date::adjust(3, 'pm'); // 15
@@ -221,7 +221,7 @@ class: Mountain Valley Church of God_Date
 </div>
 
 <div class='method'>
-<h3 id="ampm"><small>public static</small>  ampm(<small>integer</small> <span class="param" title="Number of the hour">$hour</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="ampm"><small>public static</small>  ampm(<small>integer</small> <span class="param" title="Number of the hour">$hour</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns AM or PM, based on a given hour (in 24 hour format).</p>
 
 <pre><code>$type = Date::ampm(12); // PM
@@ -253,7 +253,7 @@ $type = Date::ampm(1);  // AM
 </div>
 
 <div class='method'>
-<h3 id="days"><small>public static</small>  days(<small>integer</small> <span class="param" title="Number of month">$month</span> [, <small>integer</small> <span class="param" title="Number of year to check month, defaults to the current year">$year</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="days"><small>public static</small>  days(<small>integer</small> <span class="param" title="Number of month">$month</span> [, <small>integer</small> <span class="param" title="Number of year to check month, defaults to the current year">$year</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Number of days in a given month and year. Typically used as a shortcut
 for generating a list that can be used in a form.</p>
 
@@ -310,7 +310,7 @@ for generating a list that can be used in a form.</p>
 </div>
 
 <div class='method'>
-<h3 id="dos2unix"><small>public static</small>  dos2unix([ <small>integer</small> <span class="param" title="DOS timestamp">$timestamp</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="dos2unix"><small>public static</small>  dos2unix([ <small>integer</small> <span class="param" title="DOS timestamp">$timestamp</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Converts a DOS timestamp to UNIX format.There are very few cases where
 this is needed, but some binary formats use it (eg: zip files.)
 Converting the other direction is done using {@link Date::unix2dos}.</p>
@@ -347,7 +347,7 @@ Converting the other direction is done using {@link Date::unix2dos}.</p>
 </div>
 
 <div class='method'>
-<h3 id="formatted_time"><small>public static</small>  formatted_time([ <small>string</small> <span class="param" title="Datetime string">$datetime_str</span> <small>= <small>string</small><span>(3)</span> "now"</small> , <small>string</small> <span class="param" title="Timestamp format">$timestamp_format</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Timezone identifier">$timezone</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="formatted_time"><small>public static</small>  formatted_time([ <small>string</small> <span class="param" title="Datetime string">$datetime_str</span> <small>= <small>string</small><span>(3)</span> "now"</small> , <small>string</small> <span class="param" title="Timestamp format">$timestamp_format</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Timezone identifier">$timezone</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns a date/time string with the specified timestamp format</p>
 
 <pre><code>$time = Date::formatted_time('5 minutes ago');
@@ -394,7 +394,7 @@ Converting the other direction is done using {@link Date::unix2dos}.</p>
 </div>
 
 <div class='method'>
-<h3 id="fuzzy_span"><small>public static</small>  fuzzy_span(<small>integer</small> <span class="param" title=""remote" timestamp">$timestamp</span> [, <small>integer</small> <span class="param" title=""local" timestamp, defaults to time()">$local_timestamp</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="fuzzy_span"><small>public static</small>  fuzzy_span(<small>integer</small> <span class="param" title=""remote" timestamp">$timestamp</span> [, <small>integer</small> <span class="param" title=""local" timestamp, defaults to time()">$local_timestamp</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns the difference between a time and now in a "fuzzy" way.
 Displaying a fuzzy time instead of a date is usually faster to read and understand.</p>
 
@@ -525,7 +525,7 @@ included for unit tests</p>
 </div>
 
 <div class='method'>
-<h3 id="hours"><small>public static</small>  hours([ <small>integer</small> <span class="param" title="Amount to increment each step by">$step</span> <small>= <small>integer</small> 1</small> , <small>boolean</small> <span class="param" title="Use 24-hour time">$long</span> <small>= <small>bool</small> FALSE</small> , <small>integer</small> <span class="param" title="The hour to start at">$start</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="hours"><small>public static</small>  hours([ <small>integer</small> <span class="param" title="Amount to increment each step by">$step</span> <small>= <small>integer</small> 1</small> , <small>boolean</small> <span class="param" title="Use 24-hour time">$long</span> <small>= <small>bool</small> FALSE</small> , <small>integer</small> <span class="param" title="The hour to start at">$start</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Number of hours in a day. Typically used as a shortcut for generating a
 list that can be used in a form.</p>
 
@@ -579,7 +579,7 @@ list that can be used in a form.</p>
 </div>
 
 <div class='method'>
-<h3 id="minutes"><small>public static</small>  minutes([ <small>integer</small> <span class="param" title="Amount to increment each step by, 1 to 30">$step</span> <small>= <small>integer</small> 5</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="minutes"><small>public static</small>  minutes([ <small>integer</small> <span class="param" title="Amount to increment each step by, 1 to 30">$step</span> <small>= <small>integer</small> 5</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Number of minutes in an hour, incrementing by a step. Typically used as
 a shortcut for generating a list that can be used in a form.</p>
 
@@ -616,7 +616,7 @@ a shortcut for generating a list that can be used in a form.</p>
 </div>
 
 <div class='method'>
-<h3 id="months"><small>public static</small>  months([ <small>string</small> <span class="param" title="The format to use for months">$format</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="months"><small>public static</small>  months([ <small>string</small> <span class="param" title="The format to use for months">$format</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Number of months in a year. Typically used as a shortcut for generating
 a list that can be used in a form.</p>
 
@@ -678,7 +678,7 @@ a list that can be used in a form.</p>
 </div>
 
 <div class='method'>
-<h3 id="offset"><small>public static</small>  offset(<small>string</small> <span class="param" title="Timezone that to find the offset of">$remote</span> [, <small>string</small> <span class="param" title="Timezone used as the baseline">$local</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="UNIX timestamp or date string">$now</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="offset"><small>public static</small>  offset(<small>string</small> <span class="param" title="Timezone that to find the offset of">$remote</span> [, <small>string</small> <span class="param" title="Timezone used as the baseline">$local</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="UNIX timestamp or date string">$now</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns the offset (in seconds) between two time zones. Use this to
 display dates to users in different time zones.</p>
 
@@ -737,7 +737,7 @@ display dates to users in different time zones.</p>
 </div>
 
 <div class='method'>
-<h3 id="seconds"><small>public static</small>  seconds([ <small>integer</small> <span class="param" title="Amount to increment each step by, 1 to 30">$step</span> <small>= <small>integer</small> 1</small> , <small>integer</small> <span class="param" title="Start value">$start</span> <small>= <small>integer</small> 0</small> , <small>integer</small> <span class="param" title="End value">$end</span> <small>= <small>integer</small> 60</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="seconds"><small>public static</small>  seconds([ <small>integer</small> <span class="param" title="Amount to increment each step by, 1 to 30">$step</span> <small>= <small>integer</small> 1</small> , <small>integer</small> <span class="param" title="Start value">$start</span> <small>= <small>integer</small> 0</small> , <small>integer</small> <span class="param" title="End value">$end</span> <small>= <small>integer</small> 60</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Number of seconds in a minute, incrementing by a step. Typically used as
 a shortcut for generating a list that can used in a form.</p>
 
@@ -780,7 +780,7 @@ a shortcut for generating a list that can used in a form.</p>
 </div>
 
 <div class='method'>
-<h3 id="span"><small>public static</small>  span(<small>integer</small> <span class="param" title="Timestamp to find the span of">$remote</span> [, <small>integer</small> <span class="param" title="Timestamp to use as the baseline">$local</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Formatting string">$output</span> <small>= <small>string</small><span>(45)</span> "years,months,weeks,days,hours,minutes,seconds"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="span"><small>public static</small>  span(<small>integer</small> <span class="param" title="Timestamp to find the span of">$remote</span> [, <small>integer</small> <span class="param" title="Timestamp to use as the baseline">$local</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Formatting string">$output</span> <small>= <small>string</small><span>(45)</span> "years,months,weeks,days,hours,minutes,seconds"</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns time difference between two timestamps, in human readable format.
 If the second timestamp is not given, the current time will be used.
 Also consider using <a href="#fuzzy_span">Date::fuzzy_span</a> when displaying a span.</p>
@@ -887,7 +887,7 @@ $span = Date::span(60, 182, 'minutes'); // 2
 </div>
 
 <div class='method'>
-<h3 id="unix2dos"><small>public static</small>  unix2dos([ <small>integer</small> <span class="param" title="UNIX timestamp">$timestamp</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="unix2dos"><small>public static</small>  unix2dos([ <small>integer</small> <span class="param" title="UNIX timestamp">$timestamp</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Converts a UNIX timestamp to DOS format. There are very few cases where
 this is needed, but some binary formats use it (eg: zip files.)
 Converting the other direction is done using {@link Date::dos2unix}.</p>
@@ -930,7 +930,7 @@ Converting the other direction is done using {@link Date::dos2unix}.</p>
 </div>
 
 <div class='method'>
-<h3 id="years"><small>public static</small>  years([ <small>integer</small> <span class="param" title="Starting year (default is current year - 5)">$start</span> <small>= <small>bool</small> FALSE</small> , <small>integer</small> <span class="param" title="Ending year (default is current year + 5)">$end</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Date'>Mountain Valley Church of God_Date</a>)</small></h3>
+<h3 id="years"><small>public static</small>  years([ <small>integer</small> <span class="param" title="Starting year (default is current year - 5)">$start</span> <small>= <small>bool</small> FALSE</small> , <small>integer</small> <span class="param" title="Ending year (default is current year + 5)">$end</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Date'>Donica Church of God_Date</a>)</small></h3>
 <div class='description'><p>Returns an array of years between a starting and ending year. By default,
 the the current year - 5 and current year + 5 will be used. Typically used
 as a shortcut for generating a list that can be used in a form.</p>

@@ -1,11 +1,11 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Log_File
+class: Donica Church of God_Log_File
 ---
-<h1>Mountain Valley Church of God_Log_File</h1>
+<h1>Donica Church of God_Log_File</h1>
 extends <a href='/documentation/api/Log_Writer'>Log_Writer</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>
+extends <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>
 <br />
 <p>
 <i><p>File log writer. Writes out messages and stores them in a YYYY/MM directory.</p>
@@ -13,13 +13,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Logging</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -138,7 +138,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mo
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Log directory">$directory</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_File'>Mountain Valley Church of God_Log_File</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="Log directory">$directory</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_File'>Donica Church of God_Log_File</a>)</small></h3>
 <div class='description'><p>Creates a new file logger. Checks that the directory exists and
 is writable.</p>
 
@@ -162,7 +162,7 @@ is writable.</p>
 {
 	if ( ! is_dir($directory) OR ! is_writable($directory))
 	{
-		throw new Mountain Valley Church of God_Exception(&#039;Directory :dir must be writable&#039;,
+		throw new Donica Church of God_Exception(&#039;Directory :dir must be writable&#039;,
 			[&#039;:dir&#039; =&gt; Debug::path($directory)]);
 	}
 
@@ -174,7 +174,7 @@ is writable.</p>
 </div>
 
 <div class='method'>
-<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_File'>Mountain Valley Church of God_Log_File</a>)</small></h3>
+<h3 id="write"><small>public</small>  write(<small>array</small> <span class="param" title="$messages">$messages</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_File'>Donica Church of God_Log_File</a>)</small></h3>
 <div class='description'><p>Writes each of the messages into the log file. The log file will be
 appended to the <code>YYYY/MM/DD.log.php</code> file, where YYYY is the current
 year, MM is the current month, and DD is the current day.</p>
@@ -244,7 +244,7 @@ year, MM is the current month, and DD is the current day.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="__toString"><small>final public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Allows the writer to have a unique key when stored.</p>
 
 <pre><code>echo $writer;
@@ -267,7 +267,7 @@ year, MM is the current month, and DD is the current day.</p>
 </div>
 
 <div class='method'>
-<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Log_Writer'>Mountain Valley Church of God_Log_Writer</a>)</small></h3>
+<h3 id="format_message"><small>public</small>  format_message(<small>array</small> <span class="param" title="$message">$message</span> [, <small>string</small> <span class="param" title="$format">$format</span> <small>= <small>string</small><span>(33)</span> "time --- level: body in file:line"</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Log_Writer'>Donica Church of God_Log_Writer</a>)</small></h3>
 <div class='description'><p>Formats a log entry.</p>
 </div>
 <h4>Parameters</h4>

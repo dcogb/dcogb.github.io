@@ -1,30 +1,30 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Cache_Sqlite
+class: Donica Church of God_Cache_Sqlite
 ---
-<h1>Mountain Valley Church of God_Cache_Sqlite</h1>
+<h1>Donica Church of God_Cache_Sqlite</h1>
 extends <a href='/documentation/api/Cache'>Cache</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>
+extends <a href='/documentation/api/Donica Church of God_Cache'>Donica Church of God_Cache</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Cache_Tagging'>Cache_Tagging</a> | <a href='/documentation/api/Mountain Valley Church of God_Cache_Tagging'>Mountain Valley Church of God_Cache_Tagging</a> | <a href='/documentation/api/Cache_GarbageCollect'>Cache_GarbageCollect</a> | <a href='/documentation/api/Mountain Valley Church of God_Cache_GarbageCollect'>Mountain Valley Church of God_Cache_GarbageCollect</a></small>
+<small>Implements: <a href='/documentation/api/Cache_Tagging'>Cache_Tagging</a> | <a href='/documentation/api/Donica Church of God_Cache_Tagging'>Donica Church of God_Cache_Tagging</a> | <a href='/documentation/api/Cache_GarbageCollect'>Cache_GarbageCollect</a> | <a href='/documentation/api/Donica Church of God_Cache_GarbageCollect'>Donica Church of God_Cache_GarbageCollect</a></small>
 </p>
 <p>
-<i><p>Mountain Valley Church of God Cache Sqlite Driver</p>
+<i><p>Donica Church of God Cache Sqlite Driver</p>
 
 <p>Requires SQLite3 and PDO</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Cache</dd>
+<dd>Donica Church of God/Cache</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -125,7 +125,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 <dd>
  <pre class="debug"><small>string</small><span>(4)</span> "file"</pre></dd>
 <dt>
-<h4 id='property-instances'><small>public static</small>  <span class='blue'>Mountain Valley Church of God_Cache</span> $instances</h4>
+<h4 id='property-instances'><small>public static</small>  <span class='blue'>Donica Church of God_Cache</span> $instances</h4>
 </dt>
 <dd>
  <p>instances</p>
@@ -161,7 +161,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 <div class='methods'>
 
 <div class='method'>
-<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title="Id">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title="Id">$id</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Delete a cache entry based on id</p>
 </div>
 <h4>Parameters</h4>
@@ -203,7 +203,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 </div>
 
 <div class='method'>
-<h3 id="delete_all"><small>public</small>  delete_all()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="delete_all"><small>public</small>  delete_all()<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Delete all cache entries</p>
 </div>
 <h4>Return Values</h4>
@@ -236,7 +236,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 </div>
 
 <div class='method'>
-<h3 id="delete_tag"><small>public</small>  delete_tag(<small>string</small> <span class="param" title="Tag">$tag</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="delete_tag"><small>public</small>  delete_tag(<small>string</small> <span class="param" title="Tag">$tag</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Delete cache entries based on a tag</p>
 </div>
 <h4>Parameters</h4>
@@ -278,7 +278,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 </div>
 
 <div class='method'>
-<h3 id="find"><small>public</small>  find(<small>string</small> <span class="param" title="Tag">$tag</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="find"><small>public</small>  find(<small>string</small> <span class="param" title="Tag">$tag</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Find cache entries based on a tag</p>
 </div>
 <h4>Parameters</h4>
@@ -336,7 +336,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountai
 </div>
 
 <div class='method'>
-<h3 id="garbage_collect"><small>public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="garbage_collect"><small>public</small>  garbage_collect()<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Garbage collection method that cleans any expired
 cache entries from the cache.</p>
 </div>
@@ -367,7 +367,7 @@ cache entries from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Id">$id</span> [, <small>string</small> <span class="param" title="Default [Optional] Default value to return if id not found">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Id">$id</span> [, <small>string</small> <span class="param" title="Default [Optional] Default value to return if id not found">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Retrieve a value based on an id</p>
 </div>
 <h4>Parameters</h4>
@@ -437,7 +437,7 @@ cache entries from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Id">$id</span> , <small>mixed</small> <span class="param" title="Data">$data</span> [, <small>integer</small> <span class="param" title="Lifetime [Optional]">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Id">$id</span> , <small>mixed</small> <span class="param" title="Data">$data</span> [, <small>integer</small> <span class="param" title="Lifetime [Optional]">$lifetime</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Set a value based on an id. Optionally add tags.</p>
 </div>
 <h4>Parameters</h4>
@@ -466,7 +466,7 @@ cache entries from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="set_with_tags"><small>public</small>  set_with_tags(<small>string</small> <span class="param" title="Id">$id</span> , <small>mixed</small> <span class="param" title="Data">$data</span> [, <small>integer</small> <span class="param" title="Lifetime [Optional]">$lifetime</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Tags [Optional]">$tags</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="set_with_tags"><small>public</small>  set_with_tags(<small>string</small> <span class="param" title="Id">$id</span> , <small>mixed</small> <span class="param" title="Data">$data</span> [, <small>integer</small> <span class="param" title="Lifetime [Optional]">$lifetime</span> <small>= <small>NULL</small></small> , <small>array</small> <span class="param" title="Tags [Optional]">$tags</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Set a value based on an id. Optionally add tags.</p>
 </div>
 <h4>Parameters</h4>
@@ -531,7 +531,7 @@ cache entries from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
+<h3 id="__clone"><small>final public</small>  __clone()<small> (defined in <a href='/documentation/api/Donica Church of God_Cache'>Donica Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Overload the __clone() method to prevent cloning</p>
 </div>
 <h4>Tags</h4>
@@ -548,14 +548,14 @@ cache entries from the cache.</p>
 <pre>
 <code class="language-php">final public function __clone()
 {
-	throw new Cache_Exception(&#039;Cloning of Mountain Valley Church of God_Cache objects is forbidden&#039;);
+	throw new Cache_Exception(&#039;Cloning of Donica Church of God_Cache objects is forbidden&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
+<h3 id="config"><small>public</small>  config([ <small>mixed</small> <span class="param" title="Key to set to array, either array or config path">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Value to associate with key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache'>Donica Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Getter and setter for the configuration. If no argument provided, the
 current configuration is returned. Otherwise the configuration is set
 to this class.</p>
@@ -612,8 +612,8 @@ $servers = $cache-&gt;config('servers);
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
-<div class='description'><p>Creates a singleton of a Mountain Valley Church of God Cache group. If no group is supplied
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="The name of the cache group to use [Optional]">$group</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache'>Donica Church of God_Cache</a>)</small></h3>
+<div class='description'><p>Creates a singleton of a Donica Church of God Cache group. If no group is supplied
 the <strong>default</strong> cache group is used.</p>
 
 <pre><code>// Create an instance of the default group
@@ -648,7 +648,7 @@ $foo_group = Cache::$instances['default'];
        // If there is no group supplied, try to get it from the config
        if ($group === NULL)
        {
-           $group = Mountain Valley Church of God::$config-&gt;load(&#039;cache.default&#039;);
+           $group = Donica Church of God::$config-&gt;load(&#039;cache.default&#039;);
        }
 
 	// If there is no group supplied
@@ -664,12 +664,12 @@ $foo_group = Cache::$instances['default'];
 		return Cache::$instances[$group];
 	}
 
-	$config = Mountain Valley Church of God::$config-&gt;load(&#039;cache&#039;);
+	$config = Donica Church of God::$config-&gt;load(&#039;cache&#039;);
 
 	if ( ! $config-&gt;offsetExists($group))
 	{
 		throw new Cache_Exception(
-			&#039;Failed to load Mountain Valley Church of God Cache group: :group&#039;,
+			&#039;Failed to load Donica Church of God Cache group: :group&#039;,
 			[&#039;:group&#039; =&gt; $group]
 		);
 	}
@@ -688,7 +688,7 @@ $foo_group = Cache::$instances['default'];
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="__construct"><small>protected</small>  __construct(<small>array</small> <span class="param" title="Configuration">$config</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Sets up the PDO SQLite table and
 initialises the PDO connection</p>
 </div>
@@ -712,7 +712,7 @@ initialises the PDO connection</p>
 
 	if ($database === NULL)
 	{
-		throw new Cache_Exception(&#039;Database path not available in Mountain Valley Church of God Cache configuration&#039;);
+		throw new Cache_Exception(&#039;Database path not available in Donica Church of God Cache configuration&#039;);
 	}
 
 	// Load new Sqlite DB
@@ -728,7 +728,7 @@ initialises the PDO connection</p>
 
 		if ($database_schema === NULL)
 		{
-			throw new Cache_Exception(&#039;Database schema not found in Mountain Valley Church of God Cache configuration&#039;);
+			throw new Cache_Exception(&#039;Database schema not found in Donica Church of God Cache configuration&#039;);
 		}
 
 		try
@@ -747,7 +747,7 @@ initialises the PDO connection</p>
 </div>
 
 <div class='method'>
-<h3 id="exists"><small>protected</small>  exists(<small>string</small> <span class="param" title="Id">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache_Sqlite'>Mountain Valley Church of God_Cache_Sqlite</a>)</small></h3>
+<h3 id="exists"><small>protected</small>  exists(<small>string</small> <span class="param" title="Id">$id</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache_Sqlite'>Donica Church of God_Cache_Sqlite</a>)</small></h3>
 <div class='description'><p>Tests whether an id exists or not</p>
 </div>
 <h4>Parameters</h4>
@@ -786,7 +786,7 @@ initialises the PDO connection</p>
 </div>
 
 <div class='method'>
-<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Cache'>Mountain Valley Church of God_Cache</a>)</small></h3>
+<h3 id="_sanitize_id"><small>protected</small>  _sanitize_id(<small>string</small> <span class="param" title="Id of cache to sanitize">$id</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Cache'>Donica Church of God_Cache</a>)</small></h3>
 <div class='description'><p>Replaces troublesome characters with underscores and adds prefix to avoid duplicates</p>
 
 <pre><code>// Sanitize a cache id
@@ -819,7 +819,7 @@ $id = $this-&gt;_sanitize_id($id);
     // prefix general configuration cache
     else
     {
-        $prefix = Mountain Valley Church of God::$config-&gt;load(&#039;cache.prefix&#039;);
+        $prefix = Donica Church of God::$config-&gt;load(&#039;cache.prefix&#039;);
     }
 
     // sha1 the id makes sure name is not too long and has not any not allowed characters

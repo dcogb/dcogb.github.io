@@ -1,32 +1,32 @@
 ---
 layout: api
-class: Mountain Valley Church of God_HTTP_Request
+class: Donica Church of God_HTTP_Request
 ---
-<h1>Mountain Valley Church of God_HTTP_Request</h1>
+<h1>Donica Church of God_HTTP_Request</h1>
 extends <a href='/documentation/api/HTTP_Message'>HTTP_Message</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>
+extends <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a></small>
+<small>Implements: <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a></small>
 </p>
 <p>
 <i><p>A HTTP Request specific interface that adds the methods required
-by HTTP requests. Over and above <a href="/index.php/">Mountain Valley Church of God_HTTP_Interaction</a>, this
+by HTTP requests. Over and above <a href="/index.php/">Donica Church of God_HTTP_Interaction</a>, this
 interface provides method, uri, get and post methods.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>HTTP</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>since</dt>
 <dd>3.1.0</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -148,7 +148,7 @@ interface provides method, uri, get and post methods.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="method"><small>abstract public</small>  method([ <small>string</small> <span class="param" title="Method to use for this request">$method</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Request'>Mountain Valley Church of God_HTTP_Request</a>)</small></h3>
+<h3 id="method"><small>abstract public</small>  method([ <small>string</small> <span class="param" title="Method to use for this request">$method</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Request'>Donica Church of God_HTTP_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP method. Usually GET, POST, PUT or DELETE in
 traditional CRUD applications.</p>
 </div>
@@ -171,7 +171,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="post"><small>abstract public</small>  post([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Request'>Mountain Valley Church of God_HTTP_Request</a>)</small></h3>
+<h3 id="post"><small>abstract public</small>  post([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Request'>Donica Church of God_HTTP_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP POST parameters to the request.</p>
 </div>
 <h4>Parameters</h4>
@@ -195,7 +195,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="query"><small>abstract public</small>  query([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Request'>Mountain Valley Church of God_HTTP_Request</a>)</small></h3>
+<h3 id="query"><small>abstract public</small>  query([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Request'>Donica Church of God_HTTP_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP query string.</p>
 </div>
 <h4>Parameters</h4>
@@ -219,7 +219,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="uri"><small>abstract public</small>  uri()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Request'>Mountain Valley Church of God_HTTP_Request</a>)</small></h3>
+<h3 id="uri"><small>abstract public</small>  uri()<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Request'>Donica Church of God_HTTP_Request</a>)</small></h3>
 <div class='description'><p>Gets the URI of this request, optionally allows setting
 of <a href="/index.php/">Route</a> specific parameters during the URI generation.
 If no parameters are passed, the request will use the
@@ -239,7 +239,7 @@ default values defined in the Route.</p>
 </div>
 
 <div class='method'>
-<h3 id="body"><small>abstract public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
+<h3 id="body"><small>abstract public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP body to the request or response. The body is
 included after the header, separated by a single empty new line.</p>
 </div>
@@ -264,7 +264,7 @@ included after the header, separated by a single empty new line.</p>
 </div>
 
 <div class='method'>
-<h3 id="headers"><small>abstract public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
+<h3 id="headers"><small>abstract public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP headers to the request or response. All headers
 are included immediately after the HTTP protocol definition during
 transmission. This method provides a simple array or key/value
@@ -291,7 +291,7 @@ interface to the headers.</p>
 </div>
 
 <div class='method'>
-<h3 id="protocol"><small>abstract public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
+<h3 id="protocol"><small>abstract public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request/response">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP protocol. The standard protocol to use
 is <code>HTTP/1.1</code>.</p>
 </div>
@@ -314,7 +314,7 @@ is <code>HTTP/1.1</code>.</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>abstract public</small>  render()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a>)</small></h3>
+<h3 id="render"><small>abstract public</small>  render()<small> (defined in <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a>)</small></h3>
 <div class='description'><p>Renders the HTTP_Interaction to a string, producing</p>
 
 <ul>

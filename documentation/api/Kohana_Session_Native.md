@@ -1,11 +1,11 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Session_Native
+class: Donica Church of God_Session_Native
 ---
-<h1>Mountain Valley Church of God_Session_Native</h1>
+<h1>Donica Church of God_Session_Native</h1>
 extends <a href='/documentation/api/Session'>Session</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>
+extends <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>
 <br />
 <p>
 <i><p>Native PHP session class.</p>
@@ -13,13 +13,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Session'>Mount
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Session</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -226,7 +226,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Session'>Mount
 <div class='methods'>
 
 <div class='method'>
-<h3 id="id"><small>public</small>  id()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="id"><small>public</small>  id()<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -245,7 +245,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Session'>Mount
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Configuration">$config</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Overloads the name, lifetime, and encrypted session settings.</p>
 
 <p class="note">Sessions can only be created using the <a href="#instance">Session::instance</a> method.</p>
@@ -303,7 +303,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Session'>Mount
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Session object is rendered to a serialized string. If encryption is
 enabled, the session will be encrypted. If not, the output string will
 be encoded.</p>
@@ -346,7 +346,7 @@ be encoded.</p>
 </div>
 
 <div class='method'>
-<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="as_array"><small>public</small>  as_array()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Returns the current session array. The returned array can also be
 assigned by reference.</p>
 
@@ -374,7 +374,7 @@ $data =&amp; $session-&gt;as_array();
 </div>
 
 <div class='method'>
-<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="bind"><small>public</small>  bind(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Referenced value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Set a variable by reference.</p>
 
 <pre><code>$session-&gt;bind('foo', $foo);
@@ -406,7 +406,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title=",... variable name">$key</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="delete"><small>public</small>  delete(<small>string</small> <span class="param" title=",... variable name">$key</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Removes a variable in the session array.</p>
 
 <pre><code>$session-&gt;delete('foo');
@@ -441,7 +441,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="destroy"><small>public</small>  destroy()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="destroy"><small>public</small>  destroy()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Completely destroy the current session.</p>
 
 <pre><code>$success = $session-&gt;destroy();
@@ -473,7 +473,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Variable name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Variable name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Get a variable from the session array.</p>
 
 <pre><code>$foo = $session-&gt;get('foo');
@@ -503,7 +503,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="get_once"><small>public</small>  get_once(<small>string</small> <span class="param" title="Variable name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="get_once"><small>public</small>  get_once(<small>string</small> <span class="param" title="Variable name">$key</span> [, <small>mixed</small> <span class="param" title="Default value to return">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Get and delete a variable from the session array.</p>
 
 <pre><code>$bar = $session-&gt;get_once('bar');
@@ -537,7 +537,7 @@ byref  <span class="blue">mixed </span><strong> $value</strong> <small>required<
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Type of session (native, cookie, etc)">$type</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Session identifier">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="instance"><small>public static</small>  instance([ <small>string</small> <span class="param" title="Type of session (native, cookie, etc)">$type</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Session identifier">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Creates a singleton session of the given type. Some session types
 (native, database) also support restarting a session by passing a
 session id as the second parameter.</p>
@@ -556,7 +556,7 @@ session id as the second parameter.</p>
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:config">Mountain Valley Church of God::$config</a></li>
+<li>Uses - <a href="#property:config">Donica Church of God::$config</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -577,7 +577,7 @@ session id as the second parameter.</p>
 	if ( ! isset(Session::$instances[$type]))
 	{
 		// Load the configuration for this type
-		$config = Mountain Valley Church of God::$config-&gt;load(&#039;session&#039;)-&gt;get($type);
+		$config = Donica Church of God::$config-&gt;load(&#039;session&#039;)-&gt;get($type);
 
 		// Set the session class name
 		$class = &#039;Session_&#039;.ucfirst($type);
@@ -596,7 +596,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="name"><small>public</small>  name()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="name"><small>public</small>  name()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Get the current session cookie name.</p>
 
 <pre><code>$name = $session-&gt;name();
@@ -623,7 +623,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="read"><small>public</small>  read([ <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="read"><small>public</small>  read([ <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Loads existing session data.</p>
 
 <pre><code>$session-&gt;read();
@@ -686,7 +686,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="regenerate"><small>public</small>  regenerate()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="regenerate"><small>public</small>  regenerate()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Generates a new session id and returns it.</p>
 
 <pre><code>$id = $session-&gt;regenerate();
@@ -709,7 +709,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="restart"><small>public</small>  restart()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="restart"><small>public</small>  restart()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Restart the session.</p>
 
 <pre><code>$success = $session-&gt;restart();
@@ -741,7 +741,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="Value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="set"><small>public</small>  set(<small>string</small> <span class="param" title="Variable name">$key</span> , <small>mixed</small> <span class="param" title="Value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Set a variable in the session array.</p>
 
 <pre><code>$session-&gt;set('foo', 'bar');
@@ -773,7 +773,7 @@ session id as the second parameter.</p>
 </div>
 
 <div class='method'>
-<h3 id="write"><small>public</small>  write()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="write"><small>public</small>  write()<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Sets the last_active timestamp and saves the session.</p>
 
 <pre><code>$session-&gt;write();
@@ -785,7 +785,7 @@ been sent.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Uses - <a href="#property:log">Mountain Valley Church of God::$log</a></li>
+<li>Uses - <a href="#property:log">Donica Church of God::$log</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -814,7 +814,7 @@ been sent.</p>
 	catch (Exception $e)
 	{
 		// Log &amp; ignore all errors when a write fails
-		Mountain Valley Church of God::$log-&gt;add(Log::ERROR, Mountain Valley Church of God_Exception::text($e))-&gt;write();
+		Donica Church of God::$log-&gt;add(Log::ERROR, Donica Church of God_Exception::text($e))-&gt;write();
 
 		return FALSE;
 	}
@@ -824,7 +824,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_destroy"><small>protected</small>  _destroy()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="_destroy"><small>protected</small>  _destroy()<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -855,7 +855,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_read"><small>protected</small>  _read([ <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="_read"><small>protected</small>  _read([ <small>string</small> <span class="param" title="Session id">$id</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Parameters</h4>
 <ul>
@@ -928,7 +928,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_regenerate"><small>protected</small>  _regenerate()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="_regenerate"><small>protected</small>  _regenerate()<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -950,7 +950,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_restart"><small>protected</small>  _restart()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="_restart"><small>protected</small>  _restart()<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -975,7 +975,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_write"><small>protected</small>  _write()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session_Native'>Mountain Valley Church of God_Session_Native</a>)</small></h3>
+<h3 id="_write"><small>protected</small>  _write()<small> (defined in <a href='/documentation/api/Donica Church of God_Session_Native'>Donica Church of God_Session_Native</a>)</small></h3>
 <div class='description'></div>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -997,7 +997,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_decode"><small>protected</small>  _decode(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="_decode"><small>protected</small>  _decode(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Decodes the session data using <a href="/index.php/">base64_decode</a>.</p>
 </div>
 <h4>Parameters</h4>
@@ -1022,7 +1022,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_encode"><small>protected</small>  _encode(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="_encode"><small>protected</small>  _encode(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Encodes the session data using <a href="/index.php/">base64_encode</a>.</p>
 </div>
 <h4>Parameters</h4>
@@ -1047,7 +1047,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_serialize"><small>protected</small>  _serialize(<small>array</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="_serialize"><small>protected</small>  _serialize(<small>array</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Serializes the session data.</p>
 </div>
 <h4>Parameters</h4>
@@ -1072,7 +1072,7 @@ been sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="_unserialize"><small>protected</small>  _unserialize(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Session'>Mountain Valley Church of God_Session</a>)</small></h3>
+<h3 id="_unserialize"><small>protected</small>  _unserialize(<small>string</small> <span class="param" title="Data">$data</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Session'>Donica Church of God_Session</a>)</small></h3>
 <div class='description'><p>Unserializes the session data.</p>
 </div>
 <h4>Parameters</h4>

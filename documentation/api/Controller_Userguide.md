@@ -3,29 +3,29 @@ layout: api
 class: Controller_Userguide
 ---
 <h1>Controller_Userguide</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>
+extends <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>
 <br />
 extends <a href='/documentation/api/Controller_Template'>Controller_Template</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Controller_Template'>Mountain Valley Church of God_Controller_Template</a>
+extends <a href='/documentation/api/Donica Church of God_Controller_Template'>Donica Church of God_Controller_Template</a>
 <br />
 extends <a href='/documentation/api/Controller'>Controller</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>
+extends <a href='/documentation/api/Donica Church of God_Controller'>Donica Church of God_Controller</a>
 <br />
 <p>
-<i><p>Mountain Valley Church of God user guide and api browser.</p>
+<i><p>Donica Church of God user guide and api browser.</p>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Userguide</dd>
+<dd>Donica Church of God/Userguide</dd>
 <dt>category</dt>
 <dd>Controller</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -36,7 +36,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -218,7 +218,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 <div class='methods'>
 
 <div class='method'>
-<h3 id="action_api"><small>public</small>  action_api()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="action_api"><small>public</small>  action_api()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -286,7 +286,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 
 <div class='method'>
-<h3 id="action_docs"><small>public</small>  action_docs()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="action_docs"><small>public</small>  action_docs()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -306,7 +306,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 	}
 	
 	// If this module&#039;s userguide pages are disabled, show the error page
-	if ( ! Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.enabled&#039;))
+	if ( ! Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.enabled&#039;))
 	{
 		return $this-&gt;error(&#039;That module doesn\&#039;t exist, or has userguide pages disabled.&#039;);
 	}
@@ -338,7 +338,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 
 	// Set the page title
 	$this-&gt;template-&gt;title = ($page == &#039;index&#039;)
-		? Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;)
+		? Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;)
 		: $this-&gt;title($page);
 
 	// Parse the page contents into the template
@@ -353,12 +353,12 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 	$this-&gt;template-&gt;bind(&#039;breadcrumb&#039;, $breadcrumb);
 	
 	// Bind the copyright
-	$this-&gt;template-&gt;copyright = Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.copyright&#039;);
+	$this-&gt;template-&gt;copyright = Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.copyright&#039;);
 
 	// Add the breadcrumb trail
 	$breadcrumb = [];
 	$breadcrumb[$this-&gt;guide-&gt;uri()] = &#039;User Guide&#039;;
-	$breadcrumb[$this-&gt;guide-&gt;uri([&#039;module&#039; =&gt; $module])] = Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;);
+	$breadcrumb[$this-&gt;guide-&gt;uri([&#039;module&#039; =&gt; $module])] = Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;);
 	
 	// TODO try and get parent category names (from menu).  Regex magic or javascript dom stuff perhaps?
 	
@@ -373,7 +373,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 
 <div class='method'>
-<h3 id="action_media"><small>public</small>  action_media()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="action_media"><small>public</small>  action_media()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -389,7 +389,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 	// Remove the extension from the filename
 	$file = substr($file, 0, -(strlen($ext) + 1));
 
-	if ($file = Mountain Valley Church of God::find_file(&#039;media/guide&#039;, $file, $ext))
+	if ($file = Donica Church of God::find_file(&#039;media/guide&#039;, $file, $ext))
 	{
 		// Check if the browser sent an &quot;if-none-match: &lt;etag&gt;&quot; header, and tell if the file hasn&#039;t changed
 		$this-&gt;check_cache(sha1($this-&gt;request-&gt;uri()).filemtime($file));
@@ -413,7 +413,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 
 <div class='method'>
-<h3 id="after"><small>public</small>  after()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="after"><small>public</small>  after()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'><p>Assigns the template <a href="/index.php/">View</a> as the request response.</p>
 </div>
 <div class="method-source">
@@ -446,7 +446,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 		];
 
 		// Add languages
-		$this-&gt;template-&gt;translations = Mountain Valley Church of God::message(&#039;userguide&#039;, &#039;translations&#039;);
+		$this-&gt;template-&gt;translations = Donica Church of God::message(&#039;userguide&#039;, &#039;translations&#039;);
 	}
 
 	return parent::after();
@@ -456,7 +456,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 
 <div class='method'>
-<h3 id="before"><small>public</small>  before()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="before"><small>public</small>  before()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'><p>Loads the template <a href="/index.php/">View</a> object.</p>
 </div>
 <div class="method-source">
@@ -483,14 +483,14 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 	}
 
 	// Default show_comments to config value
-	$this-&gt;template-&gt;show_comments = Mountain Valley Church of God::$config-&gt;load(&#039;userguide.show_comments&#039;);
+	$this-&gt;template-&gt;show_comments = Donica Church of God::$config-&gt;load(&#039;userguide.show_comments&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="error"><small>public</small>  error()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="error"><small>public</small>  error()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -505,7 +505,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 	$this-&gt;template-&gt;show_comments = FALSE;
 
 	// If we are in a module and that module has a menu, show that
-	if ($module = $this-&gt;request-&gt;param(&#039;module&#039;) AND $menu = $this-&gt;file($module.&#039;/menu&#039;) AND Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.enabled&#039;))
+	if ($module = $this-&gt;request-&gt;param(&#039;module&#039;) AND $menu = $this-&gt;file($module.&#039;/menu&#039;) AND Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.enabled&#039;))
 	{
 		// Namespace the markdown parser
 		Kodoc_Markdown::$base_url  = URL::site($this-&gt;guide-&gt;uri()).&#039;/&#039;.$module.&#039;/&#039;;
@@ -514,7 +514,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 		$this-&gt;template-&gt;menu = Kodoc_Markdown::markdown($this-&gt;_get_all_menu_markdown());
 		$this-&gt;template-&gt;breadcrumb = [
 			$this-&gt;guide-&gt;uri() =&gt; &#039;User Guide&#039;,
-			$this-&gt;guide-&gt;uri([&#039;module&#039; =&gt; $module]) =&gt; Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;),
+			$this-&gt;guide-&gt;uri([&#039;module&#039; =&gt; $module]) =&gt; Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$module.&#039;.name&#039;),
 			&#039;Error&#039;
 		];
 	}
@@ -542,7 +542,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mo
 </div>
 
 <div class='method'>
-<h3 id="file"><small>public</small>  file(<small>string</small> <span class="param" title="The relative URL of the guide page">$page</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="file"><small>public</small>  file(<small>string</small> <span class="param" title="The relative URL of the guide page">$page</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'><p>Locates the appropriate markdown file for a given guide page. Page URLS
 can be specified in one of three forms:</p>
 
@@ -578,14 +578,14 @@ for the file guide/userguide/adding.md.</p>
 	{
 		$page = $info[&#039;dirname&#039;].DIRECTORY_SEPARATOR.$info[&#039;filename&#039;];
 	}
-	return Mountain Valley Church of God::find_file(&#039;guide&#039;, $page, &#039;md&#039;);
+	return Donica Church of God::find_file(&#039;guide&#039;, $page, &#039;md&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="index"><small>public</small>  index()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="index"><small>public</small>  index()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -605,7 +605,7 @@ for the file guide/userguide/adding.md.</p>
 </div>
 
 <div class='method'>
-<h3 id="section"><small>public</small>  section()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="section"><small>public</small>  section()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -626,7 +626,7 @@ for the file guide/userguide/adding.md.</p>
 </div>
 
 <div class='method'>
-<h3 id="title"><small>public</small>  title()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="title"><small>public</small>  title()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -648,7 +648,7 @@ for the file guide/userguide/adding.md.</p>
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>Request</small> <span class="param" title="Request that created the controller">$request</span> , <small>Response</small> <span class="param" title="The request's response">$response</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>Request</small> <span class="param" title="Request that created the controller">$request</span> , <small>Response</small> <span class="param" title="The request's response">$response</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Controller'>Donica Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Creates a new controller instance. Each controller must be constructed
 with the request object that created it.</p>
 </div>
@@ -680,7 +680,7 @@ with the request object that created it.</p>
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller'>Donica Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Executes the given action and calls the <a href="#before">Controller::before</a> and <a href="#after">Controller::after</a> methods.</p>
 
 <p>Can also be used to catch exceptions from actions in a single place.</p>
@@ -736,7 +736,7 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
+<h3 id="redirect"><small>public static</small>  redirect([ <small>string</small> <span class="param" title="URI to redirect to">$uri</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>int</small> <span class="param" title="HTTP Status code to use for the redirect">$code</span> <small>= <small>integer</small> 302</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Controller'>Donica Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Issues a HTTP redirect.</p>
 
 <p>Proxies to the <a href="#redirect">HTTP::redirect</a> method.</p>
@@ -764,7 +764,7 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="_get_all_menu_markdown"><small>protected</small>  _get_all_menu_markdown()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="_get_all_menu_markdown"><small>protected</small>  _get_all_menu_markdown()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -795,26 +795,26 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="_modules"><small>protected</small>  _modules()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller_Userguide'>Mountain Valley Church of God_Controller_Userguide</a>)</small></h3>
+<h3 id="_modules"><small>protected</small>  _modules()<small> (defined in <a href='/documentation/api/Donica Church of God_Controller_Userguide'>Donica Church of God_Controller_Userguide</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
 <pre>
 <code class="language-php">protected function _modules()
 {
-	$modules = array_reverse(Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules&#039;));
+	$modules = array_reverse(Donica Church of God::$config-&gt;load(&#039;userguide.modules&#039;));
 	
-	if (isset($modules[&#039;Mountain Valley Church of God&#039;]))
+	if (isset($modules[&#039;Donica Church of God&#039;]))
 	{
-		$Mountain Valley Church of God = $modules[&#039;Mountain Valley Church of God&#039;];
-		unset($modules[&#039;Mountain Valley Church of God&#039;]);
-		$modules = array_merge([&#039;Mountain Valley Church of God&#039; =&gt; $Mountain Valley Church of God], $modules);
+		$Donica Church of God = $modules[&#039;Donica Church of God&#039;];
+		unset($modules[&#039;Donica Church of God&#039;]);
+		$modules = array_merge([&#039;Donica Church of God&#039; =&gt; $Donica Church of God], $modules);
 	}
 	
 	// Remove modules that have been disabled via config
 	foreach ($modules as $key =&gt; $value)
 	{
-		if ( ! Mountain Valley Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$key.&#039;.enabled&#039;))
+		if ( ! Donica Church of God::$config-&gt;load(&#039;userguide.modules.&#039;.$key.&#039;.enabled&#039;))
 		{
 			unset($modules[$key]);
 		}
@@ -827,7 +827,7 @@ will be called.</li>
 </div>
 
 <div class='method'>
-<h3 id="check_cache"><small>protected</small>  check_cache([ <small>string</small> <span class="param" title="Resource Etag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Controller'>Mountain Valley Church of God_Controller</a>)</small></h3>
+<h3 id="check_cache"><small>protected</small>  check_cache([ <small>string</small> <span class="param" title="Resource Etag">$etag</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Controller'>Donica Church of God_Controller</a>)</small></h3>
 <div class='description'><p>Checks the browser cache to see the response needs to be returned,
 execution will halt and a 304 Not Modified will be sent if the
 browser cache is up to date.</p>

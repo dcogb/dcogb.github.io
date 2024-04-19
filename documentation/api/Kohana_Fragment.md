@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Fragment
+class: Donica Church of God_Fragment
 ---
-<h1>Mountain Valley Church of God_Fragment</h1>
+<h1>Donica Church of God_Fragment</h1>
 <p>
 <i><p>View fragment caching. This is primarily used to cache small parts of a view
 that rarely change. For instance, you may want to cache the footer of your
@@ -17,17 +17,17 @@ content that contains forms.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Helpers</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 <dt>uses</dt>
-<dd>Mountain Valley Church of God::cache</dd>
+<dd>Donica Church of God::cache</dd>
 </dl>
 <br />
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -105,7 +105,7 @@ content that contains forms.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Fragment'>Mountain Valley Church of God_Fragment</a>)</small></h3>
+<h3 id="delete"><small>public static</small>  delete(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Fragment'>Donica Church of God_Fragment</a>)</small></h3>
 <div class='description'><p>Delete a cached fragment.</p>
 
 <pre><code>Fragment::delete($key);
@@ -129,14 +129,14 @@ content that contains forms.</p>
 <code class="language-php">public static function delete($name, $i18n = NULL)
 {
 	// Invalid the cache
-	Mountain Valley Church of God::cache(Fragment::_cache_key($name, $i18n), NULL, -3600);
+	Donica Church of God::cache(Fragment::_cache_key($name, $i18n), NULL, -3600);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="load"><small>public static</small>  load(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>integer</small> <span class="param" title="Fragment cache lifetime">$lifetime</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Fragment'>Mountain Valley Church of God_Fragment</a>)</small></h3>
+<h3 id="load"><small>public static</small>  load(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>integer</small> <span class="param" title="Fragment cache lifetime">$lifetime</span> <small>= <small>NULL</small></small> , <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Fragment'>Donica Church of God_Fragment</a>)</small></h3>
 <div class='description'><p>Load a fragment from cache and display it. Multiple fragments can
 be nested with different life times.</p>
 
@@ -171,7 +171,7 @@ be nested with different life times.</p>
 	// Get the cache key name
 	$cache_key = Fragment::_cache_key($name, $i18n);
 
-	if ($fragment = Mountain Valley Church of God::cache($cache_key, NULL, $lifetime))
+	if ($fragment = Donica Church of God::cache($cache_key, NULL, $lifetime))
 	{
 		// Display the cached fragment now
 		echo $fragment;
@@ -194,7 +194,7 @@ be nested with different life times.</p>
 </div>
 
 <div class='method'>
-<h3 id="save"><small>public static</small>  save()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Fragment'>Mountain Valley Church of God_Fragment</a>)</small></h3>
+<h3 id="save"><small>public static</small>  save()<small> (defined in <a href='/documentation/api/Donica Church of God_Fragment'>Donica Church of God_Fragment</a>)</small></h3>
 <div class='description'><p>Saves the currently open fragment in the cache.</p>
 
 <pre><code>Fragment::save();
@@ -225,7 +225,7 @@ be nested with different life times.</p>
 		$fragment = ob_get_flush();
 
 		// Cache the fragment
-		Mountain Valley Church of God::cache($cache_key, $fragment);
+		Donica Church of God::cache($cache_key, $fragment);
 	}
 }</code>
 </pre>
@@ -233,7 +233,7 @@ be nested with different life times.</p>
 </div>
 
 <div class='method'>
-<h3 id="_cache_key"><small>protected static</small>  _cache_key(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Fragment'>Mountain Valley Church of God_Fragment</a>)</small></h3>
+<h3 id="_cache_key"><small>protected static</small>  _cache_key(<small>string</small> <span class="param" title="Fragment name">$name</span> [, <small>boolean</small> <span class="param" title="Multilingual fragment support">$i18n</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Fragment'>Donica Church of God_Fragment</a>)</small></h3>
 <div class='description'><p>Generate the cache key name for a fragment.</p>
 
 <pre><code>$key = Fragment::_cache_key('footer', TRUE);

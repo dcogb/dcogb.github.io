@@ -1,10 +1,10 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Request
+class: Donica Church of God_Request
 ---
-<h1>Mountain Valley Church of God_Request</h1>
+<h1>Donica Church of God_Request</h1>
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/HTTP_Request'>HTTP_Request</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Message'>Mountain Valley Church of God_HTTP_Message</a> | <a href='/documentation/api/Mountain Valley Church of God_HTTP_Request'>Mountain Valley Church of God_HTTP_Request</a></small>
+<small>Implements: <a href='/documentation/api/HTTP_Request'>HTTP_Request</a> | <a href='/documentation/api/HTTP_Message'>HTTP_Message</a> | <a href='/documentation/api/Donica Church of God_HTTP_Message'>Donica Church of God_HTTP_Message</a> | <a href='/documentation/api/Donica Church of God_HTTP_Request'>Donica Church of God_HTTP_Request</a></small>
 </p>
 <p>
 <i><p>Request. Uses the <a href="/index.php/">Route</a> class to determine what
@@ -13,13 +13,13 @@ class: Mountain Valley Church of God_Request
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>category</dt>
 <dd>Base</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -365,7 +365,7 @@ class: Mountain Valley Church of God_Request
 <br />
  <pre class="debug"><small>NULL</small></pre></dd>
 <dt>
-<h4 id='property-_client'><small>protected</small>  <span class='blue'>Mountain Valley Church of God_Request_Client</span> $_client</h4>
+<h4 id='property-_client'><small>protected</small>  <span class='blue'>Donica Church of God_Request_Client</span> $_client</h4>
 </dt>
 <dd>
  </dd>
@@ -436,7 +436,7 @@ class: Mountain Valley Church of God_Request
 <br />
  <pre class="debug"><small>array</small><span>(0)</span> </pre></dd>
 <dt>
-<h4 id='property-_header'><small>protected</small>  <span class='blue'>Mountain Valley Church of God_HTTP_Header</span> $_header</h4>
+<h4 id='property-_header'><small>protected</small>  <span class='blue'>Donica Church of God_HTTP_Header</span> $_header</h4>
 </dt>
 <dd>
  <p>headers to sent as part of the request</p>
@@ -573,7 +573,7 @@ class: Mountain Valley Church of God_Request
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="URI of the request">$uri</span> [, <small>array</small> <span class="param" title="Array of params to pass to the request client">$client_params</span> <small>= <small>array</small><span>(0)</span> </small> , <small>bool</small> <span class="param" title="Allow external requests? (deprecated in 3.3)">$allow_external</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of routes to use, for testing">$injected_routes</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>string</small> <span class="param" title="URI of the request">$uri</span> [, <small>array</small> <span class="param" title="Array of params to pass to the request client">$client_params</span> <small>= <small>array</small><span>(0)</span> </small> , <small>bool</small> <span class="param" title="Allow external requests? (deprecated in 3.3)">$allow_external</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of routes to use, for testing">$injected_routes</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Creates a new request object for the given URI. New requests should be
 Created using the <a href="#factory">Request::factory</a> method.</p>
 
@@ -663,7 +663,7 @@ be retrieved from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="__toString"><small>public</small>  __toString()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the response as the string representation of a request.</p>
 
 <pre><code>echo $request;
@@ -686,7 +686,7 @@ be retrieved from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="accept_encoding"><small>public static</small>  accept_encoding([ <small>string</small> <span class="param" title="Encoding type">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="accept_encoding"><small>public static</small>  accept_encoding([ <small>string</small> <span class="param" title="Encoding type">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the accepted encodings. If a specific encoding is defined,
 the quality of that encoding will be returned. If the encoding is not
 accepted, FALSE will be returned.</p>
@@ -737,7 +737,7 @@ accepted, FALSE will be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="accept_lang"><small>public static</small>  accept_lang([ <small>string</small> <span class="param" title="Language code">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="accept_lang"><small>public static</small>  accept_lang([ <small>string</small> <span class="param" title="Language code">$lang</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the accepted languages. If a specific language is defined,
 the quality of that language will be returned. If the language is not
 accepted, FALSE will be returned.</p>
@@ -788,7 +788,7 @@ accepted, FALSE will be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="accept_type"><small>public static</small>  accept_type([ <small>string</small> <span class="param" title="Content MIME type">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="accept_type"><small>public static</small>  accept_type([ <small>string</small> <span class="param" title="Content MIME type">$type</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the accepted content types. If a specific type is defined,
 the quality of that type will be returned.</p>
 
@@ -838,7 +838,7 @@ the quality of that type will be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="action"><small>public</small>  action([ <small>string</small> <span class="param" title="Action to execute the controller from">$action</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="action"><small>public</small>  action([ <small>string</small> <span class="param" title="Action to execute the controller from">$action</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the action for the controller.</p>
 </div>
 <h4>Parameters</h4>
@@ -872,7 +872,7 @@ the quality of that type will be returned.</p>
 </div>
 
 <div class='method'>
-<h3 id="body"><small>public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="body"><small>public</small>  body([ <small>string</small> <span class="param" title="Content to set to the object">$content</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP body of the request. The body is
 included after the header, separated by a single empty new line.</p>
 </div>
@@ -907,7 +907,7 @@ included after the header, separated by a single empty new line.</p>
 </div>
 
 <div class='method'>
-<h3 id="client"><small>public</small>  client()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="client"><small>public</small>  client()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Provides access to the <a href="/index.php/">Request_Client</a>.</p>
 </div>
 <h4>Return Values</h4>
@@ -935,7 +935,7 @@ included after the header, separated by a single empty new line.</p>
 </div>
 
 <div class='method'>
-<h3 id="content_length"><small>public</small>  content_length()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="content_length"><small>public</small>  content_length()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the length of the body for use with
 content header</p>
 </div>
@@ -956,7 +956,7 @@ content header</p>
 </div>
 
 <div class='method'>
-<h3 id="controller"><small>public</small>  controller([ <small>string</small> <span class="param" title="Controller to execute the action">$controller</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="controller"><small>public</small>  controller([ <small>string</small> <span class="param" title="Controller to execute the action">$controller</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the controller for the matched route.</p>
 </div>
 <h4>Parameters</h4>
@@ -990,7 +990,7 @@ content header</p>
 </div>
 
 <div class='method'>
-<h3 id="cookie"><small>public</small>  cookie([ <small>mixed</small> <span class="param" title="Cookie name, or array of cookie values">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to cookie">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="cookie"><small>public</small>  cookie([ <small>mixed</small> <span class="param" title="Cookie name, or array of cookie values">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to cookie">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Set and get cookies values for this request.</p>
 </div>
 <h4>Parameters</h4>
@@ -1039,7 +1039,7 @@ content header</p>
 </div>
 
 <div class='method'>
-<h3 id="current"><small>public static</small>  current()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="current"><small>public static</small>  current()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Return the currently executing request. This is changed to the current
 request when <a href="#execute">Request::execute</a> is called and restored when the request
 is completed.</p>
@@ -1068,7 +1068,7 @@ is completed.</p>
 </div>
 
 <div class='method'>
-<h3 id="detect_uri"><small>public static</small>  detect_uri()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="detect_uri"><small>public static</small>  detect_uri()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Automatically detects the URI of the main request using PATH_INFO,
 REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 
@@ -1077,7 +1077,7 @@ REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 </div>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 <li>Since - 3.0.8</li>
 </ul>
 <h4>Return Values</h4>
@@ -1131,13 +1131,13 @@ REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 		}
 		else
 		{
-			// If you ever see this error, please report an issue at http://dev.Mountain Valley Church of Godphp.com/projects/Mountain Valley Church of God3/issues
+			// If you ever see this error, please report an issue at http://dev.Donica Church of Godphp.com/projects/Donica Church of God3/issues
 			// along with any relevant information about your web server setup. Thanks!
-			throw new Mountain Valley Church of God_Exception(&#039;Unable to detect the URI using PATH_INFO, REQUEST_URI, PHP_SELF or REDIRECT_URL&#039;);
+			throw new Donica Church of God_Exception(&#039;Unable to detect the URI using PATH_INFO, REQUEST_URI, PHP_SELF or REDIRECT_URL&#039;);
 		}
 
 		// Get the path from the base URL, including the index file
-		$base_url = parse_url(Mountain Valley Church of God::$base_url, PHP_URL_PATH);
+		$base_url = parse_url(Donica Church of God::$base_url, PHP_URL_PATH);
 
 		if (strpos($uri, $base_url) === 0)
 		{
@@ -1145,10 +1145,10 @@ REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 			$uri = (string) substr($uri, strlen($base_url));
 		}
 
-		if (Mountain Valley Church of God::$index_file AND strpos($uri, Mountain Valley Church of God::$index_file) === 0)
+		if (Donica Church of God::$index_file AND strpos($uri, Donica Church of God::$index_file) === 0)
 		{
 			// Remove the index file from the URI
-			$uri = (string) substr($uri, strlen(Mountain Valley Church of God::$index_file));
+			$uri = (string) substr($uri, strlen(Donica Church of God::$index_file));
 		}
 	}
 
@@ -1159,7 +1159,7 @@ REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 </div>
 
 <div class='method'>
-<h3 id="directory"><small>public</small>  directory([ <small>string</small> <span class="param" title="Directory to execute the controller from">$directory</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="directory"><small>public</small>  directory([ <small>string</small> <span class="param" title="Directory to execute the controller from">$directory</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the directory for the controller.</p>
 </div>
 <h4>Parameters</h4>
@@ -1193,7 +1193,7 @@ REQUEST_URI, PHP_SELF or REDIRECT_URL.</p>
 </div>
 
 <div class='method'>
-<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="execute"><small>public</small>  execute()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Processes the request, executing the controller action that handles this
 request, determined by the <a href="/index.php/">Route</a>.</p>
 
@@ -1214,7 +1214,7 @@ no headers are sent.</p>
 <h4>Tags</h4>
 <ul class='tags'>
 <li>Throws - <a href="/index.php/">Request_Exception</a>, <a href="/index.php/">HTTP_Exception_404</a></li>
-<li>Uses - [Mountain Valley Church of God::$profiling], [Profiler]</li>
+<li>Uses - [Donica Church of God::$profiling], [Profiler]</li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -1271,7 +1271,7 @@ no headers are sent.</p>
 
 	if ( ! $this-&gt;_client instanceof Request_Client)
 	{
-		throw new Request_Exception(&#039;Unable to execute :uri without a Mountain Valley Church of God_Request_Client&#039;, [
+		throw new Request_Exception(&#039;Unable to execute :uri without a Donica Church of God_Request_Client&#039;, [
 			&#039;:uri&#039; =&gt; $this-&gt;_uri,
 		]);
 	}
@@ -1283,7 +1283,7 @@ no headers are sent.</p>
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory([ <small>string</small> <span class="param" title="URI of the request">$uri</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of params to pass to the request client">$client_params</span> <small>= <small>array</small><span>(0)</span> </small> , <small>bool</small> <span class="param" title="Allow external requests? (deprecated in 3.3)">$allow_external</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of routes to use, for testing">$injected_routes</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory([ <small>string</small> <span class="param" title="URI of the request">$uri</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of params to pass to the request client">$client_params</span> <small>= <small>array</small><span>(0)</span> </small> , <small>bool</small> <span class="param" title="Allow external requests? (deprecated in 3.3)">$allow_external</span> <small>= <small>bool</small> TRUE</small> , <small>array</small> <span class="param" title="An array of routes to use, for testing">$injected_routes</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Creates a new request object for the given URI. New requests should be
 Created using the <a href="#factory">Request::factory</a> method.</p>
 
@@ -1477,7 +1477,7 @@ be retrieved from the cache.</p>
 </div>
 
 <div class='method'>
-<h3 id="headers"><small>public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="headers"><small>public</small>  headers([ <small>mixed</small> <span class="param" title="Key or array of key/value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to the supplied key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP headers oo the request. All headers
 are included immediately after the HTTP protocol definition during
 transmission. This method provides a simple array or key/value
@@ -1543,7 +1543,7 @@ interface to the headers.</p>
 </div>
 
 <div class='method'>
-<h3 id="initial"><small>public static</small>  initial()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="initial"><small>public static</small>  initial()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns the first request encountered by this framework. This will should
 only be set once during the first <a href="#factory">Request::factory</a> invocation.</p>
 
@@ -1576,7 +1576,7 @@ if (Request::initial() === Request::current())
 </div>
 
 <div class='method'>
-<h3 id="is_ajax"><small>public</small>  is_ajax()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="is_ajax"><small>public</small>  is_ajax()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns whether this is an ajax request (as used by JS frameworks)</p>
 </div>
 <h4>Return Values</h4>
@@ -1596,7 +1596,7 @@ if (Request::initial() === Request::current())
 </div>
 
 <div class='method'>
-<h3 id="is_external"><small>public</small>  is_external()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="is_external"><small>public</small>  is_external()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Readonly access to the <a href="#property:_external">Request::$_external</a> property.</p>
 
 <pre><code>if ( ! $request-&gt;is_external())
@@ -1620,8 +1620,8 @@ if (Request::initial() === Request::current())
 </div>
 
 <div class='method'>
-<h3 id="is_initial"><small>public</small>  is_initial()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
-<div class='description'><p>Returns whether this request is the initial request Mountain Valley Church of God received.
+<h3 id="is_initial"><small>public</small>  is_initial()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
+<div class='description'><p>Returns whether this request is the initial request Donica Church of God received.
 Can be used to test for sub requests.</p>
 
 <pre><code>if ( ! $request-&gt;is_initial())
@@ -1645,7 +1645,7 @@ Can be used to test for sub requests.</p>
 </div>
 
 <div class='method'>
-<h3 id="method"><small>public</small>  method([ <small>string</small> <span class="param" title="Method to use for this request">$method</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="method"><small>public</small>  method([ <small>string</small> <span class="param" title="Method to use for this request">$method</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP method. Usually GET, POST, PUT or DELETE in
 traditional CRUD applications.</p>
 </div>
@@ -1680,7 +1680,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="param"><small>public</small>  param([ <small>string</small> <span class="param" title="Key of the value">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Default value if the key is not set">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="param"><small>public</small>  param([ <small>string</small> <span class="param" title="Key of the value">$key</span> <small>= <small>NULL</small></small> , <small>mixed</small> <span class="param" title="Default value if the key is not set">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Retrieves a value from the route parameters.</p>
 
 <pre><code>$id = $request-&gt;param('id');
@@ -1716,7 +1716,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="post"><small>public</small>  post([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="post"><small>public</small>  post([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP POST parameters to the request.</p>
 </div>
 <h4>Parameters</h4>
@@ -1769,7 +1769,7 @@ traditional CRUD applications.</p>
 </div>
 
 <div class='method'>
-<h3 id="post_max_size_exceeded"><small>public static</small>  post_max_size_exceeded()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="post_max_size_exceeded"><small>public static</small>  post_max_size_exceeded()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Determines if a file larger than the post_max_size has been uploaded. PHP
 does not handle this situation gracefully on its own, so this method
 helps to solve that problem.</p>
@@ -1803,7 +1803,7 @@ helps to solve that problem.</p>
 </div>
 
 <div class='method'>
-<h3 id="process"><small>public static</small>  process(<small>object</small> <span class="param" title="Request">$request</span> [, <small>array</small> <span class="param" title="Route">$routes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="process"><small>public static</small>  process(<small>object</small> <span class="param" title="Request">$request</span> [, <small>array</small> <span class="param" title="Route">$routes</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Process a request to find a matching route</p>
 </div>
 <h4>Parameters</h4>
@@ -1852,7 +1852,7 @@ helps to solve that problem.</p>
 </div>
 
 <div class='method'>
-<h3 id="protocol"><small>public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="protocol"><small>public</small>  protocol([ <small>string</small> <span class="param" title="Protocol to set to the request">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets the HTTP protocol. If there is no current protocol set,
 it will use the default set in HTTP::$protocol</p>
 </div>
@@ -1888,7 +1888,7 @@ it will use the default set in HTTP::$protocol</p>
 </div>
 
 <div class='method'>
-<h3 id="query"><small>public</small>  query([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="query"><small>public</small>  query([ <small>mixed</small> <span class="param" title="Key or key value pairs to set">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Value to set to a key">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets or sets HTTP query string.</p>
 </div>
 <h4>Parameters</h4>
@@ -1941,7 +1941,7 @@ it will use the default set in HTTP::$protocol</p>
 </div>
 
 <div class='method'>
-<h3 id="referrer"><small>public</small>  referrer([ <small>string</small> <span class="param" title="$referrer">$referrer</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="referrer"><small>public</small>  referrer([ <small>string</small> <span class="param" title="$referrer">$referrer</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the referrer from the request.</p>
 </div>
 <h4>Parameters</h4>
@@ -1975,7 +1975,7 @@ it will use the default set in HTTP::$protocol</p>
 </div>
 
 <div class='method'>
-<h3 id="render"><small>public</small>  render()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="render"><small>public</small>  render()<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Renders the HTTP_Interaction to a string, producing</p>
 
 <ul>
@@ -1983,7 +1983,7 @@ it will use the default set in HTTP::$protocol</p>
 <li>Headers</li>
 <li><p>Body</p>
 
-<p>If there are variables set to the <code>Mountain Valley Church of God_Request::$_post</code>
+<p>If there are variables set to the <code>Donica Church of God_Request::$_post</code>
 they will override any values set to body.</p></li>
 </ul>
 </div>
@@ -2005,16 +2005,16 @@ they will override any values set to body.</p></li>
 	{
 		$body = http_build_query($post, NULL, &#039;&amp;&#039;);
 		$this-&gt;body($body)
-			-&gt;headers(&#039;content-type&#039;, &#039;application/x-www-form-urlencoded; charset=&#039;.Mountain Valley Church of God::$charset);
+			-&gt;headers(&#039;content-type&#039;, &#039;application/x-www-form-urlencoded; charset=&#039;.Donica Church of God::$charset);
 	}
 
 	// Set the content length
 	$this-&gt;headers(&#039;content-length&#039;, (string) $this-&gt;content_length());
 
-	// If Mountain Valley Church of God expose, set the user-agent
-	if (Mountain Valley Church of God::$expose)
+	// If Donica Church of God expose, set the user-agent
+	if (Donica Church of God::$expose)
 	{
-		$this-&gt;headers(&#039;user-agent&#039;, Mountain Valley Church of God::version());
+		$this-&gt;headers(&#039;user-agent&#039;, Donica Church of God::version());
 	}
 
 	// Prepare cookies
@@ -2043,7 +2043,7 @@ they will override any values set to body.</p></li>
 </div>
 
 <div class='method'>
-<h3 id="requested_with"><small>public</small>  requested_with([ <small>string</small> <span class="param" title="Requested with value">$requested_with</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="requested_with"><small>public</small>  requested_with([ <small>string</small> <span class="param" title="Requested with value">$requested_with</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Gets and sets the requested with property, which should
 be relative to the x-requested-with pseudo header.</p>
 </div>
@@ -2078,7 +2078,7 @@ be relative to the x-requested-with pseudo header.</p>
 </div>
 
 <div class='method'>
-<h3 id="route"><small>public</small>  route([ <small>string</small> <span class="param" title="$route">$route</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="route"><small>public</small>  route([ <small>string</small> <span class="param" title="$route">$route</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the route from the request.</p>
 </div>
 <h4>Parameters</h4>
@@ -2112,7 +2112,7 @@ be relative to the x-requested-with pseudo header.</p>
 </div>
 
 <div class='method'>
-<h3 id="secure"><small>public</small>  secure([ <small>boolean</small> <span class="param" title="Is this request secure?">$secure</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="secure"><small>public</small>  secure([ <small>boolean</small> <span class="param" title="Is this request secure?">$secure</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Getter/Setter to the security settings for this request. This
 method should be treated as immutable.</p>
 </div>
@@ -2143,7 +2143,7 @@ method should be treated as immutable.</p>
 </div>
 
 <div class='method'>
-<h3 id="uri"><small>public</small>  uri([ <small>string</small> <span class="param" title="$uri">$uri</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="uri"><small>public</small>  uri([ <small>string</small> <span class="param" title="$uri">$uri</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Sets and gets the uri from the request.</p>
 </div>
 <h4>Parameters</h4>
@@ -2177,7 +2177,7 @@ method should be treated as immutable.</p>
 </div>
 
 <div class='method'>
-<h3 id="url"><small>public</small>  url([ <small>mixed</small> <span class="param" title="Protocol string or Request object">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="url"><small>public</small>  url([ <small>mixed</small> <span class="param" title="Protocol string or Request object">$protocol</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Create a URL string from the current request. This is a shortcut for:</p>
 
 <pre><code>echo URL::site($this-&gt;request-&gt;uri(), $protocol);
@@ -2217,7 +2217,7 @@ method should be treated as immutable.</p>
 </div>
 
 <div class='method'>
-<h3 id="user_agent"><small>public static</small>  user_agent(<small>mixed</small> <span class="param" title="Array or string to return: browser, version, robot, mobile, platform">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="user_agent"><small>public static</small>  user_agent(<small>mixed</small> <span class="param" title="Array or string to return: browser, version, robot, mobile, platform">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Returns information about the initial user agent.</p>
 </div>
 <h4>Parameters</h4>
@@ -2246,7 +2246,7 @@ method should be treated as immutable.</p>
 </div>
 
 <div class='method'>
-<h3 id="_parse_accept"><small>protected static</small>  _parse_accept(<small>string</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Header to parse">$header</span> [, <small>array</small> <span class="param" title="Default values">$accepts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Request'>Mountain Valley Church of God_Request</a>)</small></h3>
+<h3 id="_parse_accept"><small>protected static</small>  _parse_accept(<small>string</small> <small><abbr title="passed by reference">&</abbr></small> <span class="param" title="Header to parse">$header</span> [, <small>array</small> <span class="param" title="Default values">$accepts</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Request'>Donica Church of God_Request</a>)</small></h3>
 <div class='description'><p>Parses an accept header and returns an array (type => quality) of the
 accepted types, ordered by quality.</p>
 

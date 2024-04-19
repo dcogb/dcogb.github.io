@@ -1,20 +1,20 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Minion_CLI
+class: Donica Church of God_Minion_CLI
 ---
-<h1>Mountain Valley Church of God_Minion_CLI</h1>
+<h1>Donica Church of God_Minion_CLI</h1>
 <p>
 <i>
 </i>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Minion</dd>
+<dd>Donica Church of God/Minion</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) 2015 Mountain Valley Church of God Team</dd>
-<dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
+<dd>(c) 2015 Donica Church of God Team</dd>
+<dd>(c) 2016-2018 Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -126,7 +126,7 @@ class: Mountain Valley Church of God_Minion_CLI
 <div class='methods'>
 
 <div class='method'>
-<h3 id="color"><small>public static</small>  color(<small>string</small> <span class="param" title="The text to color">$text</span> , <small>string</small> <span class="param" title="The foreground color">$foreground</span> [, <small>string</small> <span class="param" title="The background color">$background</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="color"><small>public static</small>  color(<small>string</small> <span class="param" title="The text to color">$text</span> , <small>string</small> <span class="param" title="The foreground color">$foreground</span> [, <small>string</small> <span class="param" title="The background color">$background</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Returns the given text with the correct color codes for a foreground and
 optionally a background color.</p>
 </div>
@@ -156,14 +156,14 @@ optionally a background color.</p>
 <pre>
 <code class="language-php">public static function color($text, $foreground, $background = null)
 {
-	if (Mountain Valley Church of God::$is_windows)
+	if (Donica Church of God::$is_windows)
 		return $text;
 
 	if ( ! array_key_exists($foreground, Minion_CLI::$foreground_colors))
-		throw new Mountain Valley Church of God_Exception(&#039;Invalid CLI foreground color: &#039;.$foreground);
+		throw new Donica Church of God_Exception(&#039;Invalid CLI foreground color: &#039;.$foreground);
 
 	if ($background !== NULL AND ! array_key_exists($background, Minion_CLI::$background_colors))
-		throw new Mountain Valley Church of God_Exception(&#039;Invalid CLI background color: &#039;.$background);
+		throw new Donica Church of God_Exception(&#039;Invalid CLI background color: &#039;.$background);
 
 	$string = &quot;\033[&quot;.Minion_CLI::$foreground_colors[$foreground].&quot;m&quot;;
 
@@ -181,7 +181,7 @@ optionally a background color.</p>
 </div>
 
 <div class='method'>
-<h3 id="options"><small>public static</small>  options([ <small>string</small> <span class="param" title=",... option name">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="options"><small>public static</small>  options([ <small>string</small> <span class="param" title=",... option name">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Returns one or more command-line options. Options are specified using
 standard CLI syntax:</p>
 
@@ -266,7 +266,7 @@ $auth = Minion_CLI::options('username', 'password');
 </div>
 
 <div class='method'>
-<h3 id="password"><small>public static</small>  password()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="password"><small>public static</small>  password()<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Experimental feature.</p>
 
 <p>Reads hidden input from the user</p>
@@ -291,7 +291,7 @@ $auth = Minion_CLI::options('username', 'password');
 {
 	$text .= &#039;: &#039;;
 
-	if (Mountain Valley Church of God::$is_windows)
+	if (Donica Church of God::$is_windows)
 	{
 		$vbscript = sys_get_temp_dir().&#039;Minion_CLI_Password.vbs&#039;;
 
@@ -317,7 +317,7 @@ $auth = Minion_CLI::options('username', 'password');
 </div>
 
 <div class='method'>
-<h3 id="read"><small>public static</small>  read([ <small>string</small> <span class="param" title="Text to show user before waiting for input">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Array of options the user is shown">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="read"><small>public static</small>  read([ <small>string</small> <span class="param" title="Text to show user before waiting for input">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>array</small> <span class="param" title="Array of options the user is shown">$options</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Reads input from the user. This can have either 1 or 2 arguments.</p>
 
 <p>Usage:</p>
@@ -376,7 +376,7 @@ $ready = Minion_CLI::read('Are you ready?', array('y','n'));</p>
 </div>
 
 <div class='method'>
-<h3 id="wait"><small>public static</small>  wait([ <small>int</small> <span class="param" title="Number of seconds">$seconds</span> <small>= <small>integer</small> 0</small> , <small>bool</small> <span class="param" title="Show a countdown or not">$countdown</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="wait"><small>public static</small>  wait([ <small>int</small> <span class="param" title="Number of seconds">$seconds</span> <small>= <small>integer</small> 0</small> , <small>bool</small> <span class="param" title="Show a countdown or not">$countdown</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Waits a certain number of seconds, optionally showing a wait message and
 waiting for a key press.</p>
 </div>
@@ -430,7 +430,7 @@ waiting for a key press.</p>
 </div>
 
 <div class='method'>
-<h3 id="write"><small>public static</small>  write([ <small>string|array</small> <span class="param" title="The text to output, or array of lines">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="write"><small>public static</small>  write([ <small>string|array</small> <span class="param" title="The text to output, or array of lines">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Outputs a string to the cli. If you send an array it will implode them
 with a line break.</p>
 </div>
@@ -461,7 +461,7 @@ with a line break.</p>
 </div>
 
 <div class='method'>
-<h3 id="write_replace"><small>public static</small>  write_replace([ <small>string</small> <span class="param" title="The text to output">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>boolean</small> <span class="param" title="Whether the line is done being replaced">$end_line</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Minion_CLI'>Mountain Valley Church of God_Minion_CLI</a>)</small></h3>
+<h3 id="write_replace"><small>public static</small>  write_replace([ <small>string</small> <span class="param" title="The text to output">$text</span> <small>= <small>string</small><span>(0)</span> ""</small> , <small>boolean</small> <span class="param" title="Whether the line is done being replaced">$end_line</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Minion_CLI'>Donica Church of God_Minion_CLI</a>)</small></h3>
 <div class='description'><p>Outputs a replacable line to the cli. You can continue replacing the
 line until <code>TRUE</code> is passed as the second parameter in order to indicate
 you are done modifying the line.</p>

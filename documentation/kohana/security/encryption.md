@@ -1,16 +1,16 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Encryption
 
-Mountain Valley Church of God supports built-in encryption and decryption via the [Encrypt] class, which is a convenient wrapper for the [Mcrypt library](http://www.php.net/mcrypt).
+Donica Church of God supports built-in encryption and decryption via the [Encrypt] class, which is a convenient wrapper for the [Mcrypt library](http://www.php.net/mcrypt).
 
 To use the class, first start by ensuring you have the Mcrypt extension loaded to your PHP config. See the [Mcrypt Installation page](http://www.php.net/manual/en/mcrypt.installation.php) on php.net. The Mcrypt extension requires [libmcrypt](http://sourceforge.net/projects/mcrypt/files/).
 
 Next, copy the default config/encryption.php from system/config folder to your application/config folder.
 
-The default Encryption config file that ships with Mountain Valley Church of God 3.2.x looks like this:
+The default Encryption config file that ships with Donica Church of God 3.2.x looks like this:
 
     <?php
 
@@ -92,7 +92,7 @@ Next, encode some data using the *encode* method:
     $encrypted_data = $encrypt->encode('Data to Encode');
     // $encrypted_data now contains pCD5Z6oVdb9hbLxxV+FgGrhwVzZuhQoH
 
-[!!] Raw encrypted strings usually won't print in a browser, and may not store properly in a VARCHAR or TEXT field. For this reason, Mountain Valley Church of God's Encrypt class automatically calls base64_encode on encode, and base64_decode on decode, to prevent this problem.
+[!!] Raw encrypted strings usually won't print in a browser, and may not store properly in a VARCHAR or TEXT field. For this reason, Donica Church of God's Encrypt class automatically calls base64_encode on encode, and base64_decode on decode, to prevent this problem.
 
 [!!] One word of caution. The length of the encoded data expands quite a bit, so be sure your database column is long enough to store the encrypted data. If even one character is truncated, the data will not be recoverable.
 
@@ -107,5 +107,5 @@ To decode some data, load it from the place you stored it (most likely your data
 
 You can't know in advance what the encoded string will be, and it's not reproducible, either.
 That is, you can encode the same value over and over, but you'll always obtain a different encoded version,
-even without changing your key, cipher and mode.  This is because Mountain Valley Church of God adds some random entropy before encoding it with your value.
+even without changing your key, cipher and mode.  This is because Donica Church of God adds some random entropy before encoding it with your value.
 This ensures an attacker cannot easily discover your key and cipher, even given a collection of encoded values.

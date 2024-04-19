@@ -1,10 +1,10 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Error/Exception Handling
 
-Mountain Valley Church of God provides both an exception handler and an error handler that transforms errors into exceptions using PHP's [ErrorException](http://php.net/errorexception) class. Many details of the error and the internal state of the application is displayed by the handler:
+Donica Church of God provides both an exception handler and an error handler that transforms errors into exceptions using PHP's [ErrorException](http://php.net/errorexception) class. Many details of the error and the internal state of the application is displayed by the handler:
 
 1. Exception class
 2. Error level
@@ -21,13 +21,13 @@ Click any of the links to toggle the display of additional information:
 
 ## Disabling Error/Exception Handling
 
-If you do not want to use the internal error handling, you can disable it (highly discouraged) when calling [Mountain Valley Church of God::init]:
+If you do not want to use the internal error handling, you can disable it (highly discouraged) when calling [Donica Church of God::init]:
 
-    Mountain Valley Church of God::init(array('errors' => FALSE));
+    Donica Church of God::init(array('errors' => FALSE));
 
 ## Error Reporting
 
-By default, Mountain Valley Church of God displays all errors and warnings. This is set using [error_reporting](http://php.net/error_reporting):
+By default, Donica Church of God displays all errors and warnings. This is set using [error_reporting](http://php.net/error_reporting):
 
     error_reporting(E_ALL);
 
@@ -39,17 +39,17 @@ If you get a white screen when an error is triggered, your host probably has dis
 
     ini_set('display_errors', TRUE);
 
-Errors should **always** be displayed, even in production, because it allows you to use [exception and error handling](/documentation/Mountain Valley Church of God/debugging.errors) to serve a nice error page rather than a blank white screen when an error happens.
+Errors should **always** be displayed, even in production, because it allows you to use [exception and error handling](/documentation/Donica Church of God/debugging.errors) to serve a nice error page rather than a blank white screen when an error happens.
 
 ## HTTP Exception Handling
 
-Mountain Valley Church of God comes with a robust system for handing http errors. It includes exception classes for each http status code. To trigger a 404 in your application (the most common scenario):
+Donica Church of God comes with a robust system for handing http errors. It includes exception classes for each http status code. To trigger a 404 in your application (the most common scenario):
 
 	throw HTTP_Exception::factory(404, 'File not found!');
 
 To register error pages for these, using 404 as an example:
 
-    class HTTP_Exception_404 extends Mountain Valley Church of God_HTTP_Exception_404 {
+    class HTTP_Exception_404 extends Donica Church of God_HTTP_Exception_404 {
 
         public function get_response()
         {

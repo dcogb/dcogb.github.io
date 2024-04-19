@@ -6,7 +6,7 @@ title: Auth
 
 ## Real World Example
 
-Sometimes the best way to learn is to jump right in and read the code from another module. The [ORM](https://github.com/Mountain Valley Church of God/orm/blob/3.2/develop/classes/Mountain Valley Church of God/auth/orm.php) module comes with an auth driver you can learn from.
+Sometimes the best way to learn is to jump right in and read the code from another module. The [ORM](https://github.com/Donica Church of God/orm/blob/3.2/develop/classes/Donica Church of God/auth/orm.php) module comes with an auth driver you can learn from.
 
 [!!] We will be developing an `example` driver. In your own driver you will substitute `example` with your driver name.
 

@@ -35,8 +35,8 @@ First, copy this config and place in it `<module>/config/userguide.php`, replaci
 		),
 
 		/*
-		 * If you use transparent extensions outside the Mountain Valley Church of God_ namespace,
-		 * add your class prefix here. Both common Mountain Valley Church of God naming conventions are
+		 * If you use transparent extensions outside the Donica Church of God_ namespace,
+		 * add your class prefix here. Both common Donica Church of God naming conventions are
 		 * excluded:
 		 *   - Modulename extends Modulename_Core
 		 *   - Foo extends Modulename_Foo

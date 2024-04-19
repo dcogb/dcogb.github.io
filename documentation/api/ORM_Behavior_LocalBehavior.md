@@ -3,11 +3,11 @@ layout: api
 class: ORM_Behavior_LocalBehavior
 ---
 <h1>ORM_Behavior_LocalBehavior</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a>
+extends <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a>
 <br />
 extends <a href='/documentation/api/ORM_Behavior'>ORM_Behavior</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>Mountain Valley Church of God_ORM_Behavior</a>
+extends <a href='/documentation/api/Donica Church of God_ORM_Behavior'>Donica Church of God_ORM_Behavior</a>
 <br />
 <p>
 <i>
@@ -15,11 +15,11 @@ extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/ORM</dd>
+<dd>Donica Church of God/ORM</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) 2016-2018 Mountain Valley Church of God Team</dd>
+<dd>(c) 2016-2018 Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -30,7 +30,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>
 </div>
 <div class='content'>
 <h4 class='callout-title'>Information</h4>
-<p>This class is a transparent base class for <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a></p>
+<p>This class is a transparent base class for <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a></p>
 </div>
 </div>
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
@@ -108,7 +108,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="on_construct"><small>public</small>  on_construct(<small>ORM</small> <span class="param" title="The model">$model</span> , <small>mixed</small> <span class="param" title="Parameter for find or object to load">$id</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
+<h3 id="on_construct"><small>public</small>  on_construct(<small>ORM</small> <span class="param" title="The model">$model</span> , <small>mixed</small> <span class="param" title="Parameter for find or object to load">$id</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
 <div class='description'><p>Constructs a new model and loads a record if given</p>
 </div>
 <h4>Parameters</h4>
@@ -137,7 +137,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>
 </div>
 
 <div class='method'>
-<h3 id="on_create"><small>public</small>  on_create(<small>ORM</small> <span class="param" title="The model">$model</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
+<h3 id="on_create"><small>public</small>  on_create(<small>ORM</small> <span class="param" title="The model">$model</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
 <div class='description'><p>A new model is created</p>
 </div>
 <h4>Parameters</h4>
@@ -158,7 +158,7 @@ call_user_func_array($this-&gt;_callback, $params);
 </div>
 
 <div class='method'>
-<h3 id="on_update"><small>public</small>  on_update()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
+<h3 id="on_update"><small>public</small>  on_update()<small> (defined in <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
 <div class='description'><p>The model is updated</p>
 </div>
 <div class="method-source">
@@ -174,7 +174,7 @@ call_user_func_array($this-&gt;_callback, $params);
 </div>
 
 <div class='method'>
-<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="$type Type name">$behavior</span> [, <small>mixed</small> <span class="param" title="$id Parameter for find()">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior'>Mountain Valley Church of God_ORM_Behavior</a>)</small></h3>
+<h3 id="factory"><small>public static</small>  factory(<small>string</small> <span class="param" title="$type Type name">$behavior</span> [, <small>mixed</small> <span class="param" title="$id Parameter for find()">$config</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_ORM_Behavior'>Donica Church of God_ORM_Behavior</a>)</small></h3>
 <div class='description'><p>Creates and returns a new ORM behavior.</p>
 </div>
 <h4>Parameters</h4>
@@ -201,7 +201,7 @@ call_user_func_array($this-&gt;_callback, $params);
 	if ( ! is_string($behavior) AND is_array($config))
 	{
 		if ( ! is_callable($config))
-			throw new Mountain Valley Church of God_Exception(&#039;Behavior cannot be created: function does not exists&#039;);
+			throw new Donica Church of God_Exception(&#039;Behavior cannot be created: function does not exists&#039;);
 
 		// This is either a callback as an array or a lambda
 		return new ORM_Behavior_LocalBehavior($config);
@@ -217,7 +217,7 @@ call_user_func_array($this-&gt;_callback, $params);
 </div>
 
 <div class='method'>
-<h3 id="__construct"><small>protected</small>  __construct(<small>mixed</small> <span class="param" title="Callback to execute">$callback</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_ORM_Behavior_LocalBehavior'>Mountain Valley Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
+<h3 id="__construct"><small>protected</small>  __construct(<small>mixed</small> <span class="param" title="Callback to execute">$callback</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_ORM_Behavior_LocalBehavior'>Donica Church of God_ORM_Behavior_LocalBehavior</a>)</small></h3>
 <div class='description'><p>Constructs a behavior object</p>
 </div>
 <h4>Parameters</h4>

@@ -1,8 +1,8 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Auth
+class: Donica Church of God_Auth
 ---
-<h1>Mountain Valley Church of God_Auth</h1>
+<h1>Donica Church of God_Auth</h1>
 <p>
 <i><p>User authorization library. Handles user login and logout, as well as secure
 password hashing.</p>
@@ -10,11 +10,11 @@ password hashing.</p>
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Auth</dd>
+<dd>Donica Church of God/Auth</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -123,7 +123,7 @@ password hashing.</p>
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Config Options">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct([ <small>array</small> <span class="param" title="Config Options">$config</span> <small>= <small>array</small><span>(0)</span> </small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Loads Session and configuration options.</p>
 </div>
 <h4>Parameters</h4>
@@ -151,7 +151,7 @@ password hashing.</p>
 </div>
 
 <div class='method'>
-<h3 id="check_password"><small>abstract public</small>  check_password()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="check_password"><small>abstract public</small>  check_password()<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -162,7 +162,7 @@ password hashing.</p>
 </div>
 
 <div class='method'>
-<h3 id="get_user"><small>public</small>  get_user([ <small>mixed</small> <span class="param" title="Default value to return if the user is currently not logged in.">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="get_user"><small>public</small>  get_user([ <small>mixed</small> <span class="param" title="Default value to return if the user is currently not logged in.">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Gets the currently logged in user from the session.
 Returns NULL if no user is currently logged in.</p>
 </div>
@@ -188,7 +188,7 @@ Returns NULL if no user is currently logged in.</p>
 </div>
 
 <div class='method'>
-<h3 id="hash"><small>public</small>  hash(<small>string</small> <span class="param" title="String to hash">$str</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="hash"><small>public</small>  hash(<small>string</small> <span class="param" title="String to hash">$str</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Perform a hmac hash, using the configured method.</p>
 </div>
 <h4>Parameters</h4>
@@ -207,7 +207,7 @@ Returns NULL if no user is currently logged in.</p>
 <code class="language-php">public function hash($str)
 {
 	if ( ! $this-&gt;_config[&#039;hash_key&#039;])
-		throw new Mountain Valley Church of God_Exception(&#039;A valid hash key must be set in your auth config.&#039;);
+		throw new Donica Church of God_Exception(&#039;A valid hash key must be set in your auth config.&#039;);
 
 	return hash_hmac($this-&gt;_config[&#039;hash_method&#039;], $str, $this-&gt;_config[&#039;hash_key&#039;]);
 }</code>
@@ -216,7 +216,7 @@ Returns NULL if no user is currently logged in.</p>
 </div>
 
 <div class='method'>
-<h3 id="hash_password"><small>public</small>  hash_password(<small>string</small> <span class="param" title="Plaintext password">$password</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="hash_password"><small>public</small>  hash_password(<small>string</small> <span class="param" title="Plaintext password">$password</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Creates a hashed hmac password from a plaintext password. This
 method is deprecated, <a href="#hash">Auth::hash</a> should be used instead.</p>
 </div>
@@ -241,7 +241,7 @@ method is deprecated, <a href="#hash">Auth::hash</a> should be used instead.</p>
 </div>
 
 <div class='method'>
-<h3 id="instance"><small>public static</small>  instance()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="instance"><small>public static</small>  instance()<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Singleton pattern</p>
 </div>
 <h4>Return Values</h4>
@@ -257,7 +257,7 @@ method is deprecated, <a href="#hash">Auth::hash</a> should be used instead.</p>
 	if ( ! isset(Auth::$_instance))
 	{
 		// Load the configuration for this type
-		$config = Mountain Valley Church of God::$config-&gt;load(&#039;auth&#039;);
+		$config = Donica Church of God::$config-&gt;load(&#039;auth&#039;);
 
 		if ( ! $type = $config-&gt;get(&#039;driver&#039;))
 		{
@@ -278,7 +278,7 @@ method is deprecated, <a href="#hash">Auth::hash</a> should be used instead.</p>
 </div>
 
 <div class='method'>
-<h3 id="logged_in"><small>public</small>  logged_in([ <small>string</small> <span class="param" title="Role name">$role</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="logged_in"><small>public</small>  logged_in([ <small>string</small> <span class="param" title="Role name">$role</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Check if there is an active session. Optionally allows checking for a
 specific role.</p>
 </div>
@@ -304,7 +304,7 @@ specific role.</p>
 </div>
 
 <div class='method'>
-<h3 id="login"><small>public</small>  login(<small>string</small> <span class="param" title="Username to log in">$username</span> , <small>string</small> <span class="param" title="Password to check against">$password</span> [, <small>boolean</small> <span class="param" title="Enable autologin">$remember</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="login"><small>public</small>  login(<small>string</small> <span class="param" title="Username to log in">$username</span> , <small>string</small> <span class="param" title="Password to check against">$password</span> [, <small>boolean</small> <span class="param" title="Enable autologin">$remember</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Attempt to log in a user by using an ORM object and plain-text password.</p>
 </div>
 <h4>Parameters</h4>
@@ -336,7 +336,7 @@ specific role.</p>
 </div>
 
 <div class='method'>
-<h3 id="logout"><small>public</small>  logout([ <small>boolean</small> <span class="param" title="Completely destroy the session">$destroy</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Remove all tokens for user">$logout_all</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="logout"><small>public</small>  logout([ <small>boolean</small> <span class="param" title="Completely destroy the session">$destroy</span> <small>= <small>bool</small> FALSE</small> , <small>boolean</small> <span class="param" title="Remove all tokens for user">$logout_all</span> <small>= <small>bool</small> FALSE</small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'><p>Log out a user by removing the related session variables.</p>
 </div>
 <h4>Parameters</h4>
@@ -378,7 +378,7 @@ specific role.</p>
 </div>
 
 <div class='method'>
-<h3 id="password"><small>abstract public</small>  password()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="password"><small>abstract public</small>  password()<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -389,7 +389,7 @@ specific role.</p>
 </div>
 
 <div class='method'>
-<h3 id="_login"><small>abstract protected</small>  _login()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="_login"><small>abstract protected</small>  _login()<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -400,7 +400,7 @@ specific role.</p>
 </div>
 
 <div class='method'>
-<h3 id="complete_login"><small>protected</small>  complete_login()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Auth'>Mountain Valley Church of God_Auth</a>)</small></h3>
+<h3 id="complete_login"><small>protected</small>  complete_login()<small> (defined in <a href='/documentation/api/Donica Church of God_Auth'>Donica Church of God_Auth</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>

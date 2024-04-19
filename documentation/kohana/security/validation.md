@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Validation
 
@@ -26,7 +26,7 @@ Creating a validation object is done using the [Validation::factory] method:
 
 ## Provided Rules
 
-Mountain Valley Church of God provides a set of useful rules in the [Valid] class:
+Donica Church of God provides a set of useful rules in the [Valid] class:
 
 Rule name                 | Function
 ------------------------- |-------------------------------------------------
@@ -137,7 +137,7 @@ Rules added to empty fields will run, but returning `FALSE` will not automatical
 
 To start our example, we will perform validation on the HTTP POST data of the current request that contains user registration information:
 
-[!!] In Mountain Valley Church of God controllers, we access `$this->request->post()` instead of `$_POST` for better request isolation.
+[!!] In Donica Church of God controllers, we access `$this->request->post()` instead of `$_POST` for better request isolation.
 
     $object = Validation::factory($this->request->post());
 

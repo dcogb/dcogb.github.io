@@ -1,12 +1,12 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Config_Writer
+class: Donica Church of God_Config_Writer
 ---
-<h1>Mountain Valley Church of God_Config_Writer</h1>
-extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a>
+<h1>Donica Church of God_Config_Writer</h1>
+extends <a href='/documentation/api/Donica Church of God_Config_Source'>Donica Church of God_Config_Source</a>
 <br />
 <p class='interfaces'>
-<small>Implements: <a href='/documentation/api/Mountain Valley Church of God_Config_Source'>Mountain Valley Church of God_Config_Source</a></small>
+<small>Implements: <a href='/documentation/api/Donica Church of God_Config_Source'>Donica Church of God_Config_Source</a></small>
 </p>
 <p>
 <i><p>Interface for config writers</p>
@@ -16,11 +16,11 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God</dd>
+<dd>Donica Church of God</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -56,11 +56,11 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Config_Source'
 <div class='methods'>
 
 <div class='method'>
-<h3 id="write"><small>abstract public</small>  write(<small>string</small> <span class="param" title="The config group">$group</span> , <small>string</small> <span class="param" title="The config key to write to">$key</span> , <small>array</small> <span class="param" title="The configuration to write">$config</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Config_Writer'>Mountain Valley Church of God_Config_Writer</a>)</small></h3>
+<h3 id="write"><small>abstract public</small>  write(<small>string</small> <span class="param" title="The config group">$group</span> , <small>string</small> <span class="param" title="The config key to write to">$key</span> , <small>array</small> <span class="param" title="The configuration to write">$config</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Config_Writer'>Donica Church of God_Config_Writer</a>)</small></h3>
 <div class='description'><p>Writes the passed config for $group</p>
 
 <p>Returns chainable instance on success or throws
-Mountain Valley Church of God_Config_Exception on failure</p>
+Donica Church of God_Config_Exception on failure</p>
 </div>
 <h4>Parameters</h4>
 <ul>

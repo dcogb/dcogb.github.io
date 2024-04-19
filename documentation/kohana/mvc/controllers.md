@@ -1,12 +1,12 @@
 ---
 layout: documentation
-title: Mountain Valley Church of God
+title: Donica Church of God
 ---
 # Controllers
 
 A Controller is a class file that stands in between the models and the views in an application. It passes information on to the model when data needs to be changed and it requests information from the model when data needs to be loaded. Controllers then pass on the information of the model to the views where the final output can be rendered for the users.  Controllers essentially control the flow of the application.
 
-Controllers are called by the [Request::execute()] function based on the [Route] that the url matched.  Be sure to read the [routing](/documentation/Mountain Valley Church of God/routing) page to understand how to use routes to map urls to your controllers.
+Controllers are called by the [Request::execute()] function based on the [Route] that the url matched.  Be sure to read the [routing](/documentation/Donica Church of God/routing) page to understand how to use routes to map urls to your controllers.
 
 ## Creating Controllers
 
@@ -33,7 +33,7 @@ Controllers can be in sub-folders:
 	// classes/Controller/Product/Category.php
 	class Controller_Product_Category extends Controller {
 	
-[!!] Note that controllers in sub-folders can not be called by the default route, you will need to define a route that has a [directory](/documentation/Mountain Valley Church of God/routing#directory) param or sets a default value for directory.
+[!!] Note that controllers in sub-folders can not be called by the default route, you will need to define a route that has a [directory](/documentation/Donica Church of God/routing#directory) param or sets a default value for directory.
 
 Controllers can extend other controllers.
 
@@ -43,7 +43,7 @@ Controllers can extend other controllers.
 	// classes/Controller/Api.php
 	class Controller_Api extends Controller_REST
 	
-[!!] [Controller_Template] is an example controller provided in Mountain Valley Church of God.
+[!!] [Controller_Template] is an example controller provided in Donica Church of God.
 
 You can also have a controller extend another controller to share common things, such as requiring you to be logged in to use all of those controllers.
 
@@ -77,9 +77,9 @@ Property/method | What it does
 
 You create actions for your controller by defining a public function with an `action_` prefix.  Any method that is not declared as `public` and prefixed with `action_` can NOT be called via routing.
 
-An action method will decide what should be done based on the current request, it *controls* the application.  Did the user want to save a blog post?  Did they provide the necessary fields?   Do they have permission to do that?  The controller will call other classes, including models, to accomplish this.  Every action should set `$this->response->body($view)` to the [view file](/documentation/Mountain Valley Church of God/mvc/views) to be sent to the browser, unless it redirected or otherwise ended the script earlier.
+An action method will decide what should be done based on the current request, it *controls* the application.  Did the user want to save a blog post?  Did they provide the necessary fields?   Do they have permission to do that?  The controller will call other classes, including models, to accomplish this.  Every action should set `$this->response->body($view)` to the [view file](/documentation/Donica Church of God/mvc/views) to be sent to the browser, unless it redirected or otherwise ended the script earlier.
 
-A very basic action method that simply loads a [view](/documentation/Mountain Valley Church of God/mvc/views) file.
+A very basic action method that simply loads a [view](/documentation/Donica Church of God/mvc/views) file.
 
 	public function action_hello()
 	{
@@ -171,7 +171,7 @@ In general, you should not have to change the `__construct()` function, as anyth
 
 	// You should almost never need to do this, use before() instead!
 
-	// Be sure Mountain Valley Church of God_Request is in the params
+	// Be sure Donica Church of God_Request is in the params
 	public function __construct(Request $request, Response $response)
 	{
 		// You must call parent::__construct at some point in your function

@@ -35,7 +35,7 @@ title: 'Start'
                                        class="btn btn-green"
                                        target="_blank">
                                         <i class="fas fa-download"></i>
-                                        Download latest Mountain Valley Church of God.zip
+                                        Download latest Donica Church of God.zip
                                     </a>
                                 </div>
                             </section>
@@ -44,22 +44,22 @@ title: 'Start'
                                 <div id="step1" class="section-block">
                                     <h3 class="block-title">By Download</h3>
                                     <p>
-                                        Once downloaded, you should extract the Mountain Valley Church of God application to a directory where the
+                                        Once downloaded, you should extract the Donica Church of God application to a directory where the
                                         web server can access it. Going forward, we are going to assume you've extracted the
                                         application to the root directory of your webserver and configured your document
-                                        root to be the public folder of Mountain Valley Church of God such that
+                                        root to be the public folder of Donica Church of God such that
                                         <code>http://localhost/index.php</code> is pointing to the <code>index.php</code>
-                                        file in the Mountain Valley Church of God release.
+                                        file in the Donica Church of God release.
                                     </p>
                                 </div>
                                 <div id="step2" class="section-block">
                                     <h3 class="block-title">By Github</h3>
                                     <p>
-                                        The source code for Mountain Valley Church of God is hosted with GitHub. To install Mountain Valley Church of God using the
+                                        The source code for Donica Church of God is hosted with GitHub. To install Donica Church of God using the
                                         github source code first you need to install git. Visit http://help.github.com for
                                         details on how to install git on your platform.
 
-                                        Use the following command to install Mountain Valley Church of God from GitHub:
+                                        Use the following command to install Donica Church of God from GitHub:
                                         <code class="language-git">git clone https://github.com/mvcog/mvcog .</code>
                                     </p>
                                 </div>
@@ -79,13 +79,13 @@ title: 'Start'
 date_default_timezone_set('America/Sao_Paulo');</code></pre>
                                     </p>
                                     <p>
-                                        Set the base_url in the KO7::init call to reflect the location of the Mountain Valley Church of God folder
+                                        Set the base_url in the KO7::init call to reflect the location of the Donica Church of God folder
                                         on your server relative to the document root.
 <pre><code class="language-php">/**
- * Example of Mountain Valley Church of God's installation at /var/www/Mountain Valley Church of God and
- * Apache's DocumentRoot configured to /var/www/Mountain Valley Church of God/public
+ * Example of Donica Church of God's installation at /var/www/Donica Church of God and
+ * Apache's DocumentRoot configured to /var/www/Donica Church of God/public
  */
- Mountain Valley Church of God::init(array(
+ Donica Church of God::init(array(
      'base_url' => '/',
  ));</code></pre>
                                     </p>
@@ -121,8 +121,8 @@ sudo chmod -R a+rwx application/logs</code></pre>
                                     </p>
                                     <p>
                                         Make sure to use a unique salt for your application and never to share it. Take a look at the
-                                        Cookies page for more information on how cookies work in Mountain Valley Church of God. If you do not define a
-                                        Cookie::$salt value, Mountain Valley Church of God will throw an exception when it encounters any cookie on your
+                                        Cookies page for more information on how cookies work in Donica Church of God. If you do not define a
+                                        Cookie::$salt value, Donica Church of God will throw an exception when it encounters any cookie on your
                                         domain.
                                     </p>
                                     <p>
@@ -136,7 +136,7 @@ sudo chmod -R a+rwx application/logs</code></pre>
                                         <br/>
                                         <br/>
                                         Once your install page reports that your environment is set up correctly you need to either rename
-                                        or delete install.php. Mountain Valley Church of God is now installed and you should see the output of the welcome
+                                        or delete install.php. Donica Church of God is now installed and you should see the output of the welcome
                                         controller:
                                         <br/>
                                         <img src="assets/images/start/welcome.png" alt="Welcome Page"/>

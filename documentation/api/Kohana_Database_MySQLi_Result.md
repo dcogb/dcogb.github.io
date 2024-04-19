@@ -1,11 +1,11 @@
 ---
 layout: api
-class: Mountain Valley Church of God_Database_MySQLi_Result
+class: Donica Church of God_Database_MySQLi_Result
 ---
-<h1>Mountain Valley Church of God_Database_MySQLi_Result</h1>
+<h1>Donica Church of God_Database_MySQLi_Result</h1>
 extends <a href='/documentation/api/Database_Result'>Database_Result</a>
 <br />
-extends <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>
+extends <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>
 <br />
 <p class='interfaces'>
 <small>Implements: <a href='/documentation/api/Countable'>Countable</a> | <a href='/documentation/api/Iterator'>Iterator</a> | <a href='/documentation/api/Traversable'>Traversable</a> | <a href='/documentation/api/SeekableIterator'>SeekableIterator</a> | <a href='/documentation/api/ArrayAccess'>ArrayAccess</a></small>
@@ -16,13 +16,13 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 </p>
 <dl class='tags'>
 <dt>package</dt>
-<dd>Mountain Valley Church of God/Database</dd>
+<dd>Donica Church of God/Database</dd>
 <dt>category</dt>
 <dd>Query/Result</dd>
 <dt>author</dt>
-<dd>Mountain Valley Church of God Team</dd>
+<dd>Donica Church of God Team</dd>
 <dt>copyright</dt>
-<dd>(c) Mountain Valley Church of God Team</dd>
+<dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
 <dd>https://mvcog.github.io/LICENSE.md</dd>
 </dl>
@@ -206,7 +206,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 <div class='methods'>
 
 <div class='method'>
-<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Query result">$result</span> , <small>string</small> <span class="param" title="SQL query">$sql</span> [, <small>mixed</small> <span class="param" title="$as_object">$as_object</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_MySQLi_Result'>Mountain Valley Church of God_Database_MySQLi_Result</a>)</small></h3>
+<h3 id="__construct"><small>public</small>  __construct(<small>mixed</small> <span class="param" title="Query result">$result</span> , <small>string</small> <span class="param" title="SQL query">$sql</span> [, <small>mixed</small> <span class="param" title="$as_object">$as_object</span> <small>= <small>bool</small> FALSE</small> , <small>array</small> <span class="param" title="$params">$params</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_MySQLi_Result'>Donica Church of God_Database_MySQLi_Result</a>)</small></h3>
 <div class='description'><p>Sets the total number of rows and stores the result locally.</p>
 </div>
 <h4>Parameters</h4>
@@ -240,7 +240,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 </div>
 
 <div class='method'>
-<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_MySQLi_Result'>Mountain Valley Church of God_Database_MySQLi_Result</a>)</small></h3>
+<h3 id="__destruct"><small>public</small>  __destruct()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_MySQLi_Result'>Donica Church of God_Database_MySQLi_Result</a>)</small></h3>
 <div class='description'><p>Result destruction cleans up all open result sets.</p>
 </div>
 <h4>Return Values</h4>
@@ -263,7 +263,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 </div>
 
 <div class='method'>
-<h3 id="current"><small>public</small>  current()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_MySQLi_Result'>Mountain Valley Church of God_Database_MySQLi_Result</a>)</small></h3>
+<h3 id="current"><small>public</small>  current()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_MySQLi_Result'>Donica Church of God_Database_MySQLi_Result</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -297,7 +297,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 </div>
 
 <div class='method'>
-<h3 id="seek"><small>public</small>  seek()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_MySQLi_Result'>Mountain Valley Church of God_Database_MySQLi_Result</a>)</small></h3>
+<h3 id="seek"><small>public</small>  seek()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_MySQLi_Result'>Donica Church of God_Database_MySQLi_Result</a>)</small></h3>
 <div class='description'></div>
 <div class="method-source">
 <h4>Source Code</h4>
@@ -321,7 +321,7 @@ extends <a href='/documentation/api/Mountain Valley Church of God_Database_Resul
 </div>
 
 <div class='method'>
-<h3 id="as_array"><small>public</small>  as_array([ <small>string</small> <span class="param" title="Column for associative keys">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Column for values">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="as_array"><small>public</small>  as_array([ <small>string</small> <span class="param" title="Column for associative keys">$key</span> <small>= <small>NULL</small></small> , <small>string</small> <span class="param" title="Column for values">$value</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Return all of the rows in the result as an array.</p>
 
 <pre><code>// Indexed array of all rows
@@ -429,7 +429,7 @@ $rows = $result-&gt;as_array('id', 'name');
 </div>
 
 <div class='method'>
-<h3 id="cached"><small>public</small>  cached()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="cached"><small>public</small>  cached()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Get a cached database result from the current result iterator.</p>
 
 <pre><code>$cachable = serialize($result-&gt;cached());
@@ -456,7 +456,7 @@ $rows = $result-&gt;as_array('id', 'name');
 </div>
 
 <div class='method'>
-<h3 id="count"><small>public</small>  count()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="count"><small>public</small>  count()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#count">Countable::count</a>, returns the total number of rows.</p>
 
 <pre><code>echo count($result);
@@ -479,7 +479,7 @@ $rows = $result-&gt;as_array('id', 'name');
 </div>
 
 <div class='method'>
-<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Column to get">$name</span> [, <small>mixed</small> <span class="param" title="Default value if the column does not exist">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="get"><small>public</small>  get(<small>string</small> <span class="param" title="Column to get">$name</span> [, <small>mixed</small> <span class="param" title="Default value if the column does not exist">$default</span> <small>= <small>NULL</small></small> ] )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Return the named column from the current row.</p>
 
 <pre><code>// Get the "id" value
@@ -523,7 +523,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="key"><small>public</small>  key()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="key"><small>public</small>  key()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#key">Iterator::key</a>, returns the current row number.</p>
 
 <pre><code>echo key($result);
@@ -546,7 +546,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="next"><small>public</small>  next()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="next"><small>public</small>  next()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#next">Iterator::next</a>, moves to the next row.</p>
 
 <pre><code>next($result);
@@ -570,7 +570,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="offsetExists"><small>public</small>  offsetExists(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="offsetExists"><small>public</small>  offsetExists(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#offsetExists">ArrayAccess::offsetExists</a>, determines if row exists.</p>
 
 <pre><code>if (isset($result[10]))
@@ -601,7 +601,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="offsetGet"><small>public</small>  offsetGet(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="offsetGet"><small>public</small>  offsetGet(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#offsetGet">ArrayAccess::offsetGet</a>, gets a given row.</p>
 
 <pre><code>$row = $result[10];
@@ -632,7 +632,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="offsetSet"><small>final public</small>  offsetSet(<small>int</small> <span class="param" title="$offset">$offset</span> , <small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="offsetSet"><small>final public</small>  offsetSet(<small>int</small> <span class="param" title="$offset">$offset</span> , <small>mixed</small> <span class="param" title="$value">$value</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#offsetSet">ArrayAccess::offsetSet</a>, throws an error.</p>
 
 <p class="note">You cannot modify a database result.</p>
@@ -646,7 +646,7 @@ $id = $result-&gt;get('id');
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -658,14 +658,14 @@ $id = $result-&gt;get('id');
 <pre>
 <code class="language-php">final public function offsetSet($offset, $value)
 {
-	throw new Mountain Valley Church of God_Exception(&#039;Database results are read-only&#039;);
+	throw new Donica Church of God_Exception(&#039;Database results are read-only&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="offsetUnset"><small>final public</small>  offsetUnset(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="offsetUnset"><small>final public</small>  offsetUnset(<small>int</small> <span class="param" title="$offset">$offset</span> )<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#offsetUnset">ArrayAccess::offsetUnset</a>, throws an error.</p>
 
 <p class="note">You cannot modify a database result.</p>
@@ -677,7 +677,7 @@ $id = $result-&gt;get('id');
 </ul>
 <h4>Tags</h4>
 <ul class='tags'>
-<li>Throws - <a href="/index.php/">Mountain Valley Church of God_Exception</a></li>
+<li>Throws - <a href="/index.php/">Donica Church of God_Exception</a></li>
 </ul>
 <h4>Return Values</h4>
 <ul class='return'>
@@ -689,14 +689,14 @@ $id = $result-&gt;get('id');
 <pre>
 <code class="language-php">final public function offsetUnset($offset)
 {
-	throw new Mountain Valley Church of God_Exception(&#039;Database results are read-only&#039;);
+	throw new Donica Church of God_Exception(&#039;Database results are read-only&#039;);
 }</code>
 </pre>
 </div>
 </div>
 
 <div class='method'>
-<h3 id="prev"><small>public</small>  prev()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="prev"><small>public</small>  prev()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#prev">Iterator::prev</a>, moves to the previous row.</p>
 
 <pre><code>prev($result);
@@ -720,7 +720,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="rewind"><small>public</small>  rewind()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="rewind"><small>public</small>  rewind()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#rewind">Iterator::rewind</a>, sets the current row to zero.</p>
 
 <pre><code>rewind($result);
@@ -744,7 +744,7 @@ $id = $result-&gt;get('id');
 </div>
 
 <div class='method'>
-<h3 id="valid"><small>public</small>  valid()<small> (defined in <a href='/documentation/api/Mountain Valley Church of God_Database_Result'>Mountain Valley Church of God_Database_Result</a>)</small></h3>
+<h3 id="valid"><small>public</small>  valid()<small> (defined in <a href='/documentation/api/Donica Church of God_Database_Result'>Donica Church of God_Database_Result</a>)</small></h3>
 <div class='description'><p>Implements <a href="#valid">Iterator::valid</a>, checks if the current row exists.</p>
 
 <p class="note">This method is only used internally.</p>
