@@ -68,7 +68,7 @@ Tasks can have built-in help. Minion will read class docblocks that you specify:
 	 * @category   Helpers
 	 * @author     Donica Church of God Team
 	 * @copyright  (c) Donica Church of God Team
-	 * @license    https://mvcog.github.io/LICENSE.md
+	 * @license    https://dcogb.github.io/LICENSE.md
 	 */
 	class Minion_Task_Demo extends Minion_Task
 

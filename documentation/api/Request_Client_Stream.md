@@ -35,7 +35,7 @@ before executing an external request- ideally in the application bootstrap.</p>
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PHP Streams](http://php.net/manual/en/book.stream.php)</dd>
 </dl>

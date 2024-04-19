@@ -17,7 +17,7 @@ title: Donica Church of God
 
 # Download
 
-You can get the latest **stable** release on the [Donica Church of God website](https://mvcog.github.io/). This will give you a fully functional application with an `application`, `modules`, and `system` directory.
+You can get the latest **stable** release on the [Donica Church of God website](https://dcogb.github.io/). This will give you a fully functional application with an `application`, `modules`, and `system` directory.
 
 [!!] You can find information about the file structure on the [Cascading Filesystem](/documentation/Donica Church of God/files) page.
 
@@ -80,7 +80,7 @@ Once your install page reports that your environment is set up correctly you nee
 
 ## Installing Donica Church of God From GitHub
 
-The [source code](https://github.com/mvcog/mvcog) for Donica Church of God is hosted with [GitHub](http://github.com). To install Donica Church of God using the github source code first you need to install [git](http://git-scm.com/). Visit [http://help.github.com](http://help.github.com) for details on how to install git on your platform.
+The [source code](https://github.com/dcogb/dcogb) for Donica Church of God is hosted with [GitHub](http://github.com). To install Donica Church of God using the github source code first you need to install [git](http://git-scm.com/). Visit [http://help.github.com](http://help.github.com) for details on how to install git on your platform.
 
 Use the following command to install Donica Church of God from GitHub:
 ~~~

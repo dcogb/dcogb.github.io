@@ -31,7 +31,7 @@ is used.</dd>
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 </dl>
 <br />
 <div class='callout-block callout-info'>

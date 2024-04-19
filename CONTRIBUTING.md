@@ -1,10 +1,10 @@
 # Contributing to the Website
-Go to https://github.com/mvcog/mvcog.github.io for each repo in the top right theres a button that says Fork. Click there to clone each repo. That will copy the repos to your github user, ex: https://github.com/yourusername/mvcog.github.io
+Go to https://github.com/dcogb/dcogb.github.io for each repo in the top right theres a button that says Fork. Click there to clone each repo. That will copy the repos to your github user, ex: https://github.com/yourusername/dcogb.github.io
 
 Clone your project in local and use devel branch
 ```
-git clone https://github.com/mvcog/mvcog.github.io .
-cd mvcog.github.io
+git clone https://github.com/dcogb/dcogb.github.io .
+cd dcogb.github.io
 git checkout devel
 ```
 
@@ -29,9 +29,9 @@ git commit -a -m 'working closed etc  #725' # this will commit and mention an is
 ```
 
 ## Pull Requests
-Now you have new code at your fork eg. https://github.com/yourusername/mvcog.github.io. 
-To move them to the original https://github.com/mvcog/mvcog.github.io repo you need to go to 
-https://github.com/yourusername/mvcog.github.io, and click on Pull Request (next to compare). This will create a pull request to the original code and the responsible will decide to merge it or not.
+Now you have new code at your fork eg. https://github.com/yourusername/dcogb.github.io. 
+To move them to the original https://github.com/dcogb/dcogb.github.io repo you need to go to 
+https://github.com/yourusername/dcogb.github.io, and click on Pull Request (next to compare). This will create a pull request to the original code and the responsible will decide to merge it or not.
 
 Notes:
 - Try to submit pull requests against devel branch for easier merging
@@ -40,7 +40,7 @@ Notes:
 ## Keep sync with original repo
 First time, add a remote with the upstream
 ```
-git remote add upstream https://github.com/mvcog/mvcog.github.io.git
+git remote add upstream https://github.com/dcogb/dcogb.github.io.git
 ```
 
 Everytime you want to sync just

@@ -19,7 +19,7 @@ extend this class, and get a warning in the API browser.</p>
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 <dt>since</dt>
 <dd>3.0.7</dd>
 </dl>

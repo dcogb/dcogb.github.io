@@ -44,7 +44,7 @@ client can be injected into the request object.</p>
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PECL HTTP](http://php.net/manual/en/book.http.php)</dd>
 </dl>

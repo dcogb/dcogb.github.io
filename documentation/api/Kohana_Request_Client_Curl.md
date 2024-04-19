@@ -26,7 +26,7 @@ php-curl extention. This is the default driver for all external requests.</p>
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PHP cURL](http://php.net/manual/en/book.curl.php)</dd>
 </dl>

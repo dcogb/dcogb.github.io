@@ -17,7 +17,7 @@ extends <a href='/documentation/api/Donica Church of God_ORM_Behavior'>Donica Ch
 <dt>copyright</dt>
 <dd>(c) 2016-2018 Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 </dl>
 <br />
 <div class='callout-block callout-info'>

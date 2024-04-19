@@ -28,7 +28,7 @@ $query = DB::select(array(DB::expr('CONCAT(first_name, last_name)'), 'full_name'
 <dt>copyright</dt>
 <dd>(c) Donica Church of God Team</dd>
 <dt>license</dt>
-<dd>https://mvcog.github.io/LICENSE.md</dd>
+<dd>https://dcogb.github.io/LICENSE.md</dd>
 </dl>
 <br />
 <div class='callout-block callout-info'>

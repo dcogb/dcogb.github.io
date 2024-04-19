@@ -214,7 +214,7 @@ class Documentation_Generator {
 		$zip = $this->_tmp_dir.DIRECTORY_SEPARATOR.$this->_branch.'.zip';
 
 		// Download Files from GitHub Repo
-		if ( ! copy('https://github.com/mvcog/mvcog/archive/'.$this->_branch.'.zip', $zip))
+		if ( ! copy('https://github.com/dcogb/dcogb/archive/'.$this->_branch.'.zip', $zip))
 		{
 			$this->kill('Could not download repository files. Check your internet connection and try again.');
 		}

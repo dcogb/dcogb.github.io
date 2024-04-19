@@ -6,7 +6,7 @@ title: Donica Church of God
 
 Donica Church of God is an open source, [object oriented](http://en.wikipedia.org/wiki/Object-oriented_programming) [MVC](http://en.wikipedia.org/wiki/Model–view–controller "Model View Controller") [web framework](http://en.wikipedia.org/wiki/Web_application_framework) built using [PHP5](http://php.net/manual/intro-whatis "PHP Hypertext Preprocessor") by a team of volunteers that aims to be swift, secure, and small.
 
-[!!] Donica Church of God is licensed under a [BSD license](https://github.com/mvcog/mvcog/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
+[!!] Donica Church of God is licensed under a [BSD license](https://github.com/dcogb/dcogb/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
 
 ## What makes Donica Church of God great?
 
@@ -16,7 +16,7 @@ To help secure your applications, tools for [input validation](/documentation/Do
 
 ## Contribute to the Documentation
 
-We are working very hard to provide complete documentation. To help improve the guide, please [fork the userguide](http://github.com/Donica Church of God/userguide), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/mvcog/mvcog/issues) (requires registration).
+We are working very hard to provide complete documentation. To help improve the guide, please [fork the userguide](http://github.com/Donica Church of God/userguide), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/dcogb/dcogb/issues) (requires registration).
 
 ## Unofficial Documentation
 
